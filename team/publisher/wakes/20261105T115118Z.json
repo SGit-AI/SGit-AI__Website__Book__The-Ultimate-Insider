@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake",
+ "started": "2026-11-05T11:51:18Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; AD1, OS3/OS4, PF1. Conditions: bare names; 03b and 21 keep rules proposed, not shipped (brief 49: no other change); measure the current release before the marker; tell the designer the count moves; storyteller 168 and writer 297 answered, not applied.",
+   "at": "2026-11-05T11:55:57Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; one grep timed out and was narrowed)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No HOLD; removing SHOT_OK is what 023 asks, after the check; SHOT_NEVER moot; the address as text outside the SVG, FB2's only, never in a letter.",
+   "at": "2026-11-05T11:55:57Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "OS4: invitation over the spread's page two, 00 two pages; six names cleared and SHOT_OK removed (AD1); interior 123 pages; letter 074.",
+   "at": "2026-11-05T12:03:23Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "By name only, no placed shot refused; the invitation as markdown text, address outside the SVG; CSS clean; vault_check clean. Two cosmetic notes fixed.",
+   "at": "2026-11-05T12:03:23Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every condition kept; keep rules proposed, not shipped; nothing else changed per brief 49.",
+   "at": "2026-11-05T12:03:23Z"
+  }
+ },
+ "closed": "2026-11-05T12:03:23Z",
+ "outcome": "ok"
+}

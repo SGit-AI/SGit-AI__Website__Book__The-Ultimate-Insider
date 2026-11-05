@@ -124,3 +124,14 @@ div.placed-left { break-before: page; }
 div.placed-pad { break-before: page; height: 1px; }
 div.placed-right { break-before: page; }
 div.placed-page img { display: block; width: 156mm; height: 200mm; max-width: none; max-height: none; margin: 0 auto; border: none; }
+/* OS4 (brief 49): the invitation laid as text over the room the designer left at the foot of the spread's page two
+   (175.1 to 200 mm of the 200 mm drawing, designer 161), so the chapter is exactly two pages */
+div.placed-page > p { margin: 0; line-height: 0; }
+div.placed-right { display: grid; justify-content: center; }
+div.placed-right > p, div.placed-right > .placed-foot { grid-area: 1 / 1; }
+.placed-foot { align-self: end; justify-self: center; margin: 0; width: 148mm; height: 24mm; overflow: hidden; text-align: left;
+  font-family: var(--sans, Inter, Helvetica, Arial, sans-serif); font-size: 8.5pt; line-height: 1.3; }
+.placed-foot h2 { font-family: inherit; font-size: 10pt; font-weight: 700; margin: 0 0 2pt; padding: 0; border: none; }
+.placed-foot p, .placed-foot .speaker p { font-family: inherit; font-size: 8.5pt; line-height: 1.3; margin: 0; }
+.placed-foot .speaker { margin: 0; padding: 0; border: none; }
+.placed-foot .speaker[data-speaker]::before { display: none !important; }

@@ -113,3 +113,4 @@ source: comms/mail/mailroom/publisher/conductor__026-check-taken.eml; publishing
 - 5 November 03:00 UTC: 0 figure boxes; 129 pages; 11 holes.
 - 5 November 04:05 UTC: full-width figures kept whole; 129 pages, 11 holes.
 - 5 November 05:15 UTC: OS3 spread placed; 130 pages online, 11 holes.
+- 5 November 12:30 UTC: OS4 (00 two pages); by name only; interior 123 pages.

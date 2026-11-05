@@ -75,9 +75,9 @@ def page(title, body, mark=None, figure=None):
 
 LAB_SVG = re.compile(r"\b(?:lab/[A-Za-z0-9_./-]+\.svg|index/talk-site/shots/[A-Za-z0-9_.-]+\.(?:jpg|png))\b")
 SHOTS = "index/talk-site/shots/"
-SHOT_OK = re.compile(r"(?:slide|talk|studio|articles|ruv-sgit|index|motion)[A-Za-z0-9_.-]*\.(?:jpg|png)$")  # security, 3 Nov 2026
-SHOT_NEVER = re.compile(r"admin__|qr|key|vault", re.I)
-SHOT_CLEARED = {  # cleared by name by security, admitted before SHOT_NEVER and SHOT_OK (AD1, the editor, 4 November 2026;
+# SHOT_OK, the kind pattern security set on 3 November before AD1, and SHOT_NEVER with it, are gone: a screenshot is
+# admitted by name only (security__023, after the hold of 5 November 2026)
+SHOT_CLEARED = {  # cleared by name by security (AD1, the editor, 4 November 2026;
     "admin.jpg", "admin__dashboard.jpg", "admin__keys.jpg", "admin__vaults.jpg",  # security__014 to the publisher
     "book-site-front.jpg",  # security__013
     "fullpage-talk-admin-engineering.jpg", "fullpage-book-admin-engineering.jpg",  # security__015
@@ -92,16 +92,19 @@ SHOT_CLEARED = {  # cleared by name by security, admitted before SHOT_NEVER and 
     "talk__slides__loop.jpg", "studio-ports__abp-review__masked.jpg",  # security__064 (the masked copy only)
     "articles__the-night-hour-by-hour.jpg",  # security__064
     "talk__player.jpg",  # security__022: the talk's public slide player
+    "motion__meet-the-team.jpg", "motion__the-building.jpg",  # security__031, named again in security__023
+    "studio-ports__journey.jpg", "talk__slides__three.jpg",  # security__064, named again in security__023
+    "studio.jpg", "ruv-sgit__mandate-and-grant.jpg",  # security__023
 }  # conductor__074: by name only, never by pattern
 SHOT_REFUSED = {"studio-ports__abp-review.jpg"}  # security__020: the unmasked original stays unplaceable; checked first
 
 
 def shot_allowed(name):
     """A screenshot's file name, by the one rule both the build and rc2_map.py use: refused by name first, then cleared by
-    name, then the cleared kinds unless never-allowed."""
+    name only (AD1; security__023)."""
     if "/" in name or ".." in name or name in SHOT_REFUSED:
         return False
-    return name in SHOT_CLEARED or (not SHOT_NEVER.search(name) and bool(SHOT_OK.match(name)))
+    return name in SHOT_CLEARED
 UNSAFE_SVG = re.compile(r"<script|<foreignObject|\bon[a-z]+\s*=|@import|url\((?!\s*['\"]?#)"
                         r"|<(?:animate|animateMotion|animateTransform|set)\b|\\[0-9a-f]", re.I)  # SMIL, CSS escapes
 HREF = re.compile(r"""\b(?:xlink:)?href\s*=\s*(["'])(.*?)\1""", re.I | re.S)

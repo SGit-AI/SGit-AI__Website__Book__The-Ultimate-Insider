@@ -95,23 +95,27 @@ def placed_first_page(pdf, svgs):
 
 def placed_spread(raw, pages):
     """OS3: the chapter's flowed text and Figure lines give way to the two placed pages (the first on a left page, the
-    second facing it). What the drawings do not carry stays text after them: the narrator's "Throughout the book I am
-    the Narrator" paragraph until page one carries it (a stopgap, writer 295), and the "We would love to hear from you"
-    section, whose address is print only (FB2) and never drawn."""
+    second facing it). What the drawings do not carry is text: the narrator's "Throughout the book I am the Narrator"
+    paragraph after them until page one carries it (a stopgap, writer 295), and the "We would love to hear from you"
+    section laid over the foot of page two, in the room the designer left (OS4, brief 49; designer 161), so the chapter
+    is exactly two pages; its address is print text only (FB2), never in a drawing."""
     lines = raw.split("\n")
     title = htmllib.escape(next((l[2:].strip() for l in lines if l.startswith("# ")), ""), quote=True)
     keep = []
     if "Throughout the book I am" not in pages[0][1]:
         keep += [l for l in lines if l.startswith("**Narrator.** Throughout the book I am")]
     start = next((i for i, l in enumerate(lines) if l.startswith("## We would love to hear from you")), None)
-    if start is not None:
+    foot = []
+    if start is not None:  # OS4 (brief 49): set as text over the room the designer left at page two's foot
         end = next((j for j in range(start + 1, len(lines)) if re.match(r"#{1,2} ", lines[j])), len(lines))
-        keep += [""] + lines[start:end]
+        foot = [l for l in lines[start:end] if not l.lstrip().startswith("`%%") and l.strip() != "---"]
     out = [f'<h1 class="placed-title">{title}</h1>', ""]
     for k, (path, _) in enumerate(pages):
         side = "placed-left" if k == 0 else "placed-right"
-        out += [f"::: {{.placed-page .{side}}}", f'<img src="{path}" alt="{title}: page {k + 1} of the opening spread">',
-                ":::", ""]
+        out += [f":::: {{.placed-page .{side}}}", f'<img src="{path}" alt="{title}: page {k + 1} of the opening spread">', ""]
+        if k == len(pages) - 1 and foot:
+            out += ["::: placed-foot", ""] + foot + ["", ":::", ""]
+        out += ["::::", ""]
     return "\n".join(out + keep) + "\n"
 
 
@@ -670,10 +674,10 @@ def main():
                     for f in files:
                         with open(f, encoding="utf-8") as fh:
                             text = fh.read()
-                        if "::: {.placed-page .placed-left}" in text:
+                        if ":::: {.placed-page .placed-left}" in text:
                             with open(f, "w", encoding="utf-8") as fh:
-                                fh.write(text.replace("::: {.placed-page .placed-left}",
-                                                      '<div class="placed-pad"></div>\n\n::: {.placed-page .placed-left}', 1))
+                                fh.write(text.replace(":::: {.placed-page .placed-left}",
+                                                      '<div class="placed-pad"></div>\n\n:::: {.placed-page .placed-left}', 1))
                     print(f"build_book: the opening spread fell on page {first}, a right page: one blank page set before it",
                           file=sys.stderr)
                     continue

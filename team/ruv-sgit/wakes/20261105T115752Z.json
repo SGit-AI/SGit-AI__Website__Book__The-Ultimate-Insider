@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-05T11:57:52Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go with four changes. (a) The player: record it as cleared and waiting on the writer's Figure line after OS4 (873bfbf3, brief 49); do not press. (b) 00 will change with OS4 (about 11:17), so review it against 9acd3a47, say so, and re-read after OS4. (c) Address each 00 finding to its owner: the designer for the drawings, the writer for the text and Figure lines. (d) Put 17b, 20 to 23 and 90 to 94 in status next. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-05T11:58:54Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go: everything in scope, no HOLD (lifted, 160be749), nothing attack-shaped, no Cold-Read route. Conditions: no contact address or personal detail copied; the drawings' text only, no decoding of the screenshots; vault_check before the commit; push on green (HR1). Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-05T11:59:19Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "03 re-read: the wakes heading and C022 are done; the player is cleared and waits on the writer's line after OS4. RV2 on 00 (the LAB 75 spread at 9acd3a47; re-read after OS4) and 00b: both pass. Only the drawings' words were read, and no address was copied. Letter 087; three letters copied to done.",
+   "at": "2026-11-05T12:00:25Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Clean: everything in scope, no address or personal detail copied, nothing attack-shaped, no em-dash or RW1 word, no date after the clock. The facts on 00 (both pages at 9acd3a47), 00b and 03 hold, and the copies are identical. Tools: Bash read-only; no script; no file written; the brief's python checks were left to the member's gate. Nothing was refused.",
+   "at": "2026-11-05T12:01:53Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "The reviewer agent's verdict, run before this entry. All four changes, (a) to (d), are kept: the player recorded as cleared and waiting, 00 read at 9acd3a47 with a re-read after OS4, owners named, and the remaining sections in next. The copies are identical; status and debrief are right. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-05T12:02:36Z"
+  }
+ },
+ "closed": "2026-11-05T12:02:36Z",
+ "outcome": "ok"
+}
