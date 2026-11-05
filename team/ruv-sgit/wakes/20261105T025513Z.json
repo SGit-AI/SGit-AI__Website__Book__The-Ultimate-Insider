@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-05T02:55:13Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go. 16 is mapped to LAB 73 (slot 3), so the re-read can close it. 19 is next, with designer2's LAB 65, 71 and 72, to be named by path. The review reads only this book's files, so the one-way valve holds. Letter 084. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-05T02:55:59Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go: everything in scope, no HOLD, no secret, nothing attack-shaped. The one-way valve holds: the 19 review reads only this repository's files (book.json D6-6, the hand-off README, timeline/cold-read-comparison.md), with no clone, fetch or write to Cold-Read. vault_check before the commit; push on green (HR1). Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-05T02:56:32Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "16 closed: LAB 73 is mapped, and it passes. RV2 on the 150's 19 passes (designer2's three drawings match their lines; the six match the chapter), read from this repository only. Letter 084; three letters copied to done.",
+   "at": "2026-11-05T02:57:04Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Clean: everything in scope, the copies identical, no secret, nothing attack-shaped, no em-dash or RW1 word, no date after the clock. The one-way valve holds, and the facts on 16 and 19 hold. Note: 'since 02:05' is the publisher's wording; the map commit was at 01:54. Tools: Bash read-only; no script; no file written; the brief's python checks were left to the member's gate. Nothing was refused.",
+   "at": "2026-11-05T02:58:17Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "The reviewer agent's verdict, run before this entry. Both items are done as planned: 16 is closed (LAB 73 mapped), and 19 passes, read from this repository only. The copies are identical; status and debrief are right. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-05T02:58:51Z"
+  }
+ },
+ "closed": "2026-11-05T02:58:51Z",
+ "outcome": "ok"
+}
