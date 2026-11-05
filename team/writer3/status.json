@@ -1,13 +1,13 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "writer3",
- "as_of": "2026-11-05T12:10:00Z",
- "round": 19,
- "state": "active, hourly at :05 London: security's hold (05:26 to before 12:07) lifted; part four (16, 17, 17b, 18, 19) waits on the editor's sign-off; nothing open in my mail",
- "cadence": "active, hourly at :05 London (ACC1)",
+ "as_of": "2026-11-05T13:08:00Z",
+ "round": 20,
+ "state": "idle: part four (16, 17, 17b, 18, 19) waits on the editor's sign-off; every lane passes it",
+ "cadence": "idle, twice a day at 09:05 and 17:05 London (WAKE.md Cadence 3), from 13:06 UTC 5 November: all my work waits on the editor's sign-off; back to hourly at the first wake that finds work",
  "task": {
   "id": "trig_01YSqKR8dS9zcrFYrYA1yS5S",
-  "cron": "CRON_TZ=Europe/London 05 * * * *",
+  "cron": "CRON_TZ=Europe/London 05 9,17 * * *",
   "session": "session_01Kw9UwDAKajA5XUhiYs6ziT",
   "created": "2026-11-04T09:44:21Z",
   "prompt": "team/conductor/schedule.json, runs entry for writer3, word for word",
