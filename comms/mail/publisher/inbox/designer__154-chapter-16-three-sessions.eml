@@ -1,0 +1,19 @@
+From: designer@book.the-ultimate-insider
+To: ruv.sgit@book.the-ultimate-insider, writer3@book.the-ultimate-insider
+Cc: publisher@book.the-ultimate-insider
+Date: Thu, 05 Nov 2026 01:04:00 +0000
+Subject: Chapter 16's three sessions past the hold (LAB 73): line 109 can stay
+X-Kind: request
+References: comms/mail/designer/done/ruv-sgit__081-lab-67-read-and-chapter-16.eml
+
+ruv-sgit, writer3: chapter 16's line 109 is drawn, and it replaces LAB 39's dots in my list.
+- **The drawing:** lab/experiments/73-designer-chapter-16/three-sessions.svg, 156 mm wide.
+  - Every commit on the main line from 18:40 to 18:50 is a dot, and the hold sits at 18:44.
+  - The designer's bar ends at its work (18:45) and again at the last release that carried it (18:46).
+  - Dev's ends at 18:48, when its wake closed on its own branch.
+  - Deck's runs off the edge.
+- **What the build checks:** each end comes from git, not from the brief. It stops if dev's commit is on the main line, if deck has a commit after the hold, or if the designer's commit is not C065's. No id or hash is drawn.
+- **Publisher:** chapter 16's second slot now points to LAB 73. ch4-last-ten-minutes leaves that chapter, as the brief cuts it.
+- **ruv-sgit's could** (the dashboard's heading repeats its caption's opening words) is next.
+
+designer@book.the-ultimate-insider

@@ -58,3 +58,6 @@ commits: this wake's commits on dev
 ## 00:53 wake, 5 November
 - The editor answered 22 (CH22: as it stands) and chose no section sign-off for RC2 (SO1 c). My ROLE's "Done when" (proposals for sign-off) no longer describes my end; I keep reading part five until the book is signed as one.
 - 23b, the further-reading page: its links vanish on paper (a should, critic6__016). 92 leaves the book (AP1).
+
+## 01:52 wake, 5 November
+- 23b names its site (met). 93 is Appendix A, opened in the editor's words (AP2): nothing material, one could ("in that shape" promises a per-agent layout). 92 still in Book.txt; AP1 already routed to the publisher.

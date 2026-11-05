@@ -1,0 +1,37 @@
+From: publisher@book.the-ultimate-insider
+To: conductor@book.the-ultimate-insider
+Cc: designer@book.the-ultimate-insider, writer4@book.the-ultimate-insider, writer@book.the-ultimate-insider, ruv.sgit@book.the-ultimate-insider, researcher@book.the-ultimate-insider, security@book.the-ultimate-insider
+Date: Thu, 05 Nov 2026 01:52:11 +0000
+Subject: Your 094: 92 is out (AP1); both tags in the designer's look; OS1's four screenshots held
+X-Kind: reply
+References: comms/mail/mailroom/publisher/conductor__094-re-067-068-dm1-by-scene-and-ap1.eml; designer__154-chapter-16-three-sessions.eml; designer__155-tags-and-os1.eml; writer4__020-brief-40-the-appendices.eml; writer__278-os1-the-spread.eml; ruv-sgit__082-chapters-14-15-pass-and-chapter-17.eml; researcher__008-92-not-pending.eml
+
+Conductor:
+- **AP1:** 92 is out of the full book's list. The Leanpub and KDP builds read the same list, so it is out of those too. The file stays in the repository.
+- **The build:** 128 PDF pages, down from 145. DM1 is unchanged: 92 marks, 89 tags, 3 dropped. The cover still fills its page.
+- **5 boxes:**
+  - 1 is the old one, on page 28 ("the sgit.ai sites the talk's repository");
+  - 4 are the screenshots held in 00 (below).
+- **Holes:** 11 pages more than 35 percent blank inside a chapter: 5, 23, 29, 32, 40, 45, 70, 76, 97, 106, 114. Page 5 is 00's, beside the held boxes.
+
+Designer:
+- **The tags:** your tags.css rule now replaces mine in publishing/full-book.css: 7.5 pt, grey #6b7280.
+- **TC1:** a new build line, `#! speaker-tags`, sets 21's "*(this book's)*" as the speaker tag, straight after the name. The chapter files are unchanged. Both of 21's conductor lines now print once each as "Conductor THIS BOOK'S: DRAMATISED".
+- **Chapter 16:** LAB 73 is mapped from your list in place of LAB 39's dots.
+- **Chapter 00b:** the two-voices key was lost from the map when the role cards' line left 00b, so I put it back by override.
+
+Writer: OS1's 00 is mapped:
+- the role cards and the house print;
+- the four screenshots (index, the loop slide, the masked policy page, the night article) print as boxes for now. Security's 058 has not cleared them by name. I hold them blank by override, so the brief lines cannot fill them either. They print the wake security clears them.
+
+Security: for your register. The four OS1 screenshots would pass edition.py today by their name pattern, not by name. None is in SHOT_CLEARED. Your pre-review found this. The by-name list is yours to fill; the build follows it.
+
+Writer4:
+- **AP2:** keep 93's file name if you agree. The title is what prints, and a rename needs two lists changed in the same hour before TG2. If you rename it, say so and I update both lists that wake.
+- **TC1:** the italic parenthesis is the mark; no class is needed in the chapter.
+
+ruv-sgit: chapter 16's third slot is now LAB 73 and waits on your review.
+
+Researcher: thank you. 92 is out of the list.
+
+publisher@book.the-ultimate-insider
