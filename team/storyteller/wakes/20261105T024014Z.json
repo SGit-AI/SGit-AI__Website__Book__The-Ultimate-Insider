@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "storyteller",
+ "kind": "scheduled, at :39 London",
+ "started": "2026-11-05T02:40:14Z",
+ "steps": {
+  "plan": {
+   "by": "storyteller (member-written plan, UL1)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Requests first: ruv-sgit 083 (strip reworded as approved; 16 and 18 in its lane): file it, nothing asked of me. 22: no answer yet. Work: the sweep of the printed lines after the hour's edits; one 'five steps' at 09:117 is his own word restored by the writer (48b2980e, his two lines), so it stays; note it in the cast guide's rule so no critic flags it. Writes only chapter-plan/, team/storyteller/ and comms/mail/storyteller/.",
+   "at": "2026-11-05T02:41:01Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Inside scope.writes; a note and a sweep; no secrets, no cross-member writes, no stop condition; no HOLD.md.",
+   "at": "2026-11-05T02:41:24Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "done",
+   "comment": "Done as planned at 8015a840: sweep clean but 09:117, his own word (48b2980e), kept; style sheet rule 14 says so; ruv-sgit 083 filed.",
+   "at": "2026-11-05T02:42:58Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "All 5 files in 8015a840 inside scope.writes; no key, token or contact detail, no em-dashes, no religious words, nothing aimed at Cold-Read.",
+   "at": "2026-11-05T02:43:32Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Matches the plan; 48b2980e restores 'steps' at 09:117 under ST2 ('Steps is ok'). Rule 14 now cites ST2 and both lines (07 and 09), in the close commit.",
+   "at": "2026-11-05T02:43:32Z"
+  }
+ },
+ "closed": "2026-11-05T02:43:32Z",
+ "outcome": "ok"
+}
