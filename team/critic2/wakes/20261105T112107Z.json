@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic2",
+ "kind": "scheduled, hourly at :20",
+ "started": "2026-11-05T11:21:07Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Idle wake: one status.json line on the held wakes 06:20 to 10:20 and the lift (160be749); no change in my chapters since c7a21968, no mail, board, requests, trailers or hold; hourly at ACC1.",
+   "at": "2026-11-05T11:22:16Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "One status.json line under team/critic2/**; no other member's files, rules, secrets, keys or the gate; no stop condition.",
+   "at": "2026-11-05T11:22:29Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
