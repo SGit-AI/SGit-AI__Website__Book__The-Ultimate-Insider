@@ -56,3 +56,7 @@ The same way, on the PDF the site serves (145 pages): pages 3 to 40, 6 pages mor
 ## At v0.1.882 (23:07 UTC), the site's live full draft
 
 The same way, on the PDF the site serves (144 pages, built 22:53 UTC): pages 3 to 40, 6 pages more than 35% blank at the foot, the folio excluded (pages 5, 8, 22, 30, 33 and 39; 7 in the version he liked); width 84% (83% before, the same median measure); "Figure to come" boxes 12 in all (36 at 12:05, 13 at 21:05), 2 in pages 3 to 40. The publisher's 066 counts 8 boxes and 8 holes left in its own later build; designer2 draws those in 13 and 15 to 19 and after (DS1).
+
+## At v0.1.902 (5 November, 00:06 UTC), the site's live full draft
+
+The same way, on the PDF the site serves (143 pages, built 23:59 UTC): pages 3 to 40, 7 pages more than 35% blank at the foot, the folio excluded (pages 5, 8, 22, 30, 33, 37 and 39; 7 in the version he liked); width 84%; "Figure to come" boxes 8 in all (12 at 23:07), 2 in pages 3 to 40; "Dramatised" printed 92 times (DM1 not yet in this build). Page 37 is new to the list since SC1 took the interviews out of 06.
