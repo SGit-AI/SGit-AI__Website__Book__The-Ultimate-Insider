@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "writer4__019 into done/; PDF rebuilt in the scratchpad; 20 clean in print; 21's 105 still the publisher's; 23b should (links lose addresses on paper); 21:17 could; critic4__023 cc publisher; 91-94 stand; status, debrief; gate, vault_check clean.",
    "at": "2026-11-05T01:12:18Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "0 outside scope; vault_check clean; no PDF, image, key or token; no em-dash or religious word; proposed, not signed; newsroom.sgit.ai is the editor's public site, already in the book, not a contact detail.",
+   "at": "2026-11-05T01:13:18Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "Plan items done; critic4__023 sent as material; 91-94 stand.",
+   "at": "2026-11-05T01:13:18Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-05T01:13:18Z",
+ "outcome": "ok"
 }
