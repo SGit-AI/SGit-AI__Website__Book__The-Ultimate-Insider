@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled wake",
+ "started": "2026-11-05T04:09:39Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Light wake: read the 08 and 09 diff since 03:15; final pass; letters only for findings; build+gate before push.",
+   "at": "2026-11-05T04:09:59Z"
+  },
+  "pre_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No secret, contact detail, model name or Cold-Read cross.",
+   "at": "2026-11-05T04:09:59Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Light wake: the 08 and 09 diff since 03:15 is wording cuts, no new quotation, time, number or commit id; final pass no fails; no letter; review, README, debrief, status; build+gate run.",
+   "at": "2026-11-05T04:12:01Z"
+  },
+  "post_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "5 staged files in scope; no personal address, model name, em-dash, religious word or Cold-Read flow.",
+   "at": "2026-11-05T04:13:41Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "partial",
+   "comment": "The plan was followed, but the reviewer's spot-check found the diff lists three files, not two: 18 (a figure moved one paragraph earlier, writer3 04:08, layout only) was missing from my record because my diff command dropped the file headers and I put its re-spacing under 09. I read 18's diff, corrected the review, README, debrief and status, and reran the build and gate (clean, 1328 pages) before closing. Recorded as the reviewer gave it.",
+   "at": "2026-11-05T04:13:41Z"
+  }
+ },
+ "closed": "2026-11-05T04:13:41Z",
+ "outcome": "ok"
+}
