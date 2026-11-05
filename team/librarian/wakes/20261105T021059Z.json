@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled wake",
+ "started": "2026-11-05T02:10:59Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Recheck 01:79 (Wardley exact); read the diff since 01:15 (9 files); final pass; 23b's 15 links by one status-only request each, taken as a reading of the sgit.ai guidance (not named in policy.json; recorded as a judgment), refusal recorded not worked round; letters for findings; build+gate before push.",
+   "at": "2026-11-05T02:11:45Z"
+  },
+  "pre_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No secret, contact detail, model name or Cold-Read cross; the link check is status only, nothing saved.",
+   "at": "2026-11-05T02:11:45Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "01:79 Wardley exact (closed); diff since 01:15 read; 23b's 15 links by one status-only request each, all 200, taken as a reading of the sgit.ai guidance (policy judgment); final pass one fail (C132) told the conductor; letter 059; review, README, debrief, status; build+gate run.",
+   "at": "2026-11-05T02:13:56Z"
+  },
+  "post_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "12 staged files in scope; no personal address, secret, model name, em-dash, religious word or Cold-Read flow; no downloaded page content staged (status-only link check).",
+   "at": "2026-11-05T02:14:17Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Wardley quote exact at 01:79; diff since 01:15 read; 23b's 15 links each checked once (200s are my run; the reviewer did not rerun them), policy judgment recorded; final pass one fail (C132) told the conductor; letter, review, README, debrief, status in the diff; build and gate clean (1297 pages, my run).",
+   "at": "2026-11-05T02:14:17Z"
+  }
+ },
+ "closed": "2026-11-05T02:14:17Z",
+ "outcome": "ok"
+}
