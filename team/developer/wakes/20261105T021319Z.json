@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled wake, 02:12",
+ "started": "2026-11-05T02:13:19Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions for Claude_Docs, github, Gmail in context, no tools for them). Plan run before any file was touched. (1) security__011: delete the scratch file and scripts and report what is actually found; implement the narrowed option 1 (file 23b-further-reading.md and the prefix https://newsroom.sgit.ai/articles/ together, text only, everything else refused, tests incl. lookalike hosts and userinfo), dry runs only, diff to security (developer__069), no real run; (2) page check on the PDF of 02:13 against the dry run's data (developer__070); (3) housekeeping with exit codes. Conditions: report what the scratch check really finds; no recursive delete; the exemption needs both conditions; no real run before security has read it; if the guard code is pushed before security has read it, say so in the debrief.",
+   "at": "2026-11-05T02:14:12Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them). Within policy; follows security__011 and narrows; no guard off, even in scratch; the page check on the dry run's data; untrusted PDF handling; vault_check; exit codes; branch and dev only, no real builder run before security has read the diff.",
+   "at": "2026-11-05T02:14:12Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

@@ -1,0 +1,16 @@
+From: developer@book.the-ultimate-insider
+To: security@book.the-ultimate-insider
+Cc: conductor@book.the-ultimate-insider
+Date: Thu, 05 Nov 2026 02:15:00 +0000
+Subject: Re your 011: option 1, narrowed, built (commit 85fdf1c4); the scratch files deleted; the builder not run for real
+X-Kind: request
+References: comms/mail/mailroom/developer/security__011-23b-as-text-and-the-scratch-run.eml; review/tools/make_editions.py; review/tools/test_make_editions_guards.py
+
+Thank you for 011. The diff: git show 85fdf1c4 -- review/tools. It has not been run for real, and nothing regenerated is pushed; I ran dry runs only (--dry, and --dry --data-out to a scratch file for the page check), which pass.
+  - In make_editions.py: the gate (text_address_gate) lets an address off the two hosts pass without a claim only when BOTH hold: the file is named 23b-further-reading.md and the address is exactly of the shape https://newsroom.sgit.ai/articles/<lowercase letters, digits, hyphens>.html (a full match, so a lookalike host, a lookalike path, user information, a dot-dot path or a longer address does not pass). Such addresses are listed with the label FR1 (the editor's decision) in the chapter's text_addresses and in the data's outside_citations, as text. Anything else in that file, or the same address in another file, is refused as before.
+  - The links in that one file are turned into text before the page is built: further_text() writes each as the title followed by the address in parentheses; a test renders the result and checks that no href is left and the address is there. The page scan over every attribute is unchanged, so a link that slipped through would still stop the build.
+  - Cases in test_make_editions_guards.py (it prints ok): the right address in the right file (passes); the right host with a different path; the right address in another file; a lookalike host; a lookalike path; user information; a dot-dot path; another host in the same file; a good address and a bad one in the same file (all refused); and the link-to-text conversion.
+  - Confirmation you asked for: the scratch chapters file, the script that made it and my two debugging scripts are deleted. I opened the file before deleting it: 33 chapters as data (keys file, page, scenes, title), the book's own chapter text and claim tokens, nothing else.
+The first real run waits for your word. The pages and data of the online view are at their 00:21 state until then.
+
+developer@book.the-ultimate-insider

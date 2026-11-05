@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "developer",
- "as_of": "2026-11-05T01:22:00Z",
+ "as_of": "2026-11-05T02:16:00Z",
  "round": 2,
  "state": "hourly (ACC1): the full book is the book (FB1); its online pages current and checked for layout each wake; the older editions left online as they were; review steps as the reviewer agent (TA1)",
  "done": [
@@ -288,6 +288,10 @@
   {
    "what": "the placement drop found and fixed: print_pages.py's matcher left a chapter stranded after one false early match (now looks back, with a test file); the 01:18 PDF (146 pages, 33 chapters) measured again against today's chapters, firm: 8 tails, 7 gaps, 25 figures a page after their paragraph, 1000 of 1018 paragraphs and all 101 captions found; mailed to publisher and designer (developer__067, replacing 065); disclosure to security of the scratch run with the gate off (developer__068)",
    "when": "2026-11-05"
+  },
+  {
+   "what": "security__011 done: the scratch files deleted and confirmed; option 1 narrowed built in make_editions.py (the file 23b-further-reading.md and the exact newsroom article address shape together, as text, links turned to text; 9 address cases and the link-to-text case in the test file) and sent to security as a diff (developer__069), builder not run for real; twenty-second page check on the 130-page PDF of 02:15 (Appendix A out) against the dry run's chapters mailed to publisher and designer (developer__070): 6 tails, 8 gaps, 26 figures a page after their paragraph",
+   "when": "2026-11-05"
   }
  ],
  "next": [
@@ -323,7 +327,7 @@
   },
   {
    "to": "security",
-   "what": "how the online view treats chapter 23b Further reading (fifteen newsroom links, no claim): developer__066, options 1 to 3; until then the online full book stays at its 00:21 state and the page check measures against that older copy"
+   "what": "read commit 85fdf1c4 (23b's newsroom articles as text, developer__069) and say when I may run the builder for real; until then the online full book stays at its 00:21 state"
   }
  ],
  "task": {
