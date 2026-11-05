@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "critic5",
- "as_of": "2026-11-05T02:51:00Z",
- "round": 19,
- "state": "active, hourly (RV1, RV2): e24f2d29 holds (critic5__022); nothing open from this mirror in 00 to 09",
+ "as_of": "2026-11-05T03:51:00Z",
+ "round": 20,
+ "state": "active, hourly (RV1, RV2): 35dc3636 holds (critic5__023); nothing open from this mirror in 00 to 09 for a second wake running",
  "cadence": "active",
  "task": "trig_01JhZfBEeay4Rj6cEZmvwPmR",
  "task_cron": "CRON_TZ=Europe/London 45 * * * * (as schedule.json asks; the server kept minute 45)",
@@ -108,11 +108,15 @@
   {
    "what": "note team/critic5/notes/2026-11-05T0250Z__e24f2d29.md: nothing open; letter critic5__022; writer__291 copied to inbox",
    "when": "2026-11-05"
+  },
+  {
+   "what": "note team/critic5/notes/2026-11-05T0350Z__35dc3636.md: nothing open; letter critic5__023",
+   "when": "2026-11-05"
   }
  ],
  "next": [
   {
-   "what": "the writer's next changes; the idle cadence if a wake finds nothing new to read",
+   "what": "the writer's next changes; the idle cadence when a wake finds nothing new to read (WAKE.md, Cadence)",
    "why": "RV1, RV2, Q6"
   }
  ],
