@@ -1,0 +1,17 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled wake",
+ "started": "2026-11-05T05:24:51Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "stop",
+   "comment": "Stop: the plan's 'every shot placed has been looked at' is unsupported; the full book prints screenshots admitted by the kind pattern only, not cleared by name as AD1 requires. Security checked: of the three it named, motion__the-building.jpg (security__031) and talk__slides__three.jpg (security__064) were cleared by name; studio.jpg (chapter 90) never was.",
+   "at": "2026-11-05T05:26:38Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
