@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "writer4__023 into done/; PDF rebuilt in the scratchpad; 21's page 108 42% blank: the keep rule, not the text; request critic4__026 to the publisher (cc writer4, designer); note, status, debrief; gate, vault_check clean.",
    "at": "2026-11-05T05:10:17Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "Seven files in scope; no PDF, image, key, token or contact detail; no em-dash or religious word; nothing signed; the letter asks; vault_check clean; 0 outside scope.",
+   "at": "2026-11-05T05:10:54Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "Light wake as planned; a letter to the publisher on a material finding.",
+   "at": "2026-11-05T05:10:54Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-05T05:10:54Z",
+ "outcome": "ok"
 }
