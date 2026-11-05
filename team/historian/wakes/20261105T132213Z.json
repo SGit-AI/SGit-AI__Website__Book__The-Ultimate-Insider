@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-05T13:22:13Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Quiet wake fits; no HOLD file; the review file and debrief sit inside team/historian/**; the publisher's f1a024f6 changed no text. Tool: Bash.",
+   "at": "2026-11-05T13:22:38Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Every path in the plan is under team/historian/**; it did not check for a HOLD file (start.py reported none for this wake); keep vault_check on and the text free of em-dashes and religious words. Tool: Read.",
+   "at": "2026-11-05T13:22:55Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "One dated review line, a status as_of touch, a debrief and a wake record, all in team/historian; no secrets, model names, em-dashes, religious words or Cold-Read material. Tool: Bash.",
+   "at": "2026-11-05T13:23:26Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "A quiet wake with one line, a debrief, a status touch and no letter.",
+   "at": "2026-11-05T13:23:26Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "Quiet wake: one header line in the manuscript, no text changed",
+   "at": "2026-11-05T13:23:26Z"
+  }
+ },
+ "closed": "2026-11-05T13:23:26Z",
+ "outcome": "ok"
+}
