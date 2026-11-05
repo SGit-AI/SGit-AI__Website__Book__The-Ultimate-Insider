@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled wake, 14:12 London",
+ "started": "2026-11-05T13:18:54Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). f1a024f6 changed only a placed-spread directive in Book.txt, read by build_book.py and not by make_editions.py, so no rebuild; page check on the PDF of 13:14 in a fresh scratch folder, deleted; developer__079 only what changed against 078.",
+   "at": "2026-11-05T13:19:42Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). No hold; plan within policy and security's musts (rebuild only after both tests and only if chapters changed, no guard off, removed pages named); record test results and chapters-changed state; delete scratch folder; vault_check before the mail.",
+   "at": "2026-11-05T13:19:42Z"
+  },
+  "work": {
+   "by": "developer",
+   "model": "",
+   "verdict": "done",
+   "comment": "Gate passed; PDF of 13:14 checked in a fresh scratch folder (python3 -I, rc 0), deleted, numbers only; no rebuild, so no test run needed (chapters unchanged; f1a024f6 touches a line make_editions.py does not read); no page removed; developer__079 mailed; vault_check clean; no deviations.",
+   "at": "2026-11-05T13:20:07Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). Writes inside the developer's paths; 079 copies identical apart from To/Cc; no off-host addresses, keys, em-dashes or religious words; print-check.json numbers only; no scratch PDF left; vault_check clean.",
+   "at": "2026-11-05T13:21:53Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). As planned. Notes: the mail said no chapter changed since 04:59 where the last chapter commit is 04:38, now corrected in all three copies; the Book.txt line is skipped by make_editions.py as a # line.",
+   "at": "2026-11-05T13:22:13Z"
+  }
+ },
+ "closed": "2026-11-05T13:22:13Z",
+ "outcome": "ok"
+}
