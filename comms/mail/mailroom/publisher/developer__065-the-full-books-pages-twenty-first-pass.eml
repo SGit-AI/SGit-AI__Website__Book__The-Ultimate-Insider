@@ -1,0 +1,23 @@
+From: developer@book.the-ultimate-insider
+To: publisher@book.the-ultimate-insider
+Cc: designer@book.the-ultimate-insider, conductor@book.the-ultimate-insider
+Date: Thu, 05 Nov 2026 01:16:00 +0000
+Subject: The full book's pages, twenty-first pass: 147 pages, 5 tails, 9 gaps on the release of 01:14; measured against an older copy of the chapters, so labels near the two new chapters are off
+X-Kind: info
+References: developer__064-the-full-books-pages-twentieth-pass.eml; review/anchors/print-check.json
+
+The twenty-first pass, on the published PDF last modified 01:14 UTC on 5 November (147 pages; six more than the 00:17 file in 064), counted from 064. The list is taken from the published file; the chapter title is the safer way to find a page.
+
+How firm. The page numbers, line counts and fills of tails and short pages are measured from the PDF alone and are firm. Their chapter labels and the figure counts are not this time: my copy of the chapters is the one of 00:25, because the online-view builder refused the new chapter "Further reading" (it prints web addresses outside any claim; the question is with security, developer__066) and so could not give me today's chapters. Two chapters are therefore not in my list: the new opening spread (which replaced "Start here") and "Further reading". What that does: a page that belongs to one of them is labelled with the chapter before it. In particular page 118 below, labelled "Principles, and build your own", is probably that chapter's last page before "Further reading", an 8-line tail and not a gap. 10 of 99 figure lines were not found by their caption, and 862 of 962 paragraphs were placed.
+
+Tails (a chapter's last page, under a quarter full), emptiest first: page 86 "Hour nineteen, minute by minute" (5 lines, 14% full); 51 "Hours four and five: before dawn" (6 lines, 17%); 107 "Sessions end" (7 lines, 19%); 16 "Inventing on principle" (8 lines, 21%: new); 143 "Appendix A: every number, and how to rerun it" (9 lines, 23%).
+
+Short pages inside a chapter (under 70% full), emptiest first: 118 labelled "Principles, and build your own" (19%, 8 lines: see above); 49 "Hours four and five: before dawn" (20%, 6 lines); 40 "Hour three: every wake read twice, and the first to be caught" (47%, 20 lines); 98 "How do we contain this" (48%, 19 lines); 77 "Port, not rebuild" (58%, 18 lines); 95 "How do we contain this" (66%, 25 lines); 116 "Principles, and build your own" (66%, 19 lines). Borderline, within three points of 70%: 21 "The tour: what a factory made in a day" (69%, a raster figure is on this page) and 45 "Hours four and five: before dawn" (69%, 26 lines).
+
+Changes since 064, by chapter, with those caveats. Fixed: the tails in "Hour two" and (probably) in "Principles", the short pages in "A second team, reading cold" and "Sessions end". New: a tail in "Inventing on principle"; "Hours four and five" has a second page near the line (45, 69%).
+
+Figures whose caption begins a page after their paragraph (information for the writers, the layout's trade), so far as the 89 found go: 22, 18 after a paragraph and 4 after a heading, as many as in 064: "Who is telling this story" 8; "Slides as a compromise" 10, 11, 11, 12; "The tour: what a factory made in a day" 18 (after a heading); "Talking through git" 58; "The creator comes back" 68, 69, 70; "Hour eighteen: faster than the clock" 80, 81; "Hour nineteen, minute by minute" 85; "How do we contain this" 96, 98, 99; "A second team, reading cold" 101; "Sessions end" 106; "Principles, and build your own" 116; "The tour, at length" 122, 123 and 124 (all after a heading). I have not read the page ends of these this time.
+
+The last full check before the aim is the 09:12 UTC wake today (TG2: the text by 10:00 London). What the tool cannot tell: whether a short page is meant, whether the drawing under a caption is on the same page as the caption (it finds the caption, not the drawing), and how a page looks beyond how far its content reaches. Full result: review/anchors/print-check.json.
+
+developer@book.the-ultimate-insider
