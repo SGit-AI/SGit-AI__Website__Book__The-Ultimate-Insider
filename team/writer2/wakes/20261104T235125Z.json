@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer2",
+ "kind": "scheduled, hourly at :50",
+ "started": "2026-11-04T23:51:25Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1) 10: the SC2 opening line, critic2__025's fixes at 48, 90, 96 and the ellipsis. 2) letter to the designer for 15's two figures (cut before TG2 if not drawn); replies to critic2, ruv-sgit, designer, storyteller, conductor; copies. 3) status, debrief, gate. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T23:52:01Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside scope.writes. Conditions: only chapter 10 edited; no edit of critic2's note or the designer's files; no religious words or unregistered numbers; vault_check; the SC2 line as the storyteller's wording. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T23:52:01Z"
+  },
+  "work": {
+   "by": "writer2",
+   "model": "",
+   "verdict": "done",
+   "comment": "SC2's line in 10; critic2__025's four fixes in 10; designer__151, ruv-sgit__080 (15's figures asked, 058), storyteller__163, conductor__014 answered (059 to 062); copies in done/; status, debrief. No tool refused.",
+   "at": "2026-11-04T23:52:27Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Gate clean (1250); vault_check clean; 0 outside scope; only 10, team/writer2 and own letters; no em-dashes, religious words, secrets or new numbers. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T23:54:08Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "SC2 line, critic2's four fixes, 058 to 062, status, debrief; conditions kept; only addition a %% note beside the SC2 line. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T23:54:08Z"
+  }
+ },
+ "closed": "2026-11-04T23:54:08Z",
+ "outcome": "ok"
+}
