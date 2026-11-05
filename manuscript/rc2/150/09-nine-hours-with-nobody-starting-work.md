@@ -84,7 +84,7 @@
 
 **Narrator.** Just after seven, the conductor's scheduled wake wrote something new: a morning review, for me. The night's work gathered, the next experiments ordered, and what was left for me to decide.
 
-**Conductor** *(on the minute, handing over a page)*: What was done, what is ordered, and what only you can decide. In that order.
+**Conductor** *(handing over a page)*: What was done, what is ordered, and what only you can decide. In that order.
 
 **Narrator.** It is the first thing the team wrote in order to hand itself back to a person, and its last part is the one I value most: what only you can decide. A team that runs on its own still has to know what it may not decide on its own, and say so in writing, at the top of the page.
 
@@ -114,7 +114,7 @@
 
 **Narrator.** By nine the studio was a production line with fixed stations. Deck ordered and reviewed. ruv-sgit made. The researcher supplied data when deck asked. The designer wrote notes, and checked what dev built from them. The conductor set the order an hour ahead.
 
-**Conductor** *(on the minute)*: Next hour's order is set. Each of you has one thing in it, and the next after that.
+**Conductor**: Next hour's order is set. Each of you has one thing in it, and the next after that.
 
 `%% record: cf7d742 (09:05) 09317d9 (10:05): the conductor's scheduled wakes setting the next experiment and dev's next build an hour ahead (timeline/day/09.md, 10.md)`
 `%% band: Dramatised (the conductor's line). Rests on its scheduled wakes of 09:03 and 10:03.`
@@ -187,9 +187,9 @@
 
 ## Something to try
 
-*Coming back to a team that worked without you is a strange feeling, and the temptation is to start asking straight away. Reading what they did first, before asking for anything new, changed what I asked for.*
+*Coming back to a team that worked without you is a strange feeling, and the temptation is to start asking straight away. Reading what they did first changed what I asked for.*
 
-*If you try reading what they did first, before you ask for anything new, your first ask can build on their work.*
+*If you try reading first, your first ask can build on their work.*
 
 `%% record: HV1 (signed, brief 38: "can you add them all?"), printed: the newsroom's "is a strange feeling" and "changed what I asked for"`
 

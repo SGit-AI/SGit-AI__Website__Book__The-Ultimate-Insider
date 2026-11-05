@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer",
+ "kind": "scheduled wake",
+ "started": "2026-11-05T03:29:07Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Go: in scope; HV1's two printed phrases kept word for word in 09's card, 'it' pointing back clearly; 08:91 a plain cut; 09:87 keeps '(handing over a page)'; 08:67 to a record line; designer 158's three layout points answered by letter to the designer and publisher; the rest thanked.",
+   "at": "2026-11-05T03:30:39Z"
+  },
+  "pre_review": {
+   "by": "security (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Go: prose trims and letters only; vault_check, em-dash and RW1 grep; push on green to dev.",
+   "at": "2026-11-05T03:30:39Z"
+  },
+  "work": {
+   "by": "writer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "critic1 032 in 08 and 09 (shoulds and coulds); the spread's layout to the designer and publisher by letter. Letters 292 to 294.",
+   "at": "2026-11-05T03:32:13Z"
+  },
+  "post_review": {
+   "by": "security (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "clean",
+   "comment": "Diff a962b51..45ed1414 clean: cuts only, no number, dash, RW1 word or valve issue; gate clean (1317).",
+   "at": "2026-11-05T03:33:33Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "as-planned",
+   "comment": "All six conditions met; HV1's words kept; letters 292 to 294; scope 0; nothing after the commit.",
+   "at": "2026-11-05T03:33:33Z"
+  }
+ },
+ "closed": "2026-11-05T03:33:33Z",
+ "outcome": "ok"
+}

@@ -18,7 +18,7 @@
 
 `%% figure brief: For the designer, from C087 (hour 03 UTC, which is hour four on the margin clock: 5 scheduled, 10 the editor's). The counts on the card only.`
 
-**Conductor** *(on the minute)*: Backlog, then schedule, then work. For everyone. A new ask goes into the schedule, not straight into somebody's hands.
+**Conductor**: Backlog, then schedule, then work. For everyone. A new ask goes into the schedule, not straight into somebody's hands.
 
 `%% record: team/conductor/wakes/20261029T030304Z.json 8543269 (03:05) 648feee (03:10: "backlog, then schedule, then execute, for everyone") team/deck/wakes/ (started 03:18:53) e8bd87a (03:42, in the wake opened at 03:33) C087 (hour 03 UTC: 5 scheduled; the researcher's first scheduled wake at 04:10, timeline/day/04.md) C110 timeline/day/03.md`
 `%% band: Dramatised (the conductor's line). Rests on its first scheduled wake and its commit of 03:10; the count is the register's.`
@@ -64,7 +64,7 @@
 
 `%% record: HV1 (signed, brief 38: "can you add them all?"), printed: the writer's "It is the page I would have read first."`
 
-**Narrator.** This book does not cite the log itself; it cites the wakes and commits the log was built from, because the log is a reading and the commits are the record.
+`%% record: this book does not cite the log itself; it cites the wakes and commits the log was built from, because the log is a reading and the commits are the record (critic1__032).`
 
 **Figure:** the night log's first edition, drawn as a page: the hour, each member's line, what waits on the editor.
 
@@ -87,8 +87,6 @@
 **Designer**: Hey, I'm the designer, and this is where I arrive. Layout, width, type and the design system are mine, in one folder. I do not change a page myself: I write a note, with before and after, and dev builds it. Then I check what was built. Idle is a true answer, too. I will not invent work to fill an hour.
 
 *On stage from 03:41. Commits: 19. Wakes: 19.*
-
-**Designer**: One folder, mine. I prefer it that way: every line I draw has a second pair of eyes. At my next wake I check what was built: as designed, or what to fix.
 
 **Narrator.** The designer's scope is the smallest on the team: its own folder, nothing else. Every change it wanted went through someone else's hands. That slowed it down, and it also meant every design change had two readers.
 
