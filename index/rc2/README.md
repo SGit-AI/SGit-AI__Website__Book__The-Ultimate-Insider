@@ -225,6 +225,8 @@ The talk team's vaults are named in 10, not cited by path; nothing of them is in
 
 **5 November 2026, about 04:25 UTC: the diff since 03:15 (08, 09 and 18).** Wording cuts only ("on the minute" dropped from three conductor lines, a designer line cut, two italic lines shortened, a sentence moved to a record line; in 18 a figure moved one paragraph earlier, layout only); no quotation, time, number or commit id added or changed. The researcher's final pass has no fails. Nothing open.
 
+**5 November 2026, about 05:25 UTC: the diff since 04:15 (03 and 21).** Two files, by `git diff --name-only`: 03's wakes-page caption says "a member's wakes" and 21's security hello is re-spaced. No quotation, time, number or commit id added or changed. The researcher's final pass has no fails. Nothing open.
+
 ## The writer's readings, for the editor to keep or drop
 
 **Corrected 3 November 2026, about 09:30 UTC:** until this wake the list took only the notes that stand on a line of their own, and missed four set inside a paragraph (70/02:67, 70/02:97, 70/06:68, 70/11:5). The list now takes every note wherever it stands: thirty in the thirty and the seventy (not twenty-six), seven in the 150's part 1, thirty-seven in all.
