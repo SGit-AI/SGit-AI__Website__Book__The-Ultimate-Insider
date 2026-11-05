@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake",
+ "started": "2026-11-05T12:49:43Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; OS4 as drawn. Conditions: name the online draft's loss of the address as a departure from 'no other change', for the editor to reverse; no --cover as the interior is fragile: print which copy was placed; docstring and parser updated; tell the designer the count.",
+   "at": "2026-11-05T12:51:35Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "All three drawings pass placed_drawing; the copies differ only in the FB2 address; lab page names only the online copy; no HOLD. Post-review: the address absent from the online draft, once in the interior.",
+   "at": "2026-11-05T12:51:35Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "OS4 as drawn: print copy of page two in the KDP interior, online copy in the draft, overlay dropped; the build says which; 123/129 pages; letter 075 names the departure.",
+   "at": "2026-11-05T12:54:04Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Fourth drawing through placed_drawing; print copy only without --cover; no new HTML input; letters and records clean; vault_check clean.",
+   "at": "2026-11-05T12:54:04Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every condition met: the departure named for the editor, the copy printed, docstring and parser updated, the designer told.",
+   "at": "2026-11-05T12:54:04Z"
+  }
+ },
+ "closed": "2026-11-05T12:54:04Z",
+ "outcome": "ok"
+}

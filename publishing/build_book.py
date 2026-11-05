@@ -97,8 +97,9 @@ def placed_spread(raw, pages):
     """OS3: the chapter's flowed text and Figure lines give way to the two placed pages (the first on a left page, the
     second facing it). What the drawings do not carry is text: the narrator's "Throughout the book I am the Narrator"
     paragraph after them until page one carries it (a stopgap, writer 295), and the "We would love to hear from you"
-    section laid over the foot of page two, in the room the designer left (OS4, brief 49; designer 161), so the chapter
-    is exactly two pages; its address is print text only (FB2), never in a drawing."""
+    section laid over the foot of page two (OS4, brief 49; designer 161) until page two draws it (designer 163). Page
+    two has two copies: the print interior (the build without --cover) places the one with FB2's address, the online
+    draft (with --cover) the one that says "the address in the printed book"."""
     lines = raw.split("\n")
     title = htmllib.escape(next((l[2:].strip() for l in lines if l.startswith("# ")), ""), quote=True)
     keep = []
@@ -106,7 +107,7 @@ def placed_spread(raw, pages):
         keep += [l for l in lines if l.startswith("**Narrator.** Throughout the book I am")]
     start = next((i for i, l in enumerate(lines) if l.startswith("## We would love to hear from you")), None)
     foot = []
-    if start is not None:  # OS4 (brief 49): set as text over the room the designer left at page two's foot
+    if start is not None and "We would love to hear from you" not in pages[-1][1]:  # OS4: page two may draw it (designer 163)
         end = next((j for j in range(start + 1, len(lines)) if re.match(r"#{1,2} ", lines[j])), len(lines))
         foot = [l for l in lines[start:end] if not l.lstrip().startswith("`%%") and l.strip() != "---"]
     out = [f'<h1 class="placed-title">{title}</h1>', ""]
@@ -146,10 +147,14 @@ def directives(book=None):
             m = re.match(r"\s*#!\s*placed-spread:\s*(.+?)\s*$", line)
             if m:  # OS3: a chapter printed as the designer's two placed pages (designer 160)
                 parts = [x.strip() for x in m.group(1).split("|")]
-                if len(parts) != 3:
-                    sys.exit(f"build_book: placed-spread takes a chapter and two drawings: {m.group(1)}")
+                if len(parts) not in (3, 4):
+                    sys.exit(f"build_book: placed-spread takes a chapter, two drawings and a print copy of page two: "
+                             f"{m.group(1)}")
                 chapter = os.path.realpath(os.path.join(os.path.dirname(book), parts[0]))
-                FIT.setdefault("placed", {})[chapter] = [placed_drawing(x) for x in parts[1:]]
+                pages = [placed_drawing(x) for x in parts[1:3]]
+                if len(parts) == 4:  # designer 163: page two with the FB2 address, for the print interior only
+                    FIT.setdefault("placed_print", {})[chapter] = placed_drawing(parts[3])
+                FIT.setdefault("placed", {})[chapter] = pages
                 continue
             m = re.match(r"\s*#!\s*cast-bars:\s*(.+?)\s*$", line)
             if m:  # the designer's map of a drawn cast bar per chapter (designer 135): a .json directly in lab/tools/book/
@@ -543,6 +548,12 @@ def main():
         with open(src, encoding="utf-8") as f:
             raw = f.read()
             placed = FIT.get("placed", {}).get(os.path.realpath(src))
+            if placed and not a.cover and os.path.realpath(src) in FIT.get("placed_print", {}):
+                placed = placed[:1] + [FIT["placed_print"][os.path.realpath(src)]]
+            if placed:
+                print(f"build_book: the opening spread's page two is {os.path.relpath(placed[-1][0], ROOT)} "
+                      f"({'the online copy, with --cover' if a.cover else 'the print copy, without --cover'})",
+                      file=sys.stderr)
             if placed:
                 raw = placed_spread(raw, placed)
             if drop:
