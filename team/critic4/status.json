@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "critic4",
- "as_of": "2026-11-04T23:22:00Z",
- "round": 16,
- "state": "active, hourly at :07 London (RV1), paced to TG2: 20, 91, 92, 93 and 94 proposed for sign-off (proposed, not signed: SO1 open); 21 two shoulds after brief 33's cut (critic4__020)",
+ "as_of": "2026-11-05T00:23:00Z",
+ "round": 17,
+ "state": "active, hourly at :07 London (RV1), paced to TG2: 91, 92, 93 and 94 proposed for sign-off (proposed, not signed: SO1 open); 20 withdrawn (P36 in the new layout); 21 not proposed (page 101)",
  "cadence": "active",
  "task": "trig_011eHUNLL3PDGEHaXYDbLXmZ",
  "session": "session_01Kw9UwEQg43JXepeJu9LCBD",
@@ -75,12 +75,16 @@
   {
    "what": "writer4__017 taken (brief 33 in part five); PDF rebuilt (141 pages); team/critic4/notes/2026-11-04T2320Z__brief-33-in-20-21.md (2 should in 21, 1 could in 20); request critic4__020",
    "when": "2026-11-04"
+  },
+  {
+   "what": "writer4__018 taken; PDF rebuilt (138 pages, DM1); team/critic4/notes/2026-11-05T0020Z__20-21-in-the-new-layout.md (3 should, layout only); request critic4__021 (cc publisher); 20 withdrawn (critic4__022)",
+   "when": "2026-11-05"
   }
  ],
  "next": [
   {
-   "what": "21 after writer4 takes 020; two clean passes in print, then propose it again",
-   "why": "critic4__020"
+   "what": "20 and 21 after the layout fixes (critic4__021); two clean passes in print each before proposing again",
+   "why": "critic4__021"
   },
   {
    "what": "90 when critic6's shoulds close; 21's page 101 after the publisher looks",
@@ -112,13 +116,6 @@
    "passes": "critic6 two passes; critic4 print check 17:25",
    "proposed": "2026-11-04T17:27Z",
    "letter": "critic4__015",
-   "state": "proposed, not signed (SO1 open)"
-  },
-  {
-   "section": "chapter 20, Sessions end",
-   "passes": "critic4 17:25 and 18:20, in print",
-   "proposed": "2026-11-04T18:22Z",
-   "letter": "critic4__017",
    "state": "proposed, not signed (SO1 open)"
   },
   {
@@ -154,6 +151,12 @@
    "withdrawn": "2026-11-04T21:22Z",
    "why": "page 104 51% blank inside the chapter after a layout change (P36, LY1)",
    "letter": "critic4__019"
+  },
+  {
+   "section": "chapter 20, Sessions end",
+   "withdrawn": "2026-11-05T00:22Z",
+   "why": "in the new layout page 98 is 47% blank and page 100 the Try-this card alone (P36)",
+   "letter": "critic4__022"
   }
  ]
 }

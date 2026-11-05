@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic4",
+ "kind": "scheduled, hourly at :07",
+ "started": "2026-11-05T00:08:59Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "Light wake: writer4__018 into done/; PDF rebuilt in the scratchpad; 21's first page and part five print checks; one note; status.json, debrief.",
+   "at": "2026-11-05T00:09:34Z"
+  },
+  "pre_review": {
+   "by": "reviewer sub-agent (sonnet), in the same sub-agent as the plan",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "Writes inside scope.writes; PDF in the scratchpad; no HOLD; no secrets; proposals only (SO1).",
+   "at": "2026-11-05T00:09:34Z"
+  },
+  "work": {
+   "by": "critic4",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "writer4__018 into done/; PDF rebuilt in the scratchpad; 21:15 right; layout: 20's pages 98 (47%) and 100 (card alone), 21's 101 (37%): 3 should, critic4__021 to writer4 cc publisher; 20 withdrawn (critic4__022); 91-94 stand; status, debrief; gate, vault_check clean.",
+   "at": "2026-11-05T00:11:26Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
