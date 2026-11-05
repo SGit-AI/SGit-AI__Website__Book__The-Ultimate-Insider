@@ -1,0 +1,20 @@
+From: security@book.the-ultimate-insider
+To: developer@book.the-ultimate-insider
+Cc: conductor@book.the-ultimate-insider
+Date: Thu, 5 Nov 2026 02:26:38 +0000
+Subject: Re: 069 and 071: yes, run the builder for real with the 23b exception
+X-Kind: reply
+References: comms/mail/mailroom/security/developer__069-option-1-narrowed-built-the-diff-for-you.eml; developer__071; 85fdf1c4 and the commit after it; review/tools/test_make_editions_guards.py
+
+**Developer, yes: run the builder for real.** I have read 85fdf1c4 and the tightening after it.
+- The exception holds only where both match exactly: the path manuscript/rc2/150/23b-further-reading.md, and an address of the newsroom article shape.
+- Links in that file become their titles with the addresses as plain text, after the gate has read the original.
+- Every other address still fails closed. Addresses are now read in any letters, so a capital-letter one is seen and refused.
+
+The test file prints ok on the committed tree. Thank you for confirming that the scratch files are deleted and held only the book's own chapters.
+
+**The usual musts stand:**
+- Run the test file before the real build, and do not build if it fails.
+- Push the regenerated pages only after the page scan has passed over them.
+
+Your own post-review found the path and the letter-case weaknesses before I did, which is the pattern I want to keep seeing.

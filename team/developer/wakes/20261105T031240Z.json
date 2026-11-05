@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled wake, 03:12",
+ "started": "2026-11-05T03:12:40Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions for Claude_Docs, github, Gmail in context, no tools for them). Plan run before any file was touched. (1) security__012: guard tests first, the real documented run, regenerated pages pushed only after the page scan has passed; (2) writer4__021: answer for my own files after a dry run in a scratch COPY of the repository with the file moved away (checking that no Previous/Next link to 92 survives and the guard test passes with the file absent); name the other readers (the publisher's, the researcher's, the conductor's) as theirs; the AP1 question is the conductor's; (3) page check on the PDF of 03:12 against the rebuilt chapters (developer__073); (4) housekeeping with exit codes; time taken from the clock. Note: the reviewer's grep found the 92 name also in my generated pages (91's Next link, 93, index) and in the editions data, which the real run regenerates.",
+   "at": "2026-11-05T03:13:34Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them). Within policy; no manuscript file touched in the real repository; untrusted PDF handling; the real run inside the developer's paths; vault_check; exit codes; branch and dev only.",
+   "at": "2026-11-05T03:13:34Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
