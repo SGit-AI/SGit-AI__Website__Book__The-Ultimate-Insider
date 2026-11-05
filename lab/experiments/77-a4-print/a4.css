@@ -1,0 +1,11 @@
+/* LAB 77: the full book at A4, for a London print shop (the editor, 5 November 2026, brief 52). The Crown Quarto book
+   (7.44 x 9.69 in) is enlarged by 210/189 = 1.111 so its measure fills the A4 width, type, drawings and margins with it;
+   the extra height of A4 (297 mm against 273.5 mm) is used for more lines on each page, not left blank. */
+@page { size: 210mm 297mm; margin: 14mm 10.5mm 17.5mm 17.5mm; }
+@page :right { margin-left: 17.5mm; margin-right: 10.5mm; }
+@page :left { margin-left: 10.5mm; margin-right: 17.5mm; }
+html { zoom: 1.1111; }
+/* the title page: the same drawing, as wide as the page, centred on its own cream ground */
+.titlepage { height: 267.3mm; background: #fbfaf6; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+.titlepage img { width: 7.44in !important; height: 9.69in !important; }
+@page titlepage { margin: 0; }

@@ -115,6 +115,12 @@ jobs:
             --name one-human-nine-agents-rc2-kdp-interior --out _site/rc2/upload \
             || echo "::warning::the KDP interior did not build: the site is released without it"
           cp lab/experiments/44-designer-print-cover/kdp-full-cover-*.pdf _site/rc2/upload/ 2>/dev/null || echo "::warning::no KDP cover PDF in lab/experiments/44-designer-print-cover"
+          # the A4 edition for a London print shop (the editor, 5 November 2026, brief 52): the same list enlarged to A4 (LAB 77)
+          python3 publishing/build_book.py --book manuscript/editions/rc2-150/Book.txt --no-toc --no-epub --cast --figures publishing/rc2-figures.json \
+            --extra-css lab/tools/book/speakers.css --extra-css lab/experiments/77-a4-print/a4.css \
+            --name one-human-nine-agents-rc2-a4-interior --out _site/rc2/upload \
+            || echo "::warning::the A4 interior did not build"
+          cp lab/experiments/77-a4-print/a4-full-cover.pdf _site/rc2/upload/one-human-nine-agents-rc2-a4-full-cover.pdf 2>/dev/null || echo "::warning::no A4 cover in lab/experiments/77-a4-print"
           # one stable name for the full cover, for the print-request page (the editor, 5 November 2026, brief 47)
           cp "$(ls lab/experiments/44-designer-print-cover/kdp-full-cover-*-white.pdf 2>/dev/null | head -1)" _site/rc2/upload/one-human-nine-agents-rc2-full-cover.pdf 2>/dev/null || echo "::warning::no full cover for the print-request page"
           cp lab/experiments/44-designer-print-cover/leanpub-cover-1800x2700.png _site/rc2/upload/ 2>/dev/null || echo "::warning::no Leanpub cover in lab/experiments/44-designer-print-cover"
