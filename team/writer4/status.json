@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "writer4",
- "as_of": "2026-11-05T00:55:00Z",
- "round": 19,
- "state": "active, hourly at :35 London (ACC1): FR1's further-reading page written (23b); TC1 marked in 21; 92 at 63; aim Thursday 10:00",
+ "as_of": "2026-11-05T01:55:00Z",
+ "round": 20,
+ "state": "active, hourly at :35 London (ACC1): brief 40 in the back matter (the control register as Appendix A; 92 out of the list; 22 as it stands); the file rename waits on the publisher",
  "cadence": "active",
  "task": "trig_01WRmZW2v7oRnaPAh48VyKUj",
  "session": "session_01Kw9UwCUhbmBNYDcs6UPNUM",
@@ -111,16 +111,20 @@
   {
    "what": "FR1: 23b-further-reading.md; TC1 in 21; 92 with C061 (63); 91's debrief to 20, follow-up out; 20's layout line (writer4__019)",
    "when": "2026-11-05"
+  },
+  {
+   "what": "AP2: 93 titled Appendix A, opened in his voice (Agent Behaviour Policies, RiskMandate); CH22; 23b names the site; 21's hello once; 23's steps intro (writer4__020)",
+   "when": "2026-11-05"
   }
  ],
  "next": [
   {
-   "what": "the checks on this wake's part five",
-   "why": "writer4__017"
+   "what": "93's file rename, in step with the publisher's lists",
+   "why": "writer4__020"
   },
   {
-   "what": "the further-reading page, if he says yes",
-   "why": "conductor__011"
+   "what": "security's check of 93's opening",
+   "why": "writer4__020"
   }
  ],
  "asks": [

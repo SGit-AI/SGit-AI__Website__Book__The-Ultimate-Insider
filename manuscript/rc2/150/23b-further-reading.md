@@ -1,6 +1,6 @@
 # Further reading
 
-**Narrator.** If you want to go further, these are the pieces I would read next, grouped the way the book is. All of them are on the newsroom.
+**Narrator.** If you want to go further, these are the pieces I would read next, grouped the way the book is. All of them are on my newsroom, at newsroom.sgit.ai, under these titles.
 
 - **The day:** [A talk built in a day](https://newsroom.sgit.ai/articles/the-ultimate-insider-case-study.html); [The scripted talk](https://newsroom.sgit.ai/articles/the-scripted-talk.html)
 - **The team:** [What an agent is](https://newsroom.sgit.ai/articles/what-an-agent-is.html); [A team frozen in time](https://newsroom.sgit.ai/articles/a-team-frozen-in-time.html); [The push is the authorisation](https://newsroom.sgit.ai/articles/the-push-is-the-authorisation.html)

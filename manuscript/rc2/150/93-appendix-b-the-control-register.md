@@ -1,6 +1,10 @@
-# Appendix B: the control register
+# Appendix A: the control register
 
-*What each of the team's controls is, what it stopped and what it missed, as security keeps the register. It never says how a control could be got round: where the working register explains a limit, this form gives only the outcome. Every count is the researcher's, and Appendix A lists each one.*
+**Narrator.** These are Agent Behaviour Policies in practice, the kind we are building at RiskMandate: for each agent, what it is for, what it can reach and what stops it. This appendix gives the two teams' controls in that shape, with what each one stopped and what it missed.
+
+`%% record: book.json AP2 (the editor, brief 40: the control register becomes Appendix A, opened by what these are, the Agent Behaviour Policies at RiskMandate) PN1 (the names, as chapter 1 gives them)`
+
+*What each of the team's controls is, what it stopped and what it missed, as security keeps the register. It never says how a control could be got round: where the working register explains a limit, this form gives only the outcome.*
 
 ## How to read it
 

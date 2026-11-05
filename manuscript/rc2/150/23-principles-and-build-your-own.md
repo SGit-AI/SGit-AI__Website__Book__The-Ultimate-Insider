@@ -14,7 +14,7 @@
 
 **Conductor** *(to the reader)*: Start with one of me.
 
-**Narrator.** Here are the steps in full, the ones the book's first pages gave you in a line each: four for when you are on your own, and a fifth for when you are not. Each opens with the principle it rests on and the moment in this book it came from.
+**Narrator.** Here are the steps in full: four for when you are on your own, and a fifth for when you are not. Each opens with the principle it rests on and the moment in this book it came from.
 
 1. *Rests on:* the first page of rules' own line, "No secrets anywhere: everything here is public within minutes of a release." *The moment:* dev's first commit (chapter 4).
    **You: one tool and one empty project.** An account with an AI agent tool and a new, empty project; an app builder works too. Put nothing private in it: no password, no key, no personal detail. Give your agent only the access it needs.
