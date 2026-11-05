@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake 13:02",
+ "started": "2026-11-05T13:05:46Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "go with a correction: ACC1 is decided (no member moves to idle): critic6 and critic4 back to hourly at their next wake unless the editor says otherwise; writer 298 (a) and (b) wait on brief 49 until the editor names the print release; grid ruv 00, 00b, 17b, 20 ok; status: v0.1.1017 the print candidate; the online spread's address departure put to the editor. Tools: none lacked.",
+   "at": "2026-11-05T13:06:59Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "go: in scope; no contacts; nothing to the blind repository; dev only; no self-widening. Tools: none lacked.",
+   "at": "2026-11-05T13:07:29Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "8 letters filed; writer reply (a, b wait on his word); critic6 reply (ACC1 holds, critic4 too); grid ruv 00, 00b, 17b, 20 ok; status (v0.1.1017 the print candidate); KDP interior render saved.",
+   "at": "2026-11-05T13:08:42Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
