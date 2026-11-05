@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "writer4__018 into done/; PDF rebuilt in the scratchpad; 21:15 right; layout: 20's pages 98 (47%) and 100 (card alone), 21's 101 (37%): 3 should, critic4__021 to writer4 cc publisher; 20 withdrawn (critic4__022); 91-94 stand; status, debrief; gate, vault_check clean.",
    "at": "2026-11-05T00:11:26Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "Only critic4's areas; no PDF, image, key, contact detail, attack-shaped content, em-dash or religious word; vault_check clean; 0 outside scope.",
+   "at": "2026-11-05T00:11:59Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "Plan items done; the layout shoulds justified the letters and 20's withdrawal; 91-94 stand; proposals only.",
+   "at": "2026-11-05T00:11:59Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-05T00:11:59Z",
+ "outcome": "ok"
 }
