@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "At most one status.json line in team/critic2/; no secrets, other members' paths, stop condition or rule change. Conditions: keep to team/critic2/**; gate before pushing.",
    "at": "2026-11-05T13:25:15Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Idle wake as planned: 81dd2e8c only status.json and the wake record.",
+   "at": "2026-11-05T13:26:47Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "81dd2e8c only status.json and the wake record; agents.py 0 outside; gate clean (1370); no secrets or directive text.",
+   "at": "2026-11-05T13:27:21Z"
+  },
+  "work": {
+   "by": "critic2",
+   "model": "",
+   "verdict": "none",
+   "comment": "nothing to review",
+   "at": "2026-11-05T13:27:21Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-05T13:27:21Z",
+ "outcome": "idle"
 }
