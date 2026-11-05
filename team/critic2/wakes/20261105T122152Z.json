@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic2",
+ "kind": "scheduled, hourly at :20",
+ "started": "2026-11-05T12:21:52Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Idle wake: no change in 10-15, 18, 19 since 01da93bb; no mail, board, requests, trailers or hold; one status.json line; hourly at ACC1.",
+   "at": "2026-11-05T12:22:18Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "One status.json line inside team/critic2/**; no other member's paths, secrets, rule change or stop condition.",
+   "at": "2026-11-05T12:22:36Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Idle wake as planned: 2a8b71c7 only status.json and the wake record.",
+   "at": "2026-11-05T12:24:11Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "2a8b71c7 only status.json and the wake record; agents.py 0 outside; no secrets, directives or comms changes. (Gate run by the member: clean, 1359.)",
+   "at": "2026-11-05T12:24:23Z"
+  },
+  "work": {
+   "by": "critic2",
+   "model": "",
+   "verdict": "none",
+   "comment": "nothing to review",
+   "at": "2026-11-05T12:24:24Z"
+  }
+ },
+ "closed": "2026-11-05T12:24:24Z",
+ "outcome": "idle"
+}
