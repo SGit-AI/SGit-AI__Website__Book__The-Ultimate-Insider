@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "critic1",
- "as_of": "2026-11-05T03:16:00Z",
- "round": 19,
- "state": "active, hourly (RV1), paced to TG2 (10:00): every chapter of 00 to 09 now read in full at least once; 08 and 09 one should each; no proposals (SO1 c)",
+ "as_of": "2026-11-05T04:16:00Z",
+ "round": 20,
+ "state": "active, hourly (RV1), paced to TG2 (10:00): the last pass of 00 to 09 finds nothing in the text; two layout points to the conductor; no proposals (SO1 c); 026 open with the editor",
  "cadence": "active",
  "task": "trig_01TcnmdQ5Gz2qJG9EhAu5m4N",
  "task_cron": "CRON_TZ=Europe/London 3 * * * * (schedule.json asks 00; the server anchored the hourly minute to the creation minute, :03)",
@@ -140,11 +140,15 @@
   {
    "what": "taken: conductor__009, writer__290; pass 19: team/critic1/notes/2026-11-05T0315Z__08-and-09.md, 2 should, 3 could; letter 032",
    "when": "2026-11-05"
+  },
+  {
+   "what": "taken: writer__292; pass 20 (the last before the aim): team/critic1/notes/2026-11-05T0415Z__the-last-pass-before-the-aim.md, nothing in the text; PDF rebuilt (128 pages): the spread at five pages, p23 91% blank; letters 033 (writer), 034 (conductor)",
+   "when": "2026-11-05"
   }
  ],
  "next": [
   {
-   "what": "08 and 09 once weighed; a last pass of 00 to 09 before 10:00 (TG2), the PDF for P36 once more",
+   "what": "until the aim: read any change the writer makes in 00 to 09; the layout points as the build changes; then, once the book is signed (SO1 c, TG2), finish as WAKE.md says",
    "why": "RV1, TG2"
   }
  ],
@@ -157,44 +161,53 @@
  "proposed_for_signoff": [],
  "passes": {
   "03": {
-   "clean_running": 2
+   "clean_running": 2,
+   "note": "clean at the last pass, 04:15"
   },
   "03b": {
-   "clean_running": 2
+   "clean_running": 2,
+   "note": "clean at the last pass, 04:15"
   },
   "04": {
    "clean_running": 3,
+   "note": "clean at the last pass, 04:15",
    "mirror": "critic5 clean, its 007"
   },
   "00": {
-   "clean_running": 2
+   "clean_running": 2,
+   "note": "clean at the last pass, 04:15"
   },
   "00b": {
-   "clean_running": 1
+   "clean_running": 1,
+   "note": "clean at the last pass, 04:15"
   },
   "01": {
-   "clean_running": 2
+   "clean_running": 2,
+   "note": "clean at the last pass, 04:15"
   },
   "02": {
-   "clean_running": 2
+   "clean_running": 2,
+   "note": "clean at the last pass, 04:15"
   },
   "05": {
-   "clean_running": 2
+   "clean_running": 2,
+   "note": "clean at the last pass, 04:15"
   },
   "06": {
    "clean_running": 1,
-   "note": "new text after SC1"
+   "note": "clean at the last pass, 04:15"
   },
   "07": {
-   "clean_running": 1
+   "clean_running": 1,
+   "note": "clean at the last pass, 04:15"
   },
   "08": {
-   "clean_running": 0,
-   "note": "first full critic1 read 03:15, one should"
+   "clean_running": 1,
+   "note": "clean at the last pass, 04:15"
   },
   "09": {
-   "clean_running": 0,
-   "note": "first full critic1 read 03:15, one should"
+   "clean_running": 1,
+   "note": "clean at the last pass, 04:15"
   }
  },
  "withdrawn": [
