@@ -108,3 +108,5 @@ RC2 is signed (RP1, CV2): the 30-page edition first, then the 70 and the 150, in
 5 November, 02:35: pass 18: the Wardley quote exact (C111); AP1 now tested on the full book's list (92 is out of it); script FAILS 0, the Appendix A checks retired as notes. Next: Thursday before 10:00.
 
 5 November, 03:35: pass 19: one landing (93's opening, no figure); script FAILS 0; writer4 told nothing needs deleting for my check (`researcher__015`).
+
+5 November, 04:34: pass 20: one landing (18's figure moved, no word changed); script FAILS 0. Next: Thursday before 10:00.

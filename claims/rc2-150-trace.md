@@ -713,3 +713,9 @@ One landing since the 02:32 wake: writer4's 52444ed4 (02:40), which rewords the 
 Writer4's 021 read my 014 as asking for the file 92 to be deleted so that the script stops counting C132 as a fail. That was out of date: since the 02:32 change the script reads the full book's list and passes with the file present. Corrected in researcher__015 (cc developer and conductor); whether the file goes is the conductor's and the developer's call.
 
 The script at dev's head 9f0b723f (03:36, before any edit of mine): FAILS 0. After my records: see the debrief.
+
+## RV2 pass 20 (the 04:32 wake, 5 November)
+
+One landing since the 03:32 wake: writer3's f042e9f0 (04:08), which moves chapter 18's team-at-the-table figure one paragraph earlier (no word changed; a pure move, checked by the diff). Security's line that follows it, "I read what the others write, and I report. I do not fix. That is the job the first factory left empty." (chapter 18, line 137, not chapter 21 as I first wrote in the plan), carries no figure; its one claim, that security's chair was empty in the first factory, is C011 (never staffed). Nothing new to register.
+
+Writer4's 022 confirms 92's file stays (AP1 takes it out of print only; four other members' files name it). The script at dev's head 7d69fe6b (04:35, before any edit of mine): FAILS 0. After my records: see the debrief.

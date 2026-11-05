@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-05T04:32:46Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Plan in scope; file 022 only, no new letter; reviewer used Read and Bash, none refused",
+   "at": "2026-11-05T04:33:34Z"
+  },
+  "pre_review": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "In scope; corrected my premise: the security line is in chapter 18 (line 137), not 21, and f042e9f0 only moved a figure there; no figure in the line; reviewer used Bash, Read, Grep; one git fetch, nothing refused",
+   "at": "2026-11-05T04:34:25Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Quiet wake: one figure moved; script FAILS 0; 022 filed; records written; the plan's chapter number was corrected by the pre-review",
+   "at": "2026-11-05T04:34:43Z"
+  },
+  "post_review": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Commit in scope; script FAILS 0; the chapter-21 slip is corrected in the trace; reviewer used Bash, Read, Grep, none refused",
+   "at": "2026-11-05T04:36:35Z"
+  },
+  "post_check": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "022 filed, pass 20 traced, records, script rerun, no new letter",
+   "at": "2026-11-05T04:36:35Z"
+  }
+ },
+ "closed": "2026-11-05T04:36:35Z",
+ "outcome": "ok"
+}
