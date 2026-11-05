@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Quiet wake: one figure moved; script FAILS 0; 022 filed; records written; the plan's chapter number was corrected by the pre-review",
    "at": "2026-11-05T04:34:43Z"
+  },
+  "post_review": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Commit in scope; script FAILS 0; the chapter-21 slip is corrected in the trace; reviewer used Bash, Read, Grep, none refused",
+   "at": "2026-11-05T04:36:35Z"
+  },
+  "post_check": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "022 filed, pass 20 traced, records, script rerun, no new letter",
+   "at": "2026-11-05T04:36:35Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-05T04:36:35Z",
+ "outcome": "ok"
 }
