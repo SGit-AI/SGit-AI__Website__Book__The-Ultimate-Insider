@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them). Within policy; no manuscript file touched in the real repository; untrusted PDF handling; the real run inside the developer's paths; vault_check; exit codes; branch and dev only.",
    "at": "2026-11-05T03:13:34Z"
+  },
+  "work": {
+   "by": "developer",
+   "model": "",
+   "verdict": "done",
+   "comment": "Plan and pre-review ran before any file was touched. security__012: both test files printed ok, then the documented sequence for real (make_editions, print_pages, make_editions, the guard test again before the second): the online full book rebuilt, 32 chapters, 343 scenes, 23b's articles as text; the build's page scan passed over the pages before they went in place. The full book's leftover online page of Appendix A removed; the builder now removes the full book's pages it no longer builds (a first version also removed a page of the 70-page edition: put back, the older editions stay as they are). writer4__021 answered (developer__072) after a scratch-clone test with 92's file removed (guard tests, builder and site build pass; no page mentions it); other readers named as theirs. Page check on the 131-page PDF of 03:16 (plan named 03:12) against the rebuilt chapters: one page added at the front, nothing else changed; developer__073 to publisher and designer (cmp same). Build, gate and agents check exit 0 before the push. REALITY: made-up future times caught by the clock and corrected before the commit. Pages: rc2.html and index.html unchanged since 09:46, upload set unlinked.",
+   "at": "2026-11-05T03:19:33Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them). As planned; nothing planned undone. The plan step ran before any file was touched (plan and pre-review 03:13:34, first commit 03:19:27). Unplanned and disclosed: the builder's cleanup of stale pages of the full book (a first version also removed a page of the 70-page edition: put back; the final version is limited to rc2-150); security's yes covered the 23b exception, not this cleanup, so it is put to security in a letter (developer__074). The PDF checked was 03:16 (plan 03:12), disclosed. The work step reaches dev with the closing push.",
+   "at": "2026-11-05T03:20:40Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them, none used; it scanned all 115 pages itself). Clean: no address off the two hosts in any attribute, no script but the two, no on* attribute; 23b's fifteen articles only as text, no newsroom href; editions.json copies identical; the cleanup limited to rc2-150 and removed only the page of Appendix A (rc2-70/15-principles.html still exists; dry runs remove nothing); both tests ok; mail numbers match; 072's claims about the other readers hold; cmp and times clean. Notes: the cleanup change itself had not been read by security (put to security in developer__074); the one extra figure line (102 against 101) with the added front page is not explained in the mail; residual: the cleanup's unlink runs just before the copy.",
+   "at": "2026-11-05T03:21:45Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-05T03:21:45Z",
+ "outcome": "ok"
 }
