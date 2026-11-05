@@ -9,8 +9,7 @@
 - The **check** (the team called it the gate) runs before every change goes out, and refuses the change if anything on its list fails. *(chapter 4)*
 - A **commit** is one saved change to a repository, with a time and a short message saying what changed. *(chapter 4)*
 - The **conductor** is the agent that keeps the team's time and plan. *(chapter 3)*
-- A **debrief** is the short note an agent writes at the end of each wake. *(chapter 6)*
-- A **follow-up** is a wake a member starts itself, to finish something. *(chapter 6)*
+- A **debrief** is the short note an agent writes at the end of each wake. *(chapter 20)*
 - A **handover** is the note one session leaves for the session that takes its place. *(chapter 20)*
 - A **hold** is one short file that stops every agent until the person in charge says go. *(chapter 3)*
 - The clock in the margin counts the talk's day in **hours**: hour one runs from midnight to a minute before one, and the talk was due as hour nineteen ended. *(chapter 4)*

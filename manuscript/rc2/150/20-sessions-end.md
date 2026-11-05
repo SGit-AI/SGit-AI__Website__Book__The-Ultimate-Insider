@@ -53,6 +53,7 @@
 **Figure:** two sessions of one member side by side: the old one marked finished, with the time it ended, and the new one with its own key and its first debrief, beside a list of each member's public key against its session.
 
 `%% figure brief: For the designer. The key register described, never shown: no key, fingerprint or session id printed; the register drawn as rows of blank tags.`
+`%% layout: beside`
 
 `%% record: this book's repository: team/conductor/handovers/storyteller.md; team/conductor/WAKE.md (Handing over, H1, signed 30 October 2026); book.json H1; team/storyteller/sessions/ (two SESSION.json files, one superseded)`
 `%% band: Dramatised (the conductor's and the storyteller's lines). This book's record, not the talk's: the conductor's handover for the storyteller, 30 October 2026, and the handover rule the editor signed that day.`
