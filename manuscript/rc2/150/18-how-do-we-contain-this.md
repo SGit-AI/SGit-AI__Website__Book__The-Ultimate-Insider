@@ -132,9 +132,9 @@
 
 `%% record: team/security/ROLE.md at 298be4e (proposed) timeline/interviews/security.md this repository: team/security/`
 
-**Security** *(at the table)*: I read what the others write, and I report. I do not fix. That is the job the first factory left empty.
-
 **Figure:** this book's team at the table, the same drawing as the first factory's, with security's chair filled.
+
+**Security** *(at the table)*: I read what the others write, and I report. I do not fix. That is the job the first factory left empty.
 
 `%% record: this book's repository: team/security/ROLE.md, team/security/key.json; comms/mail/mailroom/writer/security__001 to 007 (its reads of this book's chapters)`
 `%% band: Dramatised (security's line). This book's team, from its own repository: the second factory's record, not the talk's.`
