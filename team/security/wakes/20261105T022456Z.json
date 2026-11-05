@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "23b exception cleared to run (075); OS1 shot names for SHOT_CLEARED (076); 93's title checked; hour's changes, LAB 74 and strip-10-07 clear.",
    "at": "2026-11-05T02:27:34Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "All added lines read; no key, token, link or contact detail, attack shape, em-dash, religious word or Cold-Read item; 076 names only the masked abp-review copy; gate, comms and scope clean.",
+   "at": "2026-11-05T02:28:19Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "as-planned",
+   "comment": "075 and 076 sent as planned; 93 checked; 97193d69 holds only comms, debrief, status and wake files.",
+   "at": "2026-11-05T02:28:36Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-05T02:28:36Z",
+ "outcome": "ok"
 }
