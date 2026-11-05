@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Quiet: board note on the page-two copies, status, debrief.",
    "at": "2026-11-05T13:28:46Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "Board note, debrief, status and wake record clean; gate and scope clean.",
+   "at": "2026-11-05T13:29:31Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (conductor brief); replaces security's own entry, a slip",
+   "model": "claude-haiku-5-5",
+   "verdict": "as-planned",
+   "comment": "fbfc36f4 holds exactly the four planned files; the note matches the debrief; nothing unplanned. The first post_check entry was recorded by security itself, not a sub-agent: a slip, corrected here.",
+   "at": "2026-11-05T13:29:55Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-05T13:29:55Z",
+ "outcome": "ok"
 }
