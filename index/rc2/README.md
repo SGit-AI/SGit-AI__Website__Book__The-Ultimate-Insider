@@ -227,6 +227,8 @@ The talk team's vaults are named in 10, not cited by path; nothing of them is in
 
 **5 November 2026, about 05:25 UTC: the diff since 04:15 (03 and 21).** Two files, by `git diff --name-only`: 03's wakes-page caption says "a member's wakes" and 21's security hello is re-spaced. No quotation, time, number or commit id added or changed. The researcher's final pass has no fails. Nothing open.
 
+**5 November 2026, about 12:30 UTC: after security's hold (lifted about 11:17).** The full book's text has not changed since 05:13. The final pass has no fails. Security cleared six placed shots by name (`motion__meet-the-team`, `motion__the-building`, `studio-ports__journey`, `talk__slides__three`, `studio`, `ruv-sgit__mandate-and-grant`); all exist here and are the ones the chapters name; the other 69 are not cleared and none is placed. The designer's new spread page prints 00:16, 19:00, 162 and one file, each in the register (C001, C100, C022). Nothing open.
+
 ## The writer's readings, for the editor to keep or drop
 
 **Corrected 3 November 2026, about 09:30 UTC:** until this wake the list took only the notes that stand on a line of their own, and missed four set inside a paragraph (70/02:67, 70/02:97, 70/06:68, 70/11:5). The list now takes every note wherever it stands: thirty in the thirty and the seventy (not twenty-six), seven in the 150's part 1, thirty-seven in all.
