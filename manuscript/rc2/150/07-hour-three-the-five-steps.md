@@ -10,7 +10,7 @@
 
 **Narrator.** By two in the morning the team had a clock and a hold. What it did not have was a rule for what happens inside a wake. In this hour the conductor wrote one, and the first wake to follow it was the wake that wrote it.
 
-**Narrator.** I asked for it not because I expected the agents to misbehave. The rule is the wake's five stages, and within minutes its tool would refuse work until both the plan and its review said go, and the stages were in the wake rules, with a brief for each reviewer.
+**Narrator.** I asked for that rule, and not because I expected the agents to misbehave. The conductor wrote it as the wake's five stages, and within minutes its tool would refuse work until both the plan and its review said go, and the stages were in the wake rules, with a brief for each reviewer.
 
 `%% record: HV1 (signed, brief 38: "can you add them all?"), printed: the newsroom's "not because I expected the agents to misbehave"`
 

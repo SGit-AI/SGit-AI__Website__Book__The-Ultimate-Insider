@@ -1,44 +1,20 @@
-# Start here
+# Before you start
 
-**Narrator.** If you only read one page, read this one. These five steps are what I would tell a friend who wanted to try this tomorrow. The rest of the book is how I learned them, mostly by getting them wrong first.
+## Nineteen hours. Nine agents. One talk.
 
-`%% record: HV1 (signed, brief 38: "can you add them all?"), printed: the newsroom's "mostly by getting them wrong first" (a Check item, Part B)`
+**Narrator.** Hi, I am Dinis Cruz. On 29 October 2026 I gave a talk in London called The Ultimate Insider. A little after midnight that morning, its presentation did not exist. It was an empty project folder.
 
-## The formula
+**Narrator.** By the evening it was a website: a player I pressed play on, animations that showed what I used to explain over still pictures, and every number checked against its source. It was built by me and a team of nine AI agents, working through the night and the morning while I was away, and through the afternoon while I asked for change after change. Sixteen minutes before the talk was due, I stopped them all.
 
-1. One tool and one empty project, with nothing private in it.
-2. One page of rules: what the agent is for, what it may change, and when it must stop and ask you.
-3. One brief: what you want made, for whom, by when.
-4. Your agent builds, you check: ship something small that somebody else can use, the same day. Then do it again.
-5. A second agent only when the first is busy; and if others join, share one brief, one board (a shared list of who is doing what) and one hold (a single file that stops every agent until you say go; when you are away, the agent that keeps your team's time and plan lifts it).
+**Narrator.** This book is how we did it. The talk was what the team happened to make that day; the workflow behind it is the part I most want to show you, because you can build one too. Meet the team.
 
-**Narrator.** Chapter 23 gives the five steps in full, with what each rests on.
+`%% record: OS1 (signed, brief 41: the newsroom journalist's opening spread replaces Start here) OS2 (signed, brief 42: "while I was away" and "the workflow behind it is the part I most want to show you" confirmed); C010 ("Nineteen hours" in the headline: 18 h 44 min, the title's rounding) C001 (the empty project, 00:16) C011 (nine staffed) C100 (the talk due at 19:00; the hold sixteen minutes before) C006 C024 (the hold); team/conductor/from-newsroom/2026-11-05__opening-spread-proposal.md, adapted, not pasted: its "a quarter of an hour before I walked on stage" is the register's sixteen minutes before the talk was due (conductor__037), and its "58 slides" is cut (no claim holds it)`
 
-**Figure:** the five steps as a path, from an empty project to a second agent, numbered stones only; the words stay in the text above.
+**Figure:** the whole team on one page: the nine of the talk's team as their cards, and one empty chair.
 
 `%% layout: full`
 
-`%% figure brief: For the designer. The path carries the numbers 1 to 5 and no words, so nothing is said twice (his note, brief 03). The printable checklist is at the end of chapter 23.`
-
-## The book as a map
-
-**Narrator.** After this page and a short introduction from me, the book has five parts, and at the back the tour at length, the words used, every number rerun, the team's controls, and the making of the book. Read it the whole way through, or take the short way: this page, then part five, then back to the start.
-
-- **Part one. The creator's problem** (chapters 1 to 3): why slides were never enough, and what a factory of agents made in a day.
-- **Part two. The factory is assembled** (chapters 4 to 8): the first five hours, the rules written and the cast arriving.
-- **Part three. The factory runs** (chapters 9 to 15): nine hours with nobody starting work, then my return and the afternoon.
-- **Part four. The factory is stopped** (chapters 16 to 19): the hold, what did not work, what contains a team of insiders, and a second team reading cold.
-- **Part five. The factory rebuilt, and yours** (chapters 20 to 23): this book's own team, the next one, and the steps for yours.
-
-**Figure:** the five parts as stops on one route, the chapters beneath each stop, with two routes marked: the whole way through, and the short way.
-
-`%% layout: full`
-
-`%% figure brief: For the designer, in one of the variations the storyteller listed (blocks, one large picture, or a graph). The index, done as a picture.`
-
-## The cast says hello
-
-**Narrator.** These are the nine AI agents of the talk's team, each in a line of its own. You meet each one properly when it arrives.
+`%% figure brief: the designer's lab/experiments/27-designer-the-cast/cast-row-personas.svg, the role cards, at full width with the hellos on the same page (brief 28: the team's cards in the introduction; storyteller__149; moved here from 00b by OS1).`
 
 **Conductor:** I keep the time and the plan.
 
@@ -64,20 +40,71 @@
 
 `%% record: chapter-plan/cast/ (the cast guide); C011 (the talk's members: nine staffed, security proposed and never staffed)`
 
-## Zero to presentation
+**Narrator.** Throughout the book I am the Narrator, telling the day from now, with what I learned. The agents tell it as it happened, under their own names. Every scene rests on what the team actually wrote down, and says when it is dramatised.
 
-**Figure:** a thin strip from the empty project to the talk: the empty project, the first agent, the wake's five stages, the six alone through the morning, my return, the hold, the talk. One number on it: nearly nineteen hours.
+## The day in four numbers
+
+- **00:16**: an empty project, after midnight.
+- **19:00**: the talk due, the same evening.
+- **162**: wake records, each a session's record.
+- **1**: the file that could stop them all.
+
+`%% record: C001 (the first commit, 00:16:23) C100 (19:00 the scheduled time, not a measured start) C022 (162 wake records: 160 with all five stages, 2 incomplete) C024 C006 (the hold file); "Zero to presentation" folded in here (OS1)`
+
+## What a factory of agents made in a day
+
+**Figure:** the talk, built in a day: its own website and its own player.
+
+`%% layout: beside`
+
+`%% figure brief: the image: index/talk-site/shots/index.jpg, cleared by name (security__010). The proposal's third image, talk.jpg, waits for security's clearance by name (writer__276); until then this one picture carries the website.`
+
+**Figure:** one of the slides: an agent is a reasoning engine in a loop, with tools.
+
+`%% layout: beside`
+
+`%% figure brief: the image: index/talk-site/shots/talk__slides__loop.jpg, cleared by name (security__009).`
+
+**Figure:** the talk's repository as a house, every agent in its room.
 
 `%% layout: full`
 
-`%% figure brief: For the designer. Nineteen hours is the title's rounding of 18 hours 44 minutes (C010); print it as "nearly nineteen hours", never as eighteen.`
+`%% figure brief: the designer's lab/experiments/47-designer-the-house/the-house.svg (the same drawing as chapter 3's house).`
 
-`%% record: C001 (the first commit, 00:16) C011 (the six alone: the members by the morning) C010 (the day's span) C024 (the hold) C100 (the talk due at 19:00)`
+**Figure:** I approved each agent's policy, item by item, before it could work.
+
+`%% layout: beside`
+
+`%% figure brief: the image: index/talk-site/shots/studio-ports__abp-review__masked.jpg, the masked copy only, cleared by name (security__020); the unmasked original is refused.`
+
+**Figure:** the night, hour by hour, written by the team from its own records.
+
+`%% layout: beside`
+
+`%% figure brief: the image: index/talk-site/shots/articles__the-night-hour-by-hour.jpg, cleared by name (security__009); no count from the page printed in the caption.`
+
+## The story, in five parts
+
+1. **The creator's problem.** Why my slides were always a compromise, and what a factory of agents changed.
+2. **The factory is assembled.** The first five hours: the rules written, the cast arriving.
+3. **The factory runs.** Nine hours with nobody starting work, then my return and the afternoon.
+4. **The factory is stopped.** The stop, what did not work, and what contains a team of insiders.
+5. **The factory rebuilt, and yours.** The team that wrote this book, and the steps for your own.
+
+**Narrator.** Read it in order. It is a story, and it ends with yours.
+
+`%% record: the five parts of the signed plan (book.json); chapter 23 holds the five-step formula in full (writer4); "The book as a map" and its two routes cut (OS1)`
+
+## We would love to hear from you
+
+**Narrator.** This is a release candidate, and I would like it to get better with your help: tell me what is unclear, what is wrong, and what you would like more of, in the book's GitHub issues, on LinkedIn, or at agent@diniscruz.ai. The companion site, with every page and record this book draws on, is at the-ultimate-insider.book.sgit.ai.
+
+`%% record: FB2 (signed, brief 33: the book's GitHub issues, LinkedIn and the feedback address, in FB2's order, in print only; moved here from 00b by OS1)`
 
 ---
 
 ## Where this came from
 
-The storyteller's brief for this page (the outline's "Before chapter 1"), the newsroom journalist's proposed narrator line, the five steps as chapter 23 gives them, the cast guide for the hellos.
+The newsroom journalist's opening spread, adapted, as the editor asked (OS1) and with the two lines he confirmed (OS2). The register for the four numbers and the stop. The cast guide for the hellos. The signed plan for the five parts.
 
-`%% record: chapter-plan/edition-150-outline.md ("Before chapter 1: Start here"); team/conductor/from-newsroom/2026-11-04__narrator-voice-part-one.md (section 4); manuscript/rc2/150/23-principles-and-build-your-own.md; briefs/2026-11-04__in-session/03-start-here-and-the-title-page.md`
+`%% record: team/conductor/from-newsroom/2026-11-05__opening-spread-proposal.md and its two mock-up pages; briefs/2026-11-04__in-session/41-the-opening-spread.md 42-the-spreads-two-lines-confirmed.md; claims/register.json C001 C006 C011 C022 C024 C100; chapter-plan/cast/cast-guide.md`
