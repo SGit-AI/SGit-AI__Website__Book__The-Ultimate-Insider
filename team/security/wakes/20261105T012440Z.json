@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled wake",
+ "started": "2026-11-05T01:24:40Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "go",
+   "comment": "Go. Record the 068 gate-off scratch run as done without any authorisation, accepted once, no repeat; review the 066 diff before any real run; C6 outcome-only; the nine 17b lines may print.",
+   "at": "2026-11-05T01:25:38Z"
+  },
+  "pre_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "go",
+   "comment": "Accept the gate-off run once, on the record (disclosed, nothing written or pushed): no hold; C6 outcome only; no guard off again, even in scratch; ask the developer to confirm the scratch file is deleted.",
+   "at": "2026-11-05T01:26:21Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Spread shots cleared, talk.jpg new (072); 23b as text narrowed, diff first, and the gate-off scratch run accepted once and recorded under C6 (073); 17b's nine third lines clear (074); hour's changes and LAB 73 clear.",
+   "at": "2026-11-05T01:27:17Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "Every added line read; C6 and the developer letter say a gate was turned off in scratch with no function names or steps; no key, link, contact detail, em-dash, religious word or Cold-Read item; validate, vault check and scope clean. It saw MCP names, used none.",
+   "at": "2026-11-05T01:28:04Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "as-planned",
+   "comment": "HEAD 3058651d matches the plan: 072, 073 (23b narrowed; the gate-off run accepted once), 074, the C6 entry outcome only.",
+   "at": "2026-11-05T01:28:23Z"
+  }
+ },
+ "closed": "2026-11-05T01:28:23Z",
+ "outcome": "ok"
+}
