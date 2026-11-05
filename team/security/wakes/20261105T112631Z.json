@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Six placed pattern-only shots by name for SHOT_CLEARED, studio.jpg and ruv-sgit__mandate-and-grant.jpg cleared now; the other 69 not cleared; the publisher to remove SHOT_OK (080); C8 entry for the hold and its cause.",
    "at": "2026-11-05T11:31:38Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "Eleven files read; no key, token, session link or contact (a role name only); nothing attack-shaped, no em-dash, religious word or Cold-Read item; no publisher file touched; gate, vault check and scope clean.",
+   "at": "2026-11-05T11:32:36Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "as-planned",
+   "comment": "3132b57e matches the amended plan: 080 with the six names, the C8 entry, board, debrief; the SHOT_OK removal left to the publisher.",
+   "at": "2026-11-05T11:32:58Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-05T11:32:58Z",
+ "outcome": "ok"
 }
