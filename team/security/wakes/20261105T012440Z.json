@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Spread shots cleared, talk.jpg new (072); 23b as text narrowed, diff first, and the gate-off scratch run accepted once and recorded under C6 (073); 17b's nine third lines clear (074); hour's changes and LAB 73 clear.",
    "at": "2026-11-05T01:27:17Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "Every added line read; C6 and the developer letter say a gate was turned off in scratch with no function names or steps; no key, link, contact detail, em-dash, religious word or Cold-Read item; validate, vault check and scope clean. It saw MCP names, used none.",
+   "at": "2026-11-05T01:28:04Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "as-planned",
+   "comment": "HEAD 3058651d matches the plan: 072, 073 (23b narrowed; the gate-off run accepted once), 074, the C6 entry outcome only.",
+   "at": "2026-11-05T01:28:23Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-05T01:28:23Z",
+ "outcome": "ok"
 }
