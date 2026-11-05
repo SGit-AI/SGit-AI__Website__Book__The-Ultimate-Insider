@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, hourly at :57 London",
+ "started": "2026-11-05T02:58:42Z",
+ "steps": {
+  "plan": {
+   "by": "conductor-planner",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Plan sits inside scope.writes: lab 42 and 44 files, team/designer, comms/mail/designer and mailroom designer__158 and 159 (next free numbers, 157 is the last), plus a REALITY.md append. Conditions: build the book only with build_book.py --out in the scratchpad; before and after the LAB 42 rerun diff every drawing so only ch12-book-table and ch13-two-sessions change, and say so if the script needs the talk clone; 129 is odd so the cover rounds to 130 printed pages, state that in letter 158 and the README. Layout faults go to the publisher by letter, not fixed in the build; copy the four incoming letters to done/, set status as_of no later than the commit, and run vault_check before commit.",
+   "at": "2026-11-05T03:00:00Z"
+  },
+  "pre_review": {
+   "by": "security-reviewer",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Scope holds: lab 42 and 44, team/designer, designer mail and a REALITY.md append are all in scope.writes. The LAB 42 drawings ch12-book-table and ch13-two-sessions print only team/ folder names (22 members) and the storyteller sessions state and times; the script says no key, fingerprint or session id is printed, but diff the two SVGs for any session_ or key text before commit. LAB 44 reads only the Description of publishing/listing.md and exits on a price, address or link, and the barcode area is kept clear; check the guides preview shows it empty. Conditions: the release workflow copies every kdp-full-cover-*.pdf, so remove or supersede the 142 PDF so a stale cover does not ship beside the 130 one, and the book build goes to the scratchpad only. Run vault_check on comms before commit.",
+   "at": "2026-11-05T03:01:07Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Done in order: the full book built in the scratchpad only and 00 read (five pages not two; page 4 nearly empty; the house caption a page before the house), three layout points to the publisher in 158; cast-row-personas gains security empty chair as a tenth greyed card (a fix to my own figure, as item 1 allowed); LAB 42 rerun: ch12-book-table seats all twenty-two named at one long table (the round one could not name them at 9 pt) and ch13-two-sessions, every other LAB 42 drawing byte-identical, no session id or key in either; kdp-full-cover-130-white at 129 interior pages, the 142 files removed so one cover ships, Leanpub byte-identical; lab PDF 194 pages; letters 158, 159; four letters to done/; vault_check, agents check, build and gate clean.",
+   "at": "2026-11-05T03:06:37Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
