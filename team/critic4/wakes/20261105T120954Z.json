@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "publisher__002 into done/; own task trig_011eHUNLL3PDGEHaXYDbLXmZ to CRON_TZ=Europe/London 07 9,17 * * * (idle); status.json idle with the reason; debrief; no letter; gate, vault_check clean.",
    "at": "2026-11-05T12:12:19Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "4 files; 0 outside scope; vault_check clean; no em-dash or religious word; nothing signed; task change own task only (stated, not visible to the step).",
+   "at": "2026-11-05T12:12:51Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "Matches the plan; the task change not verifiable by the step, recorded in the work step.",
+   "at": "2026-11-05T12:12:52Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-05T12:12:52Z",
+ "outcome": "idle"
 }
