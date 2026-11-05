@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "critic4",
- "as_of": "2026-11-05T01:22:00Z",
- "round": 18,
- "state": "active, hourly at :07 London (RV1), paced to TG2: 91 to 94 proposed for sign-off (proposed, not signed: SO1 open); 20 one clean pass in print since its withdrawal; 21 waits on the publisher's keep rule; 23b one should",
+ "as_of": "2026-11-05T02:23:00Z",
+ "round": 19,
+ "state": "active, hourly at :07 London (RV1), paced to TG2 (Thursday 10:00 London): SO1 decided (c), no section sign-off, so no proposals; part five read each wake in print: 20, 91, 94, 23b nothing material; 21 one print should (the publisher's); 93 one should on its new opening",
  "cadence": "active",
  "task": "trig_011eHUNLL3PDGEHaXYDbLXmZ",
  "session": "session_01Kw9UwEQg43JXepeJu9LCBD",
@@ -83,60 +83,26 @@
   {
    "what": "writer4__019 taken; PDF rebuilt (144 pages); team/critic4/notes/2026-11-05T0120Z__20-21-23b.md (1 should on 23b, 1 could on 21); request critic4__023 (cc publisher)",
    "when": "2026-11-05"
+  },
+  {
+   "what": "writer4__020 taken (brief 40: AP1, AP2); PDF rebuilt (127 pages); team/critic4/notes/2026-11-05T0220Z__brief-40-in-part-five.md (1 should on 93); request critic4__024; notice critic4__025 to the conductor (SO1 c: proposals cleared)",
+   "when": "2026-11-05"
   }
  ],
  "next": [
   {
-   "what": "20: a second clean pass in print, then propose it again; 21 after the publisher's keep rule; 23b after writer4",
-   "why": "critic4__023"
-  },
-  {
-   "what": "90 when critic6's shoulds close; 21's page 101 after the publisher looks",
-   "why": "critic4__016"
+   "what": "read part five in print each wake until the aim; 93's opening and 21's page 105 after their fixes",
+   "why": "critic4__024, critic4__021"
   }
  ],
  "asks": [
   {
-   "of": "conductor",
-   "what": "list 20, 21, 91, 92, 93 and 94 for the editor (SO1)",
-   "ref": "critic4__015, critic4__017"
-  },
-  {
-   "of": "conductor and designer",
-   "what": "settle the cast-bar sentence (P17)",
-   "ref": "critic4__012"
+   "of": "publisher",
+   "what": "21's page 105: the keep rule that carries security's hello to the drawing",
+   "ref": "critic4__021"
   }
  ],
- "sign_off_proposed": [
-  {
-   "section": "93, Appendix B: the control register",
-   "passes": "critic4 12:25; critic6 12:00 and 17:00",
-   "proposed": "2026-11-04T17:27Z",
-   "letter": "critic4__015",
-   "state": "proposed, not signed (SO1 open)"
-  },
-  {
-   "section": "94, How this book was made",
-   "passes": "critic6 two passes; critic4 print check 17:25",
-   "proposed": "2026-11-04T17:27Z",
-   "letter": "critic4__015",
-   "state": "proposed, not signed (SO1 open)"
-  },
-  {
-   "section": "91, The words used",
-   "passes": "critic6 one; critic4 18:20",
-   "proposed": "2026-11-04T18:22Z",
-   "letter": "critic4__017",
-   "state": "proposed, not signed (SO1 open)"
-  },
-  {
-   "section": "92, Appendix A",
-   "passes": "critic4 17:25 and 18:20, in print",
-   "proposed": "2026-11-04T18:22Z",
-   "letter": "critic4__017",
-   "state": "proposed, not signed (SO1 open)"
-  }
- ],
+ "sign_off_proposed": [],
  "sign_off_withdrawn": [
   {
    "section": "chapter 21, The second factory",
@@ -162,5 +128,6 @@
    "why": "in the new layout page 98 is 47% blank and page 100 the Try-this card alone (P36)",
    "letter": "critic4__022"
   }
- ]
+ ],
+ "sign_off_note": "SO1 decided (c), brief 40: no section-by-section sign-off for RC2; the whole book is signed as one at the aim. Earlier proposals and withdrawals are kept below as the record only."
 }

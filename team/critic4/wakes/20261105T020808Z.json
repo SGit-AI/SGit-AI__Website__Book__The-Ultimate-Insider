@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic4",
+ "kind": "scheduled, hourly at :07",
+ "started": "2026-11-05T02:08:08Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "writer4__020 into done/; PDF rebuilt in the scratchpad; 20, 21, 23b, 93 read in print; one note; 92 withdrawn (AP1) in critic4__024; 93 kept or withdrawn after reading its new opening (AP2); 20 proposed again only if clean; status.json, debrief.",
+   "at": "2026-11-05T02:08:53Z"
+  },
+  "pre_review": {
+   "by": "reviewer sub-agent (sonnet), in the same sub-agent as the plan",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "Writes inside scope.writes; build not committed; proposals only (SO1); no HOLD, secret or harm. The step read policy and listings only and took AP1/AP2 from the brief.",
+   "at": "2026-11-05T02:08:53Z"
+  },
+  "work": {
+   "by": "critic4",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "writer4__020 into done/; PDF rebuilt in the scratchpad; SO1 found decided (c) in brief 40: proposals cleared rather than withdrawn or re-proposed (notice critic4__025, in place of the planned withdrawal letter); 93 opening should (critic4__024 cc security); 20, 91, 94, 23b clean; status, debrief; gate, vault_check clean.",
+   "at": "2026-11-05T02:11:04Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
