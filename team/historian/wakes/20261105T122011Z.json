@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-05T12:20:11Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "No HOLD file exists and no manuscript commit since 05:30, so a quiet wake fits; keep the appended line dated and run vault_check before commit. Tool: Bash.",
+   "at": "2026-11-05T12:20:47Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Plan within team/historian/**; keep the appended line dated, vault_check on comms, free of keys, em-dashes and religious words. Tool: Read.",
+   "at": "2026-11-05T12:21:05Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "All four files under team/historian/; no secrets, keys, model names, em-dashes, religious words or Cold-Read content. Tool: Bash.",
+   "at": "2026-11-05T12:21:37Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "One dated line, a debrief, a status touch, no letter.",
+   "at": "2026-11-05T12:21:37Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "Quiet wake after the hold: nothing in the manuscript changed",
+   "at": "2026-11-05T12:21:37Z"
+  }
+ },
+ "closed": "2026-11-05T12:21:37Z",
+ "outcome": "ok"
+}
