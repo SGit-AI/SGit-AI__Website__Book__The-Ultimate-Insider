@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Done in order: LAB 75 page one gains the narrator note after the closing line (cards tightened, within 200 mm), page two keeps 175.1 to 200 mm clear for the invitation as text (script stops below 24 mm), shots cropped from the top, make_spread.py asks edition.shot_allowed and requires SHOT_CLEARED before embedding (security 006), 00 read only; LAB 42 ch2-wakes-page headed as deck s and C022 out of it and ch2-member-page, other LAB 42 drawings byte-identical (ruv-sgit 085); PQ2 buyer-read of the full cover sent as proposals in 161 (blurb 234 words, no author line), no cover change; lab PDF 199 pages; letters 161, 162; five letters to done/; vault_check, agents check, build and gate clean.",
    "at": "2026-11-05T05:03:34Z"
+  },
+  "post_review": {
+   "by": "security-reviewer",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "make_spread.py calls edition.shot_allowed and requires SHOT_CLEARED before embedding, and refuses by exit; it only reads publishing/ and writes only its two SVGs. Visible text of both LAB 75 SVGs has no at sign, address, URL, id or hash once href data is stripped, and page two embeds exactly the five cleared shots (hashes match the files, masked one included). C022 is gone from both LAB 42 drawings, manuscript/ and publishing/ are untouched, no em-dashes or religious words in new prose, all files in designer scope, and letters 161, 162 and status as_of (05:01Z) are before the commit (05:03:35Z).",
+   "at": "2026-11-05T05:04:12Z"
+  },
+  "post_check": {
+   "by": "conductor-reviewer",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "All four items went to plan: narrator note and the invitation room on LAB 75, shot_allowed check before embedding, LAB 42 wakes heading and C022 removal, and the PQ2 buyer-read. The blurb was proposed in letter 161 (234 words, no author line) and no cover, 00, manuscript or publishing file changed. The REALITY.md append, the debrief and status.json match the work, and as_of 05:01Z and letter Dates 05:01:00 are before the commit at 05:03:35.",
+   "at": "2026-11-05T05:04:41Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-05T05:04:55Z",
+ "outcome": "ok"
 }
