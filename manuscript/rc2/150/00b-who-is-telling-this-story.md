@@ -1,8 +1,6 @@
 # Who is telling this story
 
-**Narrator.** I am the narrator of this book, and I should explain what that means, because it is not the usual arrangement.
-
-**Narrator.** On 29 October 2026 I gave a talk called The Ultimate Insider, at hack::soho, in IOActive's London office. Its presentation was built that same day, from an empty project folder a little after midnight to the stage that evening, by a team of nine AI agents and me. Every one of them left a record of what it did: its plan, its work, its checks, its notes to the others. This book is built on that record.
+**Narrator.** The opening pages said who I am and who the team was. The talk was at hack::soho, in IOActive's London office, and every one of us left a record of what it did: its plan, its work, its checks, its notes to the others. This book is built on that record.
 
 `%% record: C001 (the first commit, 00:16:23) C011 (nine staffed) C100 (the talk in London); BRIEF.md at 298be4e (the event text: hack::soho, IOActive's London office; researcher__012); C100's note sources the venue to a9c0b49 (the talk as given, added after the day), the event named once (conductor__044)`
 
@@ -10,11 +8,7 @@
 
 `%% record: TH1 (signed, brief 33: the thesis up front); manuscript/rc2/150/18-how-do-we-contain-this.md line 5 (the thesis in the book's own words)`
 
-**Figure:** the whole team on one page: the nine of the talk's team as their cards, and one empty chair.
-
-`%% layout: full`
-
-`%% figure brief: the designer's lab/experiments/27-designer-the-cast/cast-row-personas.svg, 164 by 78 mm, at full width with this paragraph on its page (designer__140): the editor's word that the team's cards come much sooner, even in the introduction (briefs/2026-11-04__in-session/28-the-team-cards-sooner.md; conductor__036). It moves here from chapter 6, which points back (storyteller__149); chapter 2's greyed row is cut (critic1__014).`
+`%% record: the role cards moved to the opening pages (OS1; brief 28 met there)`
 
 **Narrator.** But a record is not a story. So the book has two kinds of voice. The agents tell the day as it happened, in the present tense, each one as the character the record shows: dev, fast and practical; the conductor on the minute; the researcher who will not move without a source. Their scenes are dramatised, and they say so. I tell it from now, looking back. I know how the day ended, which parts worked, and which only looked as if they did. So when I speak, I will tell you what I think it meant, where it came from, and what I would do with it if I were you.
 
@@ -46,9 +40,9 @@
 
 `%% figure brief: The librarian's screenshot of the book's site front page, book-site-front.jpg, cleared by security by that name (security__023); at the editor's ask (brief 04).`
 
-**Narrator.** So let us go through it together. I will show you what we did, and why, and you can take from it what works for you. This is a release candidate, and I would like it to get better with your help: tell me what is unclear, what is wrong, and what you would like more of, in the book's GitHub issues, on LinkedIn, or at agent@diniscruz.ai. The companion site, with every page and record this book draws on, is at the-ultimate-insider.book.sgit.ai.
+**Narrator.** So let us go through it together. I will show you what we did, and why, and you can take from it what works for you.
 
-`%% record: FB2 (signed, brief 33: the book's GitHub issues, LinkedIn and the feedback address, printed here and in the last word, never in the team's mail); the newsroom's pass 1 ("Who is telling this story"), close to its words`
+`%% record: FB2's channels moved to the opening pages (OS1)`
 
 `%% for the editor: the paragraphs are the newsroom journalist's section 3, close to its words, adapted (no "Where this came from" now that it is not printed, WC1; the promise line pointed at chapter 13), with the journey line from your brief 04; yours to keep or change.`
 
@@ -56,6 +50,6 @@
 
 ## Where this came from
 
-The newsroom journalist's proposed page, section 3, at the editor's word; the storyteller's brief for this page; the editor's brief 04 for the journey line, the feedback and the companion site.
+The newsroom journalist's proposed page, section 3, at the editor's word; the storyteller's brief for this page; the editor's brief 04 for the journey line and the companion site.
 
 `%% record: team/conductor/from-newsroom/2026-11-04__narrator-voice-part-one.md (section 3); chapter-plan/edition-150-outline.md ("Who is telling this story"); briefs/2026-11-04__in-session/04-introduce-the-narrator-and-chapter-1.md; comms/mail/mailroom/writer/conductor__018-the-newsrooms-rewrites-for-part-one.eml`
