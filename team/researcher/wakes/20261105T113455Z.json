@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-05T11:34:55Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Plan in scope; say plainly the Thursday-before-10:00 run did not happen (hold); report the post-edit rerun order; reviewer used Read and Bash, none refused",
+   "at": "2026-11-05T11:36:37Z"
+  },
+  "pre_review": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "In scope; state plainly that the Thursday-before-10:00 run did not happen (hold) and the order of the reruns; reviewer used Read and Bash, none refused",
+   "at": "2026-11-05T11:37:35Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "First wake after the hold: script FAILS 0 before and after my records; no new figure; 023 filed; records state the missed Thursday run",
+   "at": "2026-11-05T11:37:56Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
