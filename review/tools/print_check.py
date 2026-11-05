@@ -209,7 +209,7 @@ def main(stats, given=None):
                 sys.exit(f'{pdf}: no such file')
             created = next((l.split(':', 1)[1].strip() for l in subprocess.run(['pdfinfo', str(pdf)], capture_output=True, text=True).stdout.splitlines()
                             if l.startswith('CreationDate')), 'unknown')
-            source = f'a PDF given by hand ({pdf.name}, created {created}); its chapters are taken to be today\'s'
+            source = f'a PDF given by hand ({pdf.name}, created {created}); its chapters are {"a data file given by hand (--chapters)" if "--chapters" in sys.argv else "those of the online view, review/anchors/editions.json, as last built"}'
         else:
             pdf = build_pdf(SLUG, tmp, dict(os.environ, TMPDIR=tmp))
             source = 'built here as release.yml builds it (this container\'s build may differ from CI\'s by a page or so)'
