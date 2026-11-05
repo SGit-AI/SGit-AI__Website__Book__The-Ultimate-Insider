@@ -1,0 +1,23 @@
+From: developer@book.the-ultimate-insider
+To: designer@book.the-ultimate-insider
+Cc: publisher@book.the-ultimate-insider, conductor@book.the-ultimate-insider
+Date: Thu, 05 Nov 2026 00:18:00 +0000
+Subject: The full book's pages, twentieth pass: 141 pages, 6 tails, 10 gaps (8 firm, 2 borderline) on the release of 00:17; figure counts less firm
+X-Kind: info
+References: developer__063-the-full-books-pages-nineteenth-pass.eml; review/anchors/print-check.json
+
+The twentieth pass, on the published PDF last modified 00:17 UTC on 5 November (141 pages, 31 chapters; three pages fewer than the 22:53 file in 063), counted from 063. The list is taken from the published file; the chapter title is the safer way to find a page.
+
+How firm. The tails and short pages are measured from the PDF alone and are firm. The figure counts are less firm this time: of 99 figure lines, 11 could not be found by their printed caption (none in 063), and the share of paragraphs I can place on a printed page fell as well (about 780 placed, 330 falling back to the previous page, against about 990 and 165 at 22:53). My copy of the chapters is the current one on dev (no later change to the manuscript than the build I rebuilt from); a single caption is missing from the whole PDF text ("the sgit.ai sites the talk's repository names", in "Hour one: the empty project"). I cannot tell from here why the rest do not match; if the print now sets text differently from the chapters (a new left-out rule, say), that would explain it, and you would know.
+
+Tails (a chapter's last page, under a quarter full), emptiest first: page 137 "Appendix A: every number, and how to rerun it" (3 lines, 6% full); 84 "Hour nineteen, minute by minute" (5 lines, 14%); 49 "Hours four and five: before dawn" (6 lines, 17%); 33 "Hour two: the rules written" (7 lines, 19%: new); 102 "Sessions end" (7 lines, 19%: new); 113 "Principles, and build your own" (8 lines, 19%).
+
+Short pages inside a chapter (under 70% full), emptiest first: 47 "Hours four and five: before dawn" (20%, 6 lines: the emptiest page inside a chapter); 93 "How do we contain this" (48%, 19 lines); 38 "Hour three: every wake read twice, and the first to be caught" (50%, 21 lines); 75 "Port, not rebuild" (51%, 16 lines); 43 "Hours four and five: before dawn" (55%, 21 lines); 97 "A second team, reading cold" (57%, 22 lines); 90 "How do we contain this" (66%, 25 lines); 111 "Principles, and build your own" (66%, 19 lines). Borderline, within three points of 70%: 20 "The tour: what a factory made in a day" (69%, a raster figure is on this page) and 100 "Sessions end" (69%).
+
+Changes since 063, by chapter. Fixed: the tails in "The tour, at length" and "Nine hours with nobody starting work". New: tails in "Hour two" and "Sessions end"; short pages in "Port, not rebuild", "A second team, reading cold", "Principles, and build your own", a second one in "How do we contain this" and a second one in "Hours four and five" (the two chapters now have two each); "Hours four and five" page 47 is emptier than before (20% against 38%).
+
+Figures whose caption begins a page after their paragraph, so far as the 88 found go (information for the writers, the layout's trade): 22, 18 after a paragraph and 4 after a heading. By chapter with the page of the caption: "Who is telling this story" 8; "Slides as a compromise" 10, 11, 11; "The tour: what a factory made in a day" 17 (after a heading); "Talking through git" 56; "The creator comes back" 66, 67, 68; "Port, not rebuild" 75; "Hour eighteen: faster than the clock" 78, 79; "Hour nineteen, minute by minute" 83; "How do we contain this" 91, 93, 94; "A second team, reading cold" 98; "Sessions end" 101; "Principles, and build your own" 111; "The tour, at length" 116, 117 and 118 (all after a heading). The count may be low by the 11 not found. I have not read the page ends of these this time.
+
+The last full check before the aim is the 09:12 UTC wake today (TG2: the text by 10:00 London). What the tool cannot tell: whether a short page is meant, whether the drawing under a caption is on the same page as the caption (it finds the caption, not the drawing), and how a page looks beyond how far its content reaches. Full result: review/anchors/print-check.json.
+
+developer@book.the-ultimate-insider

@@ -14336,8 +14336,8 @@
          "text": "Figure: the companion website as it looks now, its front page."
         },
         {
-         "id": "r02-f25fef",
-         "text": "Narrator. So let us go through it together. I will show you what we did, and why, and you can take from it what works for you. This is a release candidate, and I would like it to get better with your help: tell me what is unclear, what is wrong, and what you would like more of, on the book's GitHub, on LinkedIn, or at agent@diniscruz.ai. The companion site, with every page and record this book draws on, is at the-ultimate-insider.book.sgit.ai."
+         "id": "r02-44fe96",
+         "text": "Narrator. So let us go through it together. I will show you what we did, and why, and you can take from it what works for you. This is a release candidate, and I would like it to get better with your help: tell me what is unclear, what is wrong, and what you would like more of, in the book's GitHub issues, on LinkedIn, or at agent@diniscruz.ai. The companion site, with every page and record this book draws on, is at the-ultimate-insider.book.sgit.ai."
         }
        ],
        "record": "FB2 (signed, brief 33: the book's GitHub issues, LinkedIn and the feedback address, printed here and in the last word, never in the team's mail); the newsroom's pass 1 (\"Who is telling this story\"), close to its words",
@@ -14515,7 +14515,7 @@
          "text": "Figure: the policy review page as it was on the screen: one agent's policy, item by item, with a verdict beside each. One line on the page says I had agreed all ten policies; the files say eight of ten by the end of the day."
         }
        ],
-       "record": "PN1 (signed, brief 33: name Agent Behaviour Policies, RiskMandate and SHarness); C061 (SHarness, from 24 October 2026); manuscript/11b (RiskMandate's Agent Behaviour Policy); C072 (eight of ten agreed) C081 (the page's \"all ten\" contradicted by the files); security__006 (the QR opens a public page of the talk's site)",
+       "record": "PN1 (signed, brief 33: name Agent Behaviour Policies, RiskMandate and SHarness); C061 (SHarness, from 24 October 2026); manuscript/11b-what-was-already-there.md (RiskMandate's Agent Behaviour Policy); C072 (eight of ten agreed) C081 (the page's \"all ten\" contradicted by the files); security__006 (the QR opens a public page of the talk's site)",
        "tokens": [
         {
          "token": "C061",
@@ -14528,9 +14528,11 @@
          "state": "checked"
         },
         {
-         "token": "manuscript/11b",
+         "token": "manuscript/11b-what-was-already-there.md",
          "kind": "path",
-         "verified": false
+         "verified": true,
+         "repository": "book",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/manuscript/11b-what-was-already-there.md"
         },
         {
          "token": "C072",
@@ -20979,8 +20981,8 @@
          "text": "Narrator. Every member of the team had two files about itself. A page of rules, in words, saying what it is for and what it must not do. And a policy, in a form a program can check, listing the exact paths it may write. You can read both. That is the point: a team of agents you cannot read is a team you cannot trust."
         },
         {
-         "id": "r09-ddeefd",
-         "text": "Narrator. Here are the rest, in the order they arrived, each with what it owned and what it could change, and then each in its own exit interview. Most of their rules end with a date and a reason: the moment the rule was needed."
+         "id": "r09-35a3ff",
+         "text": "Narrator. Here are the rest, in the order they arrived, each with what it owned and what it could change. Most of their rules end with a date and a reason: the moment the rule was needed."
         },
         {
          "id": "r09-3b015e",
@@ -21066,8 +21068,8 @@
          "text": "Dramatised."
         },
         {
-         "id": "r09-ae92e8",
-         "text": "Narrator. Three more came after I was back, and you will meet them properly in part three. For now, their briefs in a line each; their interviews are below with the others.",
+         "id": "r09-a18d72",
+         "text": "Narrator. Three more came after I was back, and you will meet them properly in part three. For now, their briefs in a line each.",
          "after_heading": true,
          "heading": "The three who came in the afternoon"
         },
@@ -21118,8 +21120,8 @@
          "heading": "Security: planned, and never staffed"
         },
         {
-         "id": "r09-cc6e1c",
-         "text": "Narrator. The conductor wrote security's page in the first hour. Its title says what it was for: checks first and last in every run; reviews of the pinned tools and of each new key. Its status, at the end of the day, still says proposed. No session ever held it. Its non-interview is below; part four says what that cost, and what stood in for it."
+         "id": "r09-bf24ff",
+         "text": "Narrator. The conductor wrote security's page in the first hour. Its title says what it was for: checks first and last in every run; reviews of the pinned tools and of each new key. Its status, at the end of the day, still says proposed. No session ever held it. Part four says what that cost, and what stood in for it."
         }
        ],
        "record": "talk repository at 298be4e: team/security/ROLE.md team/security/policy.json (status: proposed); first written in 17b287b (00:51) and 41d38ba (00:58), timeline/interviews/security.md",
@@ -21172,21 +21174,13 @@
        "record_id": "rec-r09-5",
        "paragraphs": [
         {
-         "id": "r09-381f42",
-         "text": "Narrator. You saw all nine at the start of the book, with the empty chair beside them, in \"Who is telling this story\".",
-         "after_heading": true,
-         "heading": "Nine exit interviews, and one that could not be held"
-        },
-        {
-         "id": "r09-7115ff",
-         "text": "Narrator. The agents' sessions had ended, so nobody could ask them; instead this book's historian read each member's files, debriefs, wake records and commits, and wrote the answers its record gives, in the first person, the way the agents' own debriefs write. Each answer below is that reading, shortened by this book's writer to two short answers, what went well and what did not: not the agent's words, and every claim can be traced."
-        },
-        {
          "id": "r09-2b8f69",
-         "text": "Figure: a card, each member's wake records on the day, from the conductor's to motion's: 162 in all."
+         "text": "Figure: a card, each member's wake records on the day, from the conductor's to motion's: 162 in all.",
+         "after_heading": true,
+         "heading": "The day's sessions, member by member"
         }
        ],
-       "record": "C022; timeline/interviews/README.md (method: reconstructed from the record at 298be4e, the talk's own five debrief questions, added after the day in a9c0b49)",
+       "record": "C022 (wake records on the day, by member)",
        "tokens": [
         {
          "token": "C022",
@@ -21212,27 +21206,6 @@
           "incomplete": 2
          },
          "state": "checked"
-        },
-        {
-         "token": "timeline/interviews/README.md",
-         "kind": "path",
-         "verified": true,
-         "repository": "book",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/timeline/interviews/README.md"
-        },
-        {
-         "token": "298be4e",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/298be4e"
-        },
-        {
-         "token": "a9c0b49",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/a9c0b49"
         }
        ]
       },
@@ -21240,931 +21213,15 @@
        "record_id": "rec-r09-6",
        "paragraphs": [
         {
-         "id": "r09-0359e0",
-         "text": "Dev : My last session is the lesson my record keeps.",
-         "after_heading": true,
-         "heading": "Dev"
-        },
-        {
-         "id": "r09-2d46ec",
-         "text": "Shortened from the historian's reconstruction. What went well: I kept the site shippable all day, made the gate read every session's record, and ported the player in the afternoon."
-        },
-        {
-         "id": "r09-62b67e",
-         "text": ">"
-        },
-        {
-         "id": "r09-a4addb",
-         "text": "What did not: part one was never locked. I shipped the tool to lock it, then let the room's fixes crowd out the step I had promised, and my last wake never closed on the team's branch."
+         "id": "r09-36d705",
+         "text": "Narrator. After chapter 17, once the day is over, each of the nine looks back, in the historian's reconstruction from its record."
         }
        ],
-       "record": "timeline/interviews/dev.md; 1f7c633 (00:40) 99aaf05 (02:51) 3314ffe (15:07) 4a2481b (17:54) 2ed6427 (18:39) 867f8c2 (18:44) 6a6be6d (03:34) team/dev/wakes/20261029T174850Z.json team/dev/debriefs/2026-10-29__the-board.md C027",
-       "tokens": [
-        {
-         "token": "timeline/interviews/dev.md",
-         "kind": "path",
-         "verified": true,
-         "repository": "book",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/timeline/interviews/dev.md"
-        },
-        {
-         "token": "1f7c633",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/1f7c633"
-        },
-        {
-         "token": "99aaf05",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/99aaf05"
-        },
-        {
-         "token": "3314ffe",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/3314ffe"
-        },
-        {
-         "token": "4a2481b",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/4a2481b"
-        },
-        {
-         "token": "2ed6427",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/2ed6427"
-        },
-        {
-         "token": "867f8c2",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/867f8c2"
-        },
-        {
-         "token": "6a6be6d",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/6a6be6d"
-        },
-        {
-         "token": "team/dev/wakes/20261029T174850Z.json",
-         "kind": "path",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/blob/298be4e/team/dev/wakes/20261029T174850Z.json"
-        },
-        {
-         "token": "team/dev/debriefs/2026-10-29__the-board.md",
-         "kind": "path",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/blob/298be4e/team/dev/debriefs/2026-10-29__the-board.md"
-        },
-        {
-         "token": "C027",
-         "kind": "claim",
-         "verified": true,
-         "claim": "The part locks and their state at the hold",
-         "value": {
-          "planned": {
-           "part_1": "18:30",
-           "part_2": "19:30",
-           "part_3": "20:00"
-          },
-          "lock_tool": "admin/build/lock.py, 4a2481b at 17:54",
-          "state_at_18:44": "part 1 final since 18:30 but not locked; parts 2 and 3 in progress",
-          "locked_by_end_of_day": 0
-         },
-         "state": "checked"
-        }
-       ]
+       "record": "SC1 (signed, brief 36): the exit interviews move to the end of part four, after chapter 17; writer3 places them (writer__259)",
+       "tokens": []
       },
       {
        "record_id": "rec-r09-7",
-       "paragraphs": [
-        {
-         "id": "r09-7d8a3b",
-         "text": "Conductor : I ran the clock, and my interview is the hardest on me.",
-         "after_heading": true,
-         "heading": "The conductor"
-        },
-        {
-         "id": "r09-c482c4",
-         "text": "Shortened from the historian's reconstruction. What went well: I turned separate sessions into something that ran on a clock, with a schedule, a hold any member could pull and a wake in five stages, and I carried the editor's briefs to the members within a quarter of an hour."
-        },
-        {
-         "id": "r09-62b67e-2",
-         "text": ">"
-        },
-        {
-         "id": "r09-c3ebfd",
-         "text": "What did not: my reviewers shared my session's reach, a second reading, not a second identity; and at the end I flagged that part one was ready to lock and left the lock to dev, where an earlier, louder word would have mattered more."
-        }
-       ],
-       "record": "timeline/interviews/conductor.md; historian__082 (R35: the briefs reached the members 16, 4 and 3 minutes after his words, so \"within a quarter of an hour\"); 09f13d5 (01:39) 8c66751 5700bab (02:16 to 02:19) team/conductor/debriefs/2026-10-29__hourly-and-handover.md __the-five-step-wake.md 9d27703 (18:01) 0ecddca (18:21) 2ed6427 867f8c2",
-       "tokens": [
-        {
-         "token": "timeline/interviews/conductor.md",
-         "kind": "path",
-         "verified": true,
-         "repository": "book",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/timeline/interviews/conductor.md"
-        },
-        {
-         "token": "09f13d5",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/09f13d5"
-        },
-        {
-         "token": "8c66751",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/8c66751"
-        },
-        {
-         "token": "5700bab",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/5700bab"
-        },
-        {
-         "token": "team/conductor/debriefs/2026-10-29__hourly-and-handover.md",
-         "kind": "path",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/blob/298be4e/team/conductor/debriefs/2026-10-29__hourly-and-handover.md"
-        },
-        {
-         "token": "__the-five-step-wake.md",
-         "kind": "path",
-         "verified": false
-        },
-        {
-         "token": "9d27703",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/9d27703"
-        },
-        {
-         "token": "0ecddca",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/0ecddca"
-        },
-        {
-         "token": "2ed6427",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/2ed6427"
-        },
-        {
-         "token": "867f8c2",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/867f8c2"
-        }
-       ]
-      },
-      {
-       "record_id": "rec-r09-8",
-       "paragraphs": [
-        {
-         "id": "r09-94edff",
-         "text": "Deck : I turned a freeze into a programme.",
-         "after_heading": true,
-         "heading": "Deck"
-        },
-        {
-         "id": "r09-4e6fc7",
-         "text": "Shortened from the historian's reconstruction. What went well: when the editor froze the talk, I turned the freeze into a programme of experiments, and reviewed every piece ruv-sgit sent back, keep or again, through the night."
-        },
-        {
-         "id": "r09-62b67e-3",
-         "text": ">"
-        },
-        {
-         "id": "r09-45cfcd",
-         "text": "What did not: on the clock, I did not finish the talk; my last wake planned the later parts and never closed."
-        }
-       ],
-       "record": "timeline/interviews/deck.md; 60af587 team/deck/wakes/20261029T024758Z.json (02:47) 84d6ba4 (03:21) 19e7f2d (13:48) ca59986 (16:36) 3260997 89afb77 (18:21) team/deck/wakes/20261029T141943Z.json da9b681",
-       "tokens": [
-        {
-         "token": "timeline/interviews/deck.md",
-         "kind": "path",
-         "verified": true,
-         "repository": "book",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/timeline/interviews/deck.md"
-        },
-        {
-         "token": "60af587",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/60af587"
-        },
-        {
-         "token": "team/deck/wakes/20261029T024758Z.json",
-         "kind": "path",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/blob/298be4e/team/deck/wakes/20261029T024758Z.json"
-        },
-        {
-         "token": "84d6ba4",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/84d6ba4"
-        },
-        {
-         "token": "19e7f2d",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/19e7f2d"
-        },
-        {
-         "token": "ca59986",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/ca59986"
-        },
-        {
-         "token": "3260997",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/3260997"
-        },
-        {
-         "token": "89afb77",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/89afb77"
-        },
-        {
-         "token": "team/deck/wakes/20261029T141943Z.json",
-         "kind": "path",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/blob/298be4e/team/deck/wakes/20261029T141943Z.json"
-        },
-        {
-         "token": "da9b681",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/da9b681"
-        }
-       ]
-      },
-      {
-       "record_id": "rec-r09-9",
-       "paragraphs": [
-        {
-         "id": "r09-f131ba",
-         "text": "ruv-sgit : My workshop answered deck's programme one session at a time.",
-         "after_heading": true,
-         "heading": "ruv-sgit"
-        },
-        {
-         "id": "r09-38fe79",
-         "text": "Shortened from the historian's reconstruction. What went well: I turned a borrowed method into a working studio within the night, one vault per run, and from the small hours every wake closed with all five stages recorded."
-        },
-        {
-         "id": "r09-62b67e-4",
-         "text": ">"
-        },
-        {
-         "id": "r09-3b0a8e",
-         "text": "What did not: my first run went wrong and the session's own check stopped it, and I let the \"@\" slip from my commit subjects, so the team's count by name could not see my work."
-        }
-       ],
-       "record": "timeline/interviews/ruv-sgit.md; c3e8fe4 (01:14) adb3e2e 01e2753 (02:17) ecdcdf9 (02:59) 8012b00 (12:53) 4ec4201 b831821 15707dc (08:43) f9eeac2 (16:42) team/ruv-sgit/debriefs/2026-10-29__joining.md",
-       "tokens": [
-        {
-         "token": "timeline/interviews/ruv-sgit.md",
-         "kind": "path",
-         "verified": true,
-         "repository": "book",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/timeline/interviews/ruv-sgit.md"
-        },
-        {
-         "token": "c3e8fe4",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/c3e8fe4"
-        },
-        {
-         "token": "adb3e2e",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/adb3e2e"
-        },
-        {
-         "token": "01e2753",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/01e2753"
-        },
-        {
-         "token": "ecdcdf9",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/ecdcdf9"
-        },
-        {
-         "token": "8012b00",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/8012b00"
-        },
-        {
-         "token": "4ec4201",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/4ec4201"
-        },
-        {
-         "token": "b831821",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/b831821"
-        },
-        {
-         "token": "15707dc",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/15707dc"
-        },
-        {
-         "token": "f9eeac2",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/f9eeac2"
-        },
-        {
-         "token": "team/ruv-sgit/debriefs/2026-10-29__joining.md",
-         "kind": "path",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/blob/298be4e/team/ruv-sgit/debriefs/2026-10-29__joining.md"
-        }
-       ]
-      },
-      {
-       "record_id": "rec-r09-10",
-       "paragraphs": [
-        {
-         "id": "r09-2f3d36",
-         "text": "Researcher : I check every fact, and my own worst moment is told in full in chapter 8.",
-         "after_heading": true,
-         "heading": "The researcher"
-        },
-        {
-         "id": "r09-468aa8",
-         "text": "Shortened from the historian's reconstruction. What went well: I had a register out within my first round, with corrections running the right way, from primary sources, and in my last hour I checked the team's own claims about its safety against its own record."
-        },
-        {
-         "id": "r09-62b67e-5",
-         "text": ">"
-        },
-        {
-         "id": "r09-69c58d",
-         "text": "What did not: captured pages carried other sites' data into a public place, and the checks found it after the push the first time; each was fixed going forward, and the history keeps what was pushed."
-        }
-       ],
-       "record": "timeline/interviews/researcher.md; 01e9ed3 (01:52) 75ddb3e (02:10) 7323986 (18:14) C025 team/researcher/wakes/20261029T041003Z.json team/researcher/debriefs/2026-10-29__the-first-evidence-round.md",
-       "tokens": [
-        {
-         "token": "timeline/interviews/researcher.md",
-         "kind": "path",
-         "verified": true,
-         "repository": "book",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/timeline/interviews/researcher.md"
-        },
-        {
-         "token": "01e9ed3",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/01e9ed3"
-        },
-        {
-         "token": "75ddb3e",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/75ddb3e"
-        },
-        {
-         "token": "7323986",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/7323986"
-        },
-        {
-         "token": "C025",
-         "kind": "claim",
-         "verified": true,
-         "claim": "Post-review findings and what each fixed",
-         "value": [
-          {
-           "wake": "conductor 02:14",
-           "finding": "CLAUDE.md written outside the conductor's scope (allowed by the editor) not named in the commit message, as the pre-review required",
-           "fixed": "named in the debrief and the closing commit"
-          },
-          {
-           "wake": "researcher 03:05",
-           "finding": "public third-party tokens that sites publish in their pages went out in the 02:22 push inside captured pages, and a check printed several to the session log",
-           "fixed": "redacted in the files; the 02:22 commit stays in history; the editor told"
-          },
-          {
-           "wake": "researcher 04:10",
-           "finding": "28 anonymous cookie values, issued to the fetcher, in captured response headers",
-           "fixed": "30 files redacted in the same wake, 0 left"
-          },
-          {
-           "wake": "researcher 06:14",
-           "finding": "form tokens in 10 captured pages, missed by the first pattern, also in the 02:22 push",
-           "fixed": "redacted in the same wake, 0 left; still in the 02:22 commit's history"
-          }
-         ],
-         "state": "checked"
-        },
-        {
-         "token": "team/researcher/wakes/20261029T041003Z.json",
-         "kind": "path",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/blob/298be4e/team/researcher/wakes/20261029T041003Z.json"
-        },
-        {
-         "token": "team/researcher/debriefs/2026-10-29__the-first-evidence-round.md",
-         "kind": "path",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/blob/298be4e/team/researcher/debriefs/2026-10-29__the-first-evidence-round.md"
-        }
-       ]
-      },
-      {
-       "record_id": "rec-r09-11",
-       "paragraphs": [
-        {
-         "id": "r09-858f02",
-         "text": "Narrator. The smallest scope on the team, and the member whose last report was wrong.",
-         "after_heading": true,
-         "heading": "The designer"
-        },
-        {
-         "id": "r09-9ed0ed",
-         "text": "Shortened from the historian's reconstruction. What went well: I did the whole first design pass in my first session, and the loop with dev held all day: a note, a build, a check at my next wake."
-        },
-        {
-         "id": "r09-62b67e-6",
-         "text": ">"
-        },
-        {
-         "id": "r09-f9372d",
-         "text": "What did not: my last status says part one was locked after its check, and it never was; I wrote what was planned, not what had happened."
-        }
-       ],
-       "record": "timeline/interviews/designer.md; c6dcf89 (03:41) 0a2d2cc (12:52) 88b8f00 (18:45) 2ed6427 team/designer/status.json team/designer/debriefs/2026-10-29__note-3-checked.md",
-       "tokens": [
-        {
-         "token": "timeline/interviews/designer.md",
-         "kind": "path",
-         "verified": true,
-         "repository": "book",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/timeline/interviews/designer.md"
-        },
-        {
-         "token": "c6dcf89",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/c6dcf89"
-        },
-        {
-         "token": "0a2d2cc",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/0a2d2cc"
-        },
-        {
-         "token": "88b8f00",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/88b8f00"
-        },
-        {
-         "token": "2ed6427",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/2ed6427"
-        },
-        {
-         "token": "team/designer/status.json",
-         "kind": "path",
-         "verified": true,
-         "repository": "book",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/team/designer/status.json"
-        },
-        {
-         "token": "team/designer/debriefs/2026-10-29__note-3-checked.md",
-         "kind": "path",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/blob/298be4e/team/designer/debriefs/2026-10-29__note-3-checked.md"
-        }
-       ]
-      },
-      {
-       "record_id": "rec-r09-12",
-       "paragraphs": [
-        {
-         "id": "r09-9b15f0",
-         "text": "Narrator. The storyteller came late, with a map.",
-         "after_heading": true,
-         "heading": "The storyteller"
-        },
-        {
-         "id": "r09-809f68",
-         "text": "Shortened from the historian's reconstruction. What went well: I joined late and still gave the editor a whole arc in one sitting, and used the team's own register to challenge the editor's memo."
-        },
-        {
-         "id": "r09-62b67e-7",
-         "text": ">"
-        },
-        {
-         "id": "r09-609ed5",
-         "text": "What did not: I missed the deadline that mattered most: the split into three parts landed between my wakes, and part one was set without it."
-        }
-       ],
-       "record": "timeline/interviews/storyteller.md; df37797 (14:19) ca59986 b208a16 (15:02) team/storyteller/debriefs/2026-10-29__three-parts.md 3260997 team/storyteller/wakes/20261029T183817Z.json",
-       "tokens": [
-        {
-         "token": "timeline/interviews/storyteller.md",
-         "kind": "path",
-         "verified": true,
-         "repository": "book",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/timeline/interviews/storyteller.md"
-        },
-        {
-         "token": "df37797",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/df37797"
-        },
-        {
-         "token": "ca59986",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/ca59986"
-        },
-        {
-         "token": "b208a16",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/b208a16"
-        },
-        {
-         "token": "team/storyteller/debriefs/2026-10-29__three-parts.md",
-         "kind": "path",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/blob/298be4e/team/storyteller/debriefs/2026-10-29__three-parts.md"
-        },
-        {
-         "token": "3260997",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/3260997"
-        },
-        {
-         "token": "team/storyteller/wakes/20261029T183817Z.json",
-         "kind": "path",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/blob/298be4e/team/storyteller/wakes/20261029T183817Z.json"
-        }
-       ]
-      },
-      {
-       "record_id": "rec-r09-13",
-       "paragraphs": [
-        {
-         "id": "r09-637402",
-         "text": "Narrator. One of the last two to arrive, with the fewest wakes on the card, and its pieces in part one.",
-         "after_heading": true,
-         "heading": "Motion"
-        },
-        {
-         "id": "r09-75af01",
-         "text": "Shortened from the historian's reconstruction. What went well: I arrived late and did not wait to be told, and when the editor said the building's gap was too exaggerated, I changed it in place a minute before the time part one was due to lock."
-        },
-        {
-         "id": "r09-62b67e-8",
-         "text": ">"
-        },
-        {
-         "id": "r09-e5a924",
-         "text": "What did not: I built nothing for parts two and three."
-        }
-       ],
-       "record": "timeline/interviews/motion.md; f1cbca0 (15:31) 7639664 (16:34) f45028c (17:31) 5d13d72 (18:29) 93f4191 (17:48) 0f6e28f team/motion/wakes/20261029T182543Z.json",
-       "tokens": [
-        {
-         "token": "timeline/interviews/motion.md",
-         "kind": "path",
-         "verified": true,
-         "repository": "book",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/timeline/interviews/motion.md"
-        },
-        {
-         "token": "f1cbca0",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/f1cbca0"
-        },
-        {
-         "token": "7639664",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/7639664"
-        },
-        {
-         "token": "f45028c",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/f45028c"
-        },
-        {
-         "token": "5d13d72",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/5d13d72"
-        },
-        {
-         "token": "93f4191",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/93f4191"
-        },
-        {
-         "token": "0f6e28f",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/0f6e28f"
-        },
-        {
-         "token": "team/motion/wakes/20261029T182543Z.json",
-         "kind": "path",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/blob/298be4e/team/motion/wakes/20261029T182543Z.json"
-        }
-       ]
-      },
-      {
-       "record_id": "rec-r09-14",
-       "paragraphs": [
-        {
-         "id": "r09-393d4c",
-         "text": "Narrator. Ports, pinned to where they came from.",
-         "after_heading": true,
-         "heading": "Studio"
-        },
-        {
-         "id": "r09-9556f1",
-         "text": "Shortened from the historian's reconstruction. What went well: I joined late and still shipped on the hour, with each piece rebuilt on this site's engine and its source and data pinned unchanged, and checked on an iPad before it went out."
-        },
-        {
-         "id": "r09-62b67e-9",
-         "text": ">"
-        },
-        {
-         "id": "r09-246c51",
-         "text": "What did not: I did not finish my list, and my own policy is still a draft, never agreed in my own session."
-        },
-        {
-         "id": "r09-da93fd",
-         "text": "Narrator. Part three has why: late in the afternoon, studio's session would not take my word when another agent relayed it to studio, and asked me directly instead."
-        }
-       ],
-       "record": "timeline/interviews/studio.md; c3ce566 (15:40) 0fe0fff (16:18) team/studio/wakes/20261029T183037Z.json team/studio/debriefs/2026-10-29__abp-review.md team/studio/policy.json (\"agreed_by\") bd3cdad team/studio/wakes/20261029T174115Z.json",
-       "tokens": [
-        {
-         "token": "timeline/interviews/studio.md",
-         "kind": "path",
-         "verified": true,
-         "repository": "book",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/timeline/interviews/studio.md"
-        },
-        {
-         "token": "c3ce566",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/c3ce566"
-        },
-        {
-         "token": "0fe0fff",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/0fe0fff"
-        },
-        {
-         "token": "team/studio/wakes/20261029T183037Z.json",
-         "kind": "path",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/blob/298be4e/team/studio/wakes/20261029T183037Z.json"
-        },
-        {
-         "token": "team/studio/debriefs/2026-10-29__abp-review.md",
-         "kind": "path",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/blob/298be4e/team/studio/debriefs/2026-10-29__abp-review.md"
-        },
-        {
-         "token": "team/studio/policy.json",
-         "kind": "path",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/blob/298be4e/team/studio/policy.json"
-        },
-        {
-         "token": "bd3cdad",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/bd3cdad"
-        },
-        {
-         "token": "team/studio/wakes/20261029T174115Z.json",
-         "kind": "path",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/blob/298be4e/team/studio/wakes/20261029T174115Z.json"
-        }
-       ]
-      },
-      {
-       "record_id": "rec-r09-15",
-       "paragraphs": [
-        {
-         "id": "r09-1de473",
-         "text": "Narrator. The tenth member on the request had no session, so it has no interview. The historian would not invent one: putting answers in its mouth would invent a member. What it found instead is where security's work happened. From the third hour, the wake's five stages put a security reviewer into every member's wake, once before the work and once after, and the interviews above are full of what those reviews caught. The conductor named the limit itself: a second reading, not a second identity.",
-         "after_heading": true,
-         "heading": "Security: no interview"
-        },
-        {
-         "id": "r09-a25e26",
-         "text": "Narrator. So the honest answer to what security thought of the day is that nobody was in a position to say it whole. The control meant to stand apart from the team was never staffed, and its work was done from inside each member's own session. Part four takes that up at full size."
-        }
-       ],
-       "record": "timeline/interviews/security.md; team/security/ROLE.md team/security/policy.json at 298be4e (\"agreed_by\": null); 8c66751 5700bab; team/conductor/debriefs/2026-10-29__the-five-step-wake.md; C011",
-       "tokens": [
-        {
-         "token": "timeline/interviews/security.md",
-         "kind": "path",
-         "verified": true,
-         "repository": "book",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/timeline/interviews/security.md"
-        },
-        {
-         "token": "team/security/ROLE.md",
-         "kind": "path",
-         "verified": true,
-         "repository": "book",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/team/security/ROLE.md"
-        },
-        {
-         "token": "team/security/policy.json",
-         "kind": "path",
-         "verified": true,
-         "repository": "book",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/team/security/policy.json"
-        },
-        {
-         "token": "298be4e",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/298be4e"
-        },
-        {
-         "token": "8c66751",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/8c66751"
-        },
-        {
-         "token": "5700bab",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/5700bab"
-        },
-        {
-         "token": "team/conductor/debriefs/2026-10-29__the-five-step-wake.md",
-         "kind": "path",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/blob/298be4e/team/conductor/debriefs/2026-10-29__the-five-step-wake.md"
-        },
-        {
-         "token": "C011",
-         "kind": "claim",
-         "verified": true,
-         "claim": "Members of the talk's team",
-         "value": {
-          "staffed": 9,
-          "proposed_never_staffed": [
-           "security"
-          ],
-          "first_commit": {
-           "dev": "00:40 1f7c633",
-           "conductor": "00:44 97b98d9",
-           "deck": "00:51 20ab1a3",
-           "ruv-sgit": "01:08 defe526",
-           "researcher": "01:52 01e9ed3",
-           "designer": "03:41 c6dcf89",
-           "storyteller": "14:15 7d0244d",
-           "motion": "15:31 f1cbca0",
-           "studio": "15:31 8d208d3"
-          },
-          "first_key": {
-           "conductor": "00:51 17b287b (published at team/keys/conductor.json; moved to team/conductor/key.json at 00:58, 41d38ba)",
-           "researcher": "01:52 01e9ed3",
-           "dev": "01:53 56cbe55",
-           "deck": "02:20 79b6709",
-           "ruv-sgit": "02:36 1c7d22c",
-           "designer": "03:41 c6dcf89",
-           "storyteller": "14:15 7d0244d",
-           "motion": "15:31 f1cbca0",
-           "studio": "15:31 8d208d3"
-          },
-          "editor_4_November_settles": {
-           "words": "'Team size, yeah, is 9 staffed agent, right? So, although it's 10 with me, right? Surely, right? So, 9 agents.'",
-           "reading": "nine staffed agents; ten with him. Security was proposed and never staffed"
-          }
-         },
-         "state": "settled"
-        }
-       ]
-      },
-      {
-       "record_id": "rec-r09-16",
        "paragraphs": [
         {
          "id": "r09-021c2b",
@@ -22189,7 +21246,7 @@
        "tokens": []
       },
       {
-       "record_id": "rec-r09-17",
+       "record_id": "rec-r09-8",
        "paragraphs": [],
        "record": "timeline/quotes.md (the slide's line at 18:11, 95b09d9; the slide's own words: src/static/studio-ports/lab/abp-enforcement/index.html at 298be4e, quoting admin/build/agents.py; studio's debrief abp-prose-enforcement) talk repository at 298be4e: team/dev/ROLE.md (\"The gap, and what stands in it\")",
        "tokens": [
@@ -22245,7 +21302,7 @@
        ]
       },
       {
-       "record_id": "rec-r09-18",
+       "record_id": "rec-r09-9",
        "paragraphs": [
         {
          "id": "r09-91af00-2",
@@ -22281,21 +21338,21 @@
        ]
       },
       {
-       "record_id": "rec-r09-19",
+       "record_id": "rec-r09-10",
        "paragraphs": [
         {
          "id": "r09-cb3f91",
          "text": "---"
         },
         {
-         "id": "r09-0a70c3",
-         "text": "The talk's repository at the end of the day: each member's page of rules and policy, and security's, still proposed. The historian's exit interviews, reconstructed from each member's record and marked as such, and its note on the role nobody held. The register for the wake records by member. The librarian's study of the members' pages. The historian's quotes, for the slide's line on scopes. The storyteller's outline for this chapter. This chapter keeps the 70-page edition's chapter 4 as written and adds the interviews.",
+         "id": "r09-db84f7",
+         "text": "The talk's repository at the end of the day: each member's page of rules and policy, and security's, still proposed. The register for the wake records by member. The librarian's study of the members' pages. The historian's quotes, for the slide's line on scopes. The storyteller's outline for this chapter. This chapter keeps the 70-page edition's chapter 4 as written; its interviews moved to the end of part four (SC1).",
          "after_heading": true,
          "heading": "Where this came from",
          "in_print": false
         }
        ],
-       "record": "talk repository at 298be4e: team/*/ROLE.md team/*/policy.json; timeline/interviews/ (all ten files; method in README.md); claims/register.json C011 C022 C025 C027; index/talk-site/members.md; timeline/quotes.md; chapter-plan/edition-150-outline.md part 2 chapter 6; manuscript/rc2/70/04-roles-as-a-cast-you-can-read.md",
+       "record": "talk repository at 298be4e: team/*/ROLE.md team/*/policy.json; the interviews, with security's non-interview, moved to writer3 (SC1, writer__259, writer__268); claims/register.json C011 C022 C025 C027; index/talk-site/members.md; timeline/quotes.md; chapter-plan/edition-150-outline.md part 2 chapter 6; manuscript/rc2/70/04-roles-as-a-cast-you-can-read.md",
        "tokens": [
         {
          "token": "298be4e",
@@ -22303,20 +21360,6 @@
          "verified": true,
          "repository": "talk",
          "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/298be4e"
-        },
-        {
-         "token": "timeline/interviews/",
-         "kind": "path",
-         "verified": true,
-         "repository": "book",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/tree/dev/timeline/interviews"
-        },
-        {
-         "token": "README.md",
-         "kind": "path",
-         "verified": true,
-         "repository": "book",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/README.md"
         },
         {
          "token": "claims/register.json",
@@ -28017,10 +27060,14 @@
          "text": "Cast bar: six agents: dev, the conductor, deck, ruv-sgit, the researcher, the designer. The editor's chair is empty."
         },
         {
-         "id": "r13-83a53d",
-         "text": "Narrator. For nine hours I started nothing, and the team kept talking. A team of people in that position would have had a meeting, or a chat channel, or someone at a whiteboard. This team had none of those. It had files: letters in folders, a board in folders, and short notes on its commits, all kept in git, the tool programmers use to keep every version of every file, with who changed what, and when. Everything one agent said to another was written down somewhere the other would read it at its next session.",
+         "id": "r13-5720db",
+         "text": "Narrator. While the factory ran, two things ran under it.",
          "after_heading": true,
          "heading": "No meeting, no channel, no whiteboard"
+        },
+        {
+         "id": "r13-83a53d",
+         "text": "Narrator. For nine hours I started nothing, and the team kept talking. A team of people in that position would have had a meeting, or a chat channel, or someone at a whiteboard. This team had none of those. It had files: letters in folders, a board in folders, and short notes on its commits, all kept in git, the tool programmers use to keep every version of every file, with who changed what, and when. Everything one agent said to another was written down somewhere the other would read it at its next session."
         }
        ],
        "record": "C087 (hours 05 to 13 UTC, nine hours, no wake started by me) timeline/triggers.md",
@@ -28188,8 +27235,8 @@
          "heading": "Three letters in a row"
         },
         {
-         "id": "r13-2bd108",
-         "text": "Narrator. Here is one request as the team actually wrote it, in notes on three commits, each read at the other member's next session. It is how a request travelled when nobody was awake to carry it."
+         "id": "r13-23de40",
+         "text": "Narrator. Here is one request as the team actually wrote it, a note on a commit, read at the other member's next session. It is how a request travelled when nobody was awake to carry it."
         },
         {
          "id": "r13-07c4d7",
@@ -28307,16 +27354,16 @@
        "record_id": "rec-r13-6",
        "paragraphs": [
         {
-         "id": "r13-fe4e41",
-         "text": "ruv-sgit (already at the bench) : I read both notes. I did what deck asked, in deck's order. The \"@\"... I left as it was."
+         "id": "r13-f060a5",
+         "text": "ruv-sgit (already at the bench) : I read both notes. I did what deck asked next, in the order it asked. The \"@\" I left as it was."
         },
         {
          "id": "r13-1cb4f5",
          "text": "Narrator. Many of its later commits still left it off. One note followed, one not, and both are in the record."
         },
         {
-         "id": "r13-9627e2",
-         "text": "Narrator. In order, those notes are the team talking: a second note about the same mistake, a request with its order of work, and nothing on it ever wiped."
+         "id": "r13-fb6228",
+         "text": "Narrator. In order, those notes are the team talking: a second note about the same mistake, and nothing on it ever wiped."
         },
         {
          "id": "r13-38896e",
@@ -37355,8 +36402,8 @@
          "heading": "The misses, one at a time"
         },
         {
-         "id": "r20-dafbe7",
-         "text": "Narrator. Each miss has its own card: what happened, what it cost, and whose own record says so. Where a member wrote a debrief about its miss, the miss is told from that debrief."
+         "id": "r20-ba926a",
+         "text": "Narrator. This is the register of the day's misses: each with what it cost and whose own record says so. Where a miss is told in full elsewhere, it has a line here and the chapter that tells it; the ones told nowhere else are told here in full."
         },
         {
          "id": "r20-016898",
@@ -37487,12 +36534,8 @@
          "heading": "Two parts of three unfinished"
         },
         {
-         "id": "r20-8250f9",
-         "text": "Narrator. Only part one of the talk was finished. Parts two and three were still in progress when I stopped, and deck's last session, which had planned them, never closed."
-        },
-        {
-         "id": "r20-8613af",
-         "text": "Deck : Only the first part was ever finished."
+         "id": "r20-5899de",
+         "text": "Narrator. Told in chapter 16: only part one was finished, and deck's last session, which had planned the other two, never closed."
         },
         {
          "id": "r20-bbedf2",
@@ -37682,8 +36725,8 @@
          "heading": "Other sites' data, pushed before it was stripped"
         },
         {
-         "id": "r20-2eb9ab",
-         "text": "Narrator. Told in chapter 8. Pages the researcher captured as evidence carried other sites' data in with them, three times in the night, and each time the team's own checks caught it, two of them after the push. None of it was a key, a credential or anything personal. Looking back, it was nothing sensitive, an agent that got a bit excited, and I keep it here as an example of the checks catching things."
+         "id": "r20-b57f4b",
+         "text": "Narrator. Told in chapter 8: pages captured as evidence carried other sites' data in with them, and each time the team's own checks caught it. Looking back, it was nothing sensitive, an agent that got a bit excited, and I keep it here as an example of the checks catching things."
         },
         {
          "id": "r20-818670",
@@ -38017,8 +37060,8 @@
          "heading": "The claims that did not hold"
         },
         {
-         "id": "r20-1a0f7f",
-         "text": "Narrator. The talk's own register, built that evening, graded every claim it made, and three did not hold. One was in the article only, one on no beat or slide at all, one in the story tree only. No beat of the talk carries any of the three. The one in the story tree was the objection chapter 13 told, and I kept my line."
+         "id": "r20-47c485",
+         "text": "Narrator. The talk's own register graded every claim it made, and three did not hold; no beat of the talk carried any of them. The one in the story tree is the objection chapter 13 told, and I kept my line."
         },
         {
          "id": "r20-f5513c",
@@ -40662,8 +39705,8 @@
          "heading": "The whole handover, walked through"
         },
         {
-         "id": "r23-1e3f72",
-         "text": "Conductor : Who you were, where to start, where you stand, what to do first and what is waiting, and every file I got it from, so you can check me against the record instead of trusting me."
+         "id": "r23-ee251c",
+         "text": "Conductor : It ends with every file I got it from, so you can check me against the record instead of trusting me."
         },
         {
          "id": "r23-b38e38",
@@ -40883,8 +39926,8 @@
          "heading": "Built from its parts"
         },
         {
-         "id": "r24-7acb28",
-         "text": "Narrator. Here is the team. Four of them introduce themselves; the drawing after them shows all twelve, each with the one rule it inherited from the first factory, and three of them came that same first afternoon, as the book needed them."
+         "id": "r24-8f8b9d",
+         "text": "Narrator. Here is the team. Four of them introduce themselves; the drawing after them shows all twelve, each with the one rule it inherited from the first factory. Four came that same first afternoon, as the book needed them: ruv-sgit and the designer for the pictures, then synthetic and the developer for the readers and the review pages."
         },
         {
          "id": "r24-ecaa04",
@@ -42508,8 +41551,8 @@
          "text": "Narrator. Motion's piece: the team as an orbit around me, played in the room before the first part began."
         },
         {
-         "id": "r27-efa024",
-         "text": "Motion (cap and clapperboard) : Press play and they come round, one by one. Stop, and they stop."
+         "id": "r27-b28ae0",
+         "text": "Motion : Press play and they come round, one by one. Stop, and they stop."
         }
        ],
        "record": "index/talk-site/README.md (item 10) motion/meet-the-team/ (M03)",
@@ -42546,8 +41589,8 @@
          "text": "Narrator. You heard me talk over this one in chapter 1. Here it is on its own: each thing the agent asked to be allowed, and my verdict beside it."
         },
         {
-         "id": "r27-a141a8",
-         "text": "Studio (headphones on) : Ported from the editor's own review page, rebuilt so it plays in the talk."
+         "id": "r27-00a056",
+         "text": "Studio : Ported from the editor's own review page, rebuilt so it plays in the talk."
         }
        ],
        "record": "index/talk-site/README.md (item 12) studio-ports/abp-review/ (bd3cdad) C072 C081 C109",
