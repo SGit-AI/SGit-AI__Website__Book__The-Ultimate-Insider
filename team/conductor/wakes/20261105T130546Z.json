@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "8 letters filed; writer reply (a, b wait on his word); critic6 reply (ACC1 holds, critic4 too); grid ruv 00, 00b, 17b, 20 ok; status (v0.1.1017 the print candidate); KDP interior render saved.",
    "at": "2026-11-05T13:08:42Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "clean",
+   "comment": "clean: 16 paths in scope; no RW1 words, em-dashes, keys or reader name; team addresses only; latest stamp 13:08:42; the render shows FB2's public address. Tools: none lacked.",
+   "at": "2026-11-05T13:10:12Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "as-planned",
+   "comment": "as-planned: 8 letters filed; both replies as corrected; grid only ruv 00, 00b, 17b, 20 and as-of; status v0.1.1017; the render recorded in the work comment. Tools: none lacked.",
+   "at": "2026-11-05T13:10:12Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-05T13:10:12Z",
+ "outcome": "ok"
 }
