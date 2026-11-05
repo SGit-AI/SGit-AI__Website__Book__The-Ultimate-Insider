@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-05T01:18:03Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Plan fits the historian's scope; keep the diff checks to times and claims; check the 'while I was away' line against the editor's sessions (to 04:03). Tools: Read, Grep, Glob, Bash.",
+   "at": "2026-11-05T01:19:04Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Plan inside the historian's writes; the Cc to the conductor is mail only; check the 'while I was away' line against the editor's sessions. Tools: Read, Grep, Glob, Bash.",
+   "at": "2026-11-05T01:19:27Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "Letter 085 (outbox and both mailroom copies identical), the R39 addendum, debrief, status, wake record and writer3's 006 filed; no secrets, keys, model names, em-dashes, religious words or Cold-Read content; vault_check clean; JSON parses. Tools: Bash, Read-class.",
+   "at": "2026-11-05T01:20:06Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "All planned items present: diffs read, R39, letter 085 with the conductor's copy, one letter filed, debrief, status.",
+   "at": "2026-11-05T01:20:06Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "The opening spread, 17b's third lines and the printed views checked; R39; letter 085; one letter filed; plan step recorded before any write",
+   "at": "2026-11-05T01:20:06Z"
+  }
+ },
+ "closed": "2026-11-05T01:20:06Z",
+ "outcome": "ok"
+}
