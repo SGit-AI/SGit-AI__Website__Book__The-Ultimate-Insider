@@ -106,3 +106,5 @@ RC2 is signed (RP1, CV2): the 30-page edition first, then the 70 and the 150, in
 5 November, 01:37: pass 17: the opening spread's numbers traced (all hold; 58 slides cut); C132 settled; AP1: 92 leaves the book, final-pass.py retires its Appendix A checks once 92 is gone; script FAILS 1 until the cut.
 
 5 November, 02:35: pass 18: the Wardley quote exact (C111); AP1 now tested on the full book's list (92 is out of it); script FAILS 0, the Appendix A checks retired as notes. Next: Thursday before 10:00.
+
+5 November, 03:35: pass 19: one landing (93's opening, no figure); script FAILS 0; writer4 told nothing needs deleting for my check (`researcher__015`).

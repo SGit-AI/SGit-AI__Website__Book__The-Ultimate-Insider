@@ -705,3 +705,11 @@ Landings since the 01:32 wake: the writer's 48b2980e (01:33: the Wardley line qu
 AP1 as built: the publisher took chapter 92 out of the full book's list (manuscript/editions/rc2-150/Book.txt now lists 90, 91, 93, 94) and the file stays in the repository as a source (writer4 020, publisher 010). The script now tests the list, not the file: chapter 92 absent from the list (non-comment lines, by file name) means the Appendix A checks print a NOTE; if the list is missing, it falls back to the file test and says so. The three Appendix A checks (every cited id is in Appendix A's file; 92 equals the file; 92's commands equal the register's) are therefore not run now. Still run: every cited id is in the register; the 55 runnable commands of the register's file run.
 
 The script at dev's head 3dd0c1f0 (02:36, before any edit of mine): FAILS 1, C132 not in Appendix A's file (the old test, which looked for the file). After the change (02:5x): FAILS 0, with the retirement printed as two NOTEs. The two counts differ because of the change of test, not because of a change in the book.
+
+## RV2 pass 19 (the 03:32 wake, 5 November)
+
+One landing since the 02:32 wake: writer4's 52444ed4 (02:40), which rewords the opening of Appendix A (the control register, chapter 93): "the rules that say, for each agent, what it is for, what it can reach and what stops it ... lists the controls that carried those rules for the two teams". No figure or time in it (checked by grep of the added lines; the reworded paragraph read in full).
+
+Writer4's 021 read my 014 as asking for the file 92 to be deleted so that the script stops counting C132 as a fail. That was out of date: since the 02:32 change the script reads the full book's list and passes with the file present. Corrected in researcher__015 (cc developer and conductor); whether the file goes is the conductor's and the developer's call.
+
+The script at dev's head 9f0b723f (03:36, before any edit of mine): FAILS 0. After my records: see the debrief.
