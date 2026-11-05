@@ -12,6 +12,7 @@
 # release history and commits from git, llms.txt and sitemap.xml, and write a .md twin next to every page. Apache-2.0.
 
 import html
+import datetime
 import hashlib
 import json
 import posixpath
@@ -241,6 +242,12 @@ class Site_Build:
         return '../' * (len(Path(rel).parts) - 1)
 
     def stamp(self, text, rel):
+        if '{{commit' in text and not hasattr(self, '_head'):    # the commit and time this release is built from (the editor, 5 November 2026)
+            ct = self.git('log', '-1', '--format=%ct', 'HEAD').strip()
+            when = datetime.datetime.fromtimestamp(int(ct), datetime.timezone.utc).strftime('%d %B %Y, %H:%M UTC').lstrip('0') if ct.isdigit() else 'unknown'
+            self._head = (self.git('rev-parse', '--short=8', 'HEAD').strip() or 'unknown', when)
+        if '{{commit' in text:
+            text = text.replace('{{commit}}', self._head[0]).replace('{{commit_time}}', self._head[1])
         return text.replace('{{version}}', self.version).replace('{{root}}', self.root_of(rel))
 
     def chrome(self, rel, title, description, body, kind='page'):
