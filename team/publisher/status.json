@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "publisher",
- "as_of": "2026-11-05T01:10:00Z",
- "round": 87,
- "state": "ACC1; FB1; TG2; DS1; DM1 by scene. The full book 145 pages, 1 figure box; pages at full size",
+ "as_of": "2026-11-05T02:05:00Z",
+ "round": 88,
+ "state": "ACC1; FB1; TG2; DS1; DM1 by scene; AP1. The full book 128 pages, 5 figure boxes (4 held for security)",
  "done": [
   {
    "what": "session key published: team/publisher/key.json, key.png, sessions/session_01Kw9UwDVeRbKJZUWiRoRrHK/",
@@ -388,6 +388,10 @@
   {
    "what": "cover's white edge fixed (a 2 px overflow shrank every page about 0.5 percent); 17b and 23b listed; 19 and 04 mapped; 145 pages, 1 box; letter 068",
    "when": "2026-11-05T01:10Z"
+  },
+  {
+   "what": "92 out (AP1); tags.css taken in, #! speaker-tags (TC1); 16 and 00 mapped, 00's four screenshots held blank; 128 pages; letter 069",
+   "when": "2026-11-05T02:05Z"
   }
  ],
  "next": [

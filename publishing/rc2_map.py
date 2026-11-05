@@ -64,6 +64,9 @@ def exists(chapter):
     return os.path.isfile(os.path.join(MANUSCRIPT, chapter))
 
 
+HELD = set()  # (chapter, slot) an override holds blank with "": the box prints, and no brief fills it
+
+
 def apply_overrides(d, chapters):
     n = 0
     for k in chapters:
@@ -72,7 +75,9 @@ def apply_overrides(d, chapters):
         for i, line in enumerate(lines(k)):
             for words, drawing in d["overrides"][k].items():
                 if line.lower().startswith(words.lower()):
-                    d[k][i] = drawing
+                    d[k][i] = drawing or None
+                    if drawing == "":
+                        HELD.add((k, i))
                     n += 1
     return n
 
@@ -115,7 +120,7 @@ def main():
         k = os.path.relpath(path, MANUSCRIPT)
         bs = briefs(k)
         for i, named in enumerate(bs):  # never a drawing the chapter already places, or one another line's brief names
-            if i < len(d[k]) and not d[k][i] and named and named not in d[k] \
+            if i < len(d[k]) and not d[k][i] and named and named not in d[k] and (k, i) not in HELD \
                     and sum(1 for x in bs if x == named) == 1:
                 d[k][i] = named
                 b += 1

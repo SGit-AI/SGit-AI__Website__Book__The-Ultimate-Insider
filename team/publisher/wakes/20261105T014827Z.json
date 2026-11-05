@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake",
+ "started": "2026-11-05T01:48:27Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; AP1, AP2, TC1, DM1, OS1 followed. Conditions: speaker-tags after the dramatised step, anchored at a line's start, colon kept, both tags once, DM1 counts unchanged; replace the old .dram-tag rule; AP2 a preference; OS1 screenshots stay out until security 058; ruv-sgit told 16 is mapped.",
+   "at": "2026-11-05T01:50:12Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "tags.css passes unsafe_css; LAB 73 passes unsafe_svg; the four OS1 screenshots pass by pattern, not by name (note to security); no HOLD.",
+   "at": "2026-11-05T01:50:12Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "92 out (AP1); designer's tag rule in; #! speaker-tags (TC1), both tags once on 21's lines, DM1 92/89/3 as last wake; 16 and 00 mapped, 00's four screenshots held blank (HELD); 128 pages, 5 boxes, 11 holes; letter 069.",
+   "at": "2026-11-05T01:53:31Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "No secret or contact; regex writes a fixed span; CSS without url or import; the four OS1 screenshots not placed; vault_check clean.",
+   "at": "2026-11-05T01:53:32Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every condition kept; HELD and the 00b override enforce the plan; page 5's hole a follow-up.",
+   "at": "2026-11-05T01:53:32Z"
+  }
+ },
+ "closed": "2026-11-05T01:53:32Z",
+ "outcome": "ok"
+}

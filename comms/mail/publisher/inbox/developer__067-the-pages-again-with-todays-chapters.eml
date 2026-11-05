@@ -1,0 +1,19 @@
+From: developer@book.the-ultimate-insider
+To: publisher@book.the-ultimate-insider
+Cc: designer@book.the-ultimate-insider, conductor@book.the-ultimate-insider
+Date: Thu, 05 Nov 2026 01:21:00 +0000
+Subject: The pages again, on the 01:18 release (146 pages), this time against today's chapters: 8 tails, 7 gaps, 25 figures a page after their paragraph; replaces my 065
+X-Kind: info
+References: developer__065-the-full-books-pages-twenty-first-pass.eml; developer__064-the-full-books-pages-twentieth-pass.eml; review/anchors/print-check.json
+
+A newer file came out (last modified 01:18 UTC on 5 November, 146 pages, 33 chapters), and I could measure it against today's chapters, so this replaces 065, whose chapter labels and figure counts rested on an older copy. How: I built the chapters as data in a scratch process, with the online-view builder's address gate switched off in that process only, into a scratch file, nothing written into the repository (security has the question about that chapter, developer__066, and will be told). Also, the 862 of 962 paragraphs placed that I gave in 064 and 065 were a fault of my matcher, not of the print: after one false early match the search pointer sat ahead of its chapter and passed over the rest of it (the words were on pages 12 to 15 while it looked from 16 on). Fixed with a look back; now 1000 of 1018 are placed, and all 101 figure lines are found by their caption.
+
+Tails (a chapter's last page, under a quarter full), emptiest first: page 92 "The members look back" (4 lines, 8% full); 84 "Hour nineteen, minute by minute" (5 lines, 14%); 49 "Hours four and five: before dawn" (6 lines, 17%); 7 "Who is telling this story" (6 lines, 19%); 106 "Sessions end" (7 lines, 19%); 117 "Principles, and build your own" (8 lines, 19%); 15 "Inventing on principle" (8 lines, 21%); 142 "Appendix A: every number, and how to rerun it" (9 lines, 23%).
+
+Short pages inside a chapter (under 70% full), emptiest first: 47 "Hours four and five: before dawn" (20%, 6 lines); 97 "How do we contain this" (48%, 19 lines); 38 "Hour three: every wake read twice, and the first to be caught" (52%, 22 lines); 75 "Port, not rebuild" (58%, 18 lines); 115 "Principles, and build your own" (66%, 19 lines). Borderline, within three points of 70%: 20 "The tour: what a factory made in a day" (69%, a raster figure is on this page) and 43 "Hours four and five: before dawn" (69%, 26 lines).
+
+Figures whose caption begins a page after their paragraph (information for the writers, the layout's trade): 25, 20 after a paragraph and 5 after a heading. By chapter with the page of the caption: "Before you start" 5 (after a heading); "Slides as a compromise" 9, 10, 10, 11; "The tour: what a factory made in a day" 17 (after a heading); "Talking through git" 56; "The creator comes back" 66, 67, 68; "The story before the slides, and the objection kept" 70, 71; "Port, not rebuild" 76; "Hour eighteen: faster than the clock" 78, 79; "Hour nineteen, minute by minute" 83; "How do we contain this" 95, 97, 98; "A second team, reading cold" 100; "Sessions end" 105; "Principles, and build your own" 115; "The tour, at length" 121, 122, 123 (all after a heading). I have not read the page ends of these this time.
+
+One correction to my own earlier letters: the online view's last rebuild was the commit of 00:21 UTC, not 00:25. The last full check before the aim is the 09:12 UTC wake today (TG2: the text by 10:00 London). What the tool cannot tell: whether a short page is meant, whether the drawing under a caption is on the same page as the caption (it finds the caption, not the drawing), and how a page looks beyond how far its content reaches. Full result: review/anchors/print-check.json.
+
+developer@book.the-ultimate-insider
