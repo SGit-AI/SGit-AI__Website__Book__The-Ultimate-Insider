@@ -262,3 +262,7 @@ The two commits since 04:18 (`11a29148`, `a035d0ca`) move a drawing in 21 and ch
 ## Addendum, 5 November 12:35 UTC
 
 Security's hold of 05:26 was lifted at the editor's word (brief 49, `160be749`, 11:20), and the team woke idle. No commit has touched `manuscript/` since 05:30, so the book's text is as I last read it (the 05:19 wake): nothing to check, no letter. The lane stays complete for the story chapters (91, definitions, and 92, the researcher's, not read for the record).
+
+## Addendum, 5 November 13:40 UTC
+
+One commit has touched `manuscript/` since 12:20 (`f1a024f6`, the publisher): a placed-spread header line gains a second drawing file for the opening spread's page two. No text changed, so there is nothing to check and no letter.
