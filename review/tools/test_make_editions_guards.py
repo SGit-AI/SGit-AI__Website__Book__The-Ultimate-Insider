@@ -57,6 +57,34 @@ for name, raw, want in cases:
     got = gate(raw)
     if (want == 'refused') != (got == 'refused'):
         failed.append(f'text_address_gate: {name}: wanted {want}, got {got!r}')
+# security__011: the further-reading chapter's newsroom addresses may print as text, in that file and in that shape only
+def gate_in(name, raw):
+    try:
+        return m.text_address_gate(raw, CLAIMS, Path(name))
+    except SystemExit:
+        return 'refused'
+
+
+GOOD_ADDR = 'https://newsroom.sgit.ai/articles/the-scripted-talk.html'
+for name, raw, want, why in [
+        (m.FURTHER_FILE, '# F\n\n- [x](' + GOOD_ADDR + ')\n', 'pass', 'the right address in the right file'),
+        (m.FURTHER_FILE, '# F\n\n- [x](https://newsroom.sgit.ai/blog/the-scripted-talk.html)\n', 'refused', 'the right host with a different path'),
+        ('92-appendix-a-every-number.md', '# F\n\n- [x](' + GOOD_ADDR + ')\n', 'refused', 'the right address in a different file'),
+        (m.FURTHER_FILE, '# F\n\n- [x](https://newsroom.sgit.ai.evil.example/articles/x.html)\n', 'refused', 'a lookalike host'),
+        (m.FURTHER_FILE, '# F\n\n- [x](https://newsroom.sgit.ai/articles-x/y.html)\n', 'refused', 'a lookalike path'),
+        (m.FURTHER_FILE, '# F\n\n- [x](https://newsroom.sgit.ai/articles/x@evil.example)\n', 'refused', 'user information in the address'),
+        (m.FURTHER_FILE, '# F\n\n- [x](https://newsroom.sgit.ai/articles/../admin.html)\n', 'refused', 'a dot-dot path'),
+        (m.FURTHER_FILE, '# F\n\n- [x](https://example.org/a)\n', 'refused', 'another host in the same file'),
+        (m.FURTHER_FILE, '# F\n\n- [x](' + GOOD_ADDR + ')\n- [y](https://example.org/a)\n', 'refused', 'a good address and a bad one in the same file')]:
+    got = gate_in(name, raw)
+    if (want == 'refused') != (got == 'refused'):
+        failed.append(f'further reading: {why}: wanted {want}, got {got!r}')
+text = m.further_text('- [A talk](' + GOOD_ADDR + '); [Other](https://example.org/a)\n')
+if '](' in text.split(';')[0] or GOOD_ADDR not in text:
+    failed.append(f'further_text did not turn the link into text: {text!r}')
+html_out = m.Markdown().to_html(m.further_text('- [A talk](' + GOOD_ADDR + ')\n'))
+if 'href' in html_out or GOOD_ADDR not in html_out:
+    failed.append(f'the rendered further reading carries a link or lost the address: {html_out!r}')
 if failed:
     sys.exit('\n'.join(failed))
 print('ok')

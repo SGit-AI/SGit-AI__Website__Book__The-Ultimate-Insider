@@ -310,6 +310,18 @@ def page_attribute_problem(page):
     return None
 
 
+FURTHER_FILE = '23b-further-reading.md'                           # security__011: in this one file of the online view ...
+FURTHER_ADDR = re.compile(r'https://newsroom\.sgit\.ai/articles/[a-z0-9-]+\.html')   # ... an address of exactly this shape may print as text, never as a link
+FURTHER_LINK = re.compile(r'\[([^\]]+)\]\((https://newsroom\.sgit\.ai/articles/[a-z0-9-]+\.html)\)')
+
+
+def further_text(raw):
+    """The further-reading chapter for the online view: each markdown link to a newsroom article becomes its title and, in parentheses, the
+    address in plain text, so the page carries no link (security__011). Only links of the allowed shape are changed; any other link is left
+    for the gate to refuse."""
+    return FURTHER_LINK.sub(lambda m: f'{m.group(1)} ({m.group(2)})', raw)
+
+
 CLAIM_HEAD = re.compile(r'^#{1,6}\s+(C\d{3})\b')
 
 
@@ -332,6 +344,10 @@ def text_address_gate(raw, claims, path):
         for a in sorted(addresses(line)):
             if a == SITE or HOSTS.match(a):
                 continue
+            if path.name == FURTHER_FILE and FURTHER_ADDR.fullmatch(a):   # the one exception, by file and by shape together; text only (further_text turns the links into text)
+                if {'address': a, 'claim': 'FR1'} not in found:
+                    found.append({'address': a, 'claim': 'FR1'})
+                continue
             if claim is None or claim not in claims or a not in addresses(json.dumps(claims[claim], ensure_ascii=False)):
                 sys.exit(f'{path.name}:{n}: an address off the two hosts that is not under a claim whose register entry lists it: {a}')
             if {'address': a, 'claim': claim} not in found:
@@ -346,6 +362,8 @@ def chapter_page(path, i, files, book, talk, claims, edition_title, foot=None, d
     title = re.match(r'# (.*)', raw).group(1)
     ch = f'r{i + 1:02d}'
     text_addresses = text_address_gate(raw, claims, path)          # security's answer to developer__047: a register address may print as text under its own claim, nothing else off the two hosts
+    if path.name == FURTHER_FILE:
+        raw = further_text(raw)                                    # links to text, after the gate has read the original
     used, blocks, scene, linked, seen, recs, first = {}, [], 0, 0, {}, [], ''
     kept, kept_n = printed_ids(raw, drop, ch, path.name) if drop else (None, 0)             # which paragraphs print (build_book.py's drop-section rule)
     after_heading = False                                           # set by a heading, taken by the next block (a figure under a heading is introduced by it)
