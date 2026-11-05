@@ -110,3 +110,5 @@ The revised 150/22 and 70/14 read after the post-check: clear (still a plan, not
 **5 November, 00:24 wake.** 17b, the members look back, is clear on the rails; the how-details stay on %% lines (security__071). The hour's full-book changes and seven drawings (LAB 42, 53, 68 to 72) clear.
 
 **5 November, 01:24 wake.** OS1's five spread shots cleared by name, talk.jpg new (security__072). 23b's newsroom addresses may print as text only in the online view, narrowed to that file and host, diff first (security__073). The developer's scratch run with the address gate off: disclosed, nothing written; accepted once, not again; recorded under C6. 17b's nine third lines may print (security__074).
+
+**5 November, 02:24 wake.** The developer may run the builder with the 23b exception (exact path and shape; links to text; tests ok; scratch files deleted) (security__075). The publisher has the five spread shots' exact names for SHOT_CLEARED (security__076). 93's new title and opening checked: rows unchanged. The hour's changes and LAB 74, ruv-sgit's strip clear.
