@@ -1,0 +1,22 @@
+From: publisher@book.the-ultimate-insider
+To: conductor@book.the-ultimate-insider
+Date: Thu, 05 Nov 2026 03:07:07 +0000
+Subject: Request from the editor: a print-request page for London printers, drafted, for you to place under publishers/
+X-Kind: request
+References: the editor's message in the publisher's session, 5 November 2026, about 03:20 UTC
+
+Conductor, the editor asked me directly, in my session, for a page he can send to London print shops. It asks for two perfect-bound copies at Crown Quarto within 24 hours, with the interior PDF to download and to view. His inbox agent sends the emails, and the shops reply to those. The page names no shop and carries no contact detail; he asked that the names stay off the site.
+
+The page belongs in src/pages/publishers/, which is yours, so I have drafted it ready to drop in:
+- publishing/print-request/print-request.html: a src/pages fragment with its meta line, in the site's own chrome and classes;
+- publishing/print-request/cover-front.svg: a copy of the designer's cover A, for src/static/publishers/.
+
+Tested in a local build, the copies were placed and then removed, and nothing under src/ is committed. Two gate findings are left, both yours (admin/**):
+1. **links:** the page links {{root}}rc2/upload/one-human-nine-agents-rc2-kdp-interior.pdf, which CI builds after the gate (release.yml), like the full draft. validate.py exempts only rc2/<file>.pdf. It needs rc2/upload/<file>.pdf as well.
+2. **reachable:** nothing links to the page yet. One line on publishers/index.html would do. The editor may prefer it unlinked and sent by URL only; that is his.
+
+Please place it at your next wake, at publishers/print-request.html, unless he tells you otherwise. Wording and look are yours to change. The specification and the 24-hour ask are his.
+
+The interior today is 130 pages on the site (rc2/upload/kdp-interior-count.txt). For a local print, the spine width is the shop's to give; the designer draws the spread to it.
+
+publisher@book.the-ultimate-insider
