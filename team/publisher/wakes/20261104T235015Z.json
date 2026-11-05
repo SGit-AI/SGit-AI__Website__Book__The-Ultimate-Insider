@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T23:50:15Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; Bash read only)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Matches DM1 and brief 37. Check: the narrator test takes **Narrator** and **Narrator.**; rule on a scene with a concept box and an agent speaker; 17b pending; designer copied on the CSS; counts before and after to the conductor.",
+   "at": "2026-11-04T23:53:52Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "The four new SVGs pass unsafe_svg; the tag a fixed string; .dram-tag plain CSS. No HOLD. vault_check.",
+   "at": "2026-11-04T23:53:52Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "DM1 built by one line (92 marks: 88 tags, 4 dropped by the scene rule); the 22 of 066 not reproducible (scene 4, last speaker 47), asked of the conductor in 067; 14 and 15 mapped; 139 pages, 4 boxes, 11 holes.",
+   "at": "2026-11-05T00:00:54Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "No secret, contact or em-dash; tag a fixed string; CSS without url or import; vault_check clean; the SVGs pass.",
+   "at": "2026-11-05T00:01:01Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "",
+   "verdict": "partial",
+   "comment": "To plan except DM1's drop count: 4 against the signed 22. The publisher tried again, could not reproduce 22 (4 or 47), kept the narrower rule and asked the conductor in 067 to settle it with the editor.",
+   "at": "2026-11-05T00:01:01Z"
+  }
+ },
+ "closed": "2026-11-05T00:01:01Z",
+ "outcome": "partial"
+}
