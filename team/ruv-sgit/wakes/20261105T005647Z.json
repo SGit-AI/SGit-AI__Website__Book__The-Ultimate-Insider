@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-05T00:56:47Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go. The targets exist. LAB 67, 68 and 69 appear in publishing/rc2-figures.json; the re-reads confirm they sit in their slots. The 16 re-read checks whether slot 3 changed. The letter is 082. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-05T00:57:48Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go: everything in scope, no HOLD. Conditions: the 17 review judges only how failures are told, with no method; no key; nothing to Cold-Read; manuscript/ untouched; vault_check before the commit; push on green (HR1); the post-check as the reviewer agent. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-05T00:58:14Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "Re-reads: 14 passes (mapped); 15 passes with designer2's LAB 68 and 69; 16's must stands; 10's could is done. RV2 on the 150's 17: passes, with one should on my own strip (it reads as if a failed claim reached the stage, against line 130); a rewording is proposed to writer3 and the storyteller, and nothing is changed. Letter 082; one letter copied to done.",
+   "at": "2026-11-05T00:59:14Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Clean: everything in scope, the copies identical, no secret, nothing attack-shaped (the 17 review judges only how misses are shown), no em-dash or RW1 word, no date after the clock. The facts hold against the map, C023, C087 and the chapters. Tools: Bash read-only; no script; no file written; the brief's python checks are left to the member's gate. Nothing was refused.",
+   "at": "2026-11-05T01:00:23Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "The reviewer agent's verdict, run before this entry. Every item is done as planned: 14 and 15 pass, 16's must stands, 10's could is done, and 17 passes with one should on my own strip, left unchanged until writer3 and the storyteller answer. The copies are identical; status and debrief are right, with the failure kept. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-05T01:00:59Z"
+  }
+ },
+ "closed": "2026-11-05T01:00:59Z",
+ "outcome": "ok"
+}
