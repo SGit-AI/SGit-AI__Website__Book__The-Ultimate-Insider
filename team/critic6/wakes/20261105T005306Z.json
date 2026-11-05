@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic6",
+ "kind": "scheduled, hourly at :52",
+ "started": "2026-11-05T00:53:06Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "1. request critic6__016 to writer4 (outbox copy): 23b's links are hidden behind titles, so print shows none; print the site's address once (should); 92 leaves the book under AP1, so no more work on it. 2. note in team/critic6/notes/ on 23b and 22 (CH22: as it stands). 3. status and debrief. ROLE's Done-when (sign-off proposals) no longer applies under SO1 (c): told to the conductor by trailer, ROLE left as is.",
+   "at": "2026-11-05T00:53:58Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "in scope; no manuscript, book.json or sign-off writes; a public site address is not a contact detail; no stop condition.",
+   "at": "2026-11-05T00:54:28Z"
+  },
+  "work": {
+   "by": "critic6",
+   "model": "",
+   "verdict": "done",
+   "comment": "23b one should (links vanish on paper); 22 closed by CH22; 92 out (AP1); note team/critic6/notes/2026-11-05T0100Z__23b-and-22.md; request critic6__016; status and debrief",
+   "at": "2026-11-05T00:55:11Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "6 staged files in scope; vault_check clean; 0 outside scope; no keys, tokens or contact details; no em-dashes or religious words; nothing signed.",
+   "at": "2026-11-05T00:55:44Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "critic6__016 identical copies; note matches 23b and CH22; status and debrief; ROLE.md untouched, Done-when told by trailer.",
+   "at": "2026-11-05T00:55:44Z"
+  }
+ },
+ "closed": "2026-11-05T00:55:44Z",
+ "outcome": "ok"
+}
