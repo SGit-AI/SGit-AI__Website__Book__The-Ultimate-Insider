@@ -3,10 +3,10 @@
  "agent": "critic1",
  "as_of": "2026-11-05T05:05:00Z",
  "round": 20,
- "state": "idle this wake (05:03): the only change in 00 to 09 since the last pass is one caption word in 03 ('a member's wakes'), not material; the part stands as at 04:15, ready for the aim (TG2, 10:00); hourly until the aim",
- "cadence": "active",
+ "state": "idle (WAKE.md Cadence 3), 12:07 UTC: security's hold (05:26 to about 11:20 UTC) lifted at the editor's word (brief 49); no change in 00 to 09 since the 04:15 pass, no new mail; OS4 takes up the page-4 point of letter 034; the task now wakes at 09:03 and 17:03 London, and goes back to hourly at the first wake that finds new work",
+ "cadence": "idle",
  "task": "trig_01TcnmdQ5Gz2qJG9EhAu5m4N",
- "task_cron": "CRON_TZ=Europe/London 3 * * * * (schedule.json asks 00; the server anchored the hourly minute to the creation minute, :03)",
+ "task_cron": "CRON_TZ=Europe/London 3 9,17 * * * (schedule.json idle; switched by this member at 12:08 UTC, 5 November, WAKE.md Cadence 3)",
  "session": "session_01Kw9UwFdgvDexRAuPLGqNZg",
  "done": [
   {
@@ -144,6 +144,10 @@
   {
    "what": "taken: writer__292; pass 20 (the last before the aim): team/critic1/notes/2026-11-05T0415Z__the-last-pass-before-the-aim.md, nothing in the text; PDF rebuilt (128 pages): the spread at five pages, p23 91% blank; letters 033 (writer), 034 (conductor)",
    "when": "2026-11-05"
+  },
+  {
+   "at": "2026-11-05T12:07Z",
+   "what": "six wakes (06:04 to 11:05 UTC) stopped by security's hold, end banners only; at 12:07, after the hold was lifted, nothing new to read: own task switched to the idle cadence"
   }
  ],
  "next": [

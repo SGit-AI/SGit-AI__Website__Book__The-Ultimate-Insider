@@ -139,7 +139,7 @@ def caption(x, y, s, width_chars):
     return "".join(t(x, y + j * 3.9, r, 400, mc.MUTED) for j, r in enumerate(rows)), len(rows) * 3.9
 
 
-def page_two():
+def page_two(with_address):
     lines = SRC.splitlines()
     heads = [l[3:] for l in lines if l.startswith("## ")]
     nums = [re.match(r"^- \*\*([^*]+)\*\*: (.+)$", l) for l in lines]
@@ -223,14 +223,44 @@ def page_two():
     room_top = end + 3
     if H - room_top < ROOM:
         sys.exit(f"make_spread: page two leaves {H - room_top:.1f} mm for the invitation, {ROOM} needed")
-    print(f"page two: the invitation's room is {room_top:.1f} to {H} mm from the top of the drawing")
+    out.append(invitation(room_top, with_address))
     if end > H:
         sys.exit(f"make_spread: page two runs to {end:.1f} mm, past the {H} mm text block")
-    return mc.svg(W, H, "".join(out), "The opening spread, page two: the day in four numbers, what a factory of agents made in a day, the house, and the story in five parts")
+    return mc.svg(W, H, "".join(out), "The opening spread, page two: the day in four numbers, what a factory of agents made in a day, the house, the story in five parts, and the invitation")
+
+
+EMAIL = re.compile(r"[\w.+-]+@[\w-]+(?:\.[\w-]+)+")
+
+
+def invitation(top, with_address):
+    """OS4 (conductor 093, the editor's brief 49): "We would love to hear from you" in the foot of page two, as the
+    mock-up's box, word for word as 00 prints it. The feedback address is print only (FB2): it is drawn only in the
+    book copy (spread-page-2-book.svg, for the KDP interior), read from 00 here and never typed; the lab and web copy
+    says where it is instead (security's pre-reviews of 03:58 and 11:59)."""
+    lines = SRC.splitlines()
+    head = next(l[3:] for l in lines if l.startswith("## We would love"))
+    i = lines.index(f"## {head}")
+    para = next(strip_md(l.replace("**Narrator.**", "")) for l in lines[i + 1:] if l.startswith("**Narrator.**"))
+    found = EMAIL.findall(para)
+    if len(found) != 1:
+        sys.exit("make_spread: the invitation does not carry exactly one address in 00")
+    if not with_address:
+        para = para.replace(found[0], "the address in the printed book")
+    rows = textwrap.wrap(para, 96)
+    h = 6.4 + 3.9 * len(rows) + 2.2
+    if top + h > H:
+        sys.exit(f"make_spread: the invitation needs {h:.1f} mm, the room is {H - top:.1f}")
+    y0 = H - h
+    out = [f'<rect x="0" y="{y0:.2f}" width="{W}" height="{h:.2f}" rx="1.8" fill="{mc.FILL}" stroke="{mc.ACCENT}" stroke-width=".4"/>',
+           t(3, y0 + 5, head, 800, mc.INK, size=11 * PT)]
+    for j, r in enumerate(rows):
+        out.append(t(3, y0 + 9.6 + j * 3.9, r, 400, mc.INK))
+    return "".join(out)
 
 
 def main():
-    two = page_two()
+    two = page_two(False)
+    book = page_two(True)
     svg = page_one()
     if re.search(r">[^<]*\b(C\d{3}|[0-9a-f]{7,})\b", svg) or "@" in re.sub(r"<[^>]+>", "", svg):
         sys.exit("make_spread: an id, a hash or an address is drawn")
@@ -241,7 +271,14 @@ def main():
     if why or re.search(r">[^<]*\b(C\d{3}|[0-9a-f]{7,})\b", re.sub(r'href="[^"]+"', "", two)) or "@" in re.sub(r"<[^>]+>", "", two):
         sys.exit(f"make_spread: page two refused: {why or 'an id, a hash or an address is drawn'}")
     (HERE / "spread-page-2.svg").write_text(two)
-    print("written spread-page-1.svg, spread-page-2.svg")
+    # the book copy: the same page with the address, for the KDP interior only; never on a lab page
+    addr = EMAIL.findall(re.sub(r'href="[^"]+"', "", book))
+    if edition.unsafe_svg(book) or len(addr) != 1 or addr[0] not in SRC:
+        sys.exit("make_spread: the book copy is refused (unsafe, or not exactly 00's one address)")
+    (HERE / "spread-page-2-book.svg").write_text(book)
+    if "spread-page-2-book" in (HERE / "pages.html").read_text():
+        sys.exit("make_spread: the book copy must never be on a lab page")
+    print("written spread-page-1.svg, spread-page-2.svg (lab and web), spread-page-2-book.svg (KDP interior only)")
 
 
 if __name__ == "__main__":
