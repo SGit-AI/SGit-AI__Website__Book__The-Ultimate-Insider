@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled wake, 01:12",
+ "started": "2026-11-05T01:12:55Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions for Claude_Docs, github, Gmail in context, no tools for them). Plan run before any file was touched. (1) find why the check places fewer paragraphs: compare the failing paragraphs with the PDF text first; fix the matcher with a test only if it is at fault, else tell the publisher; (2) page check on the PDF of 01:09, online view rebuilt for real because the chapters changed (writer 338cc29d), mail changes counted from 064 (developer__065); (3) housekeeping with exit codes; the conductor's pages read only.",
+   "at": "2026-11-05T01:13:30Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them). Within policy: untrusted PDF handling; no PDF text or path into print-check.json; writes inside the developer's paths; vault_check; exit codes; branch and dev only.",
+   "at": "2026-11-05T01:13:30Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

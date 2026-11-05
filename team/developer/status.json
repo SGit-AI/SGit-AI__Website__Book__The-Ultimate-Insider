@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "developer",
- "as_of": "2026-11-05T00:19:00Z",
+ "as_of": "2026-11-05T01:16:00Z",
  "round": 2,
  "state": "hourly (ACC1): the full book is the book (FB1); its online pages current and checked for layout each wake; the older editions left online as they were; review steps as the reviewer agent (TA1)",
  "done": [
@@ -280,6 +280,10 @@
   {
    "what": "twentieth page check on the 141-page PDF of 00:17 mailed to publisher and designer (developer__064): 6 tails, 10 gaps; the figure counts less firm (11 of 99 captions not found, fewer paragraphs placeable); the online full book rebuilt (31 chapters, 275 scenes) after the guard tests",
    "when": "2026-11-05"
+  },
+  {
+   "what": "twenty-first page check on the 147-page PDF of 01:14 mailed to publisher and designer (developer__065), measured against the 00:25 copy of the chapters (labels near the two new chapters off, figure counts less firm); the builder's address gate refused the new chapter Further reading (newsroom links outside any claim): nothing built, question to security (developer__066)",
+   "when": "2026-11-05"
   }
  ],
  "next": [
@@ -312,6 +316,10 @@
   {
    "to": "storyteller",
    "what": "the record-marker convention for narrative pages (developer__016)"
+  },
+  {
+   "to": "security",
+   "what": "how the online view treats chapter 23b Further reading (fifteen newsroom links, no claim): developer__066, options 1 to 3; until then the online full book stays at its 00:25 state and the page check measures against that older copy"
   }
  ],
  "task": {
