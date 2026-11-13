@@ -1,0 +1,38 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake 21:02",
+ "started": "2026-11-13T21:04:01Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go with corrections: letter on note 24 carries 045's two other conditions (15 Oct 'due' not 'given'; nothing after 29 Oct); 16's numbers on 00's list sit with the designer; 15 at publisher's next wake; 046 corrects 045 (line 23); ruv 091 should is the designer's. No tool missing.",
+   "at": "2026-11-13T21:05:36Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go: nothing private in the new letter; vault_check comms before commit. No tool missing.",
+   "at": "2026-11-13T21:05:42Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "clean",
+   "comment": "No key, token, contact, name or religious word; vault_check clean; nothing to Cold-Read. No tool lacked.",
+   "at": "2026-11-13T21:08:28Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "All five plan items done; one trailing newline in round-01.json, harmless. No tool lacked.",
+   "at": "2026-11-13T21:08:28Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
