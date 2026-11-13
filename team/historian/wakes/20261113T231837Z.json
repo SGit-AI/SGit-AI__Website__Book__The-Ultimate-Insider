@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-13T23:18:37Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Within scope.writes (team/historian/**); no HOLD; the review file shows the same quiet addendum pattern at 22:35; keep the line dated and say nothing changed; vault_check before commit. Tool: Bash.",
+   "at": "2026-11-13T23:18:50Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Within scope.writes (team/historian/**), no outside paths, no letter, no Cold-Read flow; keep the line dated; vault_check; no em-dashes or keys. Tools: Read, Grep, Glob, Bash.",
+   "at": "2026-11-13T23:19:02Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "A dated line, a debrief, a status touch and a wake record, all in historian scope; no secrets, keys, model names, em-dashes, religious words or Cold-Read material. It did not open the wake record. Tool: Bash.",
+   "at": "2026-11-13T23:19:17Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "No letter was written; the wake record is expected. Tool: Bash.",
+   "at": "2026-11-13T23:19:17Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "Nothing changed since 22:18",
+   "at": "2026-11-13T23:19:17Z"
+  }
+ },
+ "closed": "2026-11-13T23:19:17Z",
+ "outcome": "ok"
+}
