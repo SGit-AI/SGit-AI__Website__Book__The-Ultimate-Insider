@@ -135,3 +135,6 @@ div.placed-right > p, div.placed-right > .placed-foot { grid-area: 1 / 1; }
 .placed-foot p, .placed-foot .speaker p { font-family: inherit; font-size: 8.5pt; line-height: 1.3; margin: 0; }
 .placed-foot .speaker { margin: 0; padding: 0; border: none; }
 .placed-foot .speaker[data-speaker]::before { display: none !important; }
+/* PEN1 note 16: each part opens on its own section page (the designer's LAB 78), a whole page with no footer */
+@page partpage { @bottom-left { content: none; } @bottom-right { content: none; } @bottom-center { content: none; } }
+div.part-page { page: partpage; break-before: page; break-after: page; }
