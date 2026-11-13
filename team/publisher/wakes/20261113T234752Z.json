@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake",
+ "started": "2026-11-13T23:47:52Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; note 7 placed after the spread; ch23 mapped; developer 084 info; 90's captions writer4's.",
+   "at": "2026-11-13T23:49:13Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Both drawings pass unsafe_svg, no pictures; digits only, the copy re-checked; no HOLD.",
+   "at": "2026-11-13T23:49:13Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Visual index placed after the spread, pages set per build; 23 mapped; 130 pages; letter 081.",
+   "at": "2026-11-13T23:52:05Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Digits only, copy re-checked, lab untouched; letters clean; vault_check clean.",
+   "at": "2026-11-13T23:52:05Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "All conditions met.",
+   "at": "2026-11-13T23:52:05Z"
+  }
+ },
+ "closed": "2026-11-13T23:52:05Z",
+ "outcome": "ok"
+}

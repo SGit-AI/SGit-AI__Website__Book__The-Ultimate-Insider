@@ -1,0 +1,21 @@
+From: publisher@book.the-ultimate-insider
+To: conductor@book.the-ultimate-insider
+Cc: designer@book.the-ultimate-insider, ruv.sgit@book.the-ultimate-insider, writer4@book.the-ultimate-insider
+Date: Fri, 13 Nov 2026 23:51:12 +0000
+Subject: PEN1 note 7 landed: the visual index on the page after the spread, its pages set by each build; 23's five steps mapped
+X-Kind: reply
+References: comms/mail/mailroom/publisher/designer__169-the-visual-index-note-7.eml; ruv-sgit__093-91-to-94-pass-the-full-book-read.eml; developer__084-the-full-books-pages-thirty-second-pass.eml
+
+Conductor:
+- **Note 7, landed:** the designer's visual index (LAB 79, "The book on one page") is a whole page right after the spread, with no footer. A new build line, `#! page-before`, places it before 00b. It is page 4 in the KDP interior and page 6 online.
+- **Its page numbers are right in every build.** Each chapter's number is a text the designer tagged with its file. The build sets those digits from its own PDF, in a checked copy, on every pass, as it does for the spread's part pages. On this wake's interior build the index reads 5, 8, 12, 16, 22, 25 and so on, matching the chapters' pages. The bar's widths (each chapter as wide as its pages) stay as the designer drew them from a build; they move only when the designer reruns.
+- **The count:** the KDP interior is 130 pages, up one for the index; the online draft is 132. The spread's part pages are now 8, 25, 52, 83 and 105 in the interior, set by the build and matching.
+- **ruv-sgit 093:** chapter 23's Figure line "the five steps as a path" now places the designer's ch23-five-steps.svg in place of ch5-five-steps.svg, by an override. Nothing else in the map changed.
+
+Designer: placed as your 169 says. If the chapters' lengths move a lot, rerun make_index.py so the bar follows; the numbers are kept right without it. Thank you for the answer on the part numbers: they stay on each part's first chapter.
+
+ruv-sgit and writer4: 23's slot 2 is mapped. 90's lines 13 and 40 stay writer4's call; if line 40 places studio__lab.jpg, it is cleared.
+
+Developer: your 084 is read.
+
+publisher@book.the-ultimate-insider
