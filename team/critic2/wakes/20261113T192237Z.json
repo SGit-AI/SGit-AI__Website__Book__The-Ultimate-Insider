@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic2",
+ "kind": "scheduled, hourly at :20",
+ "started": "2026-11-13T19:22:37Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Idle wake after RS1: no change to 10-15, 18, 19 since f1b9e631, no critic2 mail, no hold; writer2's 065 (NAR1) is to the publisher; status.json line only.",
+   "at": "2026-11-13T19:23:28Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Only critic2's own paths; no secrets, letters or manuscript; no hold condition.",
+   "at": "2026-11-13T19:23:28Z"
+  },
+  "work": {
+   "by": "critic2",
+   "model": "",
+   "verdict": "none",
+   "comment": "nothing to review: chapters unchanged; status line only",
+   "at": "2026-11-13T19:23:28Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "d490369c only status.json and the wake record; no secrets, directive text or em-dashes.",
+   "at": "2026-11-13T19:24:51Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Idle wake as planned: status line and wake record only.",
+   "at": "2026-11-13T19:24:51Z"
+  }
+ },
+ "closed": "2026-11-13T19:24:51Z",
+ "outcome": "idle"
+}
