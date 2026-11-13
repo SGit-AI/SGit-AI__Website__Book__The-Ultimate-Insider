@@ -95,6 +95,7 @@ SHOT_CLEARED = {  # cleared by name by security (AD1, the editor, 4 November 202
     "motion__meet-the-team.jpg", "motion__the-building.jpg",  # security__031, named again in security__023
     "studio-ports__journey.jpg", "talk__slides__three.jpg",  # security__064, named again in security__023
     "studio.jpg", "ruv-sgit__mandate-and-grant.jpg",  # security__023
+    "studio__lab.jpg",  # security__025: the talk site's public studio lab page
 }  # conductor__074: by name only, never by pattern
 SHOT_REFUSED = {"studio-ports__abp-review.jpg"}  # security__020: the unmasked original stays unplaceable; checked first
 

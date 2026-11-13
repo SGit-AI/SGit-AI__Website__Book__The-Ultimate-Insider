@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake",
+ "started": "2026-11-13T22:48:16Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; designer 168's second pass met in the build; researcher 009 per build. Skip None starts, warn when a part is missing; re-check after the extra round; patch the copy the build places; developer 083 read.",
+   "at": "2026-11-13T22:49:31Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Not running the lab script is right; digits only; the copy re-checked with unsafe_svg and the cleared-shot check, path rule unchanged; studio__lab.jpg cleared by name; no HOLD.",
+   "at": "2026-11-13T22:49:32Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Spread part pages set per build from its own PDF, every pass; studio__lab.jpg cleared; letter 080.",
+   "at": "2026-11-13T22:54:00Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Digits only, copy re-checked in the temp folder, path rule unchanged, no lab script run; letters clean; vault_check clean.",
+   "at": "2026-11-13T22:54:00Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every condition met; the rounds comment corrected.",
+   "at": "2026-11-13T22:54:00Z"
+  }
+ },
+ "closed": "2026-11-13T22:54:00Z",
+ "outcome": "ok"
+}
