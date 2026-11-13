@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "second pre-review of the clarified plan: inside scope.writes; Book.txt only read; vault_check before commit. Tools Read, Grep, Glob, Bash; none refused.",
    "at": "2026-11-13T21:43:35Z"
+  },
+  "work": {
+   "by": "synthetic",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "nothing new to read; board note, debrief, status; first pre-review misread corrected and re-run; no readers or letters",
+   "at": "2026-11-13T21:45:27Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "diff clean; scope, validate, vault_check pass; only the member's own team address (as in every debrief). Tools Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-13T21:45:27Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "all items done; vault_check clean (mine and post-review); nothing unplanned. Tools Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-13T21:45:43Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-13T21:45:43Z",
+ "outcome": "ok"
 }
