@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-13T20:18:43Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "The letter is consistent with the plan; the 00b and C116 'Black Hat Europe, 9 December 2025' wording is still in the manuscript, so flagging it to the researcher is right; say the editor's byline dates the pitch. Tools: Read, Grep.",
+   "at": "2026-11-13T20:19:21Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Plan fits the historian's scope; nothing crosses to Cold-Read; no attack-shaped content; keep the letter free of keys, ids, contact details, model names, em-dashes; vault_check. Tool: Read.",
+   "at": "2026-11-13T20:19:47Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "Letter 089 and its two mailroom copies identical; no secrets, keys, contact details beyond team addresses, model names, em-dashes or religious words; nothing toward Cold-Read; writes in scope; vault_check clean. Tools: Bash and Read.",
+   "at": "2026-11-13T20:20:24Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "Letter, dated addendum, researcher__006 filed, debrief and status touch present; the wake record is closed by close.",
+   "at": "2026-11-13T20:20:25Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "Pitch dating taken; Black Hat wording flagged to the researcher; the one commit read",
+   "at": "2026-11-13T20:20:25Z"
+  }
+ },
+ "closed": "2026-11-13T20:20:25Z",
+ "outcome": "ok"
+}
