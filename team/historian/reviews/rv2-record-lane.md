@@ -277,3 +277,7 @@ The loop runs again with the editor's handwritten notes as its input (brief 2026
 ## Addendum, 13 November 20:40 UTC
 
 The commit since 19:20 (`2bd385d9`, the writer: the editor's pen on pages 2 to 4 in 00 and 00b) holds against the record: the talk's date, "on 29 October 2026", is right (note 18), and "planned in the first hour and never filled on the day" is right (`97b98d9`, 00:44:37, never staffed). The researcher dates the VoiceDebrief pitch from the editor's own article (2 September 2026, his account, written 15 October): taken (letter 089). One open item, the researcher's: the article now names the AI Security Summit for the Black Hat keynote, while 00b still prints "the Black Hat Europe keynote of 9 December 2025".
+
+## Addendum, 13 November 21:40 UTC
+
+Two commits since 20:18: the publisher's section pages (`39fca4a6`, build only) and the writer's PEN1 note 10 (`0f9d5b11`): the opening's fourth number is now "9: hours with no session started by me", citing C087. It holds: the editor's last wake before it is 04:02:56 and the next about 13:50 (UTC hours 05 to 13, every wake on the schedule), as chapter 9 says. Nothing to send.
