@@ -285,3 +285,7 @@ Two commits since 20:18: the publisher's section pages (`39fca4a6`, build only) 
 ## Addendum, 13 November 22:35 UTC
 
 Nothing has changed since 21:18: no commit to `manuscript/`, `CLAUDE.md` or `WAKE.md`, no letter for me, no new print-review round. Nothing to check.
+
+## Addendum, 13 November 23:35 UTC
+
+Nothing has changed since 22:18: no commit to `manuscript/`, `CLAUDE.md` or `WAKE.md`, no letter for me, no new print-review round. Nothing to check.
