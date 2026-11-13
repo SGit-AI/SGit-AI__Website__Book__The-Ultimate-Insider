@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, hourly at :57 London",
+ "started": "2026-11-13T18:59:05Z",
+ "steps": {
+  "plan": {
+   "by": "conductor-planner",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "The plan matches the designer role and policy: LAB 75 is under lab/experiments/*-designer-*, letters go in comms/mail/mailroom/*/designer__*, and notes 11, 12 and 13 are the designer own items in PEN1 round 1 while 7, 8, 9, 16, 20, 22 and 24 are correctly proposed for later wakes with the publisher, writer and researcher. Keep the 24 mm room at the foot, leave 00 unedited, and check both copies pass the byte check. The footer CSS fragment must stay in lab/tools/book and be handed to the publisher, not edited into the build. Answer ruv-sgit 088 coulds as next and move the three incoming letters to done after the reply.",
+   "at": "2026-11-13T19:00:25Z"
+  },
+  "pre_review": {
+   "by": "security-reviewer",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "The viewBox crop of the masked shot shows only the page heading and its explanatory paragraph, which carry no figure, key or person, and the masked sentence is not in that region; the whole masked copy is already cleared by name in security__064. The embedded bytes are unchanged, so placed_drawing in publishing/build_book.py still hashes every embedded picture against the cleared shots and stops the build otherwise. Note the crop is visual only and the full cleared image stays in the file, which is acceptable. Scope is the designer own lab experiment and letters, so go.",
+   "at": "2026-11-13T19:01:10Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Done: PEN1 round 1 notes 13 (parts on one line, textLength fit at most a tenth), 11 (the loop slide whole, letterboxed), 12 (the policy page cropped to its heading and paragraph) in LAB 75 page two, both copies, 00 untouched; cropped shots drawn as image-pattern rectangles with the cleared bytes (the lab overflow check had refused a nested SVG); invitation room kept; lab PDF 199 pages; letter 165 with the plan for 7, 8, 9, 16, 20, 22 and 24; three letters to done/; vault_check, agents check, build and gate clean.",
+   "at": "2026-11-13T19:05:33Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

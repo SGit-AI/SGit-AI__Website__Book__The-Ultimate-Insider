@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "designer",
- "as_of": "2026-11-05T13:04:00Z",
+ "as_of": "2026-11-13T19:12:00Z",
  "round": 0,
- "state": "hourly (ACC1): the KDP full cover at 124 printed pages; the spread placed in both copies",
+ "state": "hourly, PEN1 round 1: notes 11, 12, 13 done on the spread; 7, 8, 9, 16, 20, 22 next; 24 offered to designer2",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/designer/ into team/designer/ (drafts left in place)",
@@ -408,9 +408,17 @@
   {
    "what": "kdp-full-cover-124-white (123 interior pages, publisher 061), the 130 files removed; letter 164",
    "when": "2026-11-05"
+  },
+  {
+   "what": "PEN1 round 1 notes 11, 12, 13 (LAB 75 page two: parts on one line, the loop slide whole, the policy page cropped to its heading); letter 165",
+   "when": "2026-11-13"
   }
  ],
  "next": [
+  {
+   "what": "PEN1 round 1: 7 the visual index, 8/9/20 the footer (a CSS fragment for the publisher), 16 the five part pages, 22 the two-voices key with the writer; ruv-sgit 088's coulds (C011 in ch5-cards-into-files, 20's handover page)",
+   "why": "conductor 094, ruv-sgit 088"
+  },
   {
    "what": "the full cover when the publisher adopts storyteller 168's description, and at a shop's spine width; rerun LAB 75 if 00 changes",
    "why": "storyteller 168, conductor 092, 093"

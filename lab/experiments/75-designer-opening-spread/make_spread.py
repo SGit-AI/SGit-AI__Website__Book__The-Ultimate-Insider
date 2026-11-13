@@ -118,6 +118,12 @@ def figures():
     return out
 
 
+# how each shot is shown (PEN1 round 1): the whole slide letterboxed on its own ground (note 11), and the policy page
+# cropped to its own heading and paragraph, the part its line speaks of (note 12); the bytes are the cleared file's
+VIEW = {"talk__slides__loop.jpg": ("0 0 1280 800", "meet", "#0b0e14"),
+        "studio-ports__abp-review__masked.jpg": ("265 95 745 215", "slice", None)}
+
+
 def shot(name, x, y, w, aspect=1.6):
     import base64
     sys.path.insert(0, str(REPO / "publishing"))
@@ -126,8 +132,16 @@ def shot(name, x, y, w, aspect=1.6):
         sys.exit(f"make_spread: {name} is not cleared by name in publishing/edition.py; it is not embedded")
     h = w / aspect
     data = base64.b64encode((SHOTS / name).read_bytes()).decode()
-    return (f'<rect x="{x - .2:.2f}" y="{y - .2:.2f}" width="{w + .4:.2f}" height="{h + .4:.2f}" rx=".8" fill="none" stroke="{mc.FILL2}" stroke-width=".4"/>'
-            f'<image x="{x:.2f}" y="{y:.2f}" width="{w:.2f}" height="{h:.2f}" preserveAspectRatio="xMidYMin slice" href="data:image/jpeg;base64,{data}"/>'), h
+    frame = f'<rect x="{x - .2:.2f}" y="{y - .2:.2f}" width="{w + .4:.2f}" height="{h + .4:.2f}" rx=".8" fill="none" stroke="{mc.FILL2}" stroke-width=".4"/>'
+    if name in VIEW:
+        vb, fit, ground = VIEW[name]
+        bg = f'<rect x="{x:.2f}" y="{y:.2f}" width="{w:.2f}" height="{h:.2f}" fill="{ground}"/>' if ground else ""
+        pid = "shot-" + re.sub(r"[^a-z0-9]", "-", name.lower())
+        # an image pattern, so the card is exactly the rectangle it fills (the lab's overflow check measures it)
+        return (bg + f'<defs><pattern id="{pid}" patternUnits="userSpaceOnUse" x="{x:.2f}" y="{y:.2f}" width="{w:.2f}" height="{h:.2f}" '
+                f'viewBox="{vb}" preserveAspectRatio="xMidYMid {fit}"><image x="0" y="0" width="1280" height="800" href="data:image/jpeg;base64,{data}"/></pattern></defs>'
+                f'<rect x="{x:.2f}" y="{y:.2f}" width="{w:.2f}" height="{h:.2f}" fill="url(#{pid})"/>' + frame), h
+    return (frame + f'<image x="{x:.2f}" y="{y:.2f}" width="{w:.2f}" height="{h:.2f}" preserveAspectRatio="xMidYMin slice" href="data:image/jpeg;base64,{data}"/>'), h
 
 
 def g_head(m, x, y):
@@ -202,22 +216,31 @@ def page_two(with_address):
     c, ch = caption(0, y + hh + 4.2, figs[4][0], 64)
     out.append(c)
     rx, rw, yy = hw + 4, W - hw - 4, y
-    for cap, img in figs[5:7]:  # a small card each: the shot, its caption beside it
-        iw = 36.0
-        s_, h = shot(img, rx, yy, iw)
-        c, ch2 = caption(rx + iw + 2.4, yy + 3.2, cap, 18)
-        out.append(s_ + c); yy += max(h, ch2) + 4
+    for k, (cap, img) in enumerate(figs[5:7]):
+        if k == 0:  # the policy page: its heading and paragraph, wide, the caption under it (note 12)
+            s_, h = shot(img, rx, yy, rw, 745 / 215)
+            c, ch2 = caption(rx, yy + h + 4.2, cap, 40)
+            out.append(s_ + c); yy += h + 4.2 + ch2 + 2.4
+        else:  # a small card: the shot, its caption beside it
+            iw = 32.0
+            s_, h = shot(img, rx, yy, iw)
+            c, ch2 = caption(rx + iw + 2.4, yy + 3.2, cap, 20)
+            out.append(s_ + c); yy += max(h, ch2) + 4
     y = max(y + hh + 4.2 + ch, yy) + 3.4
     # the story, in five parts
     out.append(t(0, y, heads[3], 800, mc.INK, size=12 * PT)); y += 6
     for n, lead, rest in parts:
         out.append(f'<circle cx="2.6" cy="{y - 1.1:.2f}" r="2.5" fill="{mc.ACCENT}"/>' + t(2.6, y, n, 800, "#fff", "middle"))
-        rows = textwrap.wrap(f"{lead} {rest}", 92)
-        first = rows[0][len(lead):]
-        out.append(f'<text x="7" y="{y:.2f}" {SANS} font-size="3.18" fill="{mc.INK}"><tspan font-weight="800">{escape(lead, quote=False)}</tspan>{escape(first, quote=False)}</text>')
-        for j, r in enumerate(rows[1:], 1):
-            out.append(t(7, y + j * 3.9, r, 400, mc.INK))
-        y += 3.9 * len(rows) + .8
+        # each part on one line (note 13): a line longer than the measure holds is fitted to it with textLength,
+        # at most about a tenth narrower, and stops the script beyond that
+        line = f"{lead} {rest}"
+        fit = ""
+        if len(line) > 90:
+            if len(line) > 100:
+                sys.exit(f"make_spread: part {n} is too long for one line at 9 pt: {len(line)} characters")
+            fit = ' textLength="149" lengthAdjust="spacingAndGlyphs"'
+        out.append(f'<text x="7" y="{y:.2f}" {SANS} font-size="3.18" fill="{mc.INK}"{fit}><tspan font-weight="800">{escape(lead, quote=False)}</tspan> {escape(rest, quote=False)}</text>')
+        y += 3.9 + .8
     out.append(t(0, y + 2.6, read, 400, mc.INK, size=10 * PT, fam=SERIF))
     end = y + 4
     room_top = end + 3
