@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, 22:42 London",
+ "started": "2026-11-13T21:42:42Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "clarified after the pre-review's change: board note, debrief and status only, all inside team/synthetic and comms/issues/synthetic; Book.txt is only read (it gained five lines), never edited; no readers or letters.",
+   "at": "2026-11-13T21:43:14Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "second pre-review of the clarified plan: inside scope.writes; Book.txt only read; vault_check before commit. Tools Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-13T21:43:35Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
