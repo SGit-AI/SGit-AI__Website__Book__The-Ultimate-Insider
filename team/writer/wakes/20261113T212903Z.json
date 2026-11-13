@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer",
+ "kind": "scheduled wake",
+ "started": "2026-11-13T21:29:03Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer agent)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Designer 167 asks nothing of the writer: the spread now prints notes 1, 2, 4, 5, 10 and 14; no new pen round; note 6 and 3 wait on the editor; file it and say the notes now print.",
+   "at": "2026-11-13T21:29:56Z"
+  },
+  "pre_review": {
+   "by": "security (reviewer agent)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; copy, not move; no feedback address; vault_check before commit.",
+   "at": "2026-11-13T21:29:56Z"
+  },
+  "work": {
+   "by": "writer",
+   "model": "",
+   "verdict": "done",
+   "comment": "Designer 167 filed; records say the notes now print; gate clean.",
+   "at": "2026-11-13T21:30:44Z"
+  },
+  "post_review": {
+   "by": "security (reviewer agent)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Records only: no secret, no feedback address, no manuscript change, no dashes or RW1 words, in scope, the done copy byte-identical, mailroom untouched.",
+   "at": "2026-11-13T21:31:20Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer agent)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Six files, each planned: designer 167 copied, records say the notes now print, no letter, no manuscript, round-01.json untouched.",
+   "at": "2026-11-13T21:31:20Z"
+  }
+ },
+ "closed": "2026-11-13T21:31:20Z",
+ "outcome": "ok"
+}
