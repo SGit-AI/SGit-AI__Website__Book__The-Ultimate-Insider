@@ -205,6 +205,11 @@ def directives(book=None):
                     sys.exit(f"build_book: title-page must be a file in lab/experiments/: {m.group(1)}")
                 FIT["title_page"] = tp
                 continue
+            m = re.match(r"\s*#!\s*part-page:\s*(.+?)\s*\|\s*(.+?)\s*$", line)
+            if m:  # PEN1 note 16 (designer 166, storyteller 169): a part's section page, before its first chapter
+                chapter = os.path.realpath(os.path.join(os.path.dirname(book), m.group(1)))
+                FIT.setdefault("part_pages", {})[chapter] = placed_drawing(m.group(2))
+                continue
             m = re.match(r"\s*#!\s*placed-spread:\s*(.+?)\s*$", line)
             if m:  # OS3: a chapter printed as the designer's two placed pages (designer 160)
                 parts = [x.strip() for x in m.group(1).split("|")]
@@ -278,8 +283,8 @@ def chapter_starts(pdf, titles):
     at = next((i + 1 for i, pg in enumerate(pages) if any(l == "Contents" for l in pg[:3])), 0)
     starts = []
     for t in titles:
-        found = next((i for i in range(at, len(pages)) if t and norm(t) and
-                      norm(" ".join(pages[i][:5])).find(norm(t)) != -1), None)
+        found = next((i for i in range(at, len(pages)) if t and norm(t) and  # the page opens with the title
+                      norm(" ".join(pages[i][:3])).startswith(norm(t))), None)
         starts.append(found + 1 if found is not None else None)
         if found is not None:
             at = found + 1
@@ -627,6 +632,10 @@ def main():
     for src in sources:
         with open(src, encoding="utf-8") as f:
             raw = f.read()
+            part_page = FIT.get("part_pages", {}).get(os.path.realpath(src))
+            if part_page:  # a whole page of its own before the chapter: no footer, no number (full-book.css)
+                raw = (f':::: {{.placed-page .part-page}}\n<img src="{part_page[0]}" alt="The section page of the part '
+                       f'that opens here">\n\n::::\n\n' + raw)
             placed = FIT.get("placed", {}).get(os.path.realpath(src))
             if placed and not a.cover and os.path.realpath(src) in FIT.get("placed_print", {}):
                 placed = placed[:1] + [FIT["placed_print"][os.path.realpath(src)]]

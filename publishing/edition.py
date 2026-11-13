@@ -254,6 +254,7 @@ def cast_lines(body, mark=None, figure=None, figures=None):
             continue
         if re.match(r"\*(Words (on|for) this page:\*|How to read the scenes:\*|An \*\*agent\*\*, here, is )", s):
             lines += ["", "::: {.words-box}", s, ":::", ""]
+            last = speaker  # rule 15 (storyteller 171): a words box is not another voice, so the run goes on
             continue
         lines.append(line)
     return re.sub(r"\n{3,}", "\n\n", "\n".join(lines))

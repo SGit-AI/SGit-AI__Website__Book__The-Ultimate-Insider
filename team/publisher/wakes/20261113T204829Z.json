@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake",
+ "started": "2026-11-13T20:48:29Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; designer 166 and storyteller 171 followed; concept callouts pending unless narrow; note 15 next wake.",
+   "at": "2026-11-13T20:49:35Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "The five part pages pass unsafe_svg and embed no picture; every one through placed_drawing; no HOLD.",
+   "at": "2026-11-13T20:49:35Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Five part pages placed (note 16); words box keeps the run (rule 15, heads 228 to 223); chapter_starts by title at the top; 129 pages; letter 078.",
+   "at": "2026-11-13T20:51:57Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Every part page through placed_drawing; fixed alt; CSS clean; letters and records clean; vault_check clean.",
+   "at": "2026-11-13T20:51:57Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every condition met; concept callouts and note 15 named for next wake.",
+   "at": "2026-11-13T20:51:57Z"
+  }
+ },
+ "closed": "2026-11-13T20:51:57Z",
+ "outcome": "ok"
+}
