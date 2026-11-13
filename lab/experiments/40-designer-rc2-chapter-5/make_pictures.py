@@ -15,7 +15,8 @@
   "do this now" card from chapters 1 to 4 (a fragment, verbatim), checked against the chapters at build.
 No number is printed but the steps' ordinals. One SVG unit a millimetre, sizes stated, text 9 pt.
 """
-import subprocess, sys
+import re, subprocess, sys
+from html import escape
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
@@ -249,10 +250,59 @@ def five_steps():
     return mc.svg(164, round(top + 5 * row + 3.4, 1), "".join(out), "The five steps as a path, from an empty project to a second agent, each beside the matching do-this-now card")
 
 
+# the full book's chapter 23 (ruv-sgit 091): the same path, each step's title from chapter 23's own list, each card a
+# line of this book's own "Something to try" in the chapter it was learned in; read from manuscript/rc2/150 at build
+FULL = REPO / "manuscript" / "rc2" / "150"
+FULL_CARDS = [None, ("04", "A page of rules is the cheapest safety you will ever add to an agent"),
+              ("02", "you have your first brief"), ("15", "show it to one person"), ("05", "how you would stop it")]
+
+
+def full_five_steps():
+    import textwrap
+    ch23 = next(FULL.glob("23-*.md")).read_text()
+    titles = re.findall(r"^\s+\*\*(You: one tool and one empty project\.|You: one page of rules|You: one brief|Your agent builds, you check: ship something small that somebody else can use, the same day\.|Add a second agent only when the first is busy\.)\*\*", ch23, re.M)
+    if len(titles) != 5:
+        sys.exit(f"make_pictures: chapter 23 no longer lists the five steps as drawn ({len(titles)} found)")
+    for card in FULL_CARDS[1:]:
+        ch, frag = card
+        text = next(FULL.glob(f"{ch}-*.md")).read_text()
+        section = text.split("## Something to try", 1)
+        if len(section) < 2 or frag not in section[1].split("\n## ", 1)[0]:
+            sys.exit(f"make_pictures: {frag!r} is not in chapter {int(ch)}'s Something to try")
+    row, top, out = 20.0, 3.0, []
+    xs = 10.0
+    out.append(mc.line(xs, top + 4, xs, top + 4 + row * 4, mc.ACCENT, 1.4))
+    for i, title in enumerate(titles):
+        y = top + i * row
+        out.append(f'<circle cx="{xs}" cy="{y + 4}" r="4" fill="#fff" stroke="{mc.ACCENT}" stroke-width="1.2"/>'
+                   + t(xs, y + 5.2, str(i + 1), 800, mc.ACCENT, "middle"))
+        for j, line in enumerate(textwrap.wrap(title, 34)):
+            out.append(t(18, y + 5.2 + j * 4.2, escape(line), 800))
+        x = 88
+        card = FULL_CARDS[i]
+        if card:
+            ch, frag = card
+            rows = textwrap.wrap(frag, 36)
+            h = 9.2 + 4.2 * len(rows)
+            out.append(f'<rect x="{x}" y="{y}" width="75.6" height="{h:.1f}" rx="1.8" fill="{mc.FILL}" stroke="{mc.FILL2}" stroke-width=".4"/>'
+                       + t(x + 3, y + 5, f"Something to try, chapter {int(ch)}", 400, mc.MUTED)
+                       + "".join(t(x + 3, y + 10.2 + k * 4.2, escape(r), 700) for k, r in enumerate(rows)))
+            out.append(mc.line(78, y + 4, x - 1, y + 4, mc.FILL2, .4))
+        else:
+            out.append(t(x + 3, y + 5.2, "start here", 700, mc.ACCENT))
+    y4 = top + 3 * row
+    out.append(mc.path(f"M{xs - 4.6} {y4 + 6} C{xs - 7.4} {y4 + 1} {xs - 7.4} {y4 - 6} {xs - 4.6} {y4 - 9}", "none", mc.ACCENT, .6)
+               + mc.path(f"M{xs - 5.6} {y4 - 7.4} l1 -1.6 l1.4 1.2", "none", mc.ACCENT, .6))
+    out.append(t(18, y4 + 18.2, "then do it again", 700, mc.ACCENT))
+    out.append(t(0, top + 5 * row + 1.6, "from an empty project to a second agent; each card a line of that chapter\u2019s Something to try", 400, mc.MUTED))
+    return mc.svg(164, round(top + 5 * row + 3.4, 1), "".join(out), "The five steps as a path, from an empty project to a second agent, each beside the matching Something to try card from this book")
+
+
 if __name__ == "__main__":
     clone = sys.argv[1]
     files = {"ch5-cards-into-files.svg": cards_into_files(clone), "ch5-two-cards.svg": two_cards(),
-             "ch5-three-factories.svg": three_factories(), "ch5-team-cards.svg": team_cards(), "ch5-five-steps.svg": five_steps()}
+             "ch5-three-factories.svg": three_factories(), "ch5-team-cards.svg": team_cards(), "ch5-five-steps.svg": five_steps(),
+             "ch23-five-steps.svg": full_five_steps()}
     for name, svg in files.items():
         (HERE / name).write_text(svg)
     print("written " + ", ".join(files))

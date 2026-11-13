@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, hourly at :57 London",
+ "started": "2026-11-13T21:58:08Z",
+ "steps": {
+  "plan": {
+   "by": "conductor-planner",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "All writes sit in scope: experiment 75 and 40 under lab/experiments/*-designer-*, lab/tools/book/resync_150.py, team/designer and comms/mail/designer. The KDP build goes to the scratchpad with --out so nothing lands in the repository, and page numbers are left out without the JSON. Check the chapter numbers 2, 4, 5 and 15 against the chapters own numbering, since file prefixes include 00b and 03b, and leave ch5-five-steps of the thirty as is. Note 24 stays with designer2 unless declined; run vault_check on comms before the commit.",
+   "at": "2026-11-13T21:59:15Z"
+  },
+  "pre_review": {
+   "by": "security-reviewer",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "All writes sit in scope.writes (lab experiments 75 and 40, lab/tools, team/designer, comms/mail/designer); manuscript/rc2/150 is only read and quoted, not written. No secrets, no blind-repo flow, nothing attack-shaped. Conditions: leave the cards verbatim with their source named, run vault_check on comms before the commit, and keep the scratchpad JSON and KDP build out of the repository.",
+   "at": "2026-11-13T21:59:46Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Done: LAB 75 make_spread.py --chapters prints each part first page beside the five parts (7, 24, 51, 82, 104 from a scratchpad KDP build; no build output in the repository), a line fitted only when wider than the measure; LAB 40 ch23-five-steps with this book Something to try cards (chapters 4, 2, 15, 5) checked at build, placed for chapter 23, the thirty drawings byte-identical; 00b two-voices re-placed under its reworded line; lab PDF 210 pages; letter 168; four letters to done/; vault_check, agents check, build and gate clean.",
+   "at": "2026-11-13T22:04:17Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

@@ -2,7 +2,7 @@
 """LAB 75: the opening spread as two placed pages (OS3, conductor 091; the editor's brief 44: "the formatting is all
 over the place"). Each page is one drawing the size of the text block, so the build places it whole, not flowed.
 
-    python3 lab/experiments/75-designer-opening-spread/make_spread.py
+    python3 lab/experiments/75-designer-opening-spread/make_spread.py [--chapters <build>-chapters.json]
 
 Every word is read at build from manuscript/rc2/150/00-start-here.md (read, never edited) and checked there; the
 writer's words stay as they are. Page one: the headline, the narrator's opening with one narrator mark in the book's
@@ -244,10 +244,13 @@ def page_two(with_address):
         # at most about a tenth narrower, and stops the script beyond that
         line = f"{lead} {rest}"
         fit = ""
-        if len(line) > 90:
+        measure = 143.0 if PAGES else 149.0
+        if len(line) * 1.6 > measure + 1:  # squeeze only a line wider than the measure, never stretch one
             if len(line) > 100:
                 sys.exit(f"make_spread: part {n} is too long for one line at 9 pt: {len(line)} characters")
-            fit = ' textLength="149" lengthAdjust="spacingAndGlyphs"'
+            fit = f' textLength="{measure:.0f}" lengthAdjust="spacingAndGlyphs"'
+        if PAGES:  # the part's first page, from the build's chapters JSON (PEN1 note 16)
+            out.append(t(W, y, str(PAGES[int(n)]), 700, mc.ACCENT, "end"))
         out.append(f'<text x="7" y="{y:.2f}" {SANS} font-size="3.18" fill="{mc.INK}"{fit}><tspan font-weight="800">{escape(lead, quote=False)}</tspan> {escape(rest, quote=False)}</text>')
         y += 3.9 + .8
     if read:
@@ -291,7 +294,26 @@ def invitation(top, with_address):
     return "".join(out)
 
 
+WORDS_N = {"one": 1, "two": 2, "three": 3, "four": 4, "five": 5}
+PAGES = {}
+
+
+def read_pages(path):
+    """Each part's first page, from the build's <name>-chapters.json: the lowest start page among the part's chapters."""
+    import json
+    d = json.loads(Path(path).read_text())
+    for c in d["chapters"]:
+        m = re.match(r"Part (\w+)\.", c.get("part") or "")
+        if m and m.group(1) in WORDS_N:
+            n = WORDS_N[m.group(1)]
+            PAGES[n] = min(PAGES.get(n, 10 ** 6), int(c["page"]))
+    if sorted(PAGES) != [1, 2, 3, 4, 5]:
+        sys.exit("make_spread: the chapters JSON does not give all five parts")
+
+
 def main():
+    if len(sys.argv) > 2 and sys.argv[1] == "--chapters":
+        read_pages(sys.argv[2])
     two = page_two(False)
     book = page_two(True)
     svg = page_one()

@@ -29,6 +29,8 @@ PLACED = {
         "the whole team on one page": ("lab/experiments/27-designer-the-cast/cast-row-personas.svg",
                                        "LAB 27's role cards, moved here from 06 (storyteller 149, writer 228)"),
         "two voices on the page": ("lab/experiments/54-designer-first-pages/two-voices.svg", "the designer's two voices (LAB 54)"),
+        "the two voices: the narrator": ("lab/experiments/54-designer-first-pages/two-voices.svg",
+                                         "the designer's two voices (LAB 54), under the line as reworded for PEN1 note 22"),
     },
     "rc2/150/03b-the-day-at-a-glance.md": {
         "the talk's day as one picture": ("lab/experiments/57-designer-day-at-a-glance/day-at-a-glance.svg", "the designer's day (LAB 57), C095"),
@@ -44,6 +46,10 @@ PLACED = {
     "rc2/150/14-port-not-rebuild.md": {
         "a card, the three decisions on one line of time": ("lab/experiments/67-designer-chapter-14/three-decisions.svg", "the designer's card (LAB 67), C104"),
         "the plan of three parts, drawn as three gates": ("lab/experiments/67-designer-chapter-14/three-gates.svg", "the designer's gates (LAB 67), C027"),
+    },
+    "rc2/150/23-principles-and-build-your-own.md": {
+        "the five steps as a path": ("lab/experiments/40-designer-rc2-chapter-5/ch23-five-steps.svg",
+                                     "the designer's five steps with this book's Something to try cards (ruv-sgit 091)"),
     },
     "rc2/150/04-hour-one-the-empty-project.md": {
         "one banner, as a session prints it": ("lab/experiments/55-designer-findings-cards/ch4-banner-pair.svg",
