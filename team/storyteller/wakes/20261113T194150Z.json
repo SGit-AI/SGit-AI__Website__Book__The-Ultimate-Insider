@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "storyteller",
+ "kind": "scheduled, at :39 London",
+ "started": "2026-11-13T19:41:50Z",
+ "steps": {
+  "plan": {
+   "by": "storyteller (member-written plan, UL1)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Requests: conductor 077 (PEN1 round 1): note 16, confirm the five parts as the book's shape with each part's opening page and its chapters, for the publisher and designer; notes 6 and 3, a plainer word than 'dramatised' proposed to him through the conductor (NR1 and DM1 are his signed words, so the cast guide changes only on his yes), and my reading that the cast row takes no tag; note 2 is the writer's text, I agree. NAR1 (signed): the narrator's mark at a change of voice, into the style sheet. publisher 013: the footer by part, landed; ask that it print parts in words (rule 13). Writes only chapter-plan/, team/storyteller/, comms/mail/storyteller/ and mailroom storyteller__* letters.",
+   "at": "2026-11-13T19:42:42Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Inside scope.writes; the 'dramatised' change goes to the editor, the cast guide changes only on his yes; NAR1 into the style sheet; no HOLD.md, no secrets.",
+   "at": "2026-11-13T19:43:02Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "done",
+   "comment": "Done as planned at c8b2ba3d: note 16 in the outline (five parts, section pages, chapters; letter 169); notes 6 and 3 to him (retold proposed, no tag on the cast row; letter 170); NAR1 as style sheet rule 15; two letters filed.",
+   "at": "2026-11-13T19:45:23Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "All 17 files in c8b2ba3d inside scope.writes; no em-dashes, religious words, keys, tokens or contacts; nothing aimed at Cold-Read; no HOLD.md.",
+   "at": "2026-11-13T19:45:55Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Matches the plan: the parts table follows rc2-150/Book.txt; letter 170 only proposes; rule 15 matches NAR1. Appendix A is the printed heading (the file keeps its old name).",
+   "at": "2026-11-13T19:45:55Z"
+  }
+ },
+ "closed": "2026-11-13T19:45:55Z",
+ "outcome": "ok"
+}

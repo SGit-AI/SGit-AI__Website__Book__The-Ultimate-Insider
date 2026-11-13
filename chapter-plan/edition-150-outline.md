@@ -70,6 +70,20 @@ None of the three changes a number.
 
 And after his answers of 5 November (brief 38): **23b, Further reading** (FR1), straight after chapter 23 and its last word, the newsroom's list with one narrator line; its links checked before print. Owner: writer4; the publisher lists it in Book.txt.
 
+## The book's shape, as printed (PEN1 round 1, note 16, 13 November 2026)
+
+He asked, on the opening spread's list of five parts: "Is this how the book is organized? If so we need to have page numbers here. Each of these 5 areas need a big section page and it should say in the footer what section we are in." Yes: the five parts of the signed plan are the book's shape. Each opens on a section page of its own: "Part one" to "Part five" in words (the style sheet's rule 13), the part's name, and the one line the spread already gives it. The spread's list then carries each part's first page number, and the footer names the part (the publisher's running footer, publisher 013).
+
+| Section page | Name | Its line (as the spread prints it) | Chapters |
+|---|---|---|---|
+| Part one | The creator's problem | Why my slides were always a compromise, and what a factory of agents changed. | 01 Slides as a compromise; 02 Inventing on principle; 03 The tour; 03b The day at a glance |
+| Part two | The factory is assembled | The first five hours: the rules written, the cast arriving. | 04 Hour one; 05 Hour two; 06 Roles as a cast you can read; 07 Hour three; 08 Hours four and five |
+| Part three | The factory runs | Nine hours with nobody starting work, then my return and the afternoon. | 09 Nine hours with nobody starting work; 10 Talking through git and 11 The plumbing (the interlude, SC2); 12 The creator comes back; 13 The story before the slides; 14 Port, not rebuild; 15 Hour eighteen |
+| Part four | The factory is stopped | The stop, what did not work, and what contains a team of insiders. | 16 Hour nineteen; 17 What did not work; 17b The members look back; 18 How do we contain this; 19 A second team, reading cold |
+| Part five | The factory rebuilt, and yours | The team that wrote this book, and the steps for your own. | 20 Sessions end; 21 The second factory; 22 The third, planned; 23 Principles, and build your own; 23b Further reading |
+
+Before part one: the opening spread (00) and "Who is telling this story" (00b), no part. After part five, the back matter, no part: 90 The tour, at length; 91 The words used; 93 Appendix A, the control register; 94 How this book was made. A section page carries no cast bar and no figure: the part's name and its line are the whole page.
+
 ## How the full book grows from the seventy
 
 The same five beats, in the same order, with the same cast bar, running line and margin clock (hour one to hour nineteen, CK1). Each of the seventy's parts roughly doubles. What the full book adds is the whole record, not new argument:
