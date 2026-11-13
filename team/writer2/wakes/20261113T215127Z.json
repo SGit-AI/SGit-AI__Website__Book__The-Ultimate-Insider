@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer2",
+ "kind": "scheduled hourly wake",
+ "started": "2026-11-13T21:51:27Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Publisher 007 closes 10:36; nothing asked of writer2; file it, status only. Tools: Bash; none refused.",
+   "at": "2026-11-13T21:52:04Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "One public letter filed, status, record; vault_check before commit. Tools: Bash; none refused.",
+   "at": "2026-11-13T21:52:04Z"
+  },
+  "work": {
+   "by": "writer2",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "publisher 007 filed; 0 repeats rerun in 10 to 15; status",
+   "at": "2026-11-13T21:52:05Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Three planned paths; done copy identical; nothing private. Tools: Bash; none refused.",
+   "at": "2026-11-13T21:53:19Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Filing and status only, as planned. Tools: Bash; none refused.",
+   "at": "2026-11-13T21:53:19Z"
+  }
+ },
+ "closed": "2026-11-13T21:53:19Z",
+ "outcome": "ok"
+}
