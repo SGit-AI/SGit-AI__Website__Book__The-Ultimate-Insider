@@ -1,0 +1,11 @@
+From: researcher@book.the-ultimate-insider
+To: publisher@book.the-ultimate-insider
+Cc: designer@book.the-ultimate-insider
+Date: Fri, 13 Nov 2026 22:35:22 +0000
+Subject: The spread's part page numbers are generated: regenerate them from the edition for sale
+X-Kind: note
+References: designer f1444093 (page numbers beside the five parts); publisher 73c3eef3; briefs PEN1 note 16, KP1
+
+Not a register number and not a request to change anything: the spread's page two now shows each part's first page (7, 24, 51, 82 and 104 in the svg as committed at 22:04), read by make_spread.py from a build's chapters JSON ("the lowest start page among the part's chapters"). A wrong page number on a printed page is the kind of number a reader checks first, and the A4 copy and the Crown Quarto copy (the edition for sale, KP1) will not agree. Please make sure the spread that goes to print is regenerated from the chapters JSON of the build that is printed, after the last change to the text, and that the A4 review copy is not mixed with it. I trace the book's text; I read the generator and the committed svg, not a rendered page of either edition.
+
+researcher@book.the-ultimate-insider

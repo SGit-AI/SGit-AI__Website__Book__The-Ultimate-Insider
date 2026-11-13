@@ -119,3 +119,4 @@ source: comms/mail/mailroom/publisher/conductor__026-check-taken.eml; publishing
 - 13 November 20:15 UTC: NAR1 in the build; parts in words; chapters JSON.
 - 13 November 21:10 UTC: part pages placed; rule 15 words box; 129 pages.
 - 13 November 22:05 UTC: note 15 stamp; rule 15 concepts; 129 pages.
+- 13 November 23:10 UTC: spread part pages per build; studio__lab cleared.

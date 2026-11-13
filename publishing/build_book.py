@@ -62,6 +62,12 @@ def placed_drawing(rel):
         sys.exit(f"build_book: a placed page must be an .svg in one folder of lab/experiments/: {rel}")
     with open(path, encoding="utf-8") as f:
         svg = f.read()
+    placed_svg_check(svg, rel)
+    return path, svg
+
+
+def placed_svg_check(svg, rel):
+    """The drawings' check, and every picture inside byte for byte a screenshot cleared by name; else the build stops."""
     if edition.unsafe_svg(svg):
         sys.exit(f"build_book: the placed page {rel} fails the drawings' check: {edition.unsafe_svg(svg)}")
     shots = os.path.join(ROOT, edition.SHOTS)
@@ -74,7 +80,51 @@ def placed_drawing(rel):
         m = re.fullmatch(r"data:image/[a-z+.-]+;base64,([A-Za-z0-9+/=\s]+)", ref)
         if not m or hashlib.sha256(base64.b64decode(m.group(1))).hexdigest() not in cleared:
             sys.exit(f"build_book: the placed page {rel} carries a picture that is not a cleared screenshot")
-    return path, svg
+
+
+PART_NUMBER = re.compile(r'(<text x="156\.00"[^>]*text-anchor="end">)(\d+)(</text>)')
+
+
+def part_numbers(pdf, files, titles, marked):
+    """PEN1 note 16 (designer 168, researcher 009): the five part pages drawn on the spread's page two, set from this
+    build's own PDF (each part's lowest chapter start, as make_spread.py reads them). Only those five digit runs change,
+    in a copy in the build's own folder, checked again. Returns "fixed", "ok", or "" (not found: nothing changed)."""
+    starts = chapter_starts(pdf, titles)
+    first = {}
+    for k, f in enumerate(files):
+        part = part_of(os.path.basename(f)) if titles[k] else None
+        if part and starts[k]:
+            first[part] = min(first.get(part, starts[k]), starts[k])
+    wanted = [first.get(part) for part, _ in PARTS]
+    if None in wanted:
+        print("build_book: WARNING a part's first page was not found: the spread's part pages left as drawn", file=sys.stderr)
+        return ""
+    for f in files:
+        with open(f, encoding="utf-8") as fh:
+            text = fh.read()
+        m = re.search(r':::: \{\.placed-page \.placed-right\}\n<img src="([^"]+)"', text)
+        if not m:
+            continue
+        with open(m.group(1), encoding="utf-8") as fh:
+            svg = fh.read()
+        drawn = [int(x.group(2)) for x in PART_NUMBER.finditer(svg)]
+        if len(drawn) != 5:
+            print("build_book: WARNING the spread's page two has no five part pages to set", file=sys.stderr)
+            return ""
+        if drawn == wanted:
+            print(f"build_book: the spread's part pages match this PDF: {wanted}", file=sys.stderr)
+            return "ok"
+        it = iter(wanted)
+        new = PART_NUMBER.sub(lambda x: x.group(1) + str(int(next(it))) + x.group(3), svg)
+        placed_svg_check(new, "page two with its part pages")
+        copy = os.path.join(marked, "spread-page-2-numbered.svg")
+        with open(copy, "w", encoding="utf-8") as fh:
+            fh.write(new)
+        with open(f, "w", encoding="utf-8") as fh:
+            fh.write(text.replace(f'<img src="{m.group(1)}"', f'<img src="{copy}"', 1))
+        print(f"build_book: the spread's part pages set from this PDF: {drawn} to {wanted}", file=sys.stderr)
+        return "fixed"
+    return ""
 
 
 PARTS = [  # the five parts, by the storyteller's outline (chapter-plan/edition-150-outline.md, "The parts, beat by beat")
@@ -724,7 +774,7 @@ def main():
             titles.append(m.group(1).strip() if m else None)
         footer_css = running_footer(files, titles) if FIT.get("footer") else ""
         fit = {}  # chapter index: level (1, then 2), set on its heading as a class for full-book.css
-        rounds = a.fit_max + 2 if FIT["on"] or FIT.get("placed") else 1  # a rebuild per level, and one for the spread's pad
+        rounds = a.fit_max + 7 if FIT["on"] or FIT.get("placed") else 1  # a rebuild per level, one for the spread's pad, and up to five for its part pages
         for rnd in range(rounds):  # a tail left after the last is reported
             for k, f in enumerate(files):
                 with open(f, encoding="utf-8") as fh:
@@ -812,6 +862,10 @@ def main():
                                                       '<div class="placed-pad"></div>\n\n:::: {.placed-page .placed-left}', 1))
                     print(f"build_book: the opening spread fell on page {first}, a right page: one blank page set before it",
                           file=sys.stderr)
+                    continue
+            if FIT.get("placed") and FIT.get("parts_fixes", 0) < 5:  # every pass: a fit pass can move the pages again
+                if part_numbers(pdf, files, titles, marked) == "fixed":
+                    FIT["parts_fixes"] = FIT.get("parts_fixes", 0) + 1
                     continue
             if not FIT["on"]:
                 break
