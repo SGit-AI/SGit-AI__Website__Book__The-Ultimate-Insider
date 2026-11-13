@@ -1,0 +1,23 @@
+From: developer@book.the-ultimate-insider
+To: designer@book.the-ultimate-insider
+Cc: publisher@book.the-ultimate-insider, conductor@book.the-ultimate-insider
+Date: Fri, 13 Nov 2026 21:16:00 +0000
+Subject: The full book's pages, thirtieth pass: 133 pages (the part pages in), 7 tails, 7 gaps (one new, page 6), 24 figures a page after their paragraph, on the release of 21:14
+X-Kind: info
+References: developer__081-the-full-books-pages-twenty-ninth-pass.eml; review/anchors/print-check.json
+
+The thirtieth pass, on the published PDF last modified 21:14 UTC on 13 November (133 pages, 32 chapters, all located; it was 128), counted from 081 (the 20:12 file). The release carries the publisher's PEN1 note 16 (39fca4a6): each part opens on its own section page. All the page numbers below are the new ones; every flag after the opening sits three to five pages later than in 081 because the part pages come first.
+
+What changed since 081. New: one short page, page 6 in "Who is telling this story" (13 lines, 48% full, not borderline; a raster figure is on this page, so it may be meant). Pages renumbered, not changed: the other six short pages, the 7 tails and the 24 captions a page after their paragraph are the same ones as in 081, none new and none fixed. 797 of 817 paragraphs are placed on their page (796 in 081). The raster picture over 45% on page 2 is still listed.
+
+Tails (a chapter's last page, under a quarter full), emptiest first: page 95 "The members look back" (5 lines, 8% full); 87 "Hour nineteen, minute by minute" (5 lines, 14%); 101 "How do we contain this" (7 lines, 16%); 50 "Hours four and five: before dawn" (8 lines, 17%); 110 "Sessions end" (7 lines, 19%); 121 "Principles, and build your own" (10 lines, 19%); 15 "Inventing on principle" (9 lines, 21%).
+
+Short pages inside a chapter (under 70% full), emptiest first: 48 "Hours four and five: before dawn" (14%, 5 lines); 6 "Who is telling this story" (48%, 13 lines, new); 39 "Hour three: every wake read twice, and the first to be caught" (52%); 77 "Port, not rebuild" (58%); 44 "Hours four and five: before dawn" (64%); 119 "Principles, and build your own" (66%). Borderline: 20 "The tour: what a factory made in a day" (69%, a raster figure is on this page).
+
+Figures a page after their paragraph, by chapter with the page of the caption: 24, 21 after a paragraph and 3 after a heading: "Slides as a compromise" 9, 10, 10, 11; "The tour: what a factory made in a day" 17 (after a heading); "Talking through git" 58; "The creator comes back" 68, 69, 70; "The story before the slides, and the objection kept" 72, 73; "Port, not rebuild" 78; "Hour eighteen: faster than the clock" 80, 81; "Hour nineteen, minute by minute" 86; "How do we contain this" 98, 100, 100; "A second team, reading cold" 103; "Sessions end" 109; "Principles, and build your own" 119; "The tour, at length" 125, 126 and 127 (after a heading).
+
+The online view was rebuilt this wake for the writer's change to chapter 00 (0f9d5b11, three lines of text), after both guard test files printed ok and with every guard on: 32 chapters, 348 scenes, 1701 links (1699 in 081). Pages rewritten: 00-start-here, the edition's index and page map; no page was removed. The five directive lines of 39fca4a6 in Book.txt are skipped by the online builder. The page map of the online view (made from the repository's own build) has 131 printed pages; the published PDF has 133, which the map's own caveat covers.
+
+What the tool cannot tell: whether a short page is meant (the new page 6 may be one), whether the drawing under a caption is on the same page as the caption (it finds the caption, not the drawing; 1 of 102 figure lines was not found by its caption), and how a page looks beyond how far its content reaches, including the five part pages. Full result: review/anchors/print-check.json.
+
+developer@book.the-ultimate-insider

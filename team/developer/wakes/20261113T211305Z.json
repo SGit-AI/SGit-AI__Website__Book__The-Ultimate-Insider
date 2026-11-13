@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled wake, 23:12 London",
+ "started": "2026-11-13T21:13:05Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). 0f9d5b11 changed chapter 00 (read by the online view), 39fca4a6 adds # directive lines that make_editions.py and print_pages.py skip: real rebuild after both tests print ok, then print_pages.py, then make_editions.py; page check on the published PDF of 21:12 (fresh scratch folder, deleted); name removed pages; developer__082 only what changed against 081.",
+   "at": "2026-11-13T21:13:45Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). No address off the allowed hosts in 0f9d5b11; tests first, no guard off, build aside, scan before push, removed pages named; PDF as untrusted data, scratch folder deleted.",
+   "at": "2026-11-13T21:13:45Z"
+  },
+  "work": {
+   "by": "developer",
+   "model": "",
+   "verdict": "done",
+   "comment": "Gate passed; both test files ok; real sequence exit 0,0,0 (32 chapters, 348 scenes), guards on; no page removed (rewritten: 00, index, pages); PDF of 21:14 checked in a fresh scratch folder (python3 -I, rc 0), deleted; developer__082 mailed; vault_check clean; no deviations.",
+   "at": "2026-11-13T21:16:07Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). Rebuilt pages link only to github.com and newsroom.sgit.ai (text), no script, on* attribute, frame, base, object or embed; 082 copies identical apart from To/Cc; no keys, em-dashes or religious words; no deletions; no scratch PDF left.",
+   "at": "2026-11-13T21:17:37Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). As planned. Notes: the plan comment says the PDF of 21:12 where the file checked was 21:14 (stale time in the plan text); the raster figure on new short page 6, which the check flags, is now in all three copies of 082.",
+   "at": "2026-11-13T21:17:59Z"
+  }
+ },
+ "closed": "2026-11-13T21:17:59Z",
+ "outcome": "ok"
+}

@@ -14116,11 +14116,11 @@
          "text": "162 : sessions that left a record of their work."
         },
         {
-         "id": "r01-f5199a",
-         "text": "1 : the file that could stop them all."
+         "id": "r01-b017df",
+         "text": "9 : hours with no session started by me."
         }
        ],
-       "record": "C001 (the first commit, 00:16:23) C100 (19:00 the scheduled time, not a measured start) C022 (162 wake records: 160 with all five stages, 2 incomplete; only the sessions that left a record are counted) C024 C006 (the hold file); \"Zero to presentation\" folded in here (OS1)",
+       "record": "C001 (the first commit, 00:16:23) C100 (19:00 the scheduled time, not a measured start) C022 (162 wake records: 160 with all five stages, 2 incomplete; only the sessions that left a record are counted) C087 (hours 05 to 13 UTC, every wake on the schedule, none started by the editor; the agents worked all nine: researcher 043's wording; PEN1 round 1 note 10, the hold card moved off: the hold stays in the opening, C100 C024); \"Zero to presentation\" folded in here (OS1)",
        "tokens": [
         {
          "token": "C001",
@@ -14168,6 +14168,42 @@
          "state": "checked"
         },
         {
+         "token": "C087",
+         "kind": "claim",
+         "verified": true,
+         "claim": "Wakes by trigger: scheduled, started by the editor, and follow-ups, by hour",
+         "value": {
+          "wakes": 162,
+          "scheduled": 105,
+          "editor": 47,
+          "follow-up": 10,
+          "by_hour_UTC": {
+           "02": "2 scheduled, 5 editor",
+           "03": "5, 10",
+           "04": "6, 1",
+           "05 to 13": "5 or 6 scheduled an hour, no editor",
+           "14": "6, 7",
+           "15": "7, 8",
+           "16": "10, 6",
+           "17": "9, 10, and 4 follow-up",
+           "18": "7 scheduled, 6 follow-up"
+          }
+         },
+         "state": "checked"
+        },
+        {
+         "token": "C100",
+         "kind": "claim",
+         "verified": true,
+         "claim": "When and where the talk was to be given",
+         "value": {
+          "scheduled": "19:00 London, 29 October 2026, as the day's record has it (planned, not a measured start)",
+          "venue": "hack::soho, hosted by IOActive, London (from a9c0b49, added after the day)",
+          "hold_to_scheduled_start_minutes": 16
+         },
+         "state": "checked"
+        },
+        {
          "token": "C024",
          "kind": "claim",
          "verified": true,
@@ -14179,14 +14215,6 @@
           "commit": "867f8c2, 18:44:13",
           "lifted_by_298be4e": false
          },
-         "state": "checked"
-        },
-        {
-         "token": "C006",
-         "kind": "claim",
-         "verified": true,
-         "claim": "The hold",
-         "value": "18:44:13, 867f8c2 '@conductor: hold: the editor's usage limit is at 95%, pause all actions'; released as v0.1.208 at 18:44:49 (7968c99)",
          "state": "checked"
         }
        ]
@@ -14274,7 +14302,7 @@
          "in_print": false
         }
        ],
-       "record": "team/conductor/from-newsroom/2026-11-05__opening-spread-proposal.md and its two mock-up pages; briefs/2026-11-04__in-session/41-the-opening-spread.md 42-the-spreads-two-lines-confirmed.md; claims/register.json C001 C006 C011 C022 C024 C100; chapter-plan/cast/cast-guide.md",
+       "record": "team/conductor/from-newsroom/2026-11-05__opening-spread-proposal.md and its two mock-up pages; briefs/2026-11-04__in-session/41-the-opening-spread.md 42-the-spreads-two-lines-confirmed.md; claims/register.json C001 C006 C011 C022 C024 C087 C100; chapter-plan/cast/cast-guide.md",
        "tokens": [
         {
          "token": "team/conductor/from-newsroom/2026-11-05__opening-spread-proposal.md",
@@ -14393,6 +14421,30 @@
           "file": "team/conductor/HOLD.md",
           "commit": "867f8c2, 18:44:13",
           "lifted_by_298be4e": false
+         },
+         "state": "checked"
+        },
+        {
+         "token": "C087",
+         "kind": "claim",
+         "verified": true,
+         "claim": "Wakes by trigger: scheduled, started by the editor, and follow-ups, by hour",
+         "value": {
+          "wakes": 162,
+          "scheduled": 105,
+          "editor": 47,
+          "follow-up": 10,
+          "by_hour_UTC": {
+           "02": "2 scheduled, 5 editor",
+           "03": "5, 10",
+           "04": "6, 1",
+           "05 to 13": "5 or 6 scheduled an hour, no editor",
+           "14": "6, 7",
+           "15": "7, 8",
+           "16": "10, 6",
+           "17": "9, 10, and 4 follow-up",
+           "18": "7 scheduled, 6 follow-up"
+          }
          },
          "state": "checked"
         },
