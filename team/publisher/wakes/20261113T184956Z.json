@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake",
+ "started": "2026-11-13T18:49:56Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; PEN1 notes routed by conductor 102; KP1 Crown Quarto only. Conditions: check the part table against Book.txt, a chapter with no part shows no part; the footer's look the designer's; note 9 partly done; note 3 open until the designer's drawing.",
+   "at": "2026-11-13T18:51:55Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Titles escaped for CSS (no <, no control characters, backslash then quote); page names from the index; gradient from computed numbers only; no HOLD.",
+   "at": "2026-11-13T18:51:55Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "PEN1 round 1: running footer (8, 20 landed; 9 in part); answers on 3, 6, 15, 16, 29; interior 124 pages, 8 holes; letter 076.",
+   "at": "2026-11-13T18:57:32Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "css_string sound on a hostile string; page names by index; gradient from numbers only; no url(); letters and records clean; vault_check clean.",
+   "at": "2026-11-13T18:57:32Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every condition met; 03b, 17b, 23b placed by number, for the storyteller to confirm.",
+   "at": "2026-11-13T18:57:32Z"
+  }
+ },
+ "closed": "2026-11-13T18:57:32Z",
+ "outcome": "ok"
+}
