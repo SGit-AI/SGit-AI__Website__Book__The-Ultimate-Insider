@@ -51,9 +51,9 @@ Before the day begins, meet the team.
 - **00:16**: an empty project, after midnight.
 - **19:00**: the talk due, the same evening.
 - **162**: sessions that left a record of their work.
-- **1**: the file that could stop them all.
+- **9**: hours with no session started by me.
 
-`%% record: C001 (the first commit, 00:16:23) C100 (19:00 the scheduled time, not a measured start) C022 (162 wake records: 160 with all five stages, 2 incomplete; only the sessions that left a record are counted) C024 C006 (the hold file); "Zero to presentation" folded in here (OS1)`
+`%% record: C001 (the first commit, 00:16:23) C100 (19:00 the scheduled time, not a measured start) C022 (162 wake records: 160 with all five stages, 2 incomplete; only the sessions that left a record are counted) C087 (hours 05 to 13 UTC, every wake on the schedule, none started by the editor; the agents worked all nine: researcher 043's wording; PEN1 round 1 note 10, the hold card moved off: the hold stays in the opening, C100 C024); "Zero to presentation" folded in here (OS1)`
 
 ## What a factory of agents made in a day
 
@@ -115,4 +115,4 @@ Before the day begins, meet the team.
 
 The newsroom journalist's opening spread, adapted, as the editor asked (OS1) and with the two lines he confirmed (OS2). The register for the four numbers and the stop. The cast guide for the hellos. The signed plan for the five parts.
 
-`%% record: team/conductor/from-newsroom/2026-11-05__opening-spread-proposal.md and its two mock-up pages; briefs/2026-11-04__in-session/41-the-opening-spread.md 42-the-spreads-two-lines-confirmed.md; claims/register.json C001 C006 C011 C022 C024 C100; chapter-plan/cast/cast-guide.md`
+`%% record: team/conductor/from-newsroom/2026-11-05__opening-spread-proposal.md and its two mock-up pages; briefs/2026-11-04__in-session/41-the-opening-spread.md 42-the-spreads-two-lines-confirmed.md; claims/register.json C001 C006 C011 C022 C024 C087 C100; chapter-plan/cast/cast-guide.md`
