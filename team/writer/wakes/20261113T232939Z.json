@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer",
+ "kind": "scheduled wake",
+ "started": "2026-11-13T23:29:39Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer agent)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Nothing for the writer since 22:30: no To-writer trailer, no mailroom/writer file, no new pen round (designer 169 went to the conductor and publisher only); idle, status.json and the record only, hourly kept.",
+   "at": "2026-11-13T23:30:25Z"
+  },
+  "pre_review": {
+   "by": "security (reviewer agent)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Only status.json and the wake record, in scope; no dash, RW1 word, contact or key in the new state text.",
+   "at": "2026-11-13T23:30:25Z"
+  },
+  "work": {
+   "by": "writer",
+   "model": "",
+   "verdict": "done",
+   "comment": "Idle: status.json state and as_of only.",
+   "at": "2026-11-13T23:30:25Z"
+  },
+  "post_review": {
+   "by": "security (reviewer agent)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Only status.json and the wake record, in scope, valid JSON; plain ASCII, no dashes, RW1 words, secrets or contacts.",
+   "at": "2026-11-13T23:30:54Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer agent)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Two files as planned; as_of and state only; hourly kept; designer 167 is the last letter to the writer (169 went to the conductor and publisher).",
+   "at": "2026-11-13T23:30:54Z"
+  }
+ },
+ "closed": "2026-11-13T23:30:54Z",
+ "outcome": "idle"
+}
