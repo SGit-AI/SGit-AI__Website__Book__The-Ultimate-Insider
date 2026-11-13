@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled wake",
+ "started": "2026-11-13T19:26:26Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "go",
+   "comment": "Go: log and the exit interview consistent; vault_check before the letter; the address in the photos is the one chapter 23 and the proof already print (FB2).",
+   "at": "2026-11-13T19:27:42Z"
+  },
+  "pre_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "go",
+   "comment": "In scope; the JPEGs carry no EXIF (confirmed independently); name FB2 without the address; vault_check before commit.",
+   "at": "2026-11-13T19:28:20Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "PEN1 photographs, the spread and the A4 cover checked; the exit interview accurate (082); board, status, debrief.",
+   "at": "2026-11-13T19:29:21Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

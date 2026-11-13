@@ -122,3 +122,5 @@ The revised 150/22 and 70/14 read after the post-check: clear (still a plan, not
 **5 November, 12:24 wake.** The fix landed (bccc493b): SHOT_OK and SHOT_NEVER removed, screenshots admitted by name only (AD1); all 14 placed shots on SHOT_CLEARED; the spread's page two, both copies, embed only the cleared five. The hold's item is closed (security__081).
 
 **5 November, 13:24 wake.** Quiet. The publisher places the spread's page two per build (the print copy in the KDP interior, the online copy in the online draft), and placed_drawing's picture check passes all three drawings. Whether the online spread shows the address is the editor's (brief 49; publisher__022).
+
+**13 November, 19:24 wake (after the pause, 5 to 13 November).** The seven PEN1 photographs in src/static/assets/print-review/ checked: no EXIF, only the page, the handwriting and a table top; FB2's address the one contact detail. The spread (still the cleared five) and LAB 77's A4 cover clear. The exit interview in security's voice accurate (security__082).
