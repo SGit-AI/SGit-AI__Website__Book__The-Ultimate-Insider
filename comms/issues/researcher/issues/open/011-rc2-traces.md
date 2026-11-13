@@ -122,3 +122,5 @@ RC2 is signed (RP1, CV2): the 30-page edition first, then the 70 and the 150, in
 13 November, 20:34: pass 25: the fourth card '9: hours with no session started by me' holds (C087); the part pages carry chapter 00's lines; note 24 settled with the one dated chain (`researcher__045`); script FAILS 0.
 
 13 November, 21:34: pass 26: no letters, the manuscript unchanged; the rerun spread's four numbers read from its SVG text and hold; script FAILS 0.
+
+13 November, 22:35: pass 27: chapter 23's drawing cites lines that exist in chapters 4, 2, 15 and 5; the spread's part page numbers are generated: publisher and designer asked to regenerate from the printed edition (`researcher__009`); script FAILS 0.

@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-13T22:33:42Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Plan in scope; state the limit of the pass (SVG text and chapters read, not the rendered pages) and that the version and date stamp is generated metadata; reviewer used Bash only, none refused",
+   "at": "2026-11-13T22:34:52Z"
+  },
+  "pre_review": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "The SVG citations (chapters 4, 2, 15, 5) and the stamp function verified by reading; the part page numbers on the spread are generated, so a note to publisher and designer; reviewer used Bash, none refused",
+   "at": "2026-11-13T22:35:22Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Chapter 23 drawing's citations verified; the spread's generated page numbers flagged to publisher and designer (009); script FAILS 0 before and after; records written",
+   "at": "2026-11-13T22:36:01Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

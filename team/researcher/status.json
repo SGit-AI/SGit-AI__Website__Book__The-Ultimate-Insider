@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-11-13T21:34:39Z",
+ "as_of": "2026-11-13T22:35:43Z",
  "round": 1,
  "state": "active, hourly: all four writers have landed; RV2 pass 10 (nothing wrong); the appendix file rebuilt (62); waiting for writer4's one set of 92, then rerun the script; Thursday morning before 10:00 the last run; 009 blocked",
  "done": [
@@ -612,6 +612,10 @@
   {
    "what": "RV2 pass 26: a quiet wake; the rerun opening spread's four numbers (00:16, 19:00, 162, 9) read from its SVG text and hold against C001, C100, C022, C087; the manuscript unchanged; final-pass script FAILS 0",
    "when": "2026-11-13T21:34:39Z"
+  },
+  {
+   "what": "RV2 pass 27: chapter 23's five-steps drawing cites lines that exist in chapters 4, 2, 15 and 5; the spread's part page numbers (7, 24, 51, 82, 104) are generated from a build's chapters JSON: publisher and designer asked to regenerate from the printed edition; the build stamp is generated metadata; final-pass script FAILS 0",
+   "when": "2026-11-13T22:35:43Z"
   }
  ],
  "next": [
