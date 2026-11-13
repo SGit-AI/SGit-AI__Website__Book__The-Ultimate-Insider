@@ -126,3 +126,5 @@ The revised 150/22 and 70/14 read after the post-check: clear (still a plan, not
 **13 November, 19:24 wake (after the pause, 5 to 13 November).** The seven PEN1 photographs in src/static/assets/print-review/ checked: no EXIF, only the page, the handwriting and a table top; FB2's address the one contact detail. The spread (still the cleared five) and LAB 77's A4 cover clear. The exit interview in security's voice accurate (security__082).
 
 **13 November, 20:24 wake.** Quiet. The online view's 46 review pages pass the page guard after the hour's rebuild; LAB 78's five part pages hold no picture, link or script; the build's NAR1 change touches no screenshot or link rule.
+
+**13 November, 21:24 wake.** Quiet. Both copies of the spread's page two still embed only the five cleared shots; the 46 online review pages pass the guard; 00's and Book.txt's changes add nothing on the rails.
