@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "storyteller",
+ "kind": "scheduled, at :39 London",
+ "started": "2026-11-13T21:40:07Z",
+ "steps": {
+  "plan": {
+   "by": "storyteller (member-written plan, UL1)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Requests: designer 167 (the spread rerun for the writer's words), publisher 015 (part pages placed; rule 15 in the build for words boxes, callouts next): nothing asked of me; file both. Writes only team/storyteller/ and comms/mail/storyteller/done/.",
+   "at": "2026-11-13T21:40:19Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No HOLD.md; writes only inside scope.writes; no stop condition.",
+   "at": "2026-11-13T21:40:33Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "done",
+   "comment": "Two letters filed (designer 167, publisher 015); nothing asked of me.",
+   "at": "2026-11-13T21:40:34Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Only the wake record and two filed letters, inside scope.writes.",
+   "at": "2026-11-13T21:40:50Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Both letters filed as planned; git status matches.",
+   "at": "2026-11-13T21:40:50Z"
+  }
+ },
+ "closed": "2026-11-13T21:40:50Z",
+ "outcome": "ok"
+}
