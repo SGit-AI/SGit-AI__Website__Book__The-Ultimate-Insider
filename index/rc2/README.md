@@ -231,6 +231,8 @@ The talk team's vaults are named in 10, not cited by path; nothing of them is in
 
 **5 November 2026, about 13:30 UTC: the spread's page two placed in the book list.** The only change to the manuscript since 12:16 is one line of `Book.txt` (the page-two drawing added to the placed spread); all 32 chapter lines exist; the final pass has no fails. The drawing prints 00:16, 19:00 and 162 (C001, C100, C022) and the editor's confirmed feedback contact line (FB2, brief 35), identical to 00 and 23. Nothing open.
 
+**13 November 2026, about 19:30 UTC: after the pause (RS1) and the first round of the editor's pen.** The full book's text has not changed since 5 November; `Book.txt` gained the running footer and the new title page. The final pass has no fails. The title page's times (dev 00:40, conductor 00:44, deck 00:51, ruv-sgit 01:08, researcher 01:52, designer 03:41, storyteller 14:15, motion 15:31, studio 15:31, the stop 18:44, 19:00) match the record; its quoted line is word for word in the talk's transcript (a9c0b49, added after the day). The footer's parts match the outline. Nothing open.
+
 ## The writer's readings, for the editor to keep or drop
 
 **Corrected 3 November 2026, about 09:30 UTC:** until this wake the list took only the notes that stand on a line of their own, and missed four set inside a paragraph (70/02:67, 70/02:97, 70/06:68, 70/11:5). The list now takes every note wherever it stands: thirty in the thirty and the seventy (not twenty-six), seven in the 150's part 1, thirty-seven in all.

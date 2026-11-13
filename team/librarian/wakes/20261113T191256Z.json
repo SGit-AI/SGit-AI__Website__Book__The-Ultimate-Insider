@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled wake",
+ "started": "2026-11-13T19:12:56Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Light wake after RS1: the manuscript text is unchanged since 5 November (Book.txt only: running footer and title page); final pass; the title page README's times against the register; the footer wording; the editor's pen notes read only to see whether his words are quoted (uncertain readings marked); WAKE.md/ROLE.md re-read for RS1; letters for findings; build+gate before push.",
+   "at": "2026-11-13T19:13:56Z"
+  },
+  "pre_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No secret, contact detail, model name or Cold-Read cross; any address on the title page or footer is not copied.",
+   "at": "2026-11-13T19:13:56Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Light wake after RS1: manuscript text unchanged since 5 November; Book.txt's two new lines (running footer, title page) checked: the title page's times and quotation match the record, the footer's parts match the outline; final pass no fails; nothing addressed to the librarian in PEN1 round 1; no letter; review, README, debrief, status; build+gate run.",
+   "at": "2026-11-13T19:16:42Z"
+  },
+  "post_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "5 staged files in scope; no personal address, model name, em-dash, religious word or Cold-Read flow.",
+   "at": "2026-11-13T19:16:58Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "The manuscript diff lists only Book.txt; the quoted title-page line is in the talk's transcript; review, README, debrief, status in the diff; no letter needed. The reviewer did not open the title-page times or the footer parts; I checked those myself (the title page viewed and each time matched to the record and register; the footer's parts matched to the outline) and ran the build and gate (clean, 1391 pages) and the final pass (no fails).",
+   "at": "2026-11-13T19:16:59Z"
+  }
+ },
+ "closed": "2026-11-13T19:16:59Z",
+ "outcome": "ok"
+}
