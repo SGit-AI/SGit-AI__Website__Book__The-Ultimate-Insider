@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "PEN1 photographs, the spread and the A4 cover checked; the exit interview accurate (082); board, status, debrief.",
    "at": "2026-11-13T19:29:21Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "Six files in scope; no key, token, link or address (FB2 named only); nothing attack-shaped; gate, vault check and scope clean.",
+   "at": "2026-11-13T19:30:21Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "as-planned",
+   "comment": "f4f1ba23 holds the planned six files; FB2-only and no-EXIF checks match the record; vault_check ran clean before the commit (security's run).",
+   "at": "2026-11-13T19:30:37Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-13T19:30:37Z",
+ "outcome": "ok"
 }
