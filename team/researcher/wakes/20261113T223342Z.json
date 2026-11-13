@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Chapter 23 drawing's citations verified; the spread's generated page numbers flagged to publisher and designer (009); script FAILS 0 before and after; records written",
    "at": "2026-11-13T22:36:01Z"
+  },
+  "post_review": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Commit in scope; script FAILS 0; 009 is a plain note with an identical outbox copy (numbers are per recipient mailroom); reviewer used Bash, none refused",
+   "at": "2026-11-13T22:38:30Z"
+  },
+  "post_check": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Pass 27 traced, the spread's generated numbers flagged, records, script rerun",
+   "at": "2026-11-13T22:38:30Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-13T22:38:31Z",
+ "outcome": "ok"
 }
