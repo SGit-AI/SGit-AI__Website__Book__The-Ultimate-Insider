@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Done: LAB 75 rerun for writer 299 (one marked opening paragraph and two unmarked, the lead-in line, the longer One chair sentence, the new narrator line, no Read it in order, the new fourth number), both copies of page two, address rule held, 00 untouched; the parser reads 00 paragraph by paragraph; page one within 200 mm after two refused tries; LAB 40 ch5-three-factories names chapter 22, its other drawings byte-identical; lab PDF 210 pages; letter 167; five letters to done/; vault_check, agents check, build and gate clean.",
    "at": "2026-11-13T21:03:59Z"
+  },
+  "post_review": {
+   "by": "security-reviewer",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Page two lab copy carries no address and the book copy differs only by the one address read from 00, with the same five cleared shots byte for byte in both and unchanged from the prior commit. The chapter 5 drawing text has no id or hash, manuscript and publishing are untouched, and all paths are in designer scope. No em-dashes or religious words in new prose, and the letter Date and status as_of are before the commit time.",
+   "at": "2026-11-13T21:04:56Z"
+  },
+  "post_check": {
+   "by": "conductor-reviewer",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "The work went to plan: LAB 75 rerun for writer 299, LAB 40 chapter 22 named with the other drawings unchanged, and the part pages right-hand placement given as advice in letter 167 only. REALITY.md, the debrief and status.json match what was done. The status as_of and every letter Date are before the commit time of 21:04.",
+   "at": "2026-11-13T21:05:23Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-13T21:05:35Z",
+ "outcome": "ok"
 }
