@@ -68,7 +68,7 @@ As of 13 November 2026, 19:08 UTC (after the restart RS1, adding ruv-sgit 089 (2
 | `19-a-second-team-reading-cold` | writer3 | critic2 (split with critic3) | ok | · | ok | ok | ok | notes | · | ok | notes | · | not yet: proposed by critic2 021; lanes still open |
 | `20-sessions-end` | writer4 | critic4, critic6 | ok | ok | ok | ok | ok | · | · | ok | notes | · | not yet (critic4 cleared its proposals in 025 under SO1 (c)) |
 | `21-the-second-factory` | writer4 | critic4, critic6 | ok | notes | ok | ok | ok | · | · | ok | notes | · | not yet (critic4 cleared its proposals in 025 under SO1 (c)) |
-| `22-the-third-planned` | writer4 | critic4, critic6 | · | notes | ok | ok | ok | · | · | · | notes | · | not yet |
+| `22-the-third-planned` | writer4 | critic4, critic6 | · | notes | ok | ok | ok | · | · | ok | notes | · | not yet |
 | `23-principles-and-build-your-own` | writer4 | critic4, critic6 | ok | · | ok | ok | · | · | · | · | notes | · | not yet |
 | `23b-further-reading` | writer4 | critic4, critic6 | · | · | ok | · | · | · | · | · | · | · | not yet (new under FR1; the librarian checks its links) |
 | `90-the-tour-at-length` | writer4 | critic4, critic6 | ok | · | ok | ok | ok | · | · | · | notes | · | not yet |
