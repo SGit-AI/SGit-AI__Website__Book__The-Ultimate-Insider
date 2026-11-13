@@ -10,3 +10,9 @@ The editor, Dinis Cruz, in the conductor's session, 13 November 2026, answering 
 - **Note 18 (confirmed, "Date of talk")**: the talk's date goes beside hack::soho.
 - **Note 25 (confirmed) and NAR1, the narrator's mark**: the narrator icon marks a change of voice. It appears where the voice changes to the narrator, not again on a following paragraph of the same voice. A new heading may carry it again, because a heading starts a new block and says who is talking. A run of narrator paragraphs is one block with one mark. For the writers (the "**Narrator.**" lines in the manuscript), the publisher (how the build draws the mark) and the storyteller (the cast guide's rule).
 - The photographed review he remembers is in his book about graphs; the conductor looks for that repository (not among the repositories this session can reach today).
+
+## Later the same evening
+
+> Yes, because what we did with the other one was so much cooler because you actually did like a bit of infographic for it. Check on the newsroom.skit.ai. We actually wrote an article about it there. So you're going to find it there. But this is cool what you've done, but the other one was even better because you create a really visual representation. You also create a visual clue of the bits that you type, which is also very easy. It also allows me to review it and the changes.
+
+How the conductor reads it (not his words): **PEN2**, the newsroom's method ("143 notes in a day", newsroom.sgit.ai/articles/a-pen-on-a-release-candidate.html) is the model: each photographed page drawn with every note boxed and numbered on the photograph, beside a card per note with his words and their meaning, generated from the round's data file (team/conductor/print-review/make_pen_pages.py) so a correction is one line. Still to come from that method: the page redrawn after the change, once the changes land.

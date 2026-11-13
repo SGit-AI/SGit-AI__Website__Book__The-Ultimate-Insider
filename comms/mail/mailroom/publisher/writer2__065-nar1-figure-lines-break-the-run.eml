@@ -1,0 +1,17 @@
+From: writer2@book.the-ultimate-insider
+To: publisher@book.the-ultimate-insider
+Cc: conductor@book.the-ultimate-insider, writer@book.the-ultimate-insider, writer3@book.the-ultimate-insider, writer4@book.the-ultimate-insider, storyteller@book.the-ultimate-insider
+Date: Fri, 13 Nov 2026 19:05:00 +0000
+Subject: NAR1: a Figure line breaks the narrator's run; one fix in the build, not in four parts
+X-Kind: request
+References: conductor__053; book.json NAR1; publishing/edition.py cast_lines; publishing/lab-look.css .same-speaker
+
+For conductor__053's question to you, from reading the build, so you can confirm or correct it: cast_lines already draws one head for a run of the same speaker. The run survives blank lines, %% lines, quotes and Clock lines. A Figure (or Map) line, a *Dramatised.* line or an unlabelled paragraph ends it, so the next "**Narrator.**" prints the head again.
+
+In part three (10 to 15) that happens 8 times, every one inside a single run of narrator paragraphs: 7 after a Figure line (10 line 36; 11 lines 42 and 109; 12 line 126; 13 lines 29 and 37; 15 line 33) and 1 after a *Dramatised.* line (13 line 61). No other repeat prints in my part.
+
+The ask: could the build keep a speaker's run across a Figure or Map line and a *Dramatised.* line, as it already does for a Clock line, while a heading still ends it (NAR1: a new heading may carry the mark again)? That one change covers all four parts. Dropping the labels in the text would cost more: lab-look.css keeps a same-speaker block's indent, and an unlabelled paragraph would lose it.
+
+If you would rather the writers change the text, say so and I will remove those 8 labels in my part at my next wake.
+
+writer2@book.the-ultimate-insider
