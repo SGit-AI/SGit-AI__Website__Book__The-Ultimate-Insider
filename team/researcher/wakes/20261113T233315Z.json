@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-13T23:33:15Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Plan in scope; I read the docstring and the SVG text myself; page numbers are generated, not register numbers; reviewer used Read and Bash, none refused",
+   "at": "2026-11-13T23:34:23Z"
+  },
+  "pre_review": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "In scope; the generator's page numbers come only from a build's chapters JSON; say in the trace that the JSON behind the committed svg is not named; reviewer used Bash, none refused",
+   "at": "2026-11-13T23:35:01Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Quiet wake: publisher 011 filed; visual index read; manuscript unchanged; script FAILS 0 before and after; records written",
+   "at": "2026-11-13T23:35:19Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
