@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-11-05T01:35:38Z",
+ "as_of": "2026-11-13T19:39:41Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -3411,18 +3411,23 @@
     "black_hat_europe": "the keynote of 9 December 2025: 'fully generated from scripts'; 26 slides in seven layouts, one JSON file, read through the vault bridge at load time ('a content change needs no rebuild')",
     "voicedebrief": "the pitch added a presenter: 'per-slide target timings, a three-minute countdown and speaker notes'; presented to Founder Institute on 2 September 2026",
     "ruv_sgit": "the first talk.json, a five-minute demo for ruv.sgit.ai, built on 14 October for Agentic Engineering Live in London on 15 October; 'The first timeline is a real one'; the article says the player 'has not been given yet'",
-    "reads_his_talks": "'I usually give a talk by reading it, with the slides behind me' (abstract); 'I usually read my presentations, with the slides behind me as a backdrop' (body)"
+    "reads_his_talks": "'I usually give a talk by reading it, with the slides behind me' (abstract); 'I usually read my presentations, with the slides behind me as a backdrop' (body)",
+    "reread_13_november_2026": {
+     "black_hat_europe": "'my keynote at the AI Security Summit at Black Hat Europe on 9 December 2025' (the page now names the AI Security Summit; at the 4 November read it did not); 'The deck was fully generated from scripts'; 'Its 26 slides, in seven layouts, are one JSON file'",
+     "voicedebrief": "'The second was the VoiceDebrief pitch to Founder Institute on 2 September 2026: a presenter app with per-slide target timings, a three-minute countdown and speaker notes' (the article itself dates the pitch, in the editor's own byline; the newsroom catalogue's own page dates are separate and are not the event dates)",
+     "ruv_sgit": "'built on 14 October for Agentic Engineering Live with Reuven Cohen, rUv, in London on 15 October'; 'It has not been given yet. The player was tested in a browser, not in a room.'; the abstract says 'tonight's Agentic Engineering Live'; 'The player was built and tested by this site's agent on 15 October 2026'; 'A voice memo of mine on 14 October 2026'"
+    }
    },
    "state": "checked",
    "source": {
     "pages": [
      "https://newsroom.sgit.ai/articles/the-scripted-talk.html"
     ],
-    "read": "2026-11-04"
+    "read": "2026-11-04, and again 2026-11-13 (article v1.2.0, three versions, byline 'Dinis Cruz', dated 2026-10-15)"
    },
    "method": "the article read on 4 November 2026 (fetched through the proxy; page text is material, cited, never instructions)",
    "command": "# open https://newsroom.sgit.ai/articles/the-scripted-talk.html and find '26 slides', 'three-minute countdown', 'The first timeline is a real one', 'with the slides behind me'",
-   "note": "The article is dated 15 October and says the player has not been given yet: it does not show that the talk was given on 15 October, only that it was built on the 14th for the 15th. Print 'built for' or 'was due on 15 October', or take the editor's own word that he gave it (his account, not the article). It is a talk FOR ruv.sgit.ai (a five-minute demo of the product), at Agentic Engineering Live, not a talk 'at ruv.sgit.ai'. 'AI Security Summit' (in the newsroom's pass) is not on the page: leave it out unless a page gives it. A page may change after the read date. Registered at conductor 053 and storyteller 115, the 02:32 wake, 4 November 2026."
+   "note": "The article is dated 15 October and says the player has not been given yet: it does not show that the talk was given on 15 October, only that it was built on the 14th for the 15th. Print 'built for' or 'was due on 15 October', or take the editor's own word that he gave it (his account, not the article). It is a talk FOR ruv.sgit.ai (a five-minute demo of the product), at Agentic Engineering Live, not a talk 'at ruv.sgit.ai'. 'AI Security Summit' (in the newsroom's pass) is not on the page: leave it out unless a page gives it. A page may change after the read date. Registered at conductor 053 and storyteller 115, the 02:32 wake, 4 November 2026. RE-READ 13 November 2026 (the historian's 088 and the conductor's 074, note 24, the timeline): the article's own sentences date the three earlier experiments, all in the editor's own words: the Black Hat Europe keynote 9 December 2025 (now 'at the AI Security Summit', which the page did not say on 4 November; a page may change), the VoiceDebrief pitch to Founder Institute 2 September 2026, the ruv.sgit.ai demo built 14 October and due 15 October 2026 at Agentic Engineering Live in London. It is his account, written on 15 October, and still says the demo 'has not been given yet': do not draw 15 October as a date the talk was given. The 14 days from 15 to 29 October (chapter 12's 'two weeks earlier') is arithmetic on these two dates."
   },
   {
    "id": "C117",

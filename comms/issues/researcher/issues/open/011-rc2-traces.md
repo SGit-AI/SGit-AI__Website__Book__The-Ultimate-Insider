@@ -116,3 +116,5 @@ RC2 is signed (RP1, CV2): the 30-page edition first, then the 70 and the 150, in
 5 November, 12:38: pass 22: the back-cover description traced and confirmed (no new number; researcher__010); one landing (the spread's two pages), no figure; script FAILS 0.
 
 5 November, 13:37: pass 23: chapter 00's four numbers traced directly (the page-two generator checks only their count); a late catch: e24f2d29 (02:31) relabelled the 162 and added a caption, both hold, untraced until now; script FAILS 0.
+
+13 November, 19:41: pass 24, the first wake in eight days: PEN1 round 1 notes 10 (three registered numbers for the fourth card) and 24 (the timeline's dates, from the editor's own article, C116 re-read) answered (`researcher__043`, `006`); the title page (TP1) traced, two coulds (`researcher__044`); manuscript unchanged since 5 November; script FAILS 0.
