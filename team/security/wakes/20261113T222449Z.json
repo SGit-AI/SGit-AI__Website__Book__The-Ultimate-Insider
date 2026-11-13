@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "studio__lab.jpg cleared by name (083); hour's changes clear; board, status, debrief.",
    "at": "2026-11-13T22:26:51Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "The clearance letter and its copies, board, debrief, status and wake record in scope; nothing secret, attack-shaped, em-dash, religious word or Cold-Read; gate, vault check and scope clean.",
+   "at": "2026-11-13T22:27:55Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "as-planned",
+   "comment": "ccbb32c0 matches the plan: 083 and its copies, board, debrief, status; the caption question left to ruv-sgit and writer4.",
+   "at": "2026-11-13T22:28:11Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-13T22:28:11Z",
+ "outcome": "ok"
 }
