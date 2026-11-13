@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, hourly at :57 London",
+ "started": "2026-11-13T19:57:48Z",
+ "steps": {
+  "plan": {
+   "by": "conductor-planner",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Go, with one correction to apply: 76 is not free, because 76-title-page and 77-a4-print exist, so use 78-designer-part-pages (the name keeps -designer- to stay inside scope.writes). Read the part names and one-liners from the five numbered items under The story, in five parts in 00, read only, and print the numbers as words per rule 13. The rest is sound: footer stamp, note 3 waiting on the editor for note 6, notes 7 and 9 next wake, team-cards point to writer4, historian 088 to designer2, incoming letters to done/. Run vault_check on comms before the commit.",
+   "at": "2026-11-13T19:58:35Z"
+  },
+  "pre_review": {
+   "by": "security-reviewer",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Go. The new folder lab/experiments/78-designer-part-pages is free and inside scope.writes (lab/experiments/*-designer-*/**); the five parts are read from manuscript/rc2/150/00-start-here.md read only, text only, no images, ids or addresses, so no secret or cross-member path is touched. Condition: run vault_check on comms before the commit, and keep letters and records within comms/*/designer and team/designer.",
+   "at": "2026-11-13T19:59:03Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Done: LAB 78 (folder 78, as the plan step corrected) part-1 to part-5.svg, placed pages 156 by 200 mm, text only: Part one to Part five in words, the part name and the spread one line, read from 00 at build, 00 untouched, no id or address; lab PDF 210 pages; letter 166 (files to place; 3 waits on 6; 7 and 9 next from the chapters JSON; 15 stamp place proposed; writer4 asked on the team cards; designer2 given the historian chain for 24); seven letters to done/; vault_check, agents check, build and gate clean.",
+   "at": "2026-11-13T20:01:27Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
