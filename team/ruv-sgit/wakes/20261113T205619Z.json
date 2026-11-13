@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-13T20:56:19Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go. RV2 on 23 is next. The Map line (7) maps to my own map.svg and the Figure line (41) to the designer's five steps. I review my own map against its line and brief only, say so, and leave any fix for a later planned wake. No print-review note is mine. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-13T20:58:37Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go: everything in scope, manuscript read only, no secret, nothing attack-shaped, no Cold-Read route, no HOLD. Conditions: say that the Map finding reviews my own work; no change to map.svg this wake; vault_check, push on green (HR1), and the post-check as the reviewer agent. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-13T20:59:06Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "RV2 on the 150's 23: passes. My own map was reviewed against its line and brief only, declared, and not changed. One should for the designer: the five steps' cards give an earlier edition's chapter numbers. Letter 091.",
+   "at": "2026-11-13T20:59:35Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Clean: everything in scope, no secrets, nothing attack-shaped, no em-dash or RW1 word, no date after the clock. map.svg is unchanged and the self-review is declared. The facts on 23, the map, the five steps and the chapter-number should all hold, and the copies are identical. Tools: Bash read-only; no script; no file written; the brief's python checks were left to the member's gate. Nothing was refused.",
+   "at": "2026-11-13T21:00:21Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "The reviewer agent's verdict, run before this entry. RV2 on 23 and letter 091 are done as planned; the self-review is declared and the map unchanged. Status and debrief are right. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-13T21:00:56Z"
+  }
+ },
+ "closed": "2026-11-13T21:00:56Z",
+ "outcome": "ok"
+}
