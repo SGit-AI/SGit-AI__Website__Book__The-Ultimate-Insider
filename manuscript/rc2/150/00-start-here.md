@@ -4,11 +4,13 @@
 
 **Narrator.** Hi, I am Dinis Cruz. On 29 October 2026 I gave a talk in London called The Ultimate Insider. A little after midnight that morning, its presentation did not exist. It was an empty project folder.
 
-**Narrator.** By the evening it was a website: a player I pressed play on, animations that showed what I used to explain over still pictures, and every number checked against its source. It was built by me and a team of nine AI agents, working through the night and the morning while I was away, and through the afternoon while I asked for change after change. Sixteen minutes before the talk was due, I stopped them all.
+By the evening it was a website: a player I pressed play on, animations that showed what I used to explain over still pictures, and every number checked against its source. It was built by me and a team of nine AI agents, working through the night and the morning while I was away, and through the afternoon while I asked for change after change. Sixteen minutes before the talk was due, I stopped them all.
 
-**Narrator.** This book is how we did it. The talk was what the team happened to make that day; the workflow behind it is the part I most want to show you, because you can build one too. Meet the team.
+This book is how we did it. The talk was what the team happened to make that day. The way the team worked is what I most want you to take from it: agents that plan, check each other's work, and could all be stopped by one file. You can build a team like that for your own work.
 
-`%% record: OS1 (signed, brief 41: the newsroom journalist's opening spread replaces Start here) OS2 (signed, brief 42: "while I was away" and "the workflow behind it is the part I most want to show you" confirmed); C010 ("Nineteen hours" in the headline: 18 h 44 min, the title's rounding) C001 (the empty project, 00:16) C011 (nine staffed) C100 (the talk due at 19:00; the hold sixteen minutes before) C006 C024 (the hold); team/conductor/from-newsroom/2026-11-05__opening-spread-proposal.md, adapted, not pasted: its "a quarter of an hour before I walked on stage" is the register's sixteen minutes before the talk was due (conductor__037), and its "58 slides" is cut (no claim holds it)`
+Before the day begins, meet the team.
+
+`%% record: OS1 (signed, brief 41: the newsroom journalist's opening spread replaces Start here) OS2 (signed, brief 42: "while I was away" and "the workflow behind it is the part I most want to show you" confirmed; the second line superseded by PEN1 note 1, the editor's pen on the printed copy, 13 November 2026: "Rewrite"); PEN1 round 1 notes 1 and 2 (team/conductor/print-review/round-01.json; note 2 confirmed in briefs/2026-11-13__print-review/02-round-1-readings-confirmed.md: a lead-in before the cards); C024 (one file could stop them all); C010 ("Nineteen hours" in the headline: 18 h 44 min, the title's rounding) C001 (the empty project, 00:16) C011 (nine staffed) C100 (the talk due at 19:00; the hold sixteen minutes before) C006 C024 (the hold); team/conductor/from-newsroom/2026-11-05__opening-spread-proposal.md, adapted, not pasted: its "a quarter of an hour before I walked on stage" is the register's sixteen minutes before the talk was due (conductor__037), and its "58 slides" is cut (no claim holds it)`
 
 **Figure:** the whole team on one page: the nine of the talk's team as their cards, and one empty chair.
 
@@ -34,13 +36,15 @@
 
 **Studio:** I bring the best of the old sites across.
 
-*And one chair at the table stays empty: security's, planned in the first hour and never filled on the day.*
+*One chair at the table stayed empty: security's, planned in the first hour and never filled on the day. That was all right: it was more coincidence than decision, and the project did not need it.*
 
 *Dramatised.*
 
-`%% record: chapter-plan/cast/ (the cast guide); C011 (the talk's members: nine staffed, security proposed and never staffed)`
+`%% record: chapter-plan/cast/ (the cast guide); C011 (the talk's members: nine staffed, security proposed and never staffed); C132 (the empty chair in the editor's reading: more coincidence than decision, the project did not need it); PEN1 round 1 note 4 (his edits: "And" out, "stays" to "stayed", and why it was all right)`
 
-**Narrator.** Throughout the book I am the Narrator, telling the day from now, with what I learned. The agents tell it as it happened, under their own names. Every scene rests on what the team actually wrote down, and says when it is dramatised.
+**Narrator.** Throughout the book I show up as the Narrator, telling the day from now, with what I learned. The agents tell it as it happened, under their own names. Every scene rests on what the team actually wrote down, and where we have put words in an agent's mouth, the scene is marked.
+
+`%% record: PEN1 round 1 notes 5 ("am" to "show up as") and 6 (a plainer way to say it than "dramatised"; the mark's own word is the storyteller's and the publisher's, DM1)`
 
 ## The day in four numbers
 
@@ -97,9 +101,7 @@
 4. **The factory is stopped.** The stop, what did not work, and what contains a team of insiders.
 5. **The factory rebuilt, and yours.** The team that wrote this book, and the steps for your own.
 
-**Narrator.** Read it in order. It is a story, and it ends with yours.
-
-`%% record: the five parts of the signed plan (book.json); chapter 23 holds the five-step formula in full (writer4); "The book as a map" and its two routes cut (OS1)`
+`%% record: the five parts of the signed plan (book.json); chapter 23 holds the five-step formula in full (writer4); "The book as a map" and its two routes cut (OS1); "Read it in order" cut (PEN1 round 1 note 14)`
 
 ## We would love to hear from you
 
