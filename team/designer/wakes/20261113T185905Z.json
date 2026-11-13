@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Done: PEN1 round 1 notes 13 (parts on one line, textLength fit at most a tenth), 11 (the loop slide whole, letterboxed), 12 (the policy page cropped to its heading and paragraph) in LAB 75 page two, both copies, 00 untouched; cropped shots drawn as image-pattern rectangles with the cleared bytes (the lab overflow check had refused a nested SVG); invitation room kept; lab PDF 199 pages; letter 165 with the plan for 7, 8, 9, 16, 20, 22 and 24; three letters to done/; vault_check, agents check, build and gate clean.",
    "at": "2026-11-13T19:05:33Z"
+  },
+  "post_review": {
+   "by": "security-reviewer",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Both page-two SVGs embed the same five images as before, byte for byte (identical base64 hash to HEAD~2, each decoding to a cleared shot), and edition.unsafe_svg passes them: the only url() uses are the two internal pattern ids. The plain copy has no address and the book copy has exactly the one address from 00. The policy crop is a viewBox on the heading and paragraph only. manuscript and publishing are untouched, new prose has no em-dashes or religious words, all files are in scope, and the letter Date and status as_of (19:05:00) are before the 19:05:33 commit.",
+   "at": "2026-11-13T19:06:30Z"
+  },
+  "post_check": {
+   "by": "conductor-reviewer",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Notes 11, 12 and 13 are done in LAB 75 page two, both copies, with 00 untouched. Letter 165 carries the plan for 7, 8, 9, 16, 20 and 22 and offers 24 to designer2. The ruv-sgit 088 coulds are in next in the debrief and the three incoming letters are in done. REALITY.md, the debrief and status.json match the work, and the letter Date and as_of at 19:05:00 are before the 19:05:33 work commit.",
+   "at": "2026-11-13T19:06:58Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-13T19:07:12Z",
+ "outcome": "ok"
 }
