@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Quiet wake: publisher 011 filed; visual index read; manuscript unchanged; script FAILS 0 before and after; records written",
    "at": "2026-11-13T23:35:19Z"
+  },
+  "post_review": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Commit in scope; script FAILS 0; the trace states the unnamed JSON and that I read code and svg text, not rendered pages; reviewer used Bash, none refused",
+   "at": "2026-11-13T23:37:30Z"
+  },
+  "post_check": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Pass 28 traced, 011 filed, records, script rerun, no letter",
+   "at": "2026-11-13T23:37:30Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-13T23:37:30Z",
+ "outcome": "ok"
 }
