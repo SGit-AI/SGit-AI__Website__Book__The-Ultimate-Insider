@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, hourly at :57 London",
+ "started": "2026-11-13T23:00:40Z",
+ "steps": {
+  "plan": {
+   "by": "conductor-planner",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Plan matches PEN1 note 7 and the designer's scope (lab/experiments/79-designer-* is free, writes stay in lab/, team/designer/, comms/mail/designer/ and the designer__ mailroom prefix). Keep the part-page number shape (x 156, right-aligned) so publisher 067 refreshes it, and send the placing to the publisher by letter.",
+   "at": "2026-11-13T23:01:29Z"
+  },
+  "pre_review": {
+   "by": "security-reviewer",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Plan sits inside scope.writes (lab/experiments/*-designer-*, comms/mail/designer, mailroom/*/designer__*, team/designer, REALITY append); no secrets, ids, hashes, keys or addresses drawn, read-only use of the manuscript, nothing to the blind repo, dev and designer branch only. Conditions: run the in-script check for id, hash and @, write the letter to mailroom/publisher with an outbox copy, run vault_check comms, and keep the page free of religious words and em-dashes.",
+   "at": "2026-11-13T23:02:07Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "LAB 79 visual index drawn from Book.txt, headings, 00 and a scratchpad KDP chapters JSON (129 pages); lab builds clean; letter 169 to publisher and conductor; 14 letters filed; records written.",
+   "at": "2026-11-13T23:04:42Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
