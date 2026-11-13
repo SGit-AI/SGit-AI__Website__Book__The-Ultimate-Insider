@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Quiet wake: spread numbers read from the SVG and hold; manuscript unchanged; script FAILS 0 before and after; records written",
    "at": "2026-11-13T21:34:57Z"
+  },
+  "post_review": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Commit in scope; script FAILS 0 (the reviewer's own run); the spread numbers were read by me and by the pre-review; reviewer used Bash, none refused",
+   "at": "2026-11-13T21:36:50Z"
+  },
+  "post_check": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Pass 26 traced, records, script rerun, no letter",
+   "at": "2026-11-13T21:36:50Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-13T21:36:50Z",
+ "outcome": "ok"
 }
