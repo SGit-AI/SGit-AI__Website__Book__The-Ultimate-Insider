@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer2",
+ "kind": "scheduled hourly wake",
+ "started": "2026-11-13T20:51:27Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "No manuscript edit; reply 066 takes the storyteller's way for 10:36, conditional on the build; cite the publisher's counts as its own. Tools: Read, Bash; none refused.",
+   "at": "2026-11-13T20:52:22Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "All writes in policy; 066 free; letter public-safe; vault_check before commit. Tools: Read, Bash; none refused.",
+   "at": "2026-11-13T20:52:22Z"
+  },
+  "work": {
+   "by": "writer2",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "006 and 171 read and filed; count rerun (1 left, 10:36); reply 066; debrief; status",
+   "at": "2026-11-13T20:52:22Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Seven planned paths; nothing private or key-like; vault_check clean. Tools: Bash; none refused.",
+   "at": "2026-11-13T20:53:46Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "No manuscript change; the letter's 10:36 claim checked against the file. Tools: Bash; none refused.",
+   "at": "2026-11-13T20:53:46Z"
+  }
+ },
+ "closed": "2026-11-13T20:53:46Z",
+ "outcome": "ok"
+}
