@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-13T21:59:39Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go with three additions. (a) Line 42 also names studio__lab.jpg, which is uncleared and unmapped: check that studio.jpg alone shows line 40. (b) Read ch2-site-building.svg (the designer's) against line 202. (c) Lines 28, 100, 172 and 184 are held from print; note them. All nine mapped shots are on SHOT_CLEARED. My own figure is reviewed against its line only. Letter 092. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-13T22:00:51Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go: everything in scope; all nine shots are on SHOT_CLEARED; no HOLD. Conditions: open no uncleared or refused file (studio__lab, team, the unmasked abp-review); describe the masked page only; describe the policy check's acts without showing a way round; no key, address or detail in 092; push after the gate and vault_check (HR1). Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-13T22:01:41Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "22 re-read: the should is done and it passes. RV2 on the 150's 90: passes, with two shoulds (line 13, my own animation, and line 40 promise more than their shots show). Seven cleared shots were looked at, two checked by name; no uncleared file opened. Letter 092; designer__167 copied to done.",
+   "at": "2026-11-13T22:02:33Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Clean: everything in scope, no secrets, the policy acts only described, no em-dash or RW1 word, no date after the clock. The facts hold and the copies are identical. One wording point taken before the commit: 'No id' is now 'No register id' for line 202. Tools: Bash read-only; no script; no file written; no image opened; the brief's python checks were left to the member's gate. Nothing was refused.",
+   "at": "2026-11-13T22:03:31Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "The reviewer agent's verdict, run before this entry. Every item and addition (a) to (c) is done: 22 passes, and 90 passes with two shoulds, my own figure judged against its line only. The copies are identical; status and debrief are right. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-13T22:04:08Z"
+  }
+ },
+ "closed": "2026-11-13T22:04:08Z",
+ "outcome": "ok"
+}
