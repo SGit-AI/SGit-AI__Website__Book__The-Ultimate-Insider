@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-13T19:20:06Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Plan in the historian's lane and scope (letter 088 follows 087; no HOLD); cite the record commit for each date, keep VoiceDebrief undated, and note dates after 29 October as added after the day; no contact details or keys. Tools: Read, Grep, Glob, Bash.",
+   "at": "2026-11-13T19:21:28Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Plan fits the historian's scope and policy; each date cited to its record commit, post-29 October dates marked as added after the day; vault_check. Tool: Read.",
+   "at": "2026-11-13T19:21:53Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "The five letter copies are identical; vault_check clean; no em-dashes, religious words, model names or Cold-Read mentions (the one 'key' hit is the word keynote); writes in scope; each date in the letter has its source stated. No tool outside the list.",
+   "at": "2026-11-13T19:22:50Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "Letter 088, the addendum on notes 4, 18 and 24, the debrief and the status touch are present.",
+   "at": "2026-11-13T19:22:50Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "The dated chain behind note 24 sent (088); notes 4 and 18 read; nothing else to check",
+   "at": "2026-11-13T19:22:50Z"
+  }
+ },
+ "closed": "2026-11-13T19:22:50Z",
+ "outcome": "ok"
+}

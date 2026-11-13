@@ -266,3 +266,10 @@ Security's hold of 05:26 was lifted at the editor's word (brief 49, `160be749`, 
 ## Addendum, 5 November 13:40 UTC
 
 One commit has touched `manuscript/` since 12:20 (`f1a024f6`, the publisher): a placed-spread header line gains a second drawing file for the opening spread's page two. No text changed, so there is nothing to check and no letter.
+
+## Addendum, 13 November 19:40 UTC: the editor's pen, round 1 (notes 4, 18 and 24)
+
+The loop runs again with the editor's handwritten notes as its input (brief 2026-11-13, RS1 and PEN1). Two commits to `manuscript/` since my wake of 5 November (`3d213b69`, `14102115`) add a title page and a running footer to the build; no text changed. Three of round 1's 30 notes touch the record:
+- **Note 18** ("date of talk" beside hack::soho): 29 October 2026, in London, at hack::soho in IOActive's office (`BRIEF.md` and the talk site's own article at `298be4e`). The reading in the round's file holds.
+- **Note 4** ("stayed empty", with a line that it was all right): the record says security was planned in the first hour (`97b98d9`, 00:44:37) and never staffed on the day (`status: proposed` at the end); the editor's own reading is the book's (C132), so nothing for the record lane.
+- **Note 24** (a timeline infographic of the experiments that led to the day): letter 088 to the researcher and designer: the dated chain (9 December 2025 from the editor's own article; 14 and 15 October 2026; 29 October 2026 with the player ported from ruv.sgit.ai at 15:07:08), with the VoiceDebrief pitch left undated and a caution that the catalogue's page dates are not event dates.
