@@ -233,6 +233,8 @@ The talk team's vaults are named in 10, not cited by path; nothing of them is in
 
 **13 November 2026, about 19:30 UTC: after the pause (RS1) and the first round of the editor's pen.** The full book's text has not changed since 5 November; `Book.txt` gained the running footer and the new title page. The final pass has no fails. The title page's times (dev 00:40, conductor 00:44, deck 00:51, ruv-sgit 01:08, researcher 01:52, designer 03:41, storyteller 14:15, motion 15:31, studio 15:31, the stop 18:44, 19:00) match the record; its quoted line is word for word in the talk's transcript (a9c0b49, added after the day). The footer's parts match the outline. Nothing open.
 
+**13 November 2026, about 20:30 UTC: the editor's pen on pages 2 to 4, landed in 00 and 00b.** Two files (listed by `--name-only`): his rewrites and cuts, each with its note number on a record line. The claims of record that entered hold: the talk given at hack::soho, IOActive's London office, on 29 October 2026 (C100; the venue sourced to the transcript added after the day); every agent left a record (C022); "sixteen minutes" (C100); the empty chair as his reading (C132, at his word); the companion site's address as `book.json` records it. The final pass has no fails. Nothing open.
+
 ## The writer's readings, for the editor to keep or drop
 
 **Corrected 3 November 2026, about 09:30 UTC:** until this wake the list took only the notes that stand on a line of their own, and missed four set inside a paragraph (70/02:67, 70/02:97, 70/06:68, 70/11:5). The list now takes every note wherever it stands: thirty in the thirty and the seventy (not twenty-six), seven in the 150's part 1, thirty-seven in all.
