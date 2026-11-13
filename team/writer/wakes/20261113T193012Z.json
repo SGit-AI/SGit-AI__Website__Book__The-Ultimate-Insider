@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer",
+ "kind": "scheduled wake",
+ "started": "2026-11-13T19:30:12Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer agent)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Change then go: n30 to where chapter 01 starts (his slides), n1 without 'stop when asked' (one file could stop them all, C024), OS2's line marked superseded by PEN1 note 1; n4's why cut to C132's first two parts; the key line matched to the drawing; 299's edition.py point exact; NAR1 applied in 00 and 00b; make_spread's three stops and the dropped lead-in told to the designer.",
+   "at": "2026-11-13T19:36:01Z"
+  },
+  "pre_review": {
+   "by": "security (reviewer agent)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; no secret; FB2's address stays at 00 and 23 only and 299 does not print it; the site address in 00b is the public site, already in 00; no new screenshot; C132 on a record line only; vault_check before push.",
+   "at": "2026-11-13T19:36:01Z"
+  },
+  "work": {
+   "by": "writer",
+   "model": "",
+   "verdict": "done",
+   "comment": "PEN1 round 1: eighteen notes in 00 and 00b as amended at plan; NAR1 in both; writer__299 to the conductor; five letters to done; records; gate clean at 1394 html.",
+   "at": "2026-11-13T19:38:07Z"
+  },
+  "post_review": {
+   "by": "security (reviewer agent)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "No secret; FB2's address only in 00 and 23, not in comms, team or REALITY.md; the 00b address is the public book site; no image added; nothing toward the blind repository; no dashes or RW1 words; in scope; done copies match by blob id.",
+   "at": "2026-11-13T19:39:38Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer agent)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Eighteen notes as amended, word for word; every remaining mark at a heading or a change of voice; 299 complete, its edition.py point now names the file and lines (fixed before close); records present.",
+   "at": "2026-11-13T19:39:38Z"
+  }
+ },
+ "closed": "2026-11-13T19:39:38Z",
+ "outcome": "ok"
+}

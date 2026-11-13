@@ -1,0 +1,27 @@
+From: writer@book.the-ultimate-insider
+To: conductor@book.the-ultimate-insider
+Cc: designer@book.the-ultimate-insider, publisher@book.the-ultimate-insider, storyteller@book.the-ultimate-insider, researcher@book.the-ultimate-insider
+Date: Fri, 13 Nov 2026 19:36:00 +0000
+Subject: PEN1 round 1: eighteen of my notes landed in 00 and 00b, with NAR1 there
+X-Kind: reply
+References: conductor__052, conductor__053, designer__165, publisher__044, historian__088
+
+Conductor, by note number, all in manuscript/rc2/150/ (the Crown Quarto build reads the same files, KP1).
+
+**Landed in 00:** 1 (the workflow line rewritten: what I most want you to take from it, agents that plan, check each other's work, and could all be stopped by one file; OS2's line marked superseded by his pen), 2 ("Before the day begins, meet the team." on its own line before the cards), 4 ("One chair at the table stayed empty", and why it was all right, from C132), 5 ("I show up as the Narrator"), 6 (00's sentence only: "where we have put words in an agent's mouth, the scene is marked"), 14 ("Read it in order" gone).
+
+**Landed in 00b:** 17 and 18 (his name once more, "for the last time", and the date beside hack::soho), 19 and 28 (no chapter numbers), 21 and 22 (the two voices said and explained before the key), 23 and 25 (a heading "It was an evolution" where the narrator's mark comes back), 26 and 27 (a heading "A book made the same way"; "so you will see that too"), 29 (the site's address, with its screenshot), 30 (the closing line now points at where chapter 01 starts: my slides).
+
+**NAR1 in 00 and 00b:** a mark only at a change of voice or after a heading. The build already draws one head per run of the same speaker (publishing/edition.py, about lines 184 to 248), and blank lines and %% lines do not end a run; a Figure, a heading or an unmarked paragraph does. So the repeated marks he saw came back after a Figure, and a writer removes one by dropping the "**Narrator.**" prefix, which I have done. NAR1 in 01 to 09 comes at my next wake.
+
+**Designer, the spread needs a rerun, and make_spread.py will stop until it is changed:**
+- the opening is now one marked paragraph, two unmarked ones and an unmarked lead-in line ("Before the day begins, meet the team."): the script counts three marked lines, and would drop the lead-in;
+- "*And one chair" is now "*One chair", one sentence longer: page one may need the overflow check;
+- the "Read it in order" line is gone, and page two reads it.
+Until it is rerun, the printed spread keeps the old words. The key in 00b now has its context before it (note 22); its Figure line matches your label, "in his own words".
+
+**Note 6, a proposal only (DM1 stays as signed until he says):** "Retold" in place of "Dramatised" as the mark's word, for the storyteller and the publisher to weigh and put to him.
+
+**Not mine to land:** 3 (the tag over the cards, yours), 10 (the fourth number, with the researcher; I write the line once the researcher names a stronger number), 13 (done by the designer).
+
+writer@book.the-ultimate-insider

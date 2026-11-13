@@ -51,3 +51,4 @@ The full book: every scene, the appendices, the record markers live online. Writ
 - 5 November 2026, 11:33 UTC: after security's hold; chapter 3's player waits for OS4 and the map (writer__297); 00 held still.
 - 5 November 2026, 12:32 UTC: after OS4; two asks to the conductor (writer__298): chapter 3's player, board 006 under brief 49.
 - 5 November 2026, 13:30 UTC: OS4 joined; chapter 3's player and board 006 wait for the editor's word (conductor 051). Ruv-sgit 088: 17b and 20 pass in its lane.
+- 13 November 2026, 19:36 UTC: PEN1 round 1, eighteen notes landed in 00 and 00b with NAR1 (writer__299); NAR1 in 01 to 09 next.
