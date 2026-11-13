@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-13T20:32:49Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Plan in scope; the reviewer did not read the mails or pages, so I read them myself before the letter; reviewer used Read and Bash, none refused",
+   "at": "2026-11-13T20:33:56Z"
+  },
+  "pre_review": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "The plan holds against chapter 00's numbers and C087, C116; cite 00b line 21 (not 19); add the 13 November read to C116 without rewriting the 4 November line; reviewer used Read and Grep, none refused",
+   "at": "2026-11-13T20:34:35Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Note 24 settled (045); the fourth card traced; part pages and NAR1 checked; script FAILS 0 before and after; records written",
+   "at": "2026-11-13T20:35:12Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
