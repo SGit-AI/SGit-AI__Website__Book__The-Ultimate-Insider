@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled wake",
+ "started": "2026-11-13T22:13:56Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Quiet wake: the manuscript diff since 21:11 is empty; final pass; short records; build+gate before push.",
+   "at": "2026-11-13T22:14:32Z"
+  },
+  "pre_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No secret, contact detail, model name or Cold-Read cross.",
+   "at": "2026-11-13T22:14:32Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Quiet wake: manuscript diff since 21:11 empty; final pass no fails; no letter; short review, README, debrief, status; build+gate run.",
+   "at": "2026-11-13T22:16:30Z"
+  },
+  "post_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "5 staged files in scope; no personal address, model name, em-dash, religious word or Cold-Read flow.",
+   "at": "2026-11-13T22:16:51Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Quiet wake: the manuscript diff since 21:11 is empty (confirmed by the reviewer); review, README, debrief, status in the diff; no letter needed; build and gate clean (1424 pages) and the final pass has no fails (my runs).",
+   "at": "2026-11-13T22:16:51Z"
+  }
+ },
+ "closed": "2026-11-13T22:16:51Z",
+ "outcome": "ok"
+}
