@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "ruv-sgit",
- "as_of": "2026-11-13T19:57:00Z",
+ "as_of": "2026-11-13T21:00:00Z",
  "round": 1,
- "state": "working (back on at RS1; ACC1; RV2; HR1): 00, 00b, 01 to 04, 03b, 05 to 19, 17b and 20 to 22 pass in my lane; no PEN1 note is mine; 23 and 90 to 94 next",
+ "state": "working (back on at RS1; ACC1; RV2; HR1): 00, 00b, 01 to 04, 03b, 05 to 19, 17b and 20 to 23 pass in my lane; no PEN1 note is mine; 90 to 94 next",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/ruv-sgit/ (drafts left in place) and adopted",
@@ -248,11 +248,15 @@
   {
    "what": "RV2 on the 150's 22 (passes, one should); letter 090",
    "when": "2026-11-13"
+  },
+  {
+   "what": "RV2 on the 150's 23 (passes, one should; my own map declared); letter 091",
+   "when": "2026-11-13"
   }
  ],
  "next": [
   {
-   "what": "RV2 on 23 and 90 to 94; any PEN1 note handed to my lane",
+   "what": "RV2 on 90 to 94; any PEN1 note handed to my lane",
    "why": "conductor__036; RS1 and PEN1 (ce14dc7d)"
   },
   {
