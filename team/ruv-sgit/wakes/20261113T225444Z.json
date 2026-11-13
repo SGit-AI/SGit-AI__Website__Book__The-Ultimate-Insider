@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-13T22:54:44Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go with three notes. (1) ch23-five-steps.svg is in the designer's list but not yet in publishing/rc2-figures.json: record it as unmapped and name it the publisher's. (2) studio__lab.jpg is cleared by security but not yet in SHOT_CLEARED; opening it on that clearance is fine. (3) 91 to 93 have no Figure line; 94 has one at line 17, to be read against book-team-arriving.svg. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-13T22:55:42Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go: everything in scope; opening studio__lab.jpg is covered by security__023; no secrets, no HOLD, nothing attack-shaped. Conditions: no edit to rc2-figures.json or SHOT_CLEARED (the publisher's); vault_check before the commit; push to dev on green only; nothing to Cold-Read. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-13T22:56:07Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "23 re-read: the new drawing is right and passes once mapped (the publisher's). 90 line 40: the studio lab shot (cleared) still does not show the caption's promise, so the caption is writer4's call. RV2 on 91 to 94: all pass. The whole full book is read in my lane. Letter 093; two letters copied to done.",
+   "at": "2026-11-13T22:56:52Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Clean: everything in scope, the copies identical, no secrets, nothing attack-shaped, no em-dash or RW1 word, no date after the clock. The facts hold: the new five-steps cards quote chapters 4, 2, 15 and 5 word for word, the map and SHOT_CLEARED are unchanged, and 91 to 94 are as the reviews say. Tools: Bash read-only; no script; no file written; no image opened; the brief's python checks were left to the member's gate. Nothing was refused.",
+   "at": "2026-11-13T22:57:53Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "The reviewer agent's verdict, run before this entry. All three notes are kept: 23's new drawing is recorded as unmapped (the publisher's), the cleared lab shot is judged with the caption left to writer4, and 91 to 94 pass. publishing/ is unchanged, the copies are identical, and status and debrief are right. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-13T22:58:28Z"
+  }
+ },
+ "closed": "2026-11-13T22:58:28Z",
+ "outcome": "ok"
+}
