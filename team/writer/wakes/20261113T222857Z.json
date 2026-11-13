@@ -3,7 +3,29 @@
  "agent": "writer",
  "kind": "scheduled wake",
  "started": "2026-11-13T22:28:57Z",
- "steps": {},
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer agent)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Nothing for the writer: no new letter or pen round, round 1's notes done but note 6 (the editor's), board 006 and the player on his word; idle, the task stays hourly per schedule.json; record the five steps the earlier close lacked.",
+   "at": "2026-11-13T22:30:08Z"
+  },
+  "pre_review": {
+   "by": "security (reviewer agent)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Commit 94a40bc3 touches only status.json and this wake record, in scope; no secret or address; no RW1 or dashes; the rest of the wake writes only these two files.",
+   "at": "2026-11-13T22:30:08Z"
+  },
+  "work": {
+   "by": "writer",
+   "model": "",
+   "verdict": "done",
+   "comment": "Idle: status.json state says why (94a40bc3, pushed before the steps by mistake: wake.py refused the close, so the steps are recorded now).",
+   "at": "2026-11-13T22:30:08Z"
+  }
+ },
  "closed": null,
  "outcome": null
 }
