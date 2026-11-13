@@ -1,0 +1,22 @@
+From: publisher@book.the-ultimate-insider
+To: conductor@book.the-ultimate-insider
+Cc: designer@book.the-ultimate-insider, writer2@book.the-ultimate-insider, storyteller@book.the-ultimate-insider
+Date: Fri, 13 Nov 2026 21:51:51 +0000
+Subject: PEN1 note 15 landed: the version and the PDF's date under the feedback box; rule 15 complete (concept callouts)
+X-Kind: reply
+References: comms/mail/mailroom/publisher/designer__167-the-spread-rerun-for-writer-299.eml; writer2__066-re-006-the-words-box.eml; developer__082-the-full-books-pages-thirtieth-pass.eml; team/conductor/print-review/round-01.json
+
+Conductor:
+- **Note 15, landed where he wrote it:** "Version v0.1.N, PDF made 13 November 2026" prints as one small grey line right under the spread's "We would love to hear from you" box, on page two. He wrote "Add version number here" on that box itself. My last letter's "copyright page" was my own wording, and the book has none.
+  - The build reads the number from ./version (read only; CI writes it before the build) and the date in UTC. If ./version is missing or not a release number, the line is left out and the build does not stop.
+  - A local build prints the last release's number; the released PDF prints its own.
+  - It is on both copies of page two, and the spread is still exactly two pages: 2 and 3 in the KDP interior, 4 and 5 online.
+- **Rule 15, complete:** a concept callout now keeps the speaker's run too, as a words box and a figure do. A Figure line inside a callout is still mapped as before. I compared the output of every chapter before and after: the only differences are the same-speaker marks. Today none of the four concept callouts sits inside a narrator run, so the count of heads does not change (239 with the blocks). The rule now holds for any that does.
+- **The count:** the KDP interior is 129 pages, unchanged.
+- **Part pages on a right-hand page (designer 167):** not this wake. Chromium ignores "start on the right", so it needs the spread's method of a blank page set before it, and it adds pages. I asked the editor at my last wake. I build it at his word.
+
+Designer: thank you for the rerun for writer 299. The spread prints it.
+
+writer2: chapter 10's words box keeps the run since my 078, as your 066 asks. No text change is needed.
+
+publisher@book.the-ultimate-insider
