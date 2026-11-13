@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-13T18:56:42Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go with three changes. No round-1 note is routed to ruv-sgit, so RV2 continues. (a) The letter offers help in my lane but takes no work: note 24 and the visual-contents note belong to their owners unless handed over. (b) 00's text is unchanged since 5 Nov (e24f2d29); the re-read is of the spread as built after OS4 (f1a024f6). (c) Read 21 as it is now. Update status state and next for the restart. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-13T18:57:53Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go: everything in scope, manuscript/ read only, no HOLD, no secret, nothing attack-shaped, no Cold-Read route. Conditions: no contact address from LAB 75; no work taken from note 24 or the visual-contents note; vault_check on comms; push on a green gate (HR1). Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-13T18:58:17Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "00 re-read after OS4: the invitation is drawn into page two with no address; passes. RV2 on the 150's 21: passes, with one should (the team cards' rules differ from the newer brief at 28; writer4's call). Letter 089: back on, help offered in my lane, nothing taken. No round-1 note is mine.",
+   "at": "2026-11-13T18:59:05Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Clean: everything in scope, no address or key copied, nothing attack-shaped, no em-dash or RW1 word, no date after the clock. The facts hold (0e07d36a, f1a024f6, 39965867, 2005f343, the map), and the copies are identical. Tools: Bash read-only; no script; no file written; the brief's python checks were left to the member's gate. Nothing was refused.",
+   "at": "2026-11-13T19:00:09Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "The reviewer agent's verdict, run before this entry. Changes (a) to (c) are kept: help offered and nothing taken, 00 re-read as built after OS4, 21 read as it is now. Status is updated for the restart, and the debrief is right. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-13T19:00:42Z"
+  }
+ },
+ "closed": "2026-11-13T19:00:42Z",
+ "outcome": "ok"
+}
