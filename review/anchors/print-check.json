@@ -1,7 +1,7 @@
 {
  "about": "The full book's printed pages checked for pages that may not look right (conductor__036). Written by review/tools/print_check.py: page numbers, chapter titles, counts and sizes only.",
  "edition": "rc2-150",
- "source": "a PDF given by hand (full.pdf, created Thu Nov  5 13:14:17 2026 UTC); its chapters are those of the online view, review/anchors/editions.json, as last built",
+ "source": "a PDF given by hand (full.pdf, created Fri Nov 13 19:19:20 2026 UTC); its chapters are those of the online view, review/anchors/editions.json, as last built",
  "pdf_pages": 128,
  "chapters_hash": "fad96e9bc4ebfa18",
  "thresholds": {
@@ -22,49 +22,49 @@
    "kind": "chapter_end_spill",
    "page": 91,
    "chapter": "The members look back",
-   "lines": 4,
+   "lines": 5,
    "fill": 0.08
   },
   {
    "kind": "chapter_end_spill",
    "page": 83,
    "chapter": "Hour nineteen, minute by minute",
-   "lines": 5,
+   "lines": 6,
    "fill": 0.14
   },
   {
    "kind": "chapter_end_spill",
    "page": 97,
    "chapter": "How do we contain this",
-   "lines": 6,
+   "lines": 7,
    "fill": 0.16
   },
   {
    "kind": "chapter_end_spill",
    "page": 48,
    "chapter": "Hours four and five: before dawn",
-   "lines": 6,
+   "lines": 8,
    "fill": 0.17
   },
   {
    "kind": "chapter_end_spill",
    "page": 105,
    "chapter": "Sessions end",
-   "lines": 7,
+   "lines": 8,
    "fill": 0.19
   },
   {
    "kind": "chapter_end_spill",
    "page": 116,
    "chapter": "Principles, and build your own",
-   "lines": 8,
+   "lines": 10,
    "fill": 0.19
   },
   {
    "kind": "chapter_end_spill",
    "page": 14,
    "chapter": "Inventing on principle",
-   "lines": 8,
+   "lines": 9,
    "fill": 0.21
   },
   {
@@ -72,7 +72,7 @@
    "page": 46,
    "chapter": "Hours four and five: before dawn",
    "fill": 0.14,
-   "lines": 3,
+   "lines": 5,
    "raster_figure_here": false,
    "borderline": false
   },
@@ -81,7 +81,7 @@
    "page": 37,
    "chapter": "Hour three: every wake read twice, and the first to be caught",
    "fill": 0.52,
-   "lines": 22,
+   "lines": 24,
    "raster_figure_here": false,
    "borderline": false
   },
@@ -90,7 +90,7 @@
    "page": 74,
    "chapter": "Port, not rebuild",
    "fill": 0.58,
-   "lines": 18,
+   "lines": 19,
    "raster_figure_here": false,
    "borderline": false
   },
@@ -99,7 +99,7 @@
    "page": 42,
    "chapter": "Hours four and five: before dawn",
    "fill": 0.64,
-   "lines": 25,
+   "lines": 27,
    "raster_figure_here": false,
    "borderline": false
   },
@@ -108,7 +108,7 @@
    "page": 114,
    "chapter": "Principles, and build your own",
    "fill": 0.66,
-   "lines": 19,
+   "lines": 21,
    "raster_figure_here": false,
    "borderline": false
   },
@@ -117,7 +117,7 @@
    "page": 19,
    "chapter": "The tour: what a factory made in a day",
    "fill": 0.69,
-   "lines": 8,
+   "lines": 10,
    "raster_figure_here": true,
    "borderline": true
   },
@@ -294,7 +294,9 @@
    "introduced_by": "a heading"
   }
  ],
- "raster_figures_over_45_percent_on_pages": [],
+ "raster_figures_over_45_percent_on_pages": [
+  2
+ ],
  "figures": {
   "figure_lines": 102,
   "introduced_by_a_heading": 23,
