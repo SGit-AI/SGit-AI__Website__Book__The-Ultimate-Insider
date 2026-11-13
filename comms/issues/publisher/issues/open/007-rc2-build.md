@@ -116,3 +116,4 @@ source: comms/mail/mailroom/publisher/conductor__026-check-taken.eml; publishing
 - 5 November 12:30 UTC: OS4 (00 two pages); by name only; interior 123 pages.
 - 5 November 13:10 UTC: OS4 as drawn, two copies of page two placed; 123/129 pages.
 - 13 November 19:30 UTC: running footer (PEN1 8, 9, 20); interior 124 pages, 8 holes.
+- 13 November 20:15 UTC: NAR1 in the build; parts in words; chapters JSON.
