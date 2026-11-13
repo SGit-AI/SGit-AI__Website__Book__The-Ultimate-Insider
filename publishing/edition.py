@@ -177,8 +177,9 @@ def cast_lines(body, mark=None, figure=None, figures=None):
 
     figures: for a chapter, the drawings for its Figure lines in order (paths from the repository root, None where not
     drawn yet); a Figure line that names a lab/ .svg itself uses that. A speaker's block that follows the same
-    speaker's, with only blank lines between, gets the class same-speaker (the editor, 2 November 2026: one head for a
-    run of the same speaker)."""
+    speaker's, with only blank lines, a Figure or Map line, a clock or a "*Dramatised.*" line between, gets the class
+    same-speaker (the editor, 2 November 2026: one head for a run of the same speaker; NAR1, 13 November: the mark
+    where the voice changes or at a new heading)."""
     lines = []
     figures = list(figures) if figures is not None else None
     last = None  # the speaker of the block just written, while only blank lines follow it
@@ -207,6 +208,9 @@ def cast_lines(body, mark=None, figure=None, figures=None):
             else:  # a span of hours lights no one hour in the drawing: the words, as a margin note
                 lines += ["", "::: {.clock}", said, ":::", ""]
             clock = hour or clock
+            continue
+        if s == "*Dramatised.*" and last:  # NAR1 (writer2 065): the mark keeps the speaker's run
+            lines.append(line)
             continue
         speaker, last = last, None
         if s.startswith("**Cast bar:**"):
@@ -237,6 +241,7 @@ def cast_lines(body, mark=None, figure=None, figures=None):
                 lines += ["", f"![{caption}]({drawn}){{.edition-figure}}", ""]
             else:
                 lines += ["", "::: {.figure-todo}", f"{kind} to come: " + what, ":::", ""]
+            last = speaker  # NAR1 (writer2 065): a figure inside a speaker's run does not end it; a heading still does
             continue
         m = SPEAKER.match(s)
         if m and m.group(1).lower() in SPEAKERS:

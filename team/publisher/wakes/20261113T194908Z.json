@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake",
+ "started": "2026-11-13T19:49:08Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; storyteller 169, writer2 065 (NAR1), designer 165 note 7. Keep an unlabelled paragraph ending the run; show part three's 8 repeats going to 0; name 00's part page numbers as pending.",
+   "at": "2026-11-13T19:50:12Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "The JSON holds only public titles, parts and page numbers; layout changes only; no HOLD.",
+   "at": "2026-11-13T19:50:12Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "NAR1 in cast_lines (253 to 228 heads); parts in words; chapters JSON beside each PDF; letter 077.",
+   "at": "2026-11-13T19:53:52Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Run tracking only, no new HTML input; JSON public data only; letters and records clean; vault_check clean.",
+   "at": "2026-11-13T19:53:52Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "partial",
+   "comment": "Two conditions met; the 'exactly writer2's 8' claim was wrong (7 of 8 plus one in 09; 10 line 36 stays for a words box). Corrected in all letter copies and the debrief before commit.",
+   "at": "2026-11-13T19:53:52Z"
+  }
+ },
+ "closed": "2026-11-13T19:53:52Z",
+ "outcome": "ok"
+}

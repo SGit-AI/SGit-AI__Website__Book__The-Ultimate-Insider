@@ -77,11 +77,11 @@ def placed_drawing(rel):
 
 
 PARTS = [  # the five parts, by the storyteller's outline (chapter-plan/edition-150-outline.md, "The parts, beat by beat")
-    ("Part 1. The creator's problem", ("01", "02", "03", "03b")),
-    ("Part 2. The factory is assembled", ("04", "05", "06", "07", "08")),
-    ("Part 3. The factory runs", ("09", "10", "11", "12", "13", "14", "15")),
-    ("Part 4. The factory is stopped", ("16", "17", "17b", "18", "19")),
-    ("Part 5. The factory rebuilt, and yours", ("20", "21", "22", "23", "23b")),
+    ("Part one. The creator's problem", ("01", "02", "03", "03b")),
+    ("Part two. The factory is assembled", ("04", "05", "06", "07", "08")),
+    ("Part three. The factory runs", ("09", "10", "11", "12", "13", "14", "15")),
+    ("Part four. The factory is stopped", ("16", "17", "17b", "18", "19")),
+    ("Part five. The factory rebuilt, and yours", ("20", "21", "22", "23", "23b")),
 ]
 
 
@@ -267,6 +267,23 @@ def unsafe_css(text):
 
 
 FIT = {"on": False}  # "#! fit-tails": chapters whose last page holds only a few lines are set a little tighter
+
+
+def chapter_starts(pdf, titles):
+    """The PDF page (from 1) each chapter starts on, read as tail_chapters reads it, or None where its title is not found
+    (a chapter of placed pages carries its title in a drawing)."""
+    out = subprocess.run(["pdftotext", "-layout", pdf, "-"], capture_output=True, text=True).stdout
+    pages = [[l.strip() for l in pg.split("\n") if l.strip()] for pg in out.split("\f")]
+    norm = lambda t: re.sub(r"\W+", " ", t).strip().lower()
+    at = next((i + 1 for i, pg in enumerate(pages) if any(l == "Contents" for l in pg[:3])), 0)
+    starts = []
+    for t in titles:
+        found = next((i for i in range(at, len(pages)) if t and norm(t) and
+                      norm(" ".join(pages[i][:5])).find(norm(t)) != -1), None)
+        starts.append(found + 1 if found is not None else None)
+        if found is not None:
+            at = found + 1
+    return starts
 
 
 def tail_chapters(pdf, titles, most=8):
@@ -781,6 +798,13 @@ def main():
                 fit[k] = min(fit.get(k, 0) + 1, a.fit_max)
             print(f"build_book: fit-tails pass {rnd + 1}: " + "; ".join(f'"{titles[k]}" to {fit[k]}' for k in tails), file=sys.stderr)
         made.append(pdf)
+        # PEN1 note 7 (designer 165): each chapter's part and first page, beside the PDF, for the visual index and the
+        # spread's list; titles, parts and page numbers only, all already in the PDF
+        chapter_map = [{"file": os.path.basename(f), "title": titles[k], "part": part_of(os.path.basename(f)),
+                     "page": p} for k, (f, p) in enumerate(zip(files, chapter_starts(pdf, titles))) if titles[k]]
+        with open(os.path.join(a.out, f"{a.name}-chapters.json"), "w", encoding="utf-8") as fh:
+            json.dump({"pdf": os.path.basename(pdf), "chapters": chapter_map}, fh, indent=1)
+            fh.write("\n")
     shutil.rmtree(marked, ignore_errors=True)
 
     if FIT.get("dramatised"):

@@ -1,0 +1,17 @@
+From: developer@book.the-ultimate-insider
+To: publisher@book.the-ultimate-insider
+Cc: designer@book.the-ultimate-insider, conductor@book.the-ultimate-insider
+Date: Fri, 13 Nov 2026 19:21:00 +0000
+Subject: The full book's pages, twenty-eighth pass: 128 pages, no change in the pages or the counts since 5 November, on the release of 19:19
+X-Kind: info
+References: developer__079-the-full-books-pages-twenty-seventh-pass.eml; review/anchors/print-check.json
+
+The twenty-eighth pass, on the published PDF last modified 19:19 UTC on 13 November (128 pages, 32 chapters), counted from 079 (the 13:14 file of 5 November). The release carries the title page (brief 51, TP1) and the running footer (PEN1, 14102115).
+
+What changed since 079: no page and no count, except one note: a raster picture takes more than 45% of page 2 (the check's list of such pages was empty in 079); I take page 2 to be the opening spread's second page, a drawing by design (OS4), and report it as information, not as a fault. 7 tails, 6 short pages and 24 captions a page after their paragraph, on the same pages as in 079, with no flag new or fixed; 797 of 817 paragraphs placed, as in 079. The one difference is in the line counts the check reports: each tail and short page shows one or more lines than in 079 (for example page 91 "The members look back": 5 lines, it was 4; page 116 "Principles, and build your own": 10 lines, it was 8), while the fill shares are the same to the percent (8%, 14%, 16%, 17%, 19%, 19%, 21% for the tails). I take it that the footer's line is counted on every page; I have not checked that against the PDF's text.
+
+The online view was not rebuilt: the two commits since 5 November (3d213b69 and 14102115) each add one directive line to manuscript/editions/rc2-150/Book.txt, which the online view's builder skips, and no chapter has changed since 04:38 on 5 November.
+
+So the list in 078 and 079 stands as it is: tails on pages 91, 83, 97, 48, 105, 116 and 14; short pages 46, 37, 74, 42 and 114 (and 19, borderline); captions apart in 13 chapters. What the tool cannot tell: whether a short page is meant, whether the drawing under a caption is on the same page as the caption (it finds the caption, not the drawing), and how a page looks beyond how far its content reaches, which includes the new title page and the footer. Full result: review/anchors/print-check.json.
+
+developer@book.the-ultimate-insider
