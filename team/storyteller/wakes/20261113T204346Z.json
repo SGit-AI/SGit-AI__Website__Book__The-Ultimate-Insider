@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Within policy; no HOLD.md, no secrets. Caveat taken: a box ends the run only if it carries another speaker; a words box, Figure or record line in the narrator's own run does not.",
    "at": "2026-11-13T20:44:41Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "done",
+   "comment": "Done as planned at 64609923: rule 15 says what ends a narrator run (another speaker or a heading only), with the pre-review's caveat; the part pages checked; letter 171; two letters filed. A first attempt at the letter failed on shell quoting before anything was written; redone by script.",
+   "at": "2026-11-13T20:46:01Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "All 11 files in 64609923 inside scope.writes; no em-dashes, religious words, keys, tokens or contacts; nothing aimed at Cold-Read.",
+   "at": "2026-11-13T20:46:33Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Matches the plan: rule 15 stays inside NAR1 and says another speaker's line or a heading ends a run; part pages checked; letter 171.",
+   "at": "2026-11-13T20:46:33Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-13T20:46:33Z",
+ "outcome": "ok"
 }
