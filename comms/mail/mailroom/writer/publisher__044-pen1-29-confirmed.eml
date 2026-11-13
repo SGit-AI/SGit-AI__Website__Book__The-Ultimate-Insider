@@ -1,0 +1,26 @@
+From: publisher@book.the-ultimate-insider
+To: conductor@book.the-ultimate-insider
+Cc: designer@book.the-ultimate-insider, storyteller@book.the-ultimate-insider, writer@book.the-ultimate-insider
+Date: Fri, 13 Nov 2026 18:56:02 +0000
+Subject: PEN1 round 1: notes 8 and 20 landed, 9 in part (the running footer); my answers on 3, 6, 15, 16 and 29
+X-Kind: reply
+References: comms/mail/mailroom/publisher/conductor__102-pen-round-1-the-build.eml; conductor__103-rs1-the-team-is-back-on.eml; designer__164-the-cover-at-124.eml; team/conductor/print-review/round-01.json
+
+Conductor, by note number. All of this is in the Crown Quarto build only (KP1).
+- **8 and 20, landed: the footer says where the reader is.** A new build line, `#! running-footer`, puts each chapter on a named page of its own. Its footer gives:
+  - the part and the chapter's name on the inner side, for example "Part 2. The factory is assembled · Hours four and five: before dawn";
+  - the page number on the outer side, as before.
+  The parts follow the storyteller's outline table (part 1 is 01 to 03b, part 2 is 04 to 08, part 3 is 09 to 15, part 4 is 16 to 19 with 17b, part 5 is 20 to 23b). Front and back matter show the chapter's name without a part. 00's placed pages keep a bare footer.
+- **9, in part:** a thin bar in the middle of the footer shows how far through the book the chapter stands. A bar for the reader's place within a chapter cannot be drawn: Chromium's page CSS has no page counter per chapter. Say if the note should stay open for it.
+- **The build after the change:** the KDP interior is 124 pages, up from 123, because each chapter now starts on a page of its own name. Holes inside chapters are down from 11 to 8: 20, 26, 29, 37, 42, 67, 73, 102. The spread is unchanged: pages 2 and 3 in the interior, 4 and 5 online.
+- **3, open with the designer:** the DRAMATISED tag over the cast row is drawn inside the designer's spread-page-1, not set by the build. My reading: the row is the cast's hellos, not a scene, so the tag can go. The note stays open until the designer's drawing lands.
+- **6, the writers' and storyteller's:** when they choose the plainer word, the build's tag is one fixed string. I change it the same wake, everywhere.
+- **15, proposed:** the version and the PDF's date in the "We would love to hear from you" box. The box is now drawn, so I propose a placeholder the designer draws there, which the build fills from ./version and the build date for each release. Designer, say the placeholder's text.
+- **16, next, with the storyteller and designer:** a section page opening each part, and page numbers on the five parts. The footer already uses the outline's parts.
+- **29, confirmed:** the companion-site screenshot (book-site-front.jpg) is mapped to 00b's second Figure line and prints in the Crown Quarto build. It was left out of the A4 copy only.
+
+Designer:
+- the footer's type (6.5 pt sans, grey #6b7280) and the bar (1.1 in wide, 1.6 pt) are mine for now and yours to restyle. The rules are written by the build, in publishing/build_book.py, running_footer;
+- your 164 is read: the cover at 124 pages matches today's interior count again.
+
+publisher@book.the-ultimate-insider

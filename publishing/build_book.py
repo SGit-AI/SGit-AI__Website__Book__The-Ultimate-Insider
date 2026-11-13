@@ -76,6 +76,57 @@ def placed_drawing(rel):
     return path, svg
 
 
+PARTS = [  # the five parts, by the storyteller's outline (chapter-plan/edition-150-outline.md, "The parts, beat by beat")
+    ("Part 1. The creator's problem", ("01", "02", "03", "03b")),
+    ("Part 2. The factory is assembled", ("04", "05", "06", "07", "08")),
+    ("Part 3. The factory runs", ("09", "10", "11", "12", "13", "14", "15")),
+    ("Part 4. The factory is stopped", ("16", "17", "17b", "18", "19")),
+    ("Part 5. The factory rebuilt, and yours", ("20", "21", "22", "23", "23b")),
+]
+
+
+def css_string(text):
+    """Text made safe inside a CSS content string written into the page's <style>: no "<", control characters and
+    anything outside printable text become spaces, then the backslash and the double quote are escaped."""
+    text = "".join(c if c.isprintable() and c != "<" else " " for c in text)
+    return text.replace("\\", "\\\\").replace('"', '\\"')
+
+
+def part_of(name):
+    """The part a chapter file belongs to, from its leading number ("03b-the-day..." is part 1), or None (front and back
+    matter)."""
+    key = name.split("-", 1)[0]
+    return next((part for part, chapters in PARTS if key in chapters), None)
+
+
+def running_footer(files, titles):
+    """PEN1 notes 8, 9 and 20: each chapter on a named page of its own (by its index, never its title), whose footer
+    gives the part and the chapter's title on the inner side, the page number staying on the outer, and a thin bar in
+    the middle showing how far through the book the chapter stands. A chapter of placed pages keeps a bare footer.
+    Progress within a chapter cannot be drawn: Chromium has no per-chapter page counter. The look is the designer's."""
+    css, chapters = [], [k for k, f in enumerate(files) if titles[k]]
+    for n, k in enumerate(chapters):
+        with open(files[k], encoding="utf-8") as fh:
+            text = fh.read()
+        if "placed-page" in text:
+            continue
+        page = f"rf{k}"
+        if not text.startswith(":::::: {.rf"):
+            with open(files[k], "w", encoding="utf-8") as fh:
+                fh.write(f":::::: {{.rf .{page}}}\n\n{text}\n\n::::::\n")
+        part = part_of(os.path.basename(files[k]))
+        label = css_string(f"{part}  \u00b7  {titles[k]}" if part else titles[k])
+        done = round(100 * (n + 1) / len(chapters), 1)
+        bar = (f'content: "\\00a0"; width: 1.1in; background: linear-gradient(to right, #6b7280 {done}%, #d9dde3 {done}%) '
+               f'no-repeat center / 100% 1.6pt;')
+        css.append(f".{page} {{ page: {page}; break-before: page; }}\n"
+                   f'@page {page}:right {{ @bottom-left {{ content: "{label}"; font-family: Inter, Helvetica, Arial, '
+                   f'sans-serif; font-size: 6.5pt; color: #6b7280; }} @bottom-center {{ {bar} }} }}\n'
+                   f'@page {page}:left {{ @bottom-right {{ content: "{label}"; font-family: Inter, Helvetica, Arial, '
+                   f'sans-serif; font-size: 6.5pt; color: #6b7280; text-align: right; }} @bottom-center {{ {bar} }} }}\n')
+    return "".join(css)
+
+
 def placed_first_page(pdf, svgs):
     """The PDF page that prints the first placed page: the first page whose text holds the drawing's first text line."""
     first_line = None
@@ -140,6 +191,9 @@ def directives(book=None):
                 continue
             if re.match(r"\s*#!\s*dramatised:\s*tag\s*$", line):
                 FIT["dramatised"] = True
+                continue
+            if re.match(r"\s*#!\s*running-footer\s*$", line):  # PEN1 notes 8, 9, 20 (13 November 2026)
+                FIT["footer"] = True
                 continue
             if re.match(r"\s*#!\s*speaker-tags\s*$", line):
                 FIT["speaker_tags"] = True
@@ -624,6 +678,7 @@ def main():
             with open(f, encoding="utf-8") as fh:
                 m = re.search(r"^# (.+?)\s*(?:\{[^}]*\})?\s*$", fh.read(), re.M)
             titles.append(m.group(1).strip() if m else None)
+        footer_css = running_footer(files, titles) if FIT.get("footer") else ""
         fit = {}  # chapter index: level (1, then 2), set on its heading as a class for full-book.css
         rounds = a.fit_max + 2 if FIT["on"] or FIT.get("placed") else 1  # a rebuild per level, and one for the spread's pad
         for rnd in range(rounds):  # a tail left after the last is reported
@@ -663,7 +718,7 @@ def main():
                             ".titlepage { page: titlepage; break-after: page; margin: 0; }\n"
                             ".titlepage img { display: block; width: 7.44in; height: 9.69in; max-width: none; max-height: none; }\n"
                             "header#title-block-header { display: none; }\n")
-                head.write(f"<style>\n{css}</style>\n")
+                head.write(f"<style>\n{css}{footer_css}</style>\n")
             cover = []
             if a.cover:
                 before = os.path.join(work, "cover.html")
