@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled wake, 19:12 London",
+ "started": "2026-11-13T19:20:13Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). No hold, no new mail; the two manuscript commits since 5 Nov are # directives in Book.txt that make_editions.py skips, so no rebuild; page check on the PDF of 19:19 in a fresh scratch folder, deleted; developer__080 only what changed against 079, reporting the title page and footer as changes.",
+   "at": "2026-11-13T19:21:14Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). No hold; plan within policy and security__009 to 013; PDF as untrusted data in a new empty folder, deleted after; if the view were rebuilt: both tests first, page scan before push, removed pages named; no guard bypassed.",
+   "at": "2026-11-13T19:21:28Z"
+  },
+  "work": {
+   "by": "developer",
+   "model": "",
+   "verdict": "done",
+   "comment": "Gate passed; PDF of 19:19 checked in a fresh scratch folder (python3 -I, rc 0), deleted, numbers only; no rebuild, so no test run (chapters unchanged; the two commits are # directives); no page removed; developer__080 mailed; vault_check clean; no deviations.",
+   "at": "2026-11-13T19:22:07Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). Writes in scope; 080 copies identical apart from To/Cc; no off-host addresses, keys, em-dashes or religious words; numbers only in print-check.json; no scratch PDF left. Note passed on and now in the mail: raster picture over 45% on page 2 (new in the check's list).",
+   "at": "2026-11-13T19:24:09Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). As planned. The one gap it named, the page 2 raster entry, is now in all three copies of 080 (added after the check); the mail Date is the minute it was written, not ahead of the clock.",
+   "at": "2026-11-13T19:25:14Z"
+  }
+ },
+ "closed": "2026-11-13T19:25:14Z",
+ "outcome": "ok"
+}
