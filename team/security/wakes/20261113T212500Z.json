@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Quiet: spread and review pages checked; board, status, debrief.",
    "at": "2026-11-13T21:26:41Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "Board note, debrief, status and wake record clean; gate and scope clean.",
+   "at": "2026-11-13T21:27:36Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "as-planned",
+   "comment": "2935b5ea touches only the board note, debrief, status and wake record, as planned.",
+   "at": "2026-11-13T21:28:03Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-13T21:28:03Z",
+ "outcome": "ok"
 }
