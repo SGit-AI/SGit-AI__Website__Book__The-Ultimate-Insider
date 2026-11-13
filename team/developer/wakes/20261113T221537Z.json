@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled wake, 23:12 London (22:12 UTC)",
+ "started": "2026-11-13T22:15:37Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). No hold; no manuscript commit since 21:10, so no rebuild; page check in a fresh scratch folder, deleted; developer__083 only what changed against 082. Note: the agent named lab/pdf/the-ultimate-insider-lab.pdf; the standing task reads the published full-book PDF at the site address (22:13:32), which is what the developer will check.",
+   "at": "2026-11-13T22:16:20Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). No hold; plan within policy and security__009 to 013; no manuscript change so no rebuild; PDF as untrusted data in a new empty folder, deleted; vault_check before the mail.",
+   "at": "2026-11-13T22:16:20Z"
+  },
+  "work": {
+   "by": "developer",
+   "model": "",
+   "verdict": "done",
+   "comment": "Gate passed; PDF of 22:13 checked in a fresh scratch folder (python3 -I, rc 0), deleted, numbers only; no rebuild, so no test run (no manuscript change since 20:52); no page removed; developer__083 mailed; vault_check clean; deviation noted: the plan agent named the lab PDF, the published full-book PDF was checked as the standing task says.",
+   "at": "2026-11-13T22:16:42Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). Writes in the developer's paths; 083 copies identical apart from To/Cc; no off-host addresses, keys, em-dashes or religious words; print-check.json numbers only; no scratch PDF left; no deletions.",
+   "at": "2026-11-13T22:17:59Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). As planned. Notes: the REALITY line's clock time and the 'last built' time are corrected from the clock (22:17, 21:16); the mail's Date is the minute it was written and not ahead of the clock; the recorded deviation (published PDF checked, not the lab PDF) stands.",
+   "at": "2026-11-13T22:18:14Z"
+  }
+ },
+ "closed": "2026-11-13T22:18:14Z",
+ "outcome": "ok"
+}
