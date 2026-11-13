@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-13T19:34:47Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Plan in scope; re-check the VoiceDebrief date against the article before quoting; report the script count with its order (FAILS 0 at dev's head 116261c4, 19:36, before any edit); reviewer used Read, Bash, none refused",
+   "at": "2026-11-13T19:36:29Z"
+  },
+  "pre_review": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Ids and values verified; carry three corrections: re-read the article for the VoiceDebrief date before quoting; say 'no wake started by the editor' for the nine hours, not 'nobody starting work'; the letter number to the conductor is the next free one, not 011; reviewer used Bash and Read, none refused",
+   "at": "2026-11-13T19:39:03Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Notes 10 and 24 answered (043, 006); C116 re-read and updated; title page traced (044); manuscript unchanged since 5 November; script FAILS 0 before and after; records written",
+   "at": "2026-11-13T19:41:32Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
