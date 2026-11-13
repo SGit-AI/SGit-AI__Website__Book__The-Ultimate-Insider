@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled",
+ "started": "2026-11-13T22:06:05Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go; correction: 90's ruv cell is notes (two shoulds open), not ok; add 092, 167, 079 to the As of line. No tool lacked.",
+   "at": "2026-11-13T22:06:58Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go: nothing private; studio__lab.jpg clearance is security's. No tool lacked.",
+   "at": "2026-11-13T22:06:58Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "3 letters filed; round 1: 1, 2, 4, 5, 10, 14 done v0.1.1063, 15 done v0.1.1075, 3 waits on 6 (25 of 30 done); pen images redrawn; grid 90 notes in ruv; status.",
+   "at": "2026-11-13T22:08:58Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "clean",
+   "comment": "No key, token, contact, name or religious word; vault_check clean; nothing to Cold-Read. No tool lacked.",
+   "at": "2026-11-13T22:08:58Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every plan item done as planned, the plan's correction applied (90 notes). No tool lacked.",
+   "at": "2026-11-13T22:08:58Z"
+  }
+ },
+ "closed": "2026-11-13T22:08:58Z",
+ "outcome": "ok"
+}
