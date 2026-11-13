@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Quiet: 46 review pages pass the guard; LAB 78 clear; board, status, debrief.",
    "at": "2026-11-13T20:26:40Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "Board, debrief, status and wake record clean; gate and scope clean. The step did not find the brief at post-review.md and used the checklist given.",
+   "at": "2026-11-13T20:27:35Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "as-planned",
+   "comment": "1ad3f5e2 touches only security's paths; the page guard (46 pages) and LAB 78 checks are recorded; the anchors were part of the guarded rebuild, not a separate check.",
+   "at": "2026-11-13T20:27:53Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-13T20:27:53Z",
+ "outcome": "ok"
 }
