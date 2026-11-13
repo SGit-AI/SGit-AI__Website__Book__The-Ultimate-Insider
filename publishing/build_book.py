@@ -13,6 +13,7 @@ after admin/build/build.py).
 """
 import argparse
 import base64
+import datetime
 import glob
 import hashlib
 import html as htmllib
@@ -144,6 +145,20 @@ def placed_first_page(pdf, svgs):
     return None
 
 
+def release_stamp():
+    """PEN1 note 15: "Version v0.1.N, PDF made 13 November 2026", from ./version (read only; CI writes it before the
+    build) and today's date in UTC; nothing if ./version is missing or not a release number."""
+    try:
+        with open(os.path.join(ROOT, "version"), encoding="utf-8") as f:
+            v = f.read().strip()
+    except OSError:
+        return ""
+    if not re.fullmatch(r"v\d+\.\d+\.\d+", v):
+        return ""
+    today = datetime.datetime.now(datetime.timezone.utc)
+    return f"Version {v}, PDF made {today.day} {today.strftime('%B %Y')}"
+
+
 def placed_spread(raw, pages):
     """OS3: the chapter's flowed text and Figure lines give way to the two placed pages (the first on a left page, the
     second facing it). What the drawings do not carry is text: the narrator's "Throughout the book I am the Narrator"
@@ -162,11 +177,14 @@ def placed_spread(raw, pages):
         end = next((j for j in range(start + 1, len(lines)) if re.match(r"#{1,2} ", lines[j])), len(lines))
         foot = [l for l in lines[start:end] if not l.lstrip().startswith("`%%") and l.strip() != "---"]
     out = [f'<h1 class="placed-title">{title}</h1>', ""]
+    stamp = release_stamp()
     for k, (path, _) in enumerate(pages):
         side = "placed-left" if k == 0 else "placed-right"
         out += [f":::: {{.placed-page .{side}}}", f'<img src="{path}" alt="{title}: page {k + 1} of the opening spread">', ""]
         if k == len(pages) - 1 and foot:
             out += ["::: placed-foot", ""] + foot + ["", ":::", ""]
+        if k == len(pages) - 1 and stamp:  # PEN1 note 15: under the "We would love to hear from you" box
+            out += ["::: placed-stamp", stamp, ":::", ""]
         out += ["::::", ""]
     return "\n".join(out + keep) + "\n"
 

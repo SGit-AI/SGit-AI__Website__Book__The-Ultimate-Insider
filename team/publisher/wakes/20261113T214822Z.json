@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake",
+ "started": "2026-11-13T21:48:22Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; rule 15's concept callout; note 15 under the box is his own words (round-01 note 15), no further word needed; part pages on the right deferred.",
+   "at": "2026-11-13T21:50:03Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "./version read only, never written; fall back silently if missing; date only; no HOLD.",
+   "at": "2026-11-13T21:50:03Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Note 15: version and PDF date under the feedback box; rule 15 concept callouts keep the run; 129 pages; letter 079.",
+   "at": "2026-11-13T21:52:44Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "./version read only with fallback; stamp plain text; fences balanced; CSS clean; letters clean; vault_check clean.",
+   "at": "2026-11-13T21:52:44Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "All four conditions met.",
+   "at": "2026-11-13T21:52:44Z"
+  }
+ },
+ "closed": "2026-11-13T21:52:44Z",
+ "outcome": "ok"
+}

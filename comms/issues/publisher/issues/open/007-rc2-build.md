@@ -118,3 +118,4 @@ source: comms/mail/mailroom/publisher/conductor__026-check-taken.eml; publishing
 - 13 November 19:30 UTC: running footer (PEN1 8, 9, 20); interior 124 pages, 8 holes.
 - 13 November 20:15 UTC: NAR1 in the build; parts in words; chapters JSON.
 - 13 November 21:10 UTC: part pages placed; rule 15 words box; 129 pages.
+- 13 November 22:05 UTC: note 15 stamp; rule 15 concepts; 129 pages.

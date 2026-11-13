@@ -184,7 +184,14 @@ def cast_lines(body, mark=None, figure=None, figures=None):
     figures = list(figures) if figures is not None else None
     last = None  # the speaker of the block just written, while only blank lines follow it
     clock = None  # the hour of the last clock box in this chapter
+    concept = 0  # depth inside a concept callout's fences (build_book.book_blocks): rule 15, it keeps the run
     for line in body.split("\n"):
+        if (concept or line.strip() == "::: concept") and not line.strip().startswith(("**Figure:**", "**Map:**")):
+            lines.append(line)
+            st = line.strip()
+            if st.startswith(":::"):
+                concept += 1 if st != ":::" else -1
+            continue
         if "`%%" in line and not re.match(r"\s*`?%%", line):  # a marker inside a paragraph: dropped, the prose kept
             line = re.sub(r" ?`%%[^`]*` ?", " ", line).rstrip()
         s = line.strip()

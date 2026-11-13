@@ -138,3 +138,6 @@ div.placed-right > p, div.placed-right > .placed-foot { grid-area: 1 / 1; }
 /* PEN1 note 16: each part opens on its own section page (the designer's LAB 78), a whole page with no footer */
 @page partpage { @bottom-left { content: none; } @bottom-right { content: none; } @bottom-center { content: none; } }
 div.part-page { page: partpage; break-before: page; break-after: page; }
+/* PEN1 note 15: the release and the PDF's date, one small line under the spread's "We would love to hear from you" box */
+div.placed-stamp { justify-self: end; margin: 1.5mm 4mm 0 0; font-family: var(--sans, Inter, Helvetica, Arial, sans-serif);
+  font-size: 6.5pt; color: #6b7280; line-height: 1.2; }
