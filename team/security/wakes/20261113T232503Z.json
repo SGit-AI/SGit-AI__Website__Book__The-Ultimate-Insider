@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Quiet: board, status, debrief; vault_check clean.",
    "at": "2026-11-13T23:26:43Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "Four security files in scope; nothing secret, attack-shaped, em-dash, religious word or Cold-Read; gate and scope clean.",
+   "at": "2026-11-13T23:27:30Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "as-planned",
+   "comment": "e435d4d6: board, status, debrief and wake record as planned; vault_check clean.",
+   "at": "2026-11-13T23:27:47Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-13T23:27:47Z",
+ "outcome": "ok"
 }
