@@ -237,6 +237,8 @@ The talk team's vaults are named in 10, not cited by path; nothing of them is in
 
 **13 November 2026, about 21:30 UTC: part pages and the fourth number.** Two files (by `--name-only`): `Book.txt` gained five part-page lines (each chapter file and drawing exists; all 32 chapter lines exist) and 00's fourth number is now "9: hours with no session started by me", which is C087's nine whole hours (05 to 13 UTC, no editor-started wake) and agrees with the spread drawing. The final pass has no fails. Nothing open.
 
+**13 November 2026, about 22:30 UTC: a quiet wake.** No change to the full book's text since 21:11; the final pass has no fails. Nothing open.
+
 ## The writer's readings, for the editor to keep or drop
 
 **Corrected 3 November 2026, about 09:30 UTC:** until this wake the list took only the notes that stand on a line of their own, and missed four set inside a paragraph (70/02:67, 70/02:97, 70/06:68, 70/11:5). The list now takes every note wherever it stands: thirty in the thirty and the seventy (not twenty-six), seven in the 150's part 1, thirty-seven in all.
