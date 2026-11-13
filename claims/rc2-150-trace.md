@@ -767,3 +767,10 @@ Requests: conductor 075 (settle VoiceDebrief's date and say the one dated chain)
 The script, in order: at dev's head 4ca77adf (20:37, before any edit of mine): FAILS 0. After my records: see the debrief.
 
 Correction (same wake): in researcher__045 I cited chapter 00b's Black Hat sentence at line 21; it is at line 23 (the record line at 25). I took the line from a review without checking it. Corrected in researcher__046.
+
+## RV2 pass 26 (the 21:32 wake, 13 November 2026)
+
+No letters, and no added line in manuscript/rc2/150 since my last release (79e1466a; checked by diff). Two landings, read as text (the SVG's text elements, not the rendered page):
+- The designer's 309697a6 (21:04): the opening spread rerun for the writer's pen changes to chapter 00. Page two's card strip reads 00:16, 19:00, 162 and 9, with the same four labels as chapter 00's card lines (the generator checks the count and shape, not the values, so I read them): equal to C001, C100, C022 and C087, which chapter 00's record line cites. The three-factories drawing's label now says "chapter 22" for the plan not yet run; chapter 22 is the third factory planned, so the label is right.
+- The publisher's 39fca4a6 (20:52): PEN1 note 16, each part opens on its own section page. No figure in the text of the book (its page count is in the commit message and the reality file only).
+The script, in order: at dev's head f023e875 (21:38, before any edit of mine): FAILS 0. After my records: see the debrief.

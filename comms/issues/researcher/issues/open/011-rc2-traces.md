@@ -120,3 +120,5 @@ RC2 is signed (RP1, CV2): the 30-page edition first, then the 70 and the 150, in
 13 November, 19:41: pass 24, the first wake in eight days: PEN1 round 1 notes 10 (three registered numbers for the fourth card) and 24 (the timeline's dates, from the editor's own article, C116 re-read) answered (`researcher__043`, `006`); the title page (TP1) traced, two coulds (`researcher__044`); manuscript unchanged since 5 November; script FAILS 0.
 
 13 November, 20:34: pass 25: the fourth card '9: hours with no session started by me' holds (C087); the part pages carry chapter 00's lines; note 24 settled with the one dated chain (`researcher__045`); script FAILS 0.
+
+13 November, 21:34: pass 26: no letters, the manuscript unchanged; the rerun spread's four numbers read from its SVG text and hold; script FAILS 0.
