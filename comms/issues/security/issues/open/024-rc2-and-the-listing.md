@@ -128,3 +128,5 @@ The revised 150/22 and 70/14 read after the post-check: clear (still a plan, not
 **13 November, 20:24 wake.** Quiet. The online view's 46 review pages pass the page guard after the hour's rebuild; LAB 78's five part pages hold no picture, link or script; the build's NAR1 change touches no screenshot or link rule.
 
 **13 November, 21:24 wake.** Quiet. Both copies of the spread's page two still embed only the five cleared shots; the 46 online review pages pass the guard; 00's and Book.txt's changes add nothing on the rails.
+
+**13 November, 22:24 wake.** studio__lab.jpg cleared by name, at ruv-sgit's ask (security__083). LAB 40's new drawing, the re-saved PEN1 photographs (no metadata) and the build's narrator rule clear.
