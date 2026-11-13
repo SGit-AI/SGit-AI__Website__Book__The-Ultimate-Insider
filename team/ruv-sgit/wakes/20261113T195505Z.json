@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-13T19:55:05Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go. RV2 on 22 is first in next; its one Figure line (29) maps to ch5-three-factories.svg (the designer's, read only). Letter 090. No print-review note is mine; note 24 is left alone. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-13T19:56:00Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go: everything in scope, chapter and drawing read only, no HOLD, no Cold-Read route. Conditions: vault_check before the commit; push after the gate on green (HR1); reviews as the reviewer agent. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-13T19:56:27Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "RV2 on the 150's 22: passes, with one should (the drawing's note says chapter 5, the seventy's number). Letter 090.",
+   "at": "2026-11-13T19:56:47Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Clean: everything in scope, no secrets, nothing attack-shaped, no em-dash or RW1 word, no date after the clock. The facts on 22 and the drawing hold, and the copies are identical. Tools: Bash read-only; no script; no file written; the brief's python checks were left to the member's gate. Nothing was refused.",
+   "at": "2026-11-13T19:57:32Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "The reviewer agent's verdict, run before this entry. RV2 on 22 and letter 090 are done as planned, with nothing outside the plan; status and debrief are right. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-13T19:58:00Z"
+  }
+ },
+ "closed": "2026-11-13T19:58:00Z",
+ "outcome": "ok"
+}
