@@ -166,7 +166,7 @@ def three_factories():
                + t(bx + 44, by + 18.8, "one board", 700, mc.INK, "middle"))
     out.append(f'<path d="M{bx + 66.4} {by + 3} h10 l2.4 2.4 v8.6 h-12.4 z" fill="#fff" stroke="{mc.INK}" stroke-width=".45"/>'
                + t(bx + 72.7, by + 10.4, "HOLD", 800, mc.ACCENT, "middle") + t(bx + 72.7, by + 18.8, "one hold", 700, mc.INK, "middle"))
-    out.append(t(82, 70, "a plan for a team of several people, not yet run (chapter 5)", 400, mc.MUTED, "middle"))
+    out.append(t(82, 70, "a plan for a team of several people, not yet run (chapter 22)", 400, mc.MUTED, "middle"))
     return mc.svg(164, 72, "".join(out), "Three people, each with a small factory of their own agents, joined by one brief, one board and one hold")
 
 

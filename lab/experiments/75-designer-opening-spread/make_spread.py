@@ -43,30 +43,39 @@ def parse():
     head = next(l[3:] for l in lines if l.startswith("## "))
     i0 = lines.index(f"## {head}")
     i1 = next(i for i, l in enumerate(lines) if l.startswith("**Figure:**"))
-    opening = [strip_md(l.replace("**Narrator.**", "")) for l in lines[i0 + 1:i1] if l.startswith("**Narrator.**")]
+    # the narrator's opening (writer 299, NAR1): one marked paragraph, then unmarked ones, then the lead-in line
+    paras = [l for l in lines[i0 + 1:i1] if l.strip() and not l.startswith("`")]
+    if not paras or not paras[0].startswith("**Narrator.**"):
+        sys.exit("make_spread: 00's opening no longer starts with the narrator's mark")
+    paras = [strip_md(l.replace("**Narrator.**", "")) for l in paras]
+    leadin = paras[-1] if len(paras[-1]) < 60 and "meet the team" in paras[-1].lower() else None
+    opening = paras[:-1] if leadin else paras
     hellos = [(m.group(1), m.group(2)) for m in (re.match(r"^\*\*([\w-]+):\*\* (.+)$", l) for l in lines) if m and m.group(1) != "Figure"]
-    closing = next(l.strip("*") for l in lines if l.startswith("*And one chair"))
-    if len(opening) != 3 or len(hellos) != 9 or {n.lower() for n, _ in hellos} != set(mc.CAST):
+    closing = next(l.strip("*") for l in lines if re.match(r"^\*(And one|One) chair", l))
+    if not 2 <= len(opening) <= 4 or not leadin or len(hellos) != 9 or {n.lower() for n, _ in hellos} != set(mc.CAST):
         sys.exit("make_spread: 00's opening or hellos are not as the spread expects")
-    return title, head, opening, hellos, closing
+    return title, head, opening, leadin, hellos, closing
 
 
 def page_one():
-    title, head, opening, hellos, closing = parse()
+    title, head, opening, leadin, hellos, closing = parse()
     out = [f'<rect x="0" y="0" width="13" height="1.2" fill="{mc.ACCENT}"/>',
-           t(0, 9.4, title, 800, mc.INK, size=17 * PT), t(0, 17.6, head, 700, mc.INK, size=12 * PT)]
+           t(0, 9.4, title, 800, mc.INK, size=17 * PT), t(0, 16.8, head, 700, mc.INK, size=12 * PT)]
     # the narrator's opening: one mark, the book's serif at its size (10 pt, leading 1.42)
     size, lead = 10 * PT, 10 * PT * 1.42
-    out.append(f'<g transform="translate(0 21.4) scale(.28)">{mc.editor_figure("A")}</g>')
-    y = 25.8
+    out.append(f'<g transform="translate(0 20.2) scale(.28)">{mc.editor_figure("A")}</g>')
+    y = 24.6
     for k, p in enumerate(opening):
-        for j, r in enumerate(textwrap.wrap(p, 73)):
+        for j, r in enumerate(textwrap.wrap(p, 76)):
             out.append(t(14, y, r, 700 if (k == 0 and j == 0 and False) else 400, mc.INK, size=size, fam=SERIF))
             y += lead
-        y += 1.6
+        y += .8
+    # the lead-in, on its own line before the cards (PEN1 note 2)
+    y += 1.2
+    out.append(t(0, y, leadin, 400, mc.INK, size=size, fam=SERIF))
     # ten cards in two rows of five: the nine with their hellos, and security's empty chair
-    cw, ch, gap = 30.0, 35.0, 1.4
-    y0 = y + 2.6
+    cw, ch, gap = 30.0, 30.4, 1.2
+    y0 = y + 3.4
     cards = [(n, h) for n, h in hellos] + [("security", None)]
     if "*Dramatised.*" not in SRC.split("**Narrator.** Throughout")[0]:
         sys.exit("make_spread: the hellos are no longer marked as dramatised in 00")
@@ -83,17 +92,17 @@ def page_one():
         if empty:
             src = (REPO / "lab" / "characters" / "cast" / "security-worried.svg").read_text()
             inner = src[src.index(">", src.index("<svg")) + 1: src.rindex("</svg>")]
-            out.append(f'<g transform="translate({x + cw / 2 - 6:.2f} {cy + 1.2:.2f}) scale(.6)" opacity=".38">{inner}</g>')
+            out.append(f'<g transform="translate({x + cw / 2 - 5.2:.2f} {cy + 1.0:.2f}) scale(.52)" opacity=".38">{inner}</g>')
         else:
-            out.append(f'<g transform="translate({x + cw / 2 - 6:.2f} {cy + 1.2:.2f}) scale(.3)">{mc.figure(m, "happy")}</g>')
-        out.append(t(x + cw / 2, cy + 18.6, m, 800, mc.MUTED if empty else (mc.ACCENT if lead_c else mc.INK), "middle"))
+            out.append(f'<g transform="translate({x + cw / 2 - 5.2:.2f} {cy + 1.0:.2f}) scale(.26)">{mc.figure(m, "happy")}</g>')
+        out.append(t(x + cw / 2, cy + 16.0, m, 800, mc.MUTED if empty else (mc.ACCENT if lead_c else mc.INK), "middle"))
         words = hello if hello else "the empty chair"
         for j, r in enumerate(textwrap.wrap(words, 17)):
-            out.append(t(x + cw / 2, cy + 22.8 + j * 3.7, r, 400, mc.MUTED, "middle", italic=empty))
+            out.append(t(x + cw / 2, cy + 19.6 + j * 3.2, r, 400, mc.MUTED, "middle", italic=empty))
     y = y0 + 2 * ch + gap + 6
-    for j, r in enumerate(textwrap.wrap(closing, 73)):
+    for j, r in enumerate(textwrap.wrap(closing, 80)):
         out.append(t(0, y + j * lead, r, 400, mc.INK, size=size, fam=SERIF, italic=True))
-    y += lead * len(textwrap.wrap(closing, 73)) + 2.4
+    y += lead * len(textwrap.wrap(closing, 80)) + 2.4
     # the narrator's note on how the book is told: after the closing line, its place in 00 (writer 295)
     told = next(strip_md(l.replace("**Narrator.**", "")) for l in SRC.splitlines() if l.startswith("**Narrator.** Throughout the book"))
     for j, r in enumerate(textwrap.wrap(told, 80)):
@@ -160,7 +169,7 @@ def page_two(with_address):
     nums = [(m.group(1), m.group(2)) for m in nums if m]
     parts = [re.match(r"^(\d)\. \*\*([^*]+)\*\* (.+)$", l) for l in lines]
     parts = [(m.group(1), m.group(2), m.group(3)) for m in parts if m]
-    read = next(strip_md(l.replace("**Narrator.**", "")) for l in lines if l.startswith("**Narrator.** Read it in order"))
+    read = next((strip_md(l.replace("**Narrator.**", "")) for l in lines if l.startswith("**Narrator.** Read it in order")), None)  # gone by PEN1 note 14
     figs = figures()
     if len(nums) != 4 or len(parts) != 5 or len(figs) != 7:
         sys.exit("make_spread: 00's numbers, parts or figures are not as page two expects")
@@ -241,7 +250,8 @@ def page_two(with_address):
             fit = ' textLength="149" lengthAdjust="spacingAndGlyphs"'
         out.append(f'<text x="7" y="{y:.2f}" {SANS} font-size="3.18" fill="{mc.INK}"{fit}><tspan font-weight="800">{escape(lead, quote=False)}</tspan> {escape(rest, quote=False)}</text>')
         y += 3.9 + .8
-    out.append(t(0, y + 2.6, read, 400, mc.INK, size=10 * PT, fam=SERIF))
+    if read:
+        out.append(t(0, y + 2.6, read, 400, mc.INK, size=10 * PT, fam=SERIF))
     end = y + 4
     room_top = end + 3
     if H - room_top < ROOM:
