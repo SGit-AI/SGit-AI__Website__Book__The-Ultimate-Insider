@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled",
+ "started": "2026-11-13T23:04:06Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go; correction: 92 stays n/a (out of the book), ruv ok for 91, 93, 94 only; tags v0.1.1077 and v0.1.1088 correct. No tool lacked.",
+   "at": "2026-11-13T23:05:25Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go: no keys or contacts; vault_check before commit. No tool lacked.",
+   "at": "2026-11-13T23:05:25Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "4 letters filed; note 16 complete (v0.1.1088); pen image redrawn; grid 91, 93, 94 ok in ruv; status.",
+   "at": "2026-11-13T23:07:14Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "clean",
+   "comment": "No key, token, contact, name or religious word; vault_check clean; nothing to Cold-Read. No tool lacked.",
+   "at": "2026-11-13T23:07:14Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every plan item done, the correction (92 n/a) kept. No tool lacked.",
+   "at": "2026-11-13T23:07:15Z"
+  }
+ },
+ "closed": "2026-11-13T23:07:15Z",
+ "outcome": "ok"
+}
