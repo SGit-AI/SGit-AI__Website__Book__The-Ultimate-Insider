@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "storyteller",
+ "kind": "scheduled, at :39 London",
+ "started": "2026-11-13T22:39:47Z",
+ "steps": {
+  "plan": {
+   "by": "storyteller (member-written plan, UL1)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Requests: publisher 016 (rule 15 complete in the build; note 15 landed): nothing asked of me; file it. Writes only team/storyteller/ and comms/mail/storyteller/done/.",
+   "at": "2026-11-13T22:39:58Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No HOLD.md; files one letter inside scope.writes; no stop condition.",
+   "at": "2026-11-13T22:40:13Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "done",
+   "comment": "publisher 016 filed; nothing asked of me.",
+   "at": "2026-11-13T22:40:13Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Only the wake record and one filed letter, inside scope.writes.",
+   "at": "2026-11-13T22:40:32Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "publisher 016 filed as planned.",
+   "at": "2026-11-13T22:40:32Z"
+  }
+ },
+ "closed": "2026-11-13T22:40:32Z",
+ "outcome": "ok"
+}
