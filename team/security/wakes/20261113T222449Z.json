@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled wake",
+ "started": "2026-11-13T22:24:49Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "go",
+   "comment": "Clearing studio__lab.jpg is safe; whether it makes line 40 true is a caption question for ruv-sgit and writer4, not security's: the letter says so instead of promising it.",
+   "at": "2026-11-13T22:25:25Z"
+  },
+  "pre_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "go",
+   "comment": "studio__lab.jpg looked at independently: public studio lab page, no key, contact detail or session link; caption fit not security's call.",
+   "at": "2026-11-13T22:25:37Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "studio__lab.jpg cleared by name (083); hour's changes clear; board, status, debrief.",
+   "at": "2026-11-13T22:26:51Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "The clearance letter and its copies, board, debrief, status and wake record in scope; nothing secret, attack-shaped, em-dash, religious word or Cold-Read; gate, vault check and scope clean.",
+   "at": "2026-11-13T22:27:55Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "as-planned",
+   "comment": "ccbb32c0 matches the plan: 083 and its copies, board, debrief, status; the caption question left to ruv-sgit and writer4.",
+   "at": "2026-11-13T22:28:11Z"
+  }
+ },
+ "closed": "2026-11-13T22:28:11Z",
+ "outcome": "ok"
+}
