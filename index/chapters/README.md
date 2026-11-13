@@ -22,8 +22,8 @@ One file per chapter of the manuscript, built by `index/tools/chapter_entries.py
 | [`12-build-your-own.md`](12-build-your-own.md) | 14 | 0 | 5 | 0 | 10 | 0 |
 | [`13-concepts-and-principles.md`](13-concepts-and-principles.md) | 0 | 0 | 6 | 0 | 0 | 0 |
 | [`99-appendix-a-every-number-rerun.md`](99-appendix-a-every-number-rerun.md) | 1 | 0 | 3 | 0 | 2 | 0 |
-| [`150__00-start-here.md`](150__00-start-here.md) | 0 | 0 | 6 | 0 | 0 | 0 |
-| [`150__00b-who-is-telling-this-story.md`](150__00b-who-is-telling-this-story.md) | 1 | 0 | 5 | 0 | 2 | 0 |
+| [`150__00-start-here.md`](150__00-start-here.md) | 0 | 0 | 8 | 0 | 0 | 0 |
+| [`150__00b-who-is-telling-this-story.md`](150__00b-who-is-telling-this-story.md) | 1 | 0 | 6 | 0 | 2 | 0 |
 | [`150__01-slides-as-a-compromise.md`](150__01-slides-as-a-compromise.md) | 1 | 0 | 14 | 1 | 2 | 0 |
 | [`150__02-inventing-on-principle.md`](150__02-inventing-on-principle.md) | 0 | 0 | 13 | 0 | 3 | 0 |
 | [`150__03-the-tour.md`](150__03-the-tour.md) | 4 | 0 | 15 | 0 | 4 | 0 |
