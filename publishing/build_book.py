@@ -82,6 +82,38 @@ def placed_svg_check(svg, rel):
             sys.exit(f"build_book: the placed page {rel} carries a picture that is not a cleared screenshot")
 
 
+INDEX_NUMBER = re.compile(r'(<text [^>]*data-file="([A-Za-z0-9._-]+)"[^>]*>)(\d+)(</text>)')
+
+
+def index_numbers(pdf, files, titles, marked):
+    """PEN1 note 7 (designer 169): the visual index's page numbers, each a text carrying data-file="<chapter file>",
+    set from this build's own PDF; only those digit runs change, in a checked copy. The bar's widths stay as drawn.
+    Returns "fixed", "ok" or "" (no index placed)."""
+    starts = dict(zip((os.path.basename(f) for f in files), chapter_starts(pdf, titles)))
+    for f in files:
+        with open(f, encoding="utf-8") as fh:
+            text = fh.read()
+        for m in re.finditer(r':::: \{\.placed-page \.part-page\}\n<img src="([^"]+)"', text):
+            with open(m.group(1), encoding="utf-8") as fh:
+                svg = fh.read()
+            if "data-file=" not in svg:
+                continue
+            new = INDEX_NUMBER.sub(lambda x: x.group(1) + (str(int(starts[x.group(2)])) if starts.get(x.group(2))
+                                                           else x.group(3)) + x.group(4), svg)
+            if new == svg:
+                print("build_book: the visual index's pages match this PDF", file=sys.stderr)
+                return "ok"
+            placed_svg_check(new, "the visual index with its pages")
+            copy = os.path.join(marked, "visual-index-numbered.svg")
+            with open(copy, "w", encoding="utf-8") as fh:
+                fh.write(new)
+            with open(f, "w", encoding="utf-8") as fh:
+                fh.write(text.replace(f'<img src="{m.group(1)}"', f'<img src="{copy}"', 1))
+            print("build_book: the visual index's pages set from this PDF", file=sys.stderr)
+            return "fixed"
+    return ""
+
+
 PART_NUMBER = re.compile(r'(<text x="156\.00"[^>]*text-anchor="end">)(\d+)(</text>)')
 
 
@@ -273,7 +305,7 @@ def directives(book=None):
                     sys.exit(f"build_book: title-page must be a file in lab/experiments/: {m.group(1)}")
                 FIT["title_page"] = tp
                 continue
-            m = re.match(r"\s*#!\s*part-page:\s*(.+?)\s*\|\s*(.+?)\s*$", line)
+            m = re.match(r"\s*#!\s*(?:part-page|page-before):\s*(.+?)\s*\|\s*(.+?)\s*$", line)
             if m:  # PEN1 note 16 (designer 166, storyteller 169): a part's section page, before its first chapter
                 chapter = os.path.realpath(os.path.join(os.path.dirname(book), m.group(1)))
                 FIT.setdefault("part_pages", {})[chapter] = placed_drawing(m.group(2))
@@ -864,7 +896,7 @@ def main():
                           file=sys.stderr)
                     continue
             if FIT.get("placed") and FIT.get("parts_fixes", 0) < 5:  # every pass: a fit pass can move the pages again
-                if part_numbers(pdf, files, titles, marked) == "fixed":
+                if "fixed" in (part_numbers(pdf, files, titles, marked), index_numbers(pdf, files, titles, marked)):
                     FIT["parts_fixes"] = FIT.get("parts_fixes", 0) + 1
                     continue
             if not FIT["on"]:
