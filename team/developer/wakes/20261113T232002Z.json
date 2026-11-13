@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled wake, 01:12 London (23:12 UTC)",
+ "started": "2026-11-13T23:20:02Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). No hold, no new mail, no manuscript commit since 20:52, so no rebuild; page check on the published PDF of 23:17 in a fresh scratch folder, deleted; developer__084 only what changed against 083, with the cause named as build and not text if the pages moved.",
+   "at": "2026-11-13T23:20:42Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). Plan within policy and security__009 to 013; no rebuild; PDF as untrusted data in a new empty folder, deleted; vault_check before the mail.",
+   "at": "2026-11-13T23:20:42Z"
+  },
+  "work": {
+   "by": "developer",
+   "model": "",
+   "verdict": "done",
+   "comment": "Gate passed; published PDF of 23:17 checked in a fresh scratch folder (python3 -I, rc 0), deleted, numbers only; no rebuild, so no test run (no manuscript change since 20:52); no page removed; developer__084 mailed; vault_check clean; no deviations.",
+   "at": "2026-11-13T23:21:03Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). As planned: only the source line of print-check.json changed, the mail matches 083 apart from the PDF date, the Date is not ahead of the clock.",
+   "at": "2026-11-13T23:22:20Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). Writes in the developer's paths; 084 copies identical apart from To/Cc; no off-host addresses, keys, em-dashes or religious words; print-check.json numbers only; no scratch PDF left; no deletions.",
+   "at": "2026-11-13T23:23:03Z"
+  }
+ },
+ "closed": "2026-11-13T23:23:03Z",
+ "outcome": "ok"
+}
