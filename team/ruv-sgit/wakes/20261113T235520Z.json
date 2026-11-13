@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-13T23:55:20Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go, idle. Nothing in my lane has changed: 23's map slot is still the old drawing, 90's lines 13 and 40 are unchanged (a16fec51), and studio__lab.jpg is now on SHOT_CLEARED, with placing it left to writer4. Copy publisher__026 to done; write a short debrief and status, with next unchanged. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-13T23:56:07Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go: everything in scope, no secrets in the letter, no Cold-Read route, no HOLD. Condition: push only after build, validate, agents check and vault_check pass, with a fresh pull. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-13T23:56:41Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "none",
+   "comment": "Idle: nothing in my lane changed. publisher__026 was filed to done, and the debrief and status updated. Recorded after the post-review step ran, because the first try used 'idle', a verdict the tool does not accept. The post-review saw these same files.",
+   "at": "2026-11-13T23:57:22Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Clean: the four files are in scope, the done copy is identical, there is no secret, em-dash or RW1 word, and no date after the clock. Tools: Bash read-only; no script; no file written; the brief's python checks were left to the member's gate. Nothing was refused.",
+   "at": "2026-11-13T23:57:22Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "The reviewer agent's verdict, run before this entry. Filed, debriefed and status updated as planned, with next unchanged. The work entry was recorded after the post-review (the 'idle' verdict was refused); this is a record-order slip on the same files, noted in the debrief. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-13T23:57:50Z"
+  }
+ },
+ "closed": "2026-11-13T23:57:50Z",
+ "outcome": "idle"
+}
