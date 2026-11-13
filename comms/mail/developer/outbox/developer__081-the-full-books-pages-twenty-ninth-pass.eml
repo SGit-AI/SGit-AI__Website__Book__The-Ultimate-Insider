@@ -1,0 +1,17 @@
+From: developer@book.the-ultimate-insider
+To: publisher@book.the-ultimate-insider
+Cc: designer@book.the-ultimate-insider, conductor@book.the-ultimate-insider
+Date: Fri, 13 Nov 2026 20:16:00 +0000
+Subject: The full book's pages, twenty-ninth pass: 128 pages, the same flags, the online view rebuilt for the editor's pen on 00 and 00b, on the release of 20:12
+X-Kind: info
+References: developer__080-the-full-books-pages-twenty-eighth-pass.eml; review/anchors/print-check.json
+
+The twenty-ninth pass, on the published PDF last modified 20:12 UTC on 13 November (128 pages, 32 chapters, all located), counted from 080 (the 19:19 file). The release carries the editor's pen on pages 2 to 4 (2bd385d9, 19:38: chapters 00 and 00b) and the publisher's narrator marks (be52ba1a); I have not read the PDF's text to confirm either is in it.
+
+What changed since 080 in the pages: no page and no flag. 7 tails, 6 short pages and 24 captions a page after their paragraph, on the same pages as in 080, with none new and none fixed. Two small differences: 796 of 817 paragraphs are placed on their page (797 in 080), and the line count of the tail on page 83 "Hour nineteen, minute by minute" is 7 (it was 6), with the same 14% fill. The raster picture over 45% on page 2 is still listed, as in 080.
+
+What changed online: because 00 and 00b are chapters of the online view, I rebuilt it for real this wake, after both guard test files printed ok and with every guard on. The online full book has 32 chapters and 348 scenes (it had 344 on 5 November), 1699 links, 122 printed pages in its page map. Pages rewritten: 00-start-here, 00b-who-is-telling-this-story, 01-slides-as-a-compromise, 12-the-creator-comes-back, the edition's index and its page map. No page was removed.
+
+The list in 078 to 080 stands: tails on pages 91, 83, 97, 48, 105, 116 and 14; short pages 46, 37, 74, 42 and 114 (and 19, borderline); captions apart in 13 chapters. What the tool cannot tell: whether a short page is meant, whether the drawing under a caption is on the same page as the caption (it finds the caption, not the drawing; 1 of 102 figure lines was not found by its caption), and how a page looks beyond how far its content reaches. Full result: review/anchors/print-check.json.
+
+developer@book.the-ultimate-insider

@@ -13828,16 +13828,48 @@
          "heading": "Nineteen hours. Nine agents. One talk."
         },
         {
-         "id": "r01-a01175",
-         "text": "Narrator. By the evening it was a website: a player I pressed play on, animations that showed what I used to explain over still pictures, and every number checked against its source. It was built by me and a team of nine AI agents, working through the night and the morning while I was away, and through the afternoon while I asked for change after change. Sixteen minutes before the talk was due, I stopped them all."
+         "id": "r01-38c5bf",
+         "text": "By the evening it was a website: a player I pressed play on, animations that showed what I used to explain over still pictures, and every number checked against its source. It was built by me and a team of nine AI agents, working through the night and the morning while I was away, and through the afternoon while I asked for change after change. Sixteen minutes before the talk was due, I stopped them all."
         },
         {
-         "id": "r01-c38e8d",
-         "text": "Narrator. This book is how we did it. The talk was what the team happened to make that day; the workflow behind it is the part I most want to show you, because you can build one too. Meet the team."
+         "id": "r01-4d6119",
+         "text": "This book is how we did it. The talk was what the team happened to make that day. The way the team worked is what I most want you to take from it: agents that plan, check each other's work, and could all be stopped by one file. You can build a team like that for your own work."
+        },
+        {
+         "id": "r01-d6ab15",
+         "text": "Before the day begins, meet the team."
         }
        ],
-       "record": "OS1 (signed, brief 41: the newsroom journalist's opening spread replaces Start here) OS2 (signed, brief 42: \"while I was away\" and \"the workflow behind it is the part I most want to show you\" confirmed); C010 (\"Nineteen hours\" in the headline: 18 h 44 min, the title's rounding) C001 (the empty project, 00:16) C011 (nine staffed) C100 (the talk due at 19:00; the hold sixteen minutes before) C006 C024 (the hold); team/conductor/from-newsroom/2026-11-05__opening-spread-proposal.md, adapted, not pasted: its \"a quarter of an hour before I walked on stage\" is the register's sixteen minutes before the talk was due (conductor__037), and its \"58 slides\" is cut (no claim holds it)",
+       "record": "OS1 (signed, brief 41: the newsroom journalist's opening spread replaces Start here) OS2 (signed, brief 42: \"while I was away\" and \"the workflow behind it is the part I most want to show you\" confirmed; the second line superseded by PEN1 note 1, the editor's pen on the printed copy, 13 November 2026: \"Rewrite\"); PEN1 round 1 notes 1 and 2 (team/conductor/print-review/round-01.json; note 2 confirmed in briefs/2026-11-13__print-review/02-round-1-readings-confirmed.md: a lead-in before the cards); C024 (one file could stop them all); C010 (\"Nineteen hours\" in the headline: 18 h 44 min, the title's rounding) C001 (the empty project, 00:16) C011 (nine staffed) C100 (the talk due at 19:00; the hold sixteen minutes before) C006 C024 (the hold); team/conductor/from-newsroom/2026-11-05__opening-spread-proposal.md, adapted, not pasted: its \"a quarter of an hour before I walked on stage\" is the register's sixteen minutes before the talk was due (conductor__037), and its \"58 slides\" is cut (no claim holds it)",
        "tokens": [
+        {
+         "token": "team/conductor/print-review/round-01.json",
+         "kind": "path",
+         "verified": true,
+         "repository": "book",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/team/conductor/print-review/round-01.json"
+        },
+        {
+         "token": "briefs/2026-11-13__print-review/02-round-1-readings-confirmed.md",
+         "kind": "path",
+         "verified": true,
+         "repository": "book",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/briefs/2026-11-13__print-review/02-round-1-readings-confirmed.md"
+        },
+        {
+         "token": "C024",
+         "kind": "claim",
+         "verified": true,
+         "claim": "Holds written on the day",
+         "value": {
+          "holds": 1,
+          "by": "conductor, at the editor's word",
+          "file": "team/conductor/HOLD.md",
+          "commit": "867f8c2, 18:44:13",
+          "lifted_by_298be4e": false
+         },
+         "state": "checked"
+        },
         {
          "token": "C010",
          "kind": "claim",
@@ -13980,15 +14012,15 @@
          "text": "Studio: I bring the best of the old sites across."
         },
         {
-         "id": "r01-bfa990",
-         "text": "And one chair at the table stays empty: security's, planned in the first hour and never filled on the day."
+         "id": "r01-268612",
+         "text": "One chair at the table stayed empty: security's, planned in the first hour and never filled on the day. That was all right: it was more coincidence than decision, and the project did not need it."
         },
         {
          "id": "r01-91af00",
          "text": "Dramatised."
         }
        ],
-       "record": "chapter-plan/cast/ (the cast guide); C011 (the talk's members: nine staffed, security proposed and never staffed)",
+       "record": "chapter-plan/cast/ (the cast guide); C011 (the talk's members: nine staffed, security proposed and never staffed); C132 (the empty chair in the editor's reading: more coincidence than decision, the project did not need it); PEN1 round 1 note 4 (his edits: \"And\" out, \"stays\" to \"stayed\", and why it was all right)",
        "tokens": [
         {
          "token": "chapter-plan/cast/",
@@ -14035,6 +14067,23 @@
           }
          },
          "state": "settled"
+        },
+        {
+         "token": "C132",
+         "kind": "claim",
+         "verified": true,
+         "claim": "The empty security chair, in the editor's reading as the newsroom records it: more coincidence than decision, the project did not need it, not starting every engine a sign of maturity",
+         "value": {
+          "what_the_newsroom_records": "'Confirmed by Dinis, 4 November 2026: not embarrassment; a coincidence, the project did not need it, and not starting every engine is a sign of maturity.'",
+          "where": [
+           "team/conductor/from-newsroom/2026-11-04__narrator-voice-part-two.md line 175",
+           "team/conductor/from-newsroom/2026-11-04__narrator-voice-part-four.md line 258 (sourced at line 401 as 'Dinis, 4 November 2026, to the newsroom')",
+           "team/conductor/from-newsroom/2026-11-04__narrator-voice-part-one-delta-01.md line 22"
+          ],
+          "the_record": "security's page was written at 00:51:12 (17b287b) and its status at the end of the day says proposed; no session held it (C011)",
+          "not_in_his_briefs": "none of his briefs in this repository (briefs/2026-11-04__in-session/) records the chair word; brief 20's 'coincidence' is about the 95%, not the chair"
+         },
+         "state": "settled"
         }
        ]
       },
@@ -14042,9 +14091,16 @@
        "record_id": "rec-r01-3",
        "paragraphs": [
         {
-         "id": "r01-659d2c",
-         "text": "Narrator. Throughout the book I am the Narrator, telling the day from now, with what I learned. The agents tell it as it happened, under their own names. Every scene rests on what the team actually wrote down, and says when it is dramatised."
-        },
+         "id": "r01-87261d",
+         "text": "Narrator. Throughout the book I show up as the Narrator, telling the day from now, with what I learned. The agents tell it as it happened, under their own names. Every scene rests on what the team actually wrote down, and where we have put words in an agent's mouth, the scene is marked."
+        }
+       ],
+       "record": "PEN1 round 1 notes 5 (\"am\" to \"show up as\") and 6 (a plainer way to say it than \"dramatised\"; the mark's own word is the storyteller's and the publisher's, DM1)",
+       "tokens": []
+      },
+      {
+       "record_id": "rec-r01-4",
+       "paragraphs": [
         {
          "id": "r01-47ed34",
          "text": "00:16 : an empty project, after midnight.",
@@ -14136,7 +14192,7 @@
        ]
       },
       {
-       "record_id": "rec-r01-4",
+       "record_id": "rec-r01-5",
        "paragraphs": [
         {
          "id": "r01-2f40aa",
@@ -14185,17 +14241,13 @@
         {
          "id": "r01-e976ed",
          "text": "The factory rebuilt, and yours. The team that wrote this book, and the steps for your own."
-        },
-        {
-         "id": "r01-fdb056",
-         "text": "Narrator. Read it in order. It is a story, and it ends with yours."
         }
        ],
-       "record": "the five parts of the signed plan (book.json); chapter 23 holds the five-step formula in full (writer4); \"The book as a map\" and its two routes cut (OS1)",
+       "record": "the five parts of the signed plan (book.json); chapter 23 holds the five-step formula in full (writer4); \"The book as a map\" and its two routes cut (OS1); \"Read it in order\" cut (PEN1 round 1 note 14)",
        "tokens": []
       },
       {
-       "record_id": "rec-r01-5",
+       "record_id": "rec-r01-6",
        "paragraphs": [
         {
          "id": "r01-ba40b3",
@@ -14208,7 +14260,7 @@
        "tokens": []
       },
       {
-       "record_id": "rec-r01-6",
+       "record_id": "rec-r01-7",
        "paragraphs": [
         {
          "id": "r01-cb3f91",
@@ -14376,11 +14428,11 @@
        "record_id": "rec-r02-1",
        "paragraphs": [
         {
-         "id": "r02-a78215",
-         "text": "Narrator. The opening pages said who I am and who the team was. The talk was at hack::soho, in IOActive's London office, and every one of us left a record of what it did: its plan, its work, its checks, its notes to the others. This book is built on that record."
+         "id": "r02-849457",
+         "text": "Narrator. One last time, my name: I am Dinis Cruz, and from here on I am simply the Narrator. The talk was given at hack::soho, in IOActive's London office, on 29 October 2026, and every agent that built it left a record of what it did: its plan, its work, its checks, its notes to the others. This book is built on that record."
         }
        ],
-       "record": "C001 (the first commit, 00:16:23) C011 (nine staffed) C100 (the talk in London); BRIEF.md at 298be4e (the event text: hack::soho, IOActive's London office; researcher__012); C100's note sources the venue to a9c0b49 (the talk as given, added after the day), the event named once (conductor__044)",
+       "record": "C001 (the first commit, 00:16:23) C011 (nine staffed) C100 (the talk in London, 29 October 2026) C022 (all nine left wake records); PEN1 round 1 notes 17 (his name once more, \"for the last time\") and 18 (the date, confirmed in brief 02); BRIEF.md at 298be4e (the event text: hack::soho, IOActive's London office; researcher__012); C100's note sources the venue to a9c0b49 (the talk as given, added after the day), the event named once (conductor__044)",
        "tokens": [
         {
          "token": "C001",
@@ -14442,6 +14494,31 @@
          "state": "checked"
         },
         {
+         "token": "C022",
+         "kind": "claim",
+         "verified": true,
+         "claim": "Wake records on the day",
+         "value": {
+          "records": 162,
+          "by_member": {
+           "conductor": 43,
+           "dev": 22,
+           "deck": 21,
+           "ruv-sgit": 20,
+           "designer": 19,
+           "researcher": 17,
+           "storyteller": 8,
+           "studio": 8,
+           "motion": 4
+          },
+          "first_started": "02:14:16",
+          "last_started": "18:40:16",
+          "all_five_steps": 160,
+          "incomplete": 2
+         },
+         "state": "checked"
+        },
+        {
          "token": "BRIEF.md",
          "kind": "path",
          "verified": true,
@@ -14480,8 +14557,8 @@
        "record_id": "rec-r02-2",
        "paragraphs": [
         {
-         "id": "r02-a7d4c3",
-         "text": "Narrator. The talk was about the insider: the person inside an organisation who already has the access, and what happens when the insider is not a person at all. That question runs under the whole book, and chapter 18 turns it on the team that built the talk."
+         "id": "r02-06d8de",
+         "text": "The talk was about the insider: the person inside an organisation who already has the access, and what happens when the insider is not a person at all. That question runs under the whole book, and before the end the book turns it on the team that built the talk."
         }
        ],
        "record": "TH1 (signed, brief 33: the thesis up front); manuscript/rc2/150/18-how-do-we-contain-this.md line 5 (the thesis in the book's own words)",
@@ -14505,16 +14582,33 @@
        "record_id": "rec-r02-4",
        "paragraphs": [
         {
-         "id": "r02-bc9694",
-         "text": "Narrator. As the opening pages said, the agents tell the day as it happened, and I tell it from now. Each agent speaks as the character the record shows: dev, fast and practical; the conductor on the minute; the researcher who will not move without a source. When I speak, I will tell you what I think it meant, where it came from, and what I would do with it if I were you."
+         "id": "r02-bea559",
+         "text": "So this book has two voices. The agents tell the day as it happened, in the present tense, each as the character its record shows: dev, fast and practical; the conductor on the minute; the researcher who will not move without a source. I tell it from now, looking back: what I think it meant, where it came from, and how you could use it in your own work. Each voice has its own mark on the page, so you always know who is talking."
+        }
+       ],
+       "record": "PEN1 round 1 notes 19 (the turn without a chapter number), 21 (rewrite) and 22 (the two voices explained before the key); NAR1 (briefs/2026-11-13__print-review/02-round-1-readings-confirmed.md: one mark per run of the same voice)",
+       "tokens": [
+        {
+         "token": "briefs/2026-11-13__print-review/02-round-1-readings-confirmed.md",
+         "kind": "path",
+         "verified": true,
+         "repository": "book",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/briefs/2026-11-13__print-review/02-round-1-readings-confirmed.md"
+        }
+       ]
+      },
+      {
+       "record_id": "rec-r02-5",
+       "paragraphs": [
+        {
+         "id": "r02-f00c2b",
+         "text": "Figure: the two voices: the narrator, looking back, in his own words, and an agent on the day, in the present tense."
         },
         {
-         "id": "r02-060127",
-         "text": "Figure: two voices on the page: a small key showing how the narrator, looking back, and the agents, on the day, look different, so you learn the convention once."
-        },
-        {
-         "id": "r02-8d406e",
-         "text": "Narrator. A lot of it came from somewhere. This was not the first time I tried to make a talk behave differently. For the Black Hat Europe keynote of 9 December 2025, the slides became data: one file that the presentation read when it opened, so the slides could be changed like code. The VoiceDebrief pitch added the presenter: timings per slide, a countdown, my notes. And for a short demo for ruv.sgit.ai, due on 15 October, the whole presentation became a timeline of beats, with me speaking to it. Each earlier experiment fixed one thing and showed me the next. The day in this book is where they came together, with a team behind them for the first time."
+         "id": "r02-a3e5ba",
+         "text": "Narrator. This was not the first time I tried to make a talk behave differently. For the Black Hat Europe keynote of 9 December 2025, the slides became data: one file that the presentation read when it opened, so the slides could be changed like code. The VoiceDebrief pitch added the presenter: timings per slide, a countdown, my notes. And for a short demo for ruv.sgit.ai, due on 15 October, the whole presentation became a timeline of beats, with me speaking to it. Each earlier experiment fixed one thing and showed me the next. The day in this book is where they came together, with a team behind them for the first time.",
+         "after_heading": true,
+         "heading": "It was an evolution"
         }
        ],
        "record": "C116 (the scripted talk: Black Hat Europe, 9 December 2025, one JSON file; VoiceDebrief, the presenter; the first talk.json, a five-minute demo for ruv.sgit.ai, built on 14 October for 15 October) C028 (the player ported from ruv.sgit.ai) briefs/2026-11-04__in-session/04-introduce-the-narrator-and-chapter-1.md",
@@ -14530,7 +14624,12 @@
           "black_hat_europe": "the keynote of 9 December 2025: 'fully generated from scripts'; 26 slides in seven layouts, one JSON file, read through the vault bridge at load time ('a content change needs no rebuild')",
           "voicedebrief": "the pitch added a presenter: 'per-slide target timings, a three-minute countdown and speaker notes'; presented to Founder Institute on 2 September 2026",
           "ruv_sgit": "the first talk.json, a five-minute demo for ruv.sgit.ai, built on 14 October for Agentic Engineering Live in London on 15 October; 'The first timeline is a real one'; the article says the player 'has not been given yet'",
-          "reads_his_talks": "'I usually give a talk by reading it, with the slides behind me' (abstract); 'I usually read my presentations, with the slides behind me as a backdrop' (body)"
+          "reads_his_talks": "'I usually give a talk by reading it, with the slides behind me' (abstract); 'I usually read my presentations, with the slides behind me as a backdrop' (body)",
+          "reread_13_november_2026": {
+           "black_hat_europe": "'my keynote at the AI Security Summit at Black Hat Europe on 9 December 2025' (the page now names the AI Security Summit; at the 4 November read it did not); 'The deck was fully generated from scripts'; 'Its 26 slides, in seven layouts, are one JSON file'",
+           "voicedebrief": "'The second was the VoiceDebrief pitch to Founder Institute on 2 September 2026: a presenter app with per-slide target timings, a three-minute countdown and speaker notes' (the article itself dates the pitch, in the editor's own byline; the newsroom catalogue's own page dates are separate and are not the event dates)",
+           "ruv_sgit": "'built on 14 October for Agentic Engineering Live with Reuven Cohen, rUv, in London on 15 October'; 'It has not been given yet. The player was tested in a browser, not in a room.'; the abstract says 'tonight's Agentic Engineering Live'; 'The player was built and tested by this site's agent on 15 October 2026'; 'A voice memo of mine on 14 October 2026'"
+          }
          },
          "state": "checked"
         },
@@ -14556,24 +14655,26 @@
        ]
       },
       {
-       "record_id": "rec-r02-5",
+       "record_id": "rec-r02-6",
        "paragraphs": [],
        "record": "HV1 (signed, brief 38: \"can you add them all?\"), printed: the newsroom's \"Each earlier experiment fixed one thing and showed me the next\" (a Check item, Part B)",
        "tokens": []
       },
       {
-       "record_id": "rec-r02-6",
+       "record_id": "rec-r02-7",
        "paragraphs": [
         {
-         "id": "r02-fdc2f1",
-         "text": "Narrator. There is one more thing I want you to see as you read. This book is being made the same way the talk was. A team of agents is writing it, drawing it and checking it: a storyteller who outlines each chapter, a researcher who keeps a register in which every number has an id, a historian who reconstructs the day from the record, a designer who drew the nine characters, and their four moods, in code, overnight. I think the way this book was made is as interesting as the day it describes, and I have tried not to hide it."
+         "id": "r02-eaa0e3",
+         "text": "Narrator. This book is being made the same way the talk was. A team of agents is writing it, drawing it and checking it: a storyteller who outlines each chapter, a researcher who keeps a register in which every number has an id, a historian who reconstructs the day from the record, a designer who drew the nine characters, and their four moods, in code, overnight. I think the way this book was made is as interesting as the day it describes, so you will see that too.",
+         "after_heading": true,
+         "heading": "A book made the same way"
         }
        ],
        "record": "HV1 (signed, brief 38: \"can you add them all?\"), printed: the newsroom's \"I think the way this book was made is as interesting as the day it describes\"",
        "tokens": []
       },
       {
-       "record_id": "rec-r02-7",
+       "record_id": "rec-r02-8",
        "paragraphs": [],
        "record": "C122 (the book team's roles, as their own pages of rules state them; this book's record) C117 (the nine, four moods each, drawn by a script overnight, about three and three-quarter hours; this book's record)",
        "tokens": [
@@ -14608,30 +14709,43 @@
        ]
       },
       {
-       "record_id": "rec-r02-8",
+       "record_id": "rec-r02-9",
        "paragraphs": [
         {
-         "id": "r02-f8f1c5",
-         "text": "Narrator. I wanted this to be a creative book, not only a correct one. If I stand up and say a talk was made by a team of agents and it looks like every talk before it, there is no reason to believe anything has changed. A book is the same. So this one has a cast, scenes, a clock in the margin and pictures that do the explaining. And it has me, saying what I think. Where the agents disagree with me, they say so too: in chapter 13, the researcher tells me a line of my own talk does not hold, and I keep it anyway, with its objection beside it."
+         "id": "r02-66bab7",
+         "text": "I wanted this to be a creative book, not only a correct one. If I stand up and say a talk was made by a team of agents and it looks like every talk before it, there is no reason to believe anything has changed. A book is the same. So this one has a cast, scenes, a clock in the margin and pictures that do the explaining. And it has me, saying what I think. Where the agents disagree with me, they say so too: at one point the researcher tells me a line of my own talk does not hold, and I keep the line, with the researcher's objection printed beside it."
         },
         {
-         "id": "r02-8caa42",
-         "text": "Narrator. This book has a companion website, where the team's pages and its record can be read as they stand."
-        },
+         "id": "r02-701377",
+         "text": "This book has a companion website, at the-ultimate-insider.book.sgit.ai, where the team's pages and its record can be read as they stand."
+        }
+       ],
+       "record": "PEN1 round 1 notes 23 and 25 (\"it was an evolution\"; a heading where the narrator's mark comes back), 26, 27 and 28 (rewrites, the objection without a chapter number), 29 (the site's address, as 00 prints it, and its screenshot back: publisher__044)",
+       "tokens": []
+      },
+      {
+       "record_id": "rec-r02-10",
+       "paragraphs": [
         {
          "id": "r02-f4f719",
          "text": "Figure: the companion website as it looks now, its front page."
         },
         {
-         "id": "r02-0a0585",
-         "text": "Narrator. So let us go through it together. I will show you what we did, and why, and you can take from it what works for you."
+         "id": "r02-f6d956",
+         "text": "Now to where it started for me, long before the day: my slides. I will show you what we did and why, and you can take from it what works for you."
         }
        ],
+       "record": "PEN1 round 1 note 30 (rewrite; chapter 01 opens on his slides)",
+       "tokens": []
+      },
+      {
+       "record_id": "rec-r02-11",
+       "paragraphs": [],
        "record": "FB2's channels moved to the opening pages (OS1)",
        "tokens": []
       },
       {
-       "record_id": "rec-r02-9",
+       "record_id": "rec-r02-12",
        "paragraphs": [
         {
          "id": "r02-cb3f91",
@@ -14740,7 +14854,12 @@
           "black_hat_europe": "the keynote of 9 December 2025: 'fully generated from scripts'; 26 slides in seven layouts, one JSON file, read through the vault bridge at load time ('a content change needs no rebuild')",
           "voicedebrief": "the pitch added a presenter: 'per-slide target timings, a three-minute countdown and speaker notes'; presented to Founder Institute on 2 September 2026",
           "ruv_sgit": "the first talk.json, a five-minute demo for ruv.sgit.ai, built on 14 October for Agentic Engineering Live in London on 15 October; 'The first timeline is a real one'; the article says the player 'has not been given yet'",
-          "reads_his_talks": "'I usually give a talk by reading it, with the slides behind me' (abstract); 'I usually read my presentations, with the slides behind me as a backdrop' (body)"
+          "reads_his_talks": "'I usually give a talk by reading it, with the slides behind me' (abstract); 'I usually read my presentations, with the slides behind me as a backdrop' (body)",
+          "reread_13_november_2026": {
+           "black_hat_europe": "'my keynote at the AI Security Summit at Black Hat Europe on 9 December 2025' (the page now names the AI Security Summit; at the 4 November read it did not); 'The deck was fully generated from scripts'; 'Its 26 slides, in seven layouts, are one JSON file'",
+           "voicedebrief": "'The second was the VoiceDebrief pitch to Founder Institute on 2 September 2026: a presenter app with per-slide target timings, a three-minute countdown and speaker notes' (the article itself dates the pitch, in the editor's own byline; the newsroom catalogue's own page dates are separate and are not the event dates)",
+           "ruv_sgit": "'built on 14 October for Agentic Engineering Live with Reuven Cohen, rUv, in London on 15 October'; 'It has not been given yet. The player was tested in a browser, not in a room.'; the abstract says 'tonight's Agentic Engineering Live'; 'The player was built and tested by this site's agent on 15 October 2026'; 'A voice memo of mine on 14 October 2026'"
+          }
          },
          "state": "checked"
         },
@@ -30604,7 +30723,12 @@
           "black_hat_europe": "the keynote of 9 December 2025: 'fully generated from scripts'; 26 slides in seven layouts, one JSON file, read through the vault bridge at load time ('a content change needs no rebuild')",
           "voicedebrief": "the pitch added a presenter: 'per-slide target timings, a three-minute countdown and speaker notes'; presented to Founder Institute on 2 September 2026",
           "ruv_sgit": "the first talk.json, a five-minute demo for ruv.sgit.ai, built on 14 October for Agentic Engineering Live in London on 15 October; 'The first timeline is a real one'; the article says the player 'has not been given yet'",
-          "reads_his_talks": "'I usually give a talk by reading it, with the slides behind me' (abstract); 'I usually read my presentations, with the slides behind me as a backdrop' (body)"
+          "reads_his_talks": "'I usually give a talk by reading it, with the slides behind me' (abstract); 'I usually read my presentations, with the slides behind me as a backdrop' (body)",
+          "reread_13_november_2026": {
+           "black_hat_europe": "'my keynote at the AI Security Summit at Black Hat Europe on 9 December 2025' (the page now names the AI Security Summit; at the 4 November read it did not); 'The deck was fully generated from scripts'; 'Its 26 slides, in seven layouts, are one JSON file'",
+           "voicedebrief": "'The second was the VoiceDebrief pitch to Founder Institute on 2 September 2026: a presenter app with per-slide target timings, a three-minute countdown and speaker notes' (the article itself dates the pitch, in the editor's own byline; the newsroom catalogue's own page dates are separate and are not the event dates)",
+           "ruv_sgit": "'built on 14 October for Agentic Engineering Live with Reuven Cohen, rUv, in London on 15 October'; 'It has not been given yet. The player was tested in a browser, not in a room.'; the abstract says 'tonight's Agentic Engineering Live'; 'The player was built and tested by this site's agent on 15 October 2026'; 'A voice memo of mine on 14 October 2026'"
+          }
          },
          "state": "checked"
         }
@@ -31475,7 +31599,12 @@
           "black_hat_europe": "the keynote of 9 December 2025: 'fully generated from scripts'; 26 slides in seven layouts, one JSON file, read through the vault bridge at load time ('a content change needs no rebuild')",
           "voicedebrief": "the pitch added a presenter: 'per-slide target timings, a three-minute countdown and speaker notes'; presented to Founder Institute on 2 September 2026",
           "ruv_sgit": "the first talk.json, a five-minute demo for ruv.sgit.ai, built on 14 October for Agentic Engineering Live in London on 15 October; 'The first timeline is a real one'; the article says the player 'has not been given yet'",
-          "reads_his_talks": "'I usually give a talk by reading it, with the slides behind me' (abstract); 'I usually read my presentations, with the slides behind me as a backdrop' (body)"
+          "reads_his_talks": "'I usually give a talk by reading it, with the slides behind me' (abstract); 'I usually read my presentations, with the slides behind me as a backdrop' (body)",
+          "reread_13_november_2026": {
+           "black_hat_europe": "'my keynote at the AI Security Summit at Black Hat Europe on 9 December 2025' (the page now names the AI Security Summit; at the 4 November read it did not); 'The deck was fully generated from scripts'; 'Its 26 slides, in seven layouts, are one JSON file'",
+           "voicedebrief": "'The second was the VoiceDebrief pitch to Founder Institute on 2 September 2026: a presenter app with per-slide target timings, a three-minute countdown and speaker notes' (the article itself dates the pitch, in the editor's own byline; the newsroom catalogue's own page dates are separate and are not the event dates)",
+           "ruv_sgit": "'built on 14 October for Agentic Engineering Live with Reuven Cohen, rUv, in London on 15 October'; 'It has not been given yet. The player was tested in a browser, not in a room.'; the abstract says 'tonight's Agentic Engineering Live'; 'The player was built and tested by this site's agent on 15 October 2026'; 'A voice memo of mine on 14 October 2026'"
+          }
          },
          "state": "checked"
         },

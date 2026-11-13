@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled wake, 21:12 London",
+ "started": "2026-11-13T20:13:13Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). 2bd385d9 changed chapters 00 and 00b, which make_editions.py reads: real rebuild after both guard tests print ok (talk clone at 298be4e), then print_pages.py, then make_editions.py; page check on the published PDF of 20:12 (not the lab PDF), fresh scratch folder, deleted; name removed pages; developer__081 only what changed.",
+   "at": "2026-11-13T20:14:18Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). Within policy and security__009 to 013: tests first, no guard off, build aside, page scan before push, removed pages named; 00 and 00b carry no address the builder would link (bare hostnames only; check the page scan shows no anchor to them).",
+   "at": "2026-11-13T20:14:18Z"
+  },
+  "work": {
+   "by": "developer",
+   "model": "",
+   "verdict": "done",
+   "comment": "Gate passed; both test files ok; real sequence exit 0,0,0 (32 chapters, 348 scenes), guards on; no page removed (rewritten: 00, 00b, 01, 12, index, pages); PDF of 20:12 checked in a fresh scratch folder (python3 -I, rc 0), deleted; developer__081 mailed; vault_check clean; no deviations.",
+   "at": "2026-11-13T20:16:38Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). Rebuilt pages link only to github.com, one local script, no on* attributes, frames or embeds; bare hostnames in 00b are text; 081 copies identical apart from To/Cc; no keys, em-dashes or religious words; no deletions; no scratch PDF left.",
+   "at": "2026-11-13T20:18:18Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). As planned: numbers in the mail match the generated pages and anchors; the tests and the scratch folder's deletion rest on the record (I ran and deleted them). Note: the page map's own build is 126 pages against the PDF's 128, covered by the map's caveat.",
+   "at": "2026-11-13T20:20:47Z"
+  }
+ },
+ "closed": "2026-11-13T20:20:47Z",
+ "outcome": "ok"
+}
