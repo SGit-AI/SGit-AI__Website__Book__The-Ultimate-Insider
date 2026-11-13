@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-13T22:18:29Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Plan fits the historian's scope; no HOLD file; a quiet wake is right; vault_check and pull dev before pushing. Tool: Bash.",
+   "at": "2026-11-13T22:18:46Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Plan fits policy; team/historian/** is in scope.writes; nothing held; no never-rule touched; vault_check and merge dev before pushing. Tool: Read.",
+   "at": "2026-11-13T22:18:58Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "All writes under team/historian/; no secrets, keys, model names, em-dashes or religious words; nothing toward Cold-Read. Tool: Bash.",
+   "at": "2026-11-13T22:19:17Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "One dated review line, a debrief, a status touch and the wake record, no letter.",
+   "at": "2026-11-13T22:19:17Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "Nothing changed since 21:18",
+   "at": "2026-11-13T22:19:17Z"
+  }
+ },
+ "closed": "2026-11-13T22:19:17Z",
+ "outcome": "ok"
+}
