@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-13T21:18:15Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "A short quiet wake fits: one dated line, debrief, status, vault_check, merge dev, push. It did not open the files or verify the commits or the C087 count, so it rests on my summary; I verified the count from the wake records on 5 November (hours 05 to 13 UTC, no wake started by the editor). Tools: Read, Grep, Glob, Bash.",
+   "at": "2026-11-13T21:19:37Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Inside scope.writes (team/historian/**), quiet, no letter, no brief or blind repo touched; keep the line free of keys, ids, model names, em-dashes and religious words. Tools: Read and Bash.",
+   "at": "2026-11-13T21:20:01Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "All writes in team/historian/**; no secrets, keys, model names, em-dashes, religious words or Cold-Read references. Tool: Bash.",
+   "at": "2026-11-13T21:20:32Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "One dated line, a debrief, a status touch and the wake record, no letter.",
+   "at": "2026-11-13T21:20:32Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "Quiet wake: the opening's nine-hours number checked against the wake records",
+   "at": "2026-11-13T21:20:32Z"
+  }
+ },
+ "closed": "2026-11-13T21:20:32Z",
+ "outcome": "ok"
+}
