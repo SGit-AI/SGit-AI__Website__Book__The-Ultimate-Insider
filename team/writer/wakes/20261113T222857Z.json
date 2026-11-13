@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Idle: status.json state says why (94a40bc3, pushed before the steps by mistake: wake.py refused the close, so the steps are recorded now).",
    "at": "2026-11-13T22:30:08Z"
+  },
+  "post_review": {
+   "by": "security (reviewer agent)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "94a40bc3 and f5d33f62 touch only status.json and the wake record, in scope; no secret, address, RW1 word or dash; the record pushed before its steps was a process slip, not a security matter.",
+   "at": "2026-11-13T22:30:39Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer agent)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Idle as planned, hourly kept per schedule.json; the steps recorded late after the refused close, said so in the work step; the schedule's stored prompt still says every two hours, for the conductor to reconcile.",
+   "at": "2026-11-13T22:30:39Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-13T22:30:39Z",
+ "outcome": "idle"
 }
