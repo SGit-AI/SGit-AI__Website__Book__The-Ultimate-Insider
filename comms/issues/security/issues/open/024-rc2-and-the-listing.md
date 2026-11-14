@@ -138,3 +138,5 @@ The revised 150/22 and 70/14 read after the post-check: clear (still a plan, not
 **14 November, 01:24 wake.** Quiet. 00b now places LAB 80's timeline (a Figure line and notes only); LAB 81's footer study is crops of the book's own footer; the re-saved PEN1 photograph has no metadata.
 
 **14 November, 02:24 wake.** publisher__024: the release runs no lab script; chapter_bar.py to come into publishing/ as a reviewed diff, pypdf and reportlab pinned by exact version (security__084). The missing pdftotext in CI recorded under C6. ruv-sgit's dry-run fetch is tool case 14.
+
+**14 November, 03:24 wake.** publishing/chapter_bar.py accepted as release code. A must for the conductor (security__085): the unhashed pip install leaves the write-permission release job until it is hash-checked or moved to a job without write permission; the bar is optional meanwhile. Recorded under C6. ruv-sgit's stray interpreter call is tool case 15.
