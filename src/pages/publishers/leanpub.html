@@ -1,0 +1,98 @@
+<!--meta {"title": "For Leanpub", "description": "Everything the editor needs to publish One Human, Nine Agents, Nineteen Hours on Leanpub by hand: the PDF to upload, the cover at Leanpub's size, the book page text ready to paste, the price, and what is still open."} -->
+<section class="wrap narrow print-req">
+<style>
+.print-req .hero { display: grid; grid-template-columns: 180px 1fr; gap: 24px; align-items: start; }
+.print-req .hero img { width: 180px; height: auto; display: block; border-radius: 3px; box-shadow: 0 2px 10px rgba(0,0,0,.25); }
+@media (max-width: 600px) { .print-req .hero { grid-template-columns: 1fr; } .print-req .hero img { width: 140px; } }
+.print-req .ask { background: var(--panel); border-left: 4px solid var(--accent); padding: 14px 18px; border-radius: 3px; }
+.print-req .ask p { margin: 6px 0; }
+.print-req .viewer { width: 100%; height: 80vh; min-height: 480px; border: 1px solid var(--line); border-radius: 4px; background: var(--panel); }
+.print-req .paste { background: var(--panel); border: 1px solid var(--line); border-radius: 4px; padding: 12px 16px; margin: 6px 0 18px; }
+.print-req .paste p { margin: 8px 0; }
+.print-req .label { font-size: .8em; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin: 18px 0 2px; }
+.print-req .covers { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+.print-req .covers img { width: 100%; height: auto; display: block; border-radius: 3px; box-shadow: 0 2px 10px rgba(0,0,0,.25); }
+@media (max-width: 600px) { .print-req .covers { grid-template-columns: 1fr; } }
+.print-req td code { white-space: nowrap; }
+</style>
+<div class="hero">
+  <img src="{{root}}assets/leanpub/cover-1800x2700.png" alt="The front cover at Leanpub's size: One Human, Nine Agents, Nineteen Hours, by Dinis Cruz">
+  <div>
+    <p class="sans note">For Leanpub</p>
+    <h1>Publishing <em>One Human, Nine Agents, Nineteen Hours</em> on Leanpub</h1>
+    <p class="lede">Everything for the author to do it by hand, in one place: the PDF to upload, the cover at Leanpub's size, the book page text ready to paste, and the price. Leanpub lets a book be updated at any time, and every reader gets every new version, so this can go up now and improve as the review continues.</p>
+  </div>
+</div>
+
+<p><b>This release:</b> v{{version}}, built from commit <a href="https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/commit/{{commit}}"><code>{{commit}}</code></a> of {{commit_time}}. The files below are rebuilt by every release, so the links always give the latest.</p>
+
+<div class="ask">
+  <p class="sans"><strong>The steps, in order</strong></p>
+  <ol>
+    <li><b>Create the book</b> on Leanpub, choosing the writing mode where <b>you upload your own PDF</b> (Leanpub's screens name it; where this page and the screen disagree, the screen wins). The team's earlier plan was Leanpub building from the repository (L2), but Leanpub's own build would not have this PDF's layout: the opening spread, the visual index, the footer bars. Uploading the PDF keeps the book exactly as it prints.</li>
+    <li><b>Upload the PDF</b> below.</li>
+    <li><b>Upload the cover</b>: Settings, Book Cover, the 1800 by 2700 image below.</li>
+    <li><b>Paste the book page</b>: Settings, About, the texts below.</li>
+    <li><b>Set the price</b>: a $0 minimum, $19.99 suggested, and untick the membership box (below).</li>
+    <li><b>Preview</b>, then <b>Publish</b>.</li>
+  </ol>
+</div>
+
+<h2>1. The PDF to upload</h2>
+<p>The interior for sale, Crown Quarto, with no draft stamp: the edition chosen for KDP and Leanpub (KP1). The full draft on the RC2 page carries "DRAFT IN REVIEW" on every page, so it is not the one to upload.</p>
+<p>
+  <a class="btn p" href="{{root}}rc2/upload/one-human-nine-agents-rc2-kdp-interior.pdf" download>Download the PDF</a>
+</p>
+<iframe class="viewer" src="{{root}}rc2/upload/one-human-nine-agents-rc2-kdp-interior.pdf" title="The interior PDF for Leanpub"></iframe>
+
+<h2>2. The cover</h2>
+<p>Leanpub asks for an image of 1800 by 2700 pixels. The front cover is a little wider than that shape, so the image keeps it whole at 1800 pixels wide and adds the cover's own dark background above it. The front alone, at its own proportions, is beside it in case Leanpub's screen prefers that.</p>
+<div class="covers">
+  <figure><a href="{{root}}assets/leanpub/cover-1800x2700.png" download><img src="{{root}}assets/leanpub/cover-1800x2700.png" alt="The cover at 1800 by 2700 pixels"></a><figcaption><a href="{{root}}assets/leanpub/cover-1800x2700.png" download>cover-1800x2700.png</a>: for Leanpub (1800 by 2700)</figcaption></figure>
+  <figure><a href="{{root}}assets/leanpub/cover-front-1800.png" download><img src="{{root}}assets/leanpub/cover-front-1800.png" alt="The front cover at its own proportions, 1800 by 2344 pixels"></a><figcaption><a href="{{root}}assets/leanpub/cover-front-1800.png" download>cover-front-1800.png</a>: the front as drawn (1800 by 2344)</figcaption></figure>
+</div>
+<p class="note">The cover's small line reads "RC2 · November 2026 · CC BY 4.0", as on the printed copies.</p>
+
+<h2>3. The book page, ready to paste</h2>
+<p>From the publisher's listing (<code>publishing/listing.md</code>), traced by the researcher and cleared by security on 2 November. Every number in it rests on the register.</p>
+
+<p class="label">Title</p>
+<div class="paste"><p>One Human, Nine Agents, Nineteen Hours</p></div>
+
+<p class="label">Subtitle</p>
+<div class="paste"><p>How a factory of AI agents built a presentation in a day, and how to build yours</p></div>
+
+<p class="label">Teaser</p>
+<div class="paste"><p>One person, nine AI agents and one day: how a factory of agents built a talk, and how you can set up your own and start the same day.</p></div>
+
+<p class="label">Meta description (136 characters)</p>
+<div class="paste"><p>One person and nine AI agents built a talk in nineteen hours. How the factory worked, and how to set up your own, starting the same day.</p></div>
+
+<p class="label">Description</p>
+<div class="paste">
+<p>For anyone with an idea and no team yet.</p>
+<p>On 29 October 2026, Dinis Cruz opened an empty project, wrote a brief and one page of rules, and asked a team of AI agents to build his next talk with him. Nine agents joined, each with one job written down. That evening, nineteen hours after the first commit, he gave the talk.</p>
+<p>This book follows that day as a factory. Who did what, and when. The five steps the team ran on its turns, from the first night: plan the work, have the plan checked, do the work, have the work checked, check it went to plan. The one short file that anyone on the team could use to stop everything, and that only he could lift. And what did not work, because that is in the book too.</p>
+<p>The scenes are dramatised and marked as such; the events are the record's. Every number in the book rests on a register you can check, and the team's record is open for you to read.</p>
+<p>Then it is your turn. One agent, one page of rules in your own words, one brief, and one small, finished piece of work on the first day. A second agent only when the first is busy. Alone or with others, you can start the same day.</p>
+<p>Part of the Gen ZX Founders series: books about you starting, and building.</p>
+</div>
+<p class="note">One line to check before pasting: "The scenes are dramatised and marked as such". The word "dramatised" is your open note 6 on the printed copy; if you pick another word for the tag, use it here too (for example "The scenes are retold from the record and marked as such").</p>
+
+<h2>4. The price</h2>
+<table>
+  <tr><th>Minimum price</th><td><strong>$0</strong> (free; decision L1)</td></tr>
+  <tr><th>Suggested price</th><td><strong>$19.99</strong> (L1)</td></tr>
+  <tr><th>Membership box</th><td><strong>Untick</strong> "Free purchases of this book require a Reader, Standard or Pro membership", so anyone can take it at $0 and the page says "Free! Minimum Price".</td></tr>
+  <tr><th>Updates</th><td>Every reader gets every new version, whatever they paid. When you publish a new version, Leanpub offers to email the readers.</td></tr>
+</table>
+
+<h2>Still open in the book</h2>
+<ul>
+  <li><b>The tag word</b> (notes 3 and 6 on the <a href="{{root}}print-review-01.html">print review</a>): the small "DRAMATISED" tag still prints on the scenes and over the cast cards.</li>
+  <li><b>Part pages on the right</b> (RPP1, decided 14 November): each part to open on a right-hand page, with a facing page of agents saying hi. Not built yet; it will add pages.</li>
+</ul>
+<p>Both can follow as a new Leanpub version. They matter more for the printed edition on KDP, whose cover has to be sized to the final page count.</p>
+
+<p class="note">The steps and Leanpub's rules are from <code>publishing/LEANPUB.md</code> (the publisher, from Leanpub's help, 30 October 2026). Nothing here is done by an agent: each step needs the author's own Leanpub account.</p>
+</section>
