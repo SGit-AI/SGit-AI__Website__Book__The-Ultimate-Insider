@@ -14716,6 +14716,70 @@
        "record_id": "rec-r02-7",
        "paragraphs": [
         {
+         "id": "r02-3d151f",
+         "text": "Figure: the experiments that led to the day, December 2025 to October 2026: slides as data, then a presenter, then a timeline of beats, and then the day."
+        }
+       ],
+       "record": "PEN1 round 1 note 24 (\"This deserves a timeline infographic\"); C116 as read on 4 and 13 November 2026 (Black Hat Europe, 9 December 2025, slides as one JSON file; the VoiceDebrief pitch, 2 September 2026, a presenter; the first talk.json, 14 October, for 15 October) C028 (the player ported from ruv.sgit.ai at 15:07) C001 (00:16) C100 (19:00, due)",
+       "tokens": [
+        {
+         "token": "C116",
+         "kind": "claim",
+         "verified": true,
+         "claim": "The talk's lineage in the newsroom's own article 'The scripted talk' (15 October 2026): slides as data at Black Hat Europe, a presenter at the VoiceDebrief pitch, a timeline for ruv.sgit.ai, and 'I usually read my talks'",
+         "value": {
+          "article": "The scripted talk",
+          "published": "2026-10-15",
+          "black_hat_europe": "the keynote of 9 December 2025: 'fully generated from scripts'; 26 slides in seven layouts, one JSON file, read through the vault bridge at load time ('a content change needs no rebuild')",
+          "voicedebrief": "the pitch added a presenter: 'per-slide target timings, a three-minute countdown and speaker notes'; presented to Founder Institute on 2 September 2026",
+          "ruv_sgit": "the first talk.json, a five-minute demo for ruv.sgit.ai, built on 14 October for Agentic Engineering Live in London on 15 October; 'The first timeline is a real one'; the article says the player 'has not been given yet'",
+          "reads_his_talks": "'I usually give a talk by reading it, with the slides behind me' (abstract); 'I usually read my presentations, with the slides behind me as a backdrop' (body)",
+          "reread_13_november_2026": {
+           "black_hat_europe": "'my keynote at the AI Security Summit at Black Hat Europe on 9 December 2025' (the page now names the AI Security Summit; at the 4 November read it did not); 'The deck was fully generated from scripts'; 'Its 26 slides, in seven layouts, are one JSON file'",
+           "voicedebrief": "'The second was the VoiceDebrief pitch to Founder Institute on 2 September 2026: a presenter app with per-slide target timings, a three-minute countdown and speaker notes' (the article itself dates the pitch, in the editor's own byline; the newsroom catalogue's own page dates are separate and are not the event dates)",
+           "ruv_sgit": "'built on 14 October for Agentic Engineering Live with Reuven Cohen, rUv, in London on 15 October'; 'It has not been given yet. The player was tested in a browser, not in a room.'; the abstract says 'tonight's Agentic Engineering Live'; 'The player was built and tested by this site's agent on 15 October 2026'; 'A voice memo of mine on 14 October 2026'"
+          }
+         },
+         "state": "checked"
+        },
+        {
+         "token": "C028",
+         "kind": "claim",
+         "verified": true,
+         "claim": "When the player port landed",
+         "value": {
+          "port": "3314ffe at 15:07:08, @dev, 'the player, ported from ruv.sgit.ai' (236 to 635 lines)",
+          "fixes_to": "dbd75ad at 18:37:02, 'Player: two back steps in a row while playing' (the editor, 18:25)",
+          "player_commits_15:07_to_18:37": 12
+         },
+         "state": "checked"
+        },
+        {
+         "token": "C001",
+         "kind": "claim",
+         "verified": true,
+         "claim": "First commit of the day",
+         "value": "00:16:23 UTC, 29 Oct 2026 (London was on GMT: UTC = London)",
+         "state": "checked"
+        },
+        {
+         "token": "C100",
+         "kind": "claim",
+         "verified": true,
+         "claim": "When and where the talk was to be given",
+         "value": {
+          "scheduled": "19:00 London, 29 October 2026, as the day's record has it (planned, not a measured start)",
+          "venue": "hack::soho, hosted by IOActive, London (from a9c0b49, added after the day)",
+          "hold_to_scheduled_start_minutes": 16
+         },
+         "state": "checked"
+        }
+       ]
+      },
+      {
+       "record_id": "rec-r02-8",
+       "paragraphs": [
+        {
          "id": "r02-eaa0e3",
          "text": "Narrator. This book is being made the same way the talk was. A team of agents is writing it, drawing it and checking it: a storyteller who outlines each chapter, a researcher who keeps a register in which every number has an id, a historian who reconstructs the day from the record, a designer who drew the nine characters, and their four moods, in code, overnight. I think the way this book was made is as interesting as the day it describes, so you will see that too.",
          "after_heading": true,
@@ -14726,7 +14790,7 @@
        "tokens": []
       },
       {
-       "record_id": "rec-r02-8",
+       "record_id": "rec-r02-9",
        "paragraphs": [],
        "record": "C122 (the book team's roles, as their own pages of rules state them; this book's record) C117 (the nine, four moods each, drawn by a script overnight, about three and three-quarter hours; this book's record)",
        "tokens": [
@@ -14761,7 +14825,7 @@
        ]
       },
       {
-       "record_id": "rec-r02-9",
+       "record_id": "rec-r02-10",
        "paragraphs": [
         {
          "id": "r02-66bab7",
@@ -14776,7 +14840,7 @@
        "tokens": []
       },
       {
-       "record_id": "rec-r02-10",
+       "record_id": "rec-r02-11",
        "paragraphs": [
         {
          "id": "r02-f4f719",
@@ -14791,13 +14855,13 @@
        "tokens": []
       },
       {
-       "record_id": "rec-r02-11",
+       "record_id": "rec-r02-12",
        "paragraphs": [],
        "record": "FB2's channels moved to the opening pages (OS1)",
        "tokens": []
       },
       {
-       "record_id": "rec-r02-12",
+       "record_id": "rec-r02-13",
        "paragraphs": [
         {
          "id": "r02-cb3f91",

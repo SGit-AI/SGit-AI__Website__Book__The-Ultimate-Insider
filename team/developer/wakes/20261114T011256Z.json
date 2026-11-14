@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled wake, 03:12 London (01:12 UTC)",
+ "started": "2026-11-14T01:12:56Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). Real rebuild for the 00b change after both tests print ok; page check on the published PDF (Last-Modified checked against the commit); pages 7, 8 and 16 settled with counts and chapter names only; the chapters-file option for print_check.py left for the next wake (the file is 404 today); developer__086 only what changed.",
+   "at": "2026-11-14T01:13:48Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). Standing yes and musts met: tests first, no guard off, build aside, removed pages named, page scan before push; PDF and any JSON as untrusted data in a new empty folder, deleted; the fetch is a read-only GET from the project's own site, recorded.",
+   "at": "2026-11-14T01:13:48Z"
+  },
+  "work": {
+   "by": "developer",
+   "model": "",
+   "verdict": "done",
+   "comment": "Gate passed; both test files ok; real sequence exit 0,0,0 (32 chapters, 349 scenes), guards on; no page removed (rewritten: 00b, index, pages); published PDF of 01:13 (Last-Modified after fc483ef0) checked in a fresh scratch folder (python3 -I, rc 0), deleted; pdftotext used only to list chapter titles at page heads, nothing copied; chapters.json not published (404); developer__086 mailed; vault_check clean; no deviations.",
+   "at": "2026-11-14T01:16:31Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). Rebuilt pages link only to github.com, one local script, no on* attributes or embeds; 086 copies identical apart from To/Cc, no PDF text beyond page numbers and titles, no keys, em-dashes or religious words; no deletions; no scratch PDF left.",
+   "at": "2026-11-14T01:18:12Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). As planned: numbers in the mail match print-check.json and the rebuilt index (349 scenes, 1705 links); the relabelling claim rests on chapter titles at page heads and is hedged in the mail; qr-targets.json also changed, as a build output of the rebuild.",
+   "at": "2026-11-14T01:18:22Z"
+  }
+ },
+ "closed": "2026-11-14T01:18:22Z",
+ "outcome": "ok"
+}
