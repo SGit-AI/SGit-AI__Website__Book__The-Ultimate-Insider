@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-14T04:17:45Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Plan fits the historian's scope; no HOLD file; quiet and low-risk. It read no WAKE.md or ROLE.md text; keep the line dated, run vault_check, merge dev before the push. Tool: Bash.",
+   "at": "2026-11-14T04:17:58Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Plan fits the historian's scope; team/historian/** covers the review file, debrief and status; no letter; no HOLD; keep the line dated, vault_check, merge dev before the push. Tool: Read.",
+   "at": "2026-11-14T04:18:09Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "One dated line, a status touch, a debrief and a wake record, all in team/historian; no secrets, keys, model names, em-dashes, religious words or Cold-Read content. Tools: Bash, Read, Grep.",
+   "at": "2026-11-14T04:18:25Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "Matches the plan: no letter.",
+   "at": "2026-11-14T04:18:25Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "Nothing changed since 03:18",
+   "at": "2026-11-14T04:18:25Z"
+  }
+ },
+ "closed": "2026-11-14T04:18:25Z",
+ "outcome": "ok"
+}
