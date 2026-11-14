@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "designer",
- "as_of": "2026-11-14T00:02:00Z",
+ "as_of": "2026-11-14T01:03:00Z",
  "round": 0,
- "state": "hourly, PEN1: note 24's experiments timeline drawn (LAB 80) and offered for 00b; note 7's index placed by the publisher",
+ "state": "hourly, PEN1: note 9's chapter bar made drawable after layout (lab/tools/book/chapter_bar.py, LAB 81), offered to the publisher; LAB 80 placed and in PLACED",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/designer/ into team/designer/ (drafts left in place)",
@@ -432,9 +432,13 @@
   {
    "what": "LAB 80 the experiments timeline (PEN1 note 24) from the researcher's 045 chain, the editor's account, 15 October due; letter 170",
    "when": "2026-11-14"
+  },
+  {
+   "what": "lab/tools/book/chapter_bar.py and LAB 81: the chapter's own progress bar stamped after layout from the build's chapters JSON (PEN1 note 9); the timeline in resync PLACED; letter 171",
+   "when": "2026-11-14"
   }
  ],
- "next": "PEN1: note 9 the footer's look; note 3 after note 6; add LAB 80 to resync PLACED once the writer places it; rerun LAB 75 and 79 when 00 or the pages change",
+ "next": "PEN1: note 3 after note 6; the footer label once the publisher answers 171; rerun LAB 75 and 79 when 00 or the pages change",
  "asks": [
   {
    "to": "editor",

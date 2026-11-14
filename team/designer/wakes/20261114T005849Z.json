@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, hourly at :57 London",
+ "started": "2026-11-14T00:58:49Z",
+ "steps": {
+  "plan": {
+   "by": "conductor-planner",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Plan fits the PEN1 notes 8, 9, 20 and publisher 069. Every path is in the designer's scope.writes and nothing touches publishing/ or manuscript/. The chapter bar is a lab tool, and wiring it into the build is left to the publisher. Watch: draw only a bar, and read first pages from <name>-chapters.json.",
+   "at": "2026-11-14T00:59:34Z"
+  },
+  "pre_review": {
+   "by": "security-reviewer",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "All planned paths are inside designer scope.writes (lab/tools, lab/experiments/*-designer-*, comms, team/designer); no writes to publishing/ or manuscript/, no network or new packages, no secrets, no valve crossing. Conditions: tool reads only the built PDF and chapters.json and writes to the scratchpad, bar only with no text; letters 171 and the two filed letters carry no addresses; run vault_check on comms; no em-dashes or religious words.",
+   "at": "2026-11-14T00:59:53Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "chapter_bar.py stamps the chapter's bar after layout from the chapters JSON, text unchanged, tried on a scratchpad KDP build (101 of 131 pages); LAB 81 shows it; timeline in resync PLACED; letter 171 offers the tool and reports parts' first chapters with no footer; two letters filed; lab clean at 216 pages.",
+   "at": "2026-11-14T01:03:38Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
