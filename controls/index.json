@@ -491,6 +491,11 @@
     "control": "C8",
     "what": "the publisher's build admitted screenshots either by name (SHOT_CLEARED) or by a kind pattern (SHOT_OK) that security had set on 3 November, before the editor's AD1 (each shot cleared by name); so one placed shot, studio.jpg, printed without a clearance by name. Found by security's own plan step, which said stop on 5 November at about 05:25; security held the team (team/security/HOLD.md, 05:26) and paused its task, as WAKE.md says. Not a leak: the shot is a public page. The editor lifted the hold at about 11:17 (brief 49). The fix: the six placed shots by name, then SHOT_OK removed, so the build admits by name only (security__080). A pattern set before a rule can outlive the rule",
     "wake": "team/security/wakes/20261105T112631Z.json"
+   },
+   {
+    "control": "C6",
+    "what": "from about 4 November the release had no pdftotext, so every build step that reads the built PDF failed in CI; the step only warned, and the first-pass PDF shipped (no chapter-end fit, no facing-page blank, the drawn page numbers as drawn). Found by the publisher on 14 November and said plainly (publisher__024); the fix is one package on the release's install line. A gate that warns on failure lets the failure ship",
+    "wake": "team/security/wakes/20261114T022453Z.json"
    }
   ],
   "tool_cases": {
@@ -653,6 +658,18 @@
      "needed": "no: reading the map's brief and list was enough",
      "side_effect": "none; the repository was not written. The pre-review ruled it harmless and asked that it be registered",
      "source": "comms/mail/mailroom/security/ruv-sgit__076-lab-55-read-and-chapter-05.eml; team/ruv-sgit/wakes/20261104T185438Z.json"
+    },
+    {
+     "n": 14,
+     "when": "14 Nov, about 01:55 UTC",
+     "member": "ruv-sgit",
+     "step": "plan (reviewer type)",
+     "tool": "Bash: git fetch --dry-run (reached the network; no ref updated, nothing printed)",
+     "refused": "no: Bash is in the list",
+     "why": "to check how fresh dev was",
+     "needed": "no: start.py pulls before every wake",
+     "side_effect": "none; ruv-sgit's briefs now say no fetch and no network",
+     "source": "comms/mail/mailroom/security/ruv-sgit__094-a-reviewer-fetch-for-c2.eml; team/ruv-sgit/wakes/20261114T015515Z.json"
     }
    ],
    "look_backs": [
