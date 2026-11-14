@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Hash notes checked by words (only hash text moved), scan 0 and 5, 009 sent, 173 176 096 filed; script FAILS 0 at 06:33:24 and after; records written; one unverified claim removed from my letter",
    "at": "2026-11-14T06:35:52Z"
+  },
+  "post_review": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Commit in scope, no drawing touched; script FAILS 0 with notes 0 and 5 (the reviewer's own run); 009 states the edits and the limits as I checked them; the reviewer did not re-diff the drawings (the words comparison is mine and the pre-review's); reviewer used Bash only, none refused",
+   "at": "2026-11-14T06:37:59Z"
+  },
+  "post_check": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Scan, edits compared, 009 sent, 173 176 096 filed, pass 35 traced, records, script rerun; run times read from the clock",
+   "at": "2026-11-14T06:37:59Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-14T06:37:59Z",
+ "outcome": "ok"
 }
