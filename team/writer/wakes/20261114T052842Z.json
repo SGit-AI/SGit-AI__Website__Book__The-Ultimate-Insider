@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer",
+ "kind": "scheduled wake",
+ "started": "2026-11-14T05:28:42Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer agent)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Nothing for the writer since 04:30 (no mailroom or brief change; round-01's change is the chapter bar note, designer's and publisher's); idle, status as_of and state and the record; hourly kept.",
+   "at": "2026-11-14T05:29:12Z"
+  },
+  "pre_review": {
+   "by": "security (reviewer agent)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Two team/writer files; no HOLD; the state line in the form of the last, free of dashes, keys, contacts and RW1 words.",
+   "at": "2026-11-14T05:29:12Z"
+  },
+  "work": {
+   "by": "writer",
+   "model": "",
+   "verdict": "done",
+   "comment": "Idle: status.json as_of and state only.",
+   "at": "2026-11-14T05:29:12Z"
+  },
+  "post_review": {
+   "by": "security (reviewer agent)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Two team/writer files, plain ASCII, valid JSON; no secret, contact, RW1 word or dash.",
+   "at": "2026-11-14T05:29:38Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer agent)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "as_of and state only; schedule untouched and hourly.",
+   "at": "2026-11-14T05:29:38Z"
+  }
+ },
+ "closed": "2026-11-14T05:29:38Z",
+ "outcome": "idle"
+}
