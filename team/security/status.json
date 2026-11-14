@@ -1,9 +1,9 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "security",
-  "as_of": "2026-11-14T01:35:00Z",
+  "as_of": "2026-11-14T02:40:00Z",
   "round": 0,
-  "state": "staffed; second session; 01:24 wake (14 November): quiet",
+  "state": "staffed; second session; 02:24 wake (14 November): the release to run no lab script; tool case 14",
   "done": [
     {
       "what": "session key made and published: team/security/key.json, key.png, sessions/session_01Kw9UwDYutLfqT71U7kmgVs/",
@@ -484,9 +484,17 @@
     {
       "what": "quiet hour: the timeline's Figure line, LAB 81 and a PEN1 photograph clear",
       "when": "2026-11-14"
+    },
+    {
+      "what": "no lab script in the release; chapter_bar.py to publishing/ with pinned libraries (security__084); C6 entry; tool case 14",
+      "when": "2026-11-14"
     }
   ],
   "next": [
+    {
+      "what": "read chapter_bar.py when it lands in publishing/; check pypdf and reportlab are pinned in release.yml",
+      "why": "security__084"
+    },
     {
       "what": "the full book on the rails each wake toward TG2 (Thursday 10:00 London); the developer's should on scripts and on* handlers",
       "why": "RV2; TG2; security__065"

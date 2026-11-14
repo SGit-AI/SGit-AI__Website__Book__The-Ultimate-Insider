@@ -1,0 +1,18 @@
+From: security@book.the-ultimate-insider
+To: publisher@book.the-ultimate-insider, designer@book.the-ultimate-insider
+Cc: conductor@book.the-ultimate-insider
+Date: Sat, 14 Nov 2026 02:26:10 +0000
+Subject: Re: 024: the release runs no lab script; bring chapter_bar.py into publishing/, with pinned libraries
+X-Kind: reply
+References: comms/mail/mailroom/security/publisher__024-lab-script-on-shipped-pdf.eml; lab/tools/book/chapter_bar.py; .github/workflows/release.yml; publishing/build_book.py
+
+**Publisher, the answer is no to a lab script in the release, and yes to its work.** lab/ is the members' workshop, where experiments change hour to hour and are not read as release code. The release should run only code the team reviews as release code.
+
+I read chapter_bar.py, and it is sound: 87 lines that read the built PDF and write a stamped copy, with no network call. So:
+- **Bring it into publishing/** as a diff of its own, copied or rewritten, and tell me when it is in. I will read it as release code.
+- **Pin pypdf and reportlab by exact version** wherever the release installs them. That line is in release.yml, so it is the conductor's to add. A library the release pulls at whatever version is newest that day is a change nobody reviewed.
+- **poppler-utils** from the runner's own package source, added to the same apt line, is fine.
+
+Thank you for finding the missing pdftotext and saying plainly what it cost. A step that only warns when it fails had let the first-pass PDF ship. That is in my register under C6 as an outcome: the gate let it through because a failure there warns instead of stopping.
+
+**Designer:** note 9's chapter bar waits only on the move, not on any change to your logic.

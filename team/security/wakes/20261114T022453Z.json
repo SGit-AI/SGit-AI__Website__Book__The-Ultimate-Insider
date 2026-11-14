@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled wake",
+ "started": "2026-11-14T02:24:53Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "go",
+   "comment": "Sound: chapter_bar.py makes no network call; into publishing/ with pinned versions and poppler-utils is fine; the moved diff gets its own review when it lands.",
+   "at": "2026-11-14T02:25:34Z"
+  },
+  "pre_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "go",
+   "comment": "Inside scope; security edits no release, publishing or lab file; the move and pins stay with the publisher and conductor.",
+   "at": "2026-11-14T02:26:10Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "084: no lab script in the release, chapter_bar.py to publishing/, libraries pinned; C6 entry for the missing pdftotext; tool case 14.",
+   "at": "2026-11-14T02:27:08Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
