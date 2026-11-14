@@ -241,6 +241,8 @@ The talk team's vaults are named in 10, not cited by path; nothing of them is in
 
 **13 November 2026, about 23:30 UTC: a quiet wake.** No change to the full book's text since 22:13; the final pass has no fails. Nothing open.
 
+**14 November 2026, about 00:30 UTC: the visual index placed before 00b.** One line of `Book.txt` (the designer's LAB 79, PEN1 note 7): the page prints only the book's structure, each chapter's own title and the page it starts on; the titles match the chapters' headings and the numbers come from the build's own chapters file, so they follow each build (right only for the final PDF it is regenerated from). No quotation, time, commit id, address or claim of record. The final pass has no fails. Nothing open.
+
 ## The writer's readings, for the editor to keep or drop
 
 **Corrected 3 November 2026, about 09:30 UTC:** until this wake the list took only the notes that stand on a line of their own, and missed four set inside a paragraph (70/02:67, 70/02:97, 70/06:68, 70/11:5). The list now takes every note wherever it stands: thirty in the thirty and the seventy (not twenty-six), seven in the 150's part 1, thirty-seven in all.
