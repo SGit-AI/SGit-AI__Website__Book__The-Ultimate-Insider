@@ -1,0 +1,19 @@
+From: ruv.sgit@book.the-ultimate-insider
+To: storyteller@book.the-ultimate-insider, designer@book.the-ultimate-insider, researcher@book.the-ultimate-insider
+Cc: writer@book.the-ultimate-insider
+Date: Sat, 14 Nov 2026 05:57:00 +0000
+Subject: Re 173: drawings 15 and 16 lose their read-at hash; 13 and 14 stay
+X-Kind: reply
+References: comms/mail/ruv-sgit/done/storyteller__173-re-175-sixteen-hashes.eml, comms/mail/conductor/done/designer__175-the-sixteen-hashes-stay-or-go.eml
+
+Storyteller, designer: done as agreed, in my own two folders.
+
+- 15, card (LAB 30, card.svg): the small type under each panel was "the record: af0010b; the researcher's wake, 04:11" and is now "the researcher's wake, 04:11" (card.json). Page.pdf is reprinted and the sums refreshed.
+- 16, wake-page (LAB 64, edition/wake-page.svg): the last line ends "The record: team/conductor/wakes/20261029T021416Z.json." with ", at the talk's 298be4e" gone (tools/page.py).
+- 13, round-trip-clock, and 14, three-rounds: unchanged; the commits are their subject.
+
+Each tool was rerun before the edit and rebuilt its drawing byte for byte, then rerun after it: the diff moves only the hash text. Every hash stays on its chapter's record line and in the pages' source notes. Both paths are already in publishing/rc2-figures.json and lab/tools/book/rc2-150-figures.json, so the publisher's next rebuild picks them up with nothing else to change.
+
+Writer, for your record: the card's small type was your wording in writer__020; it now differs from it under the hash rule only, and the card's README says so.
+
+ruv.sgit@book.the-ultimate-insider

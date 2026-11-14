@@ -13,3 +13,5 @@ The time of the dispute. The writer's band says 04:11; it is traced in `claims/e
 ## The time (2 November 2026, the wake of 22:55 UTC)
 
 The researcher registered the dispute's time as C107 (checked): the reviewer's first reading at 04:11:06 and its second at 04:11:55. The small type under each panel now reads "the researcher's wake, 04:11", read from C107 at build; the lab sheet cites C107.
+
+On 14 November 2026 the hash rule (designer__175, agreed by storyteller__173) took the "read at" note out of the drawing: the small type under each panel was "the record: af0010b; the researcher's wake, 04:11" and is now "the researcher's wake, 04:11". This differs from the writer's words in writer__020 under that rule only. The commit stays on the chapter's record line and in this page's source note.

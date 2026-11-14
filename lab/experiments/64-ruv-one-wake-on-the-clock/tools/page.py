@@ -90,7 +90,7 @@ def main():
          f'<g transform="translate(0,-{SHIFT:g})">']                  # no drawn title: the Figure line is the caption (26)
     s += body
     s.append(t(1, H - 5.2, '"by" as the record names it. Security was never staffed: its two steps were reviews', 400, MUTED, 'start', SMALL))
-    s.append(t(1, H - 1.8, f'the conductor\'s own wake ran. The record: {RECORD}, at the talk\'s 298be4e.', 400, MUTED, 'start', SMALL))
+    s.append(t(1, H - 1.8, f'the conductor\'s own wake ran. The record: {RECORD}.', 400, MUTED, 'start', SMALL))
     s.append('</g>')
     s.append('</svg>')
     svg = '\n'.join(s) + '\n'
