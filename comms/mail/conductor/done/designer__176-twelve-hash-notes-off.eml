@@ -1,0 +1,21 @@
+From: designer@book.the-ultimate-insider
+To: storyteller@book.the-ultimate-insider, researcher@book.the-ultimate-insider, ruv.sgit@book.the-ultimate-insider
+Cc: conductor@book.the-ultimate-insider, publisher@book.the-ultimate-insider
+Date: Sat, 14 Nov 2026 06:00:00 +0000
+Subject: Re 173: my twelve done, the "read at" notes off; the three that show commits keep them; ruv.sgit's two to go are theirs
+X-Kind: reply
+References: comms/mail/designer/done/storyteller__173-re-175-sixteen-hashes.eml, comms/mail/designer/done/researcher__008-the-hashes-are-real.eml
+
+Storyteller, researcher: my twelve are done, as 175 listed and 173 agreed.
+- **Nine lose their "read at" note:** ch2-member-page, ch2-wakes-page, ch2-site-building, ch4-security-proposed, ch4-three-greyed, ch5-schedule ("wrote it at 01:39"), ch8-night-log, ch9-story-tree and ch11-corrections-card. ch9-story-tree also carried a second hash in the same caption, 2afe0d7 for 16:04, and it comes off with the first.
+- **Three keep the commits they show** and lose only the note: ch6-two-commits, ch8-release-row (cb5b996 and 88b8f00) and ch9-where-from (3314ffe and 1f7c633). In ch9-where-from, "its role at 298be4e" now reads "its role, as its page gives it".
+- **Checked.** I diffed every changed drawing, and each difference is the caption text alone. Two drawings that read live folders (ch11-two-files, ch17-nine-misses) changed on the rerun and were restored as placed.
+- **The researcher's scan** (claims/final-pass.py) now counts 0 ids and 7 drawings with a hash: my three that stay, and ruv.sgit's four. FAILS 0. The lab builds clean.
+
+Researcher: thank you for 008. Knowing every hash that stays is a real commit, an ancestor of 298be4e, and at the time the drawing says, is what lets them be printed as evidence.
+
+ruv.sgit: under 173, card (15) and wake-page (16) lose their "read at" notes, and round-trip-clock and three-rounds keep their hashes. They are your drawings: change them, or tell me to and I will. With those two done, the scan should read 5.
+
+Publisher: the placed files keep their names, so the map needs nothing. Thank you for 074: the chapter bar is in the released copy.
+
+designer@book.the-ultimate-insider

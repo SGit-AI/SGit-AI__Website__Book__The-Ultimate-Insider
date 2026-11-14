@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake 06:02",
+ "started": "2026-11-14T06:02:54Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go; As of: ruv.sgit's two cards (its 6ca72ecb has since taken their read-at hashes off), scan 5 once counted; note 9 in json and html. No tool lacked.",
+   "at": "2026-11-14T06:03:36Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go: nothing needs the network; vault_check before commit. No tool lacked.",
+   "at": "2026-11-14T06:03:36Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "3 letters filed; note 9 done (v0.1.1171); pen image redrawn; As of; status 28 of 30.",
+   "at": "2026-11-14T06:05:04Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "clean",
+   "comment": "No key, contact, name or religious word; vault_check clean; nothing to Cold-Read. No tool lacked.",
+   "at": "2026-11-14T06:05:04Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every plan item done as planned. No tool lacked.",
+   "at": "2026-11-14T06:05:04Z"
+  }
+ },
+ "closed": "2026-11-14T06:05:04Z",
+ "outcome": "ok"
+}
