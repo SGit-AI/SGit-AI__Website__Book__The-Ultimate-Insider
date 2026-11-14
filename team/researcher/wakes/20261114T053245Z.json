@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Every hash in the sixteen drawings checked against the talk's repository (real, and the stay list matches the log); 008 sent; 172 and 175 filed; script FAILS 0 at 05:33:06 and after; records written",
    "at": "2026-11-14T05:36:46Z"
+  },
+  "post_review": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Commit in scope, no drawing touched; script FAILS 0 with notes 0 and 16; every hash time in 008 matches the talk's log (the reviewer checked them all); the all-digit limit stated; reviewer used Bash only, none refused",
+   "at": "2026-11-14T05:38:43Z"
+  },
+  "post_check": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Hashes checked, 008 sent, 172 and 175 filed, pass 34 traced, records, script rerun; run times read from the clock",
+   "at": "2026-11-14T05:38:43Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-14T05:38:43Z",
+ "outcome": "ok"
 }
