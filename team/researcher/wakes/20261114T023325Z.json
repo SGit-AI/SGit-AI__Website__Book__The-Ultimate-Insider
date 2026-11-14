@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Drawings scan: 7 with a register id, 15 hash only, sent to the conductor (047); final-pass.py notes both counts; script FAILS 0 before and after; records written; the plan's premise was corrected by the reviews",
    "at": "2026-11-14T02:37:15Z"
+  },
+  "post_review": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Commit in scope, no drawing touched; script FAILS 0 with the two NOTEs (7 and 15); the new block only notes and only reads; 047 is a request for a ruling naming guide line 279; reviewer used Bash, none refused",
+   "at": "2026-11-14T02:39:30Z"
+  },
+  "post_check": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Scan done, 047 sent, script notes both counts, pass 31 traced, records, script rerun; the plan's premise was corrected by the reviews",
+   "at": "2026-11-14T02:39:30Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-14T02:39:30Z",
+ "outcome": "ok"
 }
