@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled wake, 06:12 London (04:12 UTC)",
+ "started": "2026-11-14T04:13:13Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). No hold; manuscript unchanged since 01:33 (rebuilt at 02:12), so no rebuild; page check with the chapters file on the PDF of 04:10 in a fresh scratch folder, deleted; developer__089 only what changed against 088.",
+   "at": "2026-11-14T04:13:50Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). Within policy and security__009 to 013; no rebuild; PDF and chapters file as untrusted data in a new empty folder, deleted; vault_check before the mail; exit codes 0 before the push.",
+   "at": "2026-11-14T04:13:50Z"
+  },
+  "work": {
+   "by": "developer",
+   "model": "",
+   "verdict": "done",
+   "comment": "Gate passed; chapters-json test ok; published PDF of 04:13 and its chapters file fetched by hand into a fresh scratch folder, checked with python3 -I (rc 0), folder deleted (it held only the book and its file); no rebuild (no manuscript change since 01:33); no page removed; developer__089 mailed; vault_check clean; no deviations.",
+   "at": "2026-11-14T04:14:15Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). Writes in the developer's paths; 089 copies identical apart from To/Cc; no off-host addresses, keys, em-dashes or religious words; print-check.json numbers and titles only; no scratch PDF or JSON left; no deletions.",
+   "at": "2026-11-14T04:15:36Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). As planned. Two wording points: the plan comment names the PDF of 04:10 where the file checked was 04:13 (the tool's own created time is 04:12:43); the mail called only page 23 borderline when pages 87, 70 and 23 are, now corrected in all three copies.",
+   "at": "2026-11-14T04:15:56Z"
+  }
+ },
+ "closed": "2026-11-14T04:15:56Z",
+ "outcome": "ok"
+}

@@ -1,7 +1,7 @@
 {
  "about": "The full book's printed pages checked for pages that may not look right (conductor__036). Written by review/tools/print_check.py: page numbers, chapter titles, counts and sizes only.",
  "edition": "rc2-150",
- "source": "a PDF given by hand (full.pdf, created unknown); its chapters are those of the online view, review/anchors/editions.json, as last built",
+ "source": "a PDF given by hand (full.pdf, created Sat Nov 14 04:12:43 2026 UTC); its chapters are those of the online view, review/anchors/editions.json, as last built",
  "pdf_pages": 132,
  "chapters_hash": "57d1464bfc1a0605",
  "thresholds": {
@@ -318,43 +318,11 @@
   "previous_pdf_pages": 132,
   "previous_counts": {
    "chapter_end_spill": 3,
-   "gap_page": 12,
+   "gap_page": 10,
    "figure_apart": 23
   },
-  "fixed": [
-   {
-    "kind": "chapter_end_spill",
-    "chapter": "Hours four and five: before dawn",
-    "before": 1,
-    "now": 0
-   },
-   {
-    "kind": "gap_page",
-    "chapter": "The tour: what a factory made in a day",
-    "before": 5,
-    "now": 1
-   }
-  ],
-  "new": [
-   {
-    "kind": "chapter_end_spill",
-    "chapter": "Inventing on principle",
-    "before": 0,
-    "now": 1
-   },
-   {
-    "kind": "gap_page",
-    "chapter": "Hours four and five: before dawn",
-    "before": 1,
-    "now": 2
-   },
-   {
-    "kind": "gap_page",
-    "chapter": "Who is telling this story",
-    "before": 0,
-    "now": 1
-   }
-  ],
+  "fixed": [],
+  "new": [],
   "remaining": [
    {
     "kind": "chapter_end_spill",
@@ -369,10 +337,22 @@
     "now": 1
    },
    {
+    "kind": "chapter_end_spill",
+    "chapter": "Inventing on principle",
+    "before": 1,
+    "now": 1
+   },
+   {
     "kind": "gap_page",
     "chapter": "Hours four and five: before dawn",
-    "before": 1,
+    "before": 2,
     "now": 2
+   },
+   {
+    "kind": "gap_page",
+    "chapter": "Who is telling this story",
+    "before": 1,
+    "now": 1
    },
    {
     "kind": "gap_page",
@@ -407,6 +387,12 @@
    {
     "kind": "gap_page",
     "chapter": "The creator comes back",
+    "before": 1,
+    "now": 1
+   },
+   {
+    "kind": "gap_page",
+    "chapter": "The tour: what a factory made in a day",
     "before": 1,
     "now": 1
    },
