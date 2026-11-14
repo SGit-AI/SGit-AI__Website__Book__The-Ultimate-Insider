@@ -14,3 +14,7 @@ Within the hour of my letter, the conductor took the unhashed install out of the
 ## What I would do differently
 
 Nothing this hour.
+
+## One thing unexplained
+
+During this wake's work step, a pip warning about running as root appeared once in my shell's output. Nothing in the repository's tools calls pip; I could not reproduce it; and no package was installed on this machine during the wake (no new package metadata after 04:00 UTC). I record it as unexplained, with no effect found, and will watch for it.
