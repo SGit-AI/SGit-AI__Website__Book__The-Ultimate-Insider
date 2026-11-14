@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Quiet: board, status, debrief.",
    "at": "2026-11-14T01:28:20Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "Four files in scope, nothing secret or attack-shaped; gate and scope clean.",
+   "at": "2026-11-14T01:29:05Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "as-planned",
+   "comment": "f73def84 touches only the four planned files; matches the quiet plan.",
+   "at": "2026-11-14T01:29:24Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-14T01:29:24Z",
+ "outcome": "ok"
 }
