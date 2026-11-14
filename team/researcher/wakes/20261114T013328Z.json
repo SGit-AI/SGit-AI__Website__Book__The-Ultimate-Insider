@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Note 24 closed (007); C116's stale sentence fixed; manuscript unchanged; script FAILS 0 before and after; records written",
    "at": "2026-11-14T01:35:20Z"
+  },
+  "post_review": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Commit in scope; script FAILS 0; 007 says the article changed in one way and the dates hold; C116's stale sentence now points to the re-read; reviewer used Bash and Read, none refused",
+   "at": "2026-11-14T01:37:33Z"
+  },
+  "post_check": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Reply 007, 090 and 012 filed, C116 fixed, pass 30 traced, records, script rerun",
+   "at": "2026-11-14T01:37:33Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-14T01:37:33Z",
+ "outcome": "ok"
 }
