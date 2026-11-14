@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake",
+ "started": "2026-11-14T07:48:27Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Idle wake; file designer 177 and developer 092 only (conductor 001 already in done/).",
+   "at": "2026-11-14T07:49:14Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Within scope; vault_check, gate, pull before push; no HOLD.",
+   "at": "2026-11-14T07:49:14Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Filed designer 177 and developer 092; status round 107; nothing else.",
+   "at": "2026-11-14T07:49:14Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Copies identical; status only round and done; vault_check clean.",
+   "at": "2026-11-14T07:49:48Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Idle wake as planned.",
+   "at": "2026-11-14T07:49:48Z"
+  }
+ },
+ "closed": "2026-11-14T07:49:48Z",
+ "outcome": "idle"
+}
