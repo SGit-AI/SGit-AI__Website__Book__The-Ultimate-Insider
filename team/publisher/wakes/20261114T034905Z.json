@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake",
+ "started": "2026-11-14T03:49:05Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; answers security 027 by its first route; release.yml left to the conductor.",
+   "at": "2026-11-14T03:50:37Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Conditions: PyPI named as an outside read; venv in the scratchpad, deleted; stop if refused; every published hash, typing_extensions by marker; recommend --only-binary; say what hashes prove; vault_check. No HOLD.",
+   "at": "2026-11-14T03:50:37Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Hashed requirements file written and tested in a scratch venv (deleted); outside reads: pypi.org JSON and the venv install, as the pre-review asked; letter 085.",
+   "at": "2026-11-14T03:51:21Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; outside reads: pypi.org JSON, read-only)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "All five packages' hashes match PyPI exactly; valid syntax; release.yml untouched; no venv files in the repo; letters clean; vault_check clean.",
+   "at": "2026-11-14T03:52:30Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Conditions met; security 027's must stays open with the conductor.",
+   "at": "2026-11-14T03:52:30Z"
+  }
+ },
+ "closed": "2026-11-14T03:52:30Z",
+ "outcome": "ok"
+}

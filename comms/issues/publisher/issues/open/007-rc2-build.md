@@ -124,3 +124,4 @@ source: comms/mail/mailroom/publisher/conductor__026-check-taken.eml; publishing
 - 14 November 01:00 UTC: timeline mapped in 00b; 131 pages.
 - 14 November 02:10 UTC: CI lacks pdftotext (request 083); footer fixes.
 - 14 November 03:05 UTC: chapter bar in publishing/ (release needs pins); draft chapter pages found.
+- 14 November 04:00 UTC: hashed requirements for the chapter bar.
