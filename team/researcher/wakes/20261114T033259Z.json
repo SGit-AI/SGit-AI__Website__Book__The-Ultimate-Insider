@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-14T03:32:59Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Plan in scope; writer__280 is already filed in my done folder (answered 5 November in researcher__033), so no open letter; reviewer used Read and Bash, none refused",
+   "at": "2026-11-14T03:33:58Z"
+  },
+  "pre_review": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "No typed figure in the chapter bar or the footer change (page numbers and the bar's fractions are computed from the build's page data); nothing unfiled; reviewer used Bash only, none refused",
+   "at": "2026-11-14T03:34:26Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Quiet wake: layout landings read as code, no typed figure; manuscript unchanged; script FAILS 0 before and after; records written",
+   "at": "2026-11-14T03:34:44Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
