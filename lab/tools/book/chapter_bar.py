@@ -42,9 +42,14 @@ def plan(pdf, chapters, total):
         first = c["page"]
         last = (chs[i + 1]["page"] - 1) if i + 1 < len(chs) else total
         n = last - first + 1
-        key = " ".join(c["title"].split())[:18]  # the footer label may wrap after this; 18 characters stay on its first line
+        # the footer names the chapter on right pages and its part on left ones (publisher 070); a long title is cut
+        # with an ellipsis, so 18 characters of it are enough. A part page always names the next part, never the one
+        # of the chapter whose range it falls in, so it stays bare.
+        keys = [" ".join(c["title"].split())[:18]]
+        if c.get("part"):
+            keys.append(" ".join(c["part"].split())[:18])
         for p in range(first, last + 1):
-            if key and p <= len(texts) and key in texts[p - 1]:
+            if p <= len(texts) and any(k and k in texts[p - 1] for k in keys):
                 out[p] = (p - first + 1) / n
     return out
 

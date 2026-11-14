@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, hourly at :57 London",
+ "started": "2026-11-14T02:58:48Z",
+ "steps": {
+  "plan": {
+   "by": "conductor-planner",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope (lab/tools, lab/pdf, comms/mail/designer, team/designer); matches security 008 (the move to publishing/ stays the publisher's, no release.yml touch) and publisher 070's footer change. Keep the left-page match on the part name tight, so it cannot stamp placed or part pages, and say in letter 173 that LAB 81's image is a lab artefact.",
+   "at": "2026-11-14T02:59:12Z"
+  },
+  "pre_review": {
+   "by": "security-reviewer",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside scope: lab/tools, LAB 81 under lab, comms/mail/mailroom/*/designer__*; chapter_bar.py stays local-only (reads PDF, writes a copy, no network), no new imports, publishing/ and .github left to publisher/conductor as security 008 says. Condition: the letter must give exact pypdf and reportlab versions to pin; I read the publishing copy as release code when it lands.",
+   "at": "2026-11-14T02:59:36Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "chapter_bar.py also matches the part name for left pages (publisher 070): 122 of 131 stamped, part and front pages bare, text unchanged; LAB 81 redrawn; letter 173 with pypdf 6.17.0 and reportlab 5.0.1 to pin; three letters filed.",
+   "at": "2026-11-14T03:01:25Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
