@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "letter 175 lists the sixteen hash drawings stay or go (12 mine, 4 ruv-sgit's as proposals); no drawing touched; four letters filed; records.",
    "at": "2026-11-14T05:00:36Z"
+  },
+  "post_review": {
+   "by": "security-reviewer",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Scope check: 0 files outside scope; vault_check comms clean; no drawing/svg/src touched; letter 175 has no contact detail, key, URL or em-dash; identical copy (same md5) in storyteller, researcher, conductor, ruv-sgit mailrooms plus designer outbox; ruv-sgit items are proposals only. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-14T05:00:59Z"
+  },
+  "post_check": {
+   "by": "conductor-checker",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "1 scan, no svg touched: done. 2 four letters in storyteller/researcher/conductor/ruv-sgit mailrooms plus outbox copy (8ee21d06): done. 3 wake record, debrief, status.json: done; gate and vault_check clean. Conditions kept: in policy, vault_check run, no key/contact, hashes only short ids, no main push seen. Unplanned but routine: four incoming letters moved to designer/done. Push to dev not verified by me.",
+   "at": "2026-11-14T05:00:59Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-14T05:01:54Z",
+ "outcome": "ok"
 }
