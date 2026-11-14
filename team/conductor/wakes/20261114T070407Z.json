@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake 07:02",
+ "started": "2026-11-14T07:04:07Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go: idle; no unfiled letters; stay active (letters arrive hourly). No tool lacked.",
+   "at": "2026-11-14T07:04:48Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go: status.json and wake record only. No tool lacked.",
+   "at": "2026-11-14T07:04:48Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "none",
+   "comment": "Idle: no letters; status only.",
+   "at": "2026-11-14T07:06:41Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "clean",
+   "comment": "status.json and wake record only. No tool lacked.",
+   "at": "2026-11-14T07:06:41Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "As planned. No tool lacked.",
+   "at": "2026-11-14T07:06:41Z"
+  }
+ },
+ "closed": "2026-11-14T07:06:41Z",
+ "outcome": "idle"
+}
