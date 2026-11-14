@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "084: no lab script in the release, chapter_bar.py to publishing/, libraries pinned; C6 entry for the missing pdftotext; tool case 14.",
    "at": "2026-11-14T02:27:08Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "No key, link or contact; the release gap stated as an outcome only; gate, comms and scope clean; no release, publishing or lab file edited.",
+   "at": "2026-11-14T02:28:02Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "as-planned",
+   "comment": "All planned items done; no release, publishing or lab file changed. The commit subject's 'pinned' is an ask of the conductor, not yet done.",
+   "at": "2026-11-14T02:28:33Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-14T02:28:34Z",
+ "outcome": "ok"
 }
