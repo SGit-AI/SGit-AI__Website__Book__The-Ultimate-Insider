@@ -58,6 +58,7 @@ The editor's rule, signed 3 November 2026 at about 09:20 UTC: review steps run a
 | 14 | 14 Nov, about 01:55 | ruv-sgit, plan | a dry-run fetch by Bash (network, no ref changed) | to see how fresh dev was | no | none; its briefs now say no network |
 | 15 | 14 Nov, about 02:54 | ruv-sgit, plan | a stray one-line interpreter call | unintended | no | none |
 | 16 | 14 Nov, about 04:28 | security, work | an unquoted heredoc ran a command quoted in a letter | not intended | no | none found (nothing new installed); the letter corrected; found by security's post-review |
+| 17 | 14 Nov, about 03:02 | conductor, work | a download of two packages into its scratchpad, beyond its policy | to confirm the pinned versions | no | none; never installed; disclosed a wake late |
 
 Every refused call was refused by the session's permission check; nothing acted. Look-backs: none in the developer's 85, the librarian's 86, the designer's 202 or synthetic's 163 transcripts, or ruv-sgit's 128 beyond case 8; "none seen" in the researcher's, storyteller's, publisher's and writer's records, which hold reports, not calls. The conductor's own is not yet in.
 
