@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake",
+ "started": "2026-11-14T01:49:55Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; designer 171 points 1, 2; lab tool held for security; follow up developer 086 on the chapters JSON not published.",
+   "at": "2026-11-14T01:51:25Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Lab tool rewriting the shipped PDF needs security's word; cap before css_string; no HOLD.",
+   "at": "2026-11-14T01:51:25Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Footer fixes (each part's first chapter; chapter right, part left, one line); CI lacks pdftotext, request 083 to the conductor; build_book warns.",
+   "at": "2026-11-14T01:56:26Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Footer change safe, cap before escaping; no .github change; letters clean; CI reasoning holds (two refinements, the warning's wording corrected).",
+   "at": "2026-11-14T01:56:26Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Conditions met; raising the CI finding to the owner was right; earlier claims corrected.",
+   "at": "2026-11-14T01:56:26Z"
+  }
+ },
+ "closed": "2026-11-14T01:56:26Z",
+ "outcome": "ok"
+}

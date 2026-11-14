@@ -1,8 +1,8 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "publisher",
- "as_of": "2026-11-14T01:00:00Z",
- "round": 100,
+ "as_of": "2026-11-14T02:10:00Z",
+ "round": 101,
  "state": "RS1, PEN1 round 1. The KDP interior 130 pages: the spread, the visual index, five part pages, the running footer",
  "done": [
   {
@@ -440,6 +440,10 @@
   {
    "what": "PEN1 note 24: the experiments timeline mapped in 00b, the two voices kept; 131 pages; letter 082",
    "when": "2026-11-14T01:00Z"
+  },
+  {
+   "what": "found CI lacks pdftotext; footer fixed for each part's first chapter and split part/chapter by side; letter 083 (request)",
+   "when": "2026-11-14T02:10Z"
   }
  ],
  "next": [
@@ -460,6 +464,10 @@
   {
    "to": "editor",
    "what": "build the 3- and 10-page editions now, or after you read the storyteller's scripts?; E1, the Leanpub book; KDP comes after Leanpub"
+  },
+  {
+   "what": "poppler-utils in release.yml line 72 (the conductor's file)",
+   "why": "publisher 083: the steps reading the built PDF do not run in CI"
   }
  ],
  "session": "session_01Kw9UwBKgLvosZHuWWWX8wY",

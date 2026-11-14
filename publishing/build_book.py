@@ -191,22 +191,27 @@ def running_footer(files, titles):
     for n, k in enumerate(chapters):
         with open(files[k], encoding="utf-8") as fh:
             text = fh.read()
-        if "placed-page" in text:
+        if ".placed-left" in text or ".placed-right" in text:  # the spread's placed pages; a part page is not one
             continue
         page = f"rf{k}"
         if not text.startswith(":::::: {.rf"):
             with open(files[k], "w", encoding="utf-8") as fh:
                 fh.write(f":::::: {{.rf .{page}}}\n\n{text}\n\n::::::\n")
         part = part_of(os.path.basename(files[k]))
-        label = css_string(f"{part}  \u00b7  {titles[k]}" if part else titles[k])
+        # designer 171: the part's name on left pages, the chapter's title on right pages, each one line; capped before
+        # escaping, so a cut never splits an escape
+        cap = lambda s, n=62: s if len(s) <= n else s[:n - 1].rstrip() + "\u2026"
+        right = css_string(cap(titles[k]))
+        left = css_string(cap(part or titles[k]))
         done = round(100 * (n + 1) / len(chapters), 1)
         bar = (f'content: "\\00a0"; width: 1.1in; background: linear-gradient(to right, #6b7280 {done}%, #d9dde3 {done}%) '
                f'no-repeat center / 100% 1.6pt;')
         css.append(f".{page} {{ page: {page}; break-before: page; }}\n"
-                   f'@page {page}:right {{ @bottom-left {{ content: "{label}"; font-family: Inter, Helvetica, Arial, '
-                   f'sans-serif; font-size: 6.5pt; color: #6b7280; }} @bottom-center {{ {bar} }} }}\n'
-                   f'@page {page}:left {{ @bottom-right {{ content: "{label}"; font-family: Inter, Helvetica, Arial, '
-                   f'sans-serif; font-size: 6.5pt; color: #6b7280; text-align: right; }} @bottom-center {{ {bar} }} }}\n')
+                   f'@page {page}:right {{ @bottom-left {{ content: "{right}"; font-family: Inter, Helvetica, Arial, '
+                   f'sans-serif; font-size: 6.5pt; color: #6b7280; white-space: nowrap; }} @bottom-center {{ {bar} }} }}\n'
+                   f'@page {page}:left {{ @bottom-right {{ content: "{left}"; font-family: Inter, Helvetica, Arial, '
+                   f'sans-serif; font-size: 6.5pt; color: #6b7280; text-align: right; white-space: nowrap; }} '
+                   f'@bottom-center {{ {bar} }} }}\n')
     return "".join(css)
 
 
@@ -796,6 +801,9 @@ def main():
         made.append(epub)
 
     if not a.no_pdf:
+        if not shutil.which("pdftotext"):  # poppler-utils: every step that reads the built PDF needs it
+            print("::warning::build_book: pdftotext (poppler-utils) is not installed: the fit passes, the spread's blank "
+                  "page, the drawn page numbers and the chapters JSON cannot run; the build stops after its first PDF, which is what ships", file=sys.stderr)
         chrome = find_chrome(a.chrome)
         if not chrome:
             sys.exit("build_book: no Chromium or Chrome found for the PDF (give --chrome PATH)")
