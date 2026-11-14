@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled wake, 05:12 London (03:12 UTC)",
+ "started": "2026-11-14T03:12:43Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). No hold, no manuscript commit since 01:33, so no rebuild; page check twice on the same published PDF (without and with the chapters file given by hand), counts only; --chapters-json small, validated, fail-safe, tested; developer__088 only what changed.",
+   "at": "2026-11-14T03:13:39Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). Plan within policy and the musts: review/tools is in scope; no fetch in the tool; PDF and chapters JSON as untrusted data in new empty folders, deleted; counts only; tests for each rejection.",
+   "at": "2026-11-14T03:13:39Z"
+  },
+  "work": {
+   "by": "developer",
+   "model": "",
+   "verdict": "done",
+   "comment": "Gate passed; print_check.py gained --chapters-json (validated, counts only), test_print_check_json.py ok, test_print_pages.py ok; no rebuild (no manuscript change since 01:33), so no real-build test run; published PDF of 03:13 and its chapters file fetched by hand into a fresh scratch folder, checked twice with python3 -I (rc 0, rc 0), folder deleted; no page removed; developer__088 mailed; vault_check clean; no deviations.",
+   "at": "2026-11-14T03:15:05Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "finding",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). The handling of the untrusted chapters file is sound (size and entry caps, bool pages refused, file names never opened or written, counts only, no fetch). One low finding: a 1 MB file of nested brackets raised RecursionError and crashed the tool instead of being ignored. FIXED by the developer in this wake: RecursionError and MemoryError added to the caught faults, and a nesting test added; all three test files print ok afterwards. Mail, debrief, status, REALITY and print-check.json are clean.",
+   "at": "2026-11-14T03:17:47Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). As planned; the tool, the test and the mail match the plan and print-check.json. The post-review's RecursionError finding was fixed after this check (one line in the caught faults and a nesting test, three test files ok, build, validate and agents-check exit 0), so the code is a line longer than the one this check read; the mail Date is the minute it was written.",
+   "at": "2026-11-14T03:17:54Z"
+  }
+ },
+ "closed": "2026-11-14T03:17:54Z",
+ "outcome": "ok"
+}

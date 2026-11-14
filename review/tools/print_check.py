@@ -18,6 +18,10 @@
 #      python3 -I review/tools/print_check.py --pdf FILE  checks a PDF it is given (the release's own, downloaded by hand into a folder of
 #      its own) instead of building one: this container's build was one page longer than CI's on 4 November (141 against 140, from the
 #      same inputs), so page numbers from a local build can sit a page off the published file. The tool itself never fetches anything.
+#      python3 -I review/tools/print_check.py --pdf FILE --chapters-json FILE  also reads the chapters file the build writes beside the PDF
+#      (publisher__007: each chapter's first page), downloaded by hand into the same folder as the PDF. It is untrusted data: read as JSON
+#      only, checked for shape and size, used for page numbers only, and ignored (with a line in cannot_tell) if any check fails; no title,
+#      file name or other text from it is kept. A chapter it does not name keeps the title finder's page.
 
 import json, os, re, shutil, subprocess, sys, tempfile
 from collections import Counter
@@ -197,6 +201,44 @@ def chapter_starts(chapters, pages):
     return starts
 
 
+def chapters_json_starts(path, n_pages, chapters, found_by_title):
+    """The chapters file the build writes beside its PDF, as untrusted data: returns (starts, counts, problem). starts is the title finder's list with
+    the file's page for every chapter the file names (matched by the base name of the file); counts holds integers only. On any fault: (None, None, why)
+    with a fixed sentence that quotes nothing from the file."""
+    try:
+        p = Path(path)
+        if not p.is_file() or p.stat().st_size > 1_000_000:
+            return None, None, 'the chapters file is missing or larger than 1 MB: ignored'
+        d = json.loads(p.read_text(encoding='utf-8'))
+        rows = d['chapters'] if isinstance(d, dict) else None
+        if not isinstance(rows, list) or not rows or len(rows) > 200:
+            return None, None, 'the chapters file has no usable list of chapters: ignored'
+        pages, by_name = [], {}
+        for r in rows:
+            f, pg = (r.get('file'), r.get('page')) if isinstance(r, dict) else (None, None)
+            if not isinstance(f, str) or len(f) > 200 or type(pg) is not int or not 1 <= pg <= n_pages:
+                return None, None, 'the chapters file has an entry of the wrong shape or a page outside the PDF: ignored'
+            if pages and pg <= pages[-1]:
+                return None, None, 'the chapters file has pages that do not increase: ignored'
+            pages.append(pg)
+            by_name.setdefault(os.path.basename(f.replace('\\', '/')), pg)
+        starts, matched, disagree = [], 0, 0
+        for c, by_title in zip(chapters, found_by_title):
+            pg = by_name.get(os.path.basename(str(c.get('file', '')).replace('\\', '/')))
+            if pg is None:
+                starts.append(by_title)
+                continue
+            matched += 1
+            disagree += by_title != pg
+            starts.append(pg)
+        seen = [s for s in starts if s]
+        if seen != sorted(set(seen)):
+            return None, None, 'the chapters file does not fit the book\'s chapters in order: ignored'
+        return starts, {'in_file': len(rows), 'matched': matched, 'disagree_with_the_title_finder': disagree}, None
+    except (OSError, ValueError, UnicodeError, AttributeError, TypeError, KeyError, RecursionError, MemoryError):
+        return None, None, 'the chapters file could not be read as JSON: ignored'
+
+
 def main(stats, given=None):
     chap_file = Path(sys.argv[sys.argv.index('--chapters') + 1]) if '--chapters' in sys.argv else ROOT / 'review' / 'anchors' / 'editions.json'   # --chapters FILE: today's chapters from make_editions.py --dry --data-out
     data = next(e for e in json.loads(chap_file.read_text())['editions'] if e['edition'] == SLUG)
@@ -223,6 +265,12 @@ def main(stats, given=None):
         shutil.rmtree(tmp, ignore_errors=True)
     where, found, _, findable = map_paragraphs(chapters, words)
     starts = chapter_starts(chapters, [' '.join(w.split()[:80]) for w in words])               # each page's first words
+    chap_json = None
+    chap_json_note = None
+    if '--chapters-json' in sys.argv:
+        got, chap_json, chap_json_note = chapters_json_starts(sys.argv[sys.argv.index('--chapters-json') + 1], n, chapters, starts)
+        if got:
+            starts = got
     big_on = {}
     for p, inch in images:
         if inch >= BIG_IMAGE_INCHES:
@@ -264,6 +312,8 @@ def main(stats, given=None):
     cannot += ['whether a gap or a short page is meant (a divider, an opener, a page left to a drawing): it measures how far the content reaches',
                f'{not_found} of {fig_total} figure lines could not be found by their printed caption; {under_heading} sit straight under a heading ({unplaced} of them with the page of the heading not found, not checked), which counts as what introduces them; for the rest it finds where the caption begins, not whether the drawing under it is on the same page',
                'how a page looks beyond how far its content reaches']
+    if chap_json_note:
+        cannot.insert(0, chap_json_note)
     # the list in the order it is read: tails emptiest first, then gap pages emptiest first, then the low-confidence figure separations
     flags.sort(key=lambda f: ({'chapter_end_spill': 0, 'gap_page': 1, 'figure_apart': 2}[f['kind']], f.get('fill', f['page'])))   # emptiest first
     # what changed since the last run, by kind and chapter (page numbers move whenever the layout does, so they cannot be compared)
@@ -279,7 +329,7 @@ def main(stats, given=None):
     result = {'about': 'The full book\'s printed pages checked for pages that may not look right (conductor__036). Written by review/tools/print_check.py: page numbers, chapter titles, counts and sizes only.',
               'edition': SLUG, 'source': source, 'pdf_pages': n, 'chapters_hash': chapters_hash(book_files(SLUG)),
               'thresholds': {'spill_fill_below': SPILL_FILL, 'gap_fill_below': GAP_FILL, 'tall_figure_share': LARGE_SHARE, 'figure_inches_at_least': BIG_IMAGE_INCHES},
-              'chapters_found': sum(1 for s in starts if s), 'chapters': len(chapters),
+              'chapters_found': sum(1 for s in starts if s), 'chapters': len(chapters), 'chapters_file': chap_json,
               'counts': dict(Counter(f['kind'] for f in flags)), 'flags': flags, 'raster_figures_over_45_percent_on_pages': tall, 'figures': figures, 'since_last': since, 'cannot_tell': cannot}
     if findable and found < 0.6 * findable:                             # the figure check leans on the paragraph pages: say so when they are not trustworthy
         result['cannot_tell'].insert(0, f'paragraph pages could not be matched well ({found} of {findable}), so the figure separations below are not reliable')

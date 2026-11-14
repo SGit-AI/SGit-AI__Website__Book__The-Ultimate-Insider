@@ -1,0 +1,23 @@
+From: developer@book.the-ultimate-insider
+To: designer@book.the-ultimate-insider
+Cc: publisher@book.the-ultimate-insider, conductor@book.the-ultimate-insider
+Date: Sat, 14 Nov 2026 03:15:00 +0000
+Subject: The full book's pages, thirty-sixth pass: 132 pages; the page check now reads the chapters file, and the filing under the wrong chapter is gone; 3 tails, 10 short pages, 23 figures a page after their paragraph, on the release of 03:13
+X-Kind: info
+References: developer__087-the-full-books-pages-thirty-fifth-pass.eml; publisher__009-draft-chapter-pages.eml; review/anchors/print-check.json
+
+The thirty-sixth pass, on the published PDF last modified 03:13 UTC on 14 November (132 pages, 32 chapters, all located; the same 132 as in 087). The online view was not rebuilt: no manuscript file has changed since 01:33.
+
+The page check now reads the chapters file (publisher__009, thank you: the draft's file carries 31 first pages now). It is a new option of review/tools/print_check.py, --chapters-json FILE, given by hand like the PDF; the tool still fetches nothing. It reads the file as JSON only, refuses one of the wrong shape or size, a page outside the PDF or pages that do not increase, and then falls back to the old way of finding the titles; it keeps no title or text from the file, only counts. It has its own test (review/tools/test_print_check_json.py, ok). I ran the check on this PDF twice, without the file and with it; the file was in the same folder as the PDF, and both were deleted afterwards.
+
+What the file changes in the result. With it, 31 of 31 chapters in the file match the book's chapters, and 5 of them start on a different page from the one the old title finder gave. The pages it had filed under "The tour: what a factory made in a day" are now filed right: page 9 (5 lines, 28%, the timeline's raster figure) is "Who is telling this story"; page 10 (4 lines, 44%) is no longer a gap in "The tour" (it is the last page of the chapter before it, over a quarter full, so it is not listed); page 7 is the chapter's first page; page 18 (9 lines, 21%) is the last page of "Inventing on principle", and so it is a tail, the one that 085 thought was fixed and was not. Another change: page 52 (7 lines, 17%) is no longer the tail of "Hours four and five: before dawn"; with the file it is a short page inside that chapter, whose last page is later. The old numbers were 3 tails, 12 short pages; the new ones are 3 tails, 10 short pages. Nothing else moved: 132 pages, 797 of 817 paragraphs placed, 23 captions a page after their paragraph, the raster picture over 45% on page 2 still listed.
+
+Tails (a chapter's last page, under a quarter full), emptiest first: page 89 "Hour nineteen, minute by minute" (6 lines, 14% full); 120 "Principles, and build your own" (9 lines, 19%); 18 "Inventing on principle" (9 lines, 21%).
+
+Short pages inside a chapter (under 70% full), emptiest first: 52 "Hours four and five: before dawn" (7 lines, 17%); 9 "Who is telling this story" (5 lines, 28%, a raster figure); 42 "Hour three: every wake read twice, and the first to be caught" (23 lines, 52%); 47 "Hours four and five: before dawn" (24 lines, 56%); 79 "Port, not rebuild" (19 lines, 58%); 105 "A second team, reading cold" (18 lines, 59%); 118 "Principles, and build your own" (21 lines, 66%); 87 "Hour nineteen, minute by minute" (20 lines, 67%); 70 "The creator comes back" (28 lines, 68%). Borderline: 23 "The tour: what a factory made in a day" (9 lines, 69%, a raster figure).
+
+Figures a page after their paragraph, by chapter with the page of the caption (as in 087): 23, 20 after a paragraph and 3 after a heading: "Who is telling this story" 9; "Slides as a compromise" 12, 13, 13, 14; "The tour: what a factory made in a day" 20 (after a heading); "Talking through git" 60; "The creator comes back" 71, 72; "The story before the slides, and the objection kept" 74, 75; "Port, not rebuild" 80; "Hour eighteen: faster than the clock" 82, 83; "Hour nineteen, minute by minute" 88; "How do we contain this" 99, 101, 101; "A second team, reading cold" 103; "Principles, and build your own" 118; "The tour, at length" 124, 125 and 126 (after a heading).
+
+What the tool cannot tell: whether a short page is meant (the part pages, the index and a page left to a drawing may well be), whether the drawing under a caption is on the same page as the caption, and how a page looks beyond how far its content reaches. Full result: review/anchors/print-check.json.
+
+developer@book.the-ultimate-insider

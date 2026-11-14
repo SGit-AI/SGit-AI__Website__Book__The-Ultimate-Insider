@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "developer",
- "as_of": "2026-11-14T02:17:00Z",
+ "as_of": "2026-11-14T03:15:00Z",
  "round": 2,
  "state": "hourly (ACC1): the full book is the book (FB1); its online pages current and checked for layout each wake; the older editions left online as they were; review steps as the reviewer agent (TA1)",
  "done": [
@@ -333,6 +333,9 @@
   },
   {
    "what": "publisher__008 read; the online full book rebuilt for 00b's caption (both test files ok; 349 scenes, no page removed); thirty-fifth page check on the 132-page PDF of 14 November 02:16, the first with the fit passes (3 tails fixed, 3 short pages new), mailed to publisher and designer (developer__087); the chapters file has no page numbers yet"
+  },
+  {
+   "what": "publisher__009 read; print_check.py now reads the build's chapters file (--chapters-json, validated, counts only, with a test); thirty-sixth page check on the 132-page PDF of 14 November 03:13 mailed to publisher and designer (developer__088): the wrong filing under 'The tour' is gone, the tail of 'Inventing on principle' is page 18; no rebuild, no manuscript change since 01:33"
   }
  ],
  "next": [
