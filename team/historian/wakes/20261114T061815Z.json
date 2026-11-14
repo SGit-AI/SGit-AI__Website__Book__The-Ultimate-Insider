@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-14T06:18:15Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Plan fits the historian's scope; the review file exists and is writable; no HOLD file; a quiet wake with a dated line, debrief and status touch is proportionate. It did not read WAKE.md or ROLE.md. Tool: Bash.",
+   "at": "2026-11-14T06:18:34Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "The plan stays inside scope.writes (team/historian/**); keep the line free of keys, ids, model names, em-dashes and religious words; vault_check. Tools: Read, Grep, Glob, Bash.",
+   "at": "2026-11-14T06:18:46Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "All four changed files under team/historian/; no secrets, keys, model names, em-dashes or religious words; nothing toward Cold-Read. Tool: Bash.",
+   "at": "2026-11-14T06:19:03Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "One dated line, a debrief, a status touch and the wake record, no letter.",
+   "at": "2026-11-14T06:19:04Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "Nothing changed since 05:18",
+   "at": "2026-11-14T06:19:04Z"
+  }
+ },
+ "closed": "2026-11-14T06:19:04Z",
+ "outcome": "ok"
+}
