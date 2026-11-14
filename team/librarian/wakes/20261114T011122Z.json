@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled wake",
+ "started": "2026-11-14T01:11:22Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Light wake: the 00b timeline (one file); its dates and labels against C116, C001, C028, C100 and the drawing's own text if the file exists; the researcher's wording point; final pass in the talk clone; letters for findings; build+gate before push.",
+   "at": "2026-11-14T01:12:04Z"
+  },
+  "pre_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No secret, contact detail, model name or Cold-Read cross.",
+   "at": "2026-11-14T01:12:04Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Light wake: the 00b experiments timeline (one file): the drawing's dates and labels match C116, C001, C028, C100 and it is labelled as his account; final pass no fails; no letter; review, README, debrief, status; build+gate run.",
+   "at": "2026-11-14T01:14:00Z"
+  },
+  "post_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "5 staged files in scope; no personal address, model name, em-dash, religious word or Cold-Read flow.",
+   "at": "2026-11-14T01:14:23Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "The manuscript diff lists only 00b; C116 matches the timeline's dates; review, README, debrief (staged: team/librarian/debriefs/2026-11-14__rv2-experiments-timeline.md, which the reviewer's list read as the timeline note), status in the diff; no letter needed; build and gate clean (1452 pages) and final pass no fails (my runs).",
+   "at": "2026-11-14T01:14:23Z"
+  }
+ },
+ "closed": "2026-11-14T01:14:23Z",
+ "outcome": "ok"
+}
