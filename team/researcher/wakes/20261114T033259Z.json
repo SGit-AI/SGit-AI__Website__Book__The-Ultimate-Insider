@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Quiet wake: layout landings read as code, no typed figure; manuscript unchanged; script FAILS 0 before and after; records written",
    "at": "2026-11-14T03:34:44Z"
+  },
+  "post_review": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Commit in scope; script FAILS 0 with the two drawings NOTEs; the run time written as 03:37 was a slip (about 03:34), corrected in the trace and debrief; reviewer used Bash, none refused",
+   "at": "2026-11-14T03:36:44Z"
+  },
+  "post_check": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Pass 32 traced, records, script rerun, no letter; one clock-time slip corrected",
+   "at": "2026-11-14T03:36:44Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-14T03:36:44Z",
+ "outcome": "ok"
 }
