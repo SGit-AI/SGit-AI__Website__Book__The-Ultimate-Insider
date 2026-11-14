@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Timeline LAB 80 traced label by label; one caption wording point to the writer (034); script FAILS 0 before and after; records written",
    "at": "2026-11-14T00:36:55Z"
+  },
+  "post_review": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Commit in scope; script FAILS 0; 034 a plain note with an identical outbox copy; the trace says code and svg text, not the rendered page; reviewer used Bash, none refused",
+   "at": "2026-11-14T00:39:17Z"
+  },
+  "post_check": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Pass 29 traced, 034 sent, records, script rerun",
+   "at": "2026-11-14T00:39:17Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-14T00:39:17Z",
+ "outcome": "ok"
 }
