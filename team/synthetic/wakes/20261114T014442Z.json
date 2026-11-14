@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "inside scope.writes. Tools Read, Grep, Glob, Bash; none refused.",
    "at": "2026-11-14T01:45:17Z"
+  },
+  "work": {
+   "by": "synthetic",
+   "model": "claude-sonnet-5-5",
+   "verdict": "none",
+   "comment": "idle: one caption phrase changed; short debrief and status; no readers or letters",
+   "at": "2026-11-14T01:47:42Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "diff clean; comms untouched; scope and validate pass. Tools Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-14T01:47:42Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "partial",
+   "comment": "it says the record misattributes the 00b caption edit to this wake (it is the writer's commit 3258966d, not in this diff). My debrief and plan only observe that the phrase changed since my last wake and attribute it to no one; nothing in this wake edits 00b. Idle wake otherwise as planned. Tools Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-14T01:47:59Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-14T01:47:59Z",
+ "outcome": "idle"
 }
