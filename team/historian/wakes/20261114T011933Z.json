@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-14T01:19:33Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Within the historian's scope; no HOLD; record-date checks in scope; keep the Black Hat and Agentic Engineering Live wording marked as the editor's article, not the record; pull before pushing. Tools: Read, Grep, Glob, Bash.",
+   "at": "2026-11-14T01:20:00Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Within the historian's writes; no HOLD; keep the Black Hat and Agentic Engineering Live wording marked as the editor's article; 090 is free (the latest is 089, sent on 13 November; the reviewer saw 088); keep the mail free of keys, contact details, model names, em-dashes, religious words; vault_check; merge dev. Tools: Read, Bash.",
+   "at": "2026-11-14T01:20:14Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "Letter 090 and its four mailroom copies identical; no em-dashes, religious words, model names, contact details or Cold-Read material; vault_check clean; the editor's-article items marked as his; writes in the historian's paths. Tools: Read, Grep, Glob, Bash.",
+   "at": "2026-11-14T01:20:52Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "All four planned items present, nothing extra.",
+   "at": "2026-11-14T01:20:52Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "The experiments timeline's record dates checked; letter 090",
+   "at": "2026-11-14T01:20:53Z"
+  }
+ },
+ "closed": "2026-11-14T01:20:53Z",
+ "outcome": "ok"
+}
