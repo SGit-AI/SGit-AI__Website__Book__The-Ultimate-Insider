@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-14T03:18:02Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Quiet wake fits the facts: no HOLD file, only the wake JSON is untracked, the review file exists; keep to the historian's scope.writes; vault_check before commit and pull dev before push. Tool: Bash.",
+   "at": "2026-11-14T03:18:18Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Plan inside team/historian/**; no HOLD; no outbound mail; nothing for Cold-Read; vault_check and pull dev before push. It noted the policy status reads proposed, not signed, unchanged from earlier wakes (the editor's to sign). Tool: Read.",
+   "at": "2026-11-14T03:18:25Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "Four files, all in historian scope; no secrets, keys, model names, em-dashes or religious words; nothing toward Cold-Read. Tool: Bash.",
+   "at": "2026-11-14T03:18:51Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "Review line, debrief (notes the policy still reads proposed), status touch, no letter.",
+   "at": "2026-11-14T03:18:51Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "Nothing changed since 02:18",
+   "at": "2026-11-14T03:18:51Z"
+  }
+ },
+ "closed": "2026-11-14T03:18:51Z",
+ "outcome": "ok"
+}
