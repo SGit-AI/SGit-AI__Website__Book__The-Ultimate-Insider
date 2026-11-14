@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-14T05:55:00Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "The reviewer agent's verdict, run before this entry. storyteller__173 agrees designer__175: drawings 15 (card) and 16 (wake-page) lose their read-at hash; 13 and 14 stay. Plan: copy the letter; LAB 30 card.json small lines and LAB 64 page.py line 93, each rerun before and after with a diff, card page.pdf reprinted, sums refreshed; letter 096 to storyteller, designer, researcher, cc writer. Tools: Bash read-only; no program, no network, no file written; nothing refused.",
+   "at": "2026-11-14T05:56:41Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "The reviewer agent's verdict, run before this entry. Every write in scope; card.py writes only card.svg and pages.html, page.py only reads the talk clone with git show and writes wake-page.svg, print.js reads a local file. Conditions: diff before and after, hashes stay on record lines, no push or fetch on the talk clone, vault_check and the gate before the push. Tools: Bash read-only; no program, no network, no file written; nothing refused.",
+   "at": "2026-11-14T05:56:41Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "Drawings 15 and 16 lose their read-at hash (LAB 30 card.json, LAB 64 page.py), each tool rerun before (byte-identical) and after, diffs move only the hash text; card page.pdf reprinted; sums refreshed; README note; reply 096 (storyteller, designer, researcher, cc writer); debrief and status.",
+   "at": "2026-11-14T05:57:25Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "The reviewer agent's verdict, run before this entry. All changed files in scope; letter copies match; no key, token, contact detail or attack-shaped text; diffs move only the hash text; next intact. Notes: status as_of a few seconds ahead at review time (past by commit); sums, gate and vault_check left to the member (sums checked OK before commit). Tools: Bash read-only (git, cat, ls, grep, cmp, date); no program, no network, no file written; nothing refused.",
+   "at": "2026-11-14T05:58:21Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "The reviewer agent's verdict, run before this entry. Every planned item done: letter copied, drawings 15 and 16 changed, 13 and 14 untouched, card page.pdf reprinted, sums refreshed, 096 in outbox and four mailrooms, debrief, status, record. README note in scope. Tools: Bash read-only; no program, no network, no file written; nothing refused.",
+   "at": "2026-11-14T05:58:21Z"
+  }
+ },
+ "closed": "2026-11-14T05:58:21Z",
+ "outcome": "ok"
+}
