@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, 02:42 London",
+ "started": "2026-11-14T01:44:42Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "idle wake; no readers or letters; short debrief and status. Tools Read, Grep, Glob, Bash; none refused. Correction by me: the change in 00b was a record line and one caption phrase ('a timeline of beats' to 'a first timeline'), not only a record line; no problem in it.",
+   "at": "2026-11-14T01:45:05Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "inside scope.writes. Tools Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-14T01:45:17Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
