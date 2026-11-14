@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer2",
+ "kind": "scheduled hourly wake",
+ "started": "2026-11-14T03:51:35Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "No hold, all mail filed, part three unchanged; idle. Tools: Bash; none refused.",
+   "at": "2026-11-14T03:51:55Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "status.json and the record only. Tools: Bash; none refused.",
+   "at": "2026-11-14T03:51:55Z"
+  },
+  "work": {
+   "by": "writer2",
+   "model": "claude-opus-5-5",
+   "verdict": "none",
+   "comment": "idle: status.json only",
+   "at": "2026-11-14T03:51:55Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Only status.json and the record; nothing private. Tools: Bash; none refused.",
+   "at": "2026-11-14T03:53:01Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Idle, status only, as planned. Tools: Bash; none refused.",
+   "at": "2026-11-14T03:53:01Z"
+  }
+ },
+ "closed": "2026-11-14T03:53:01Z",
+ "outcome": "idle"
+}
