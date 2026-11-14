@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled wake",
+ "started": "2026-11-14T07:24:54Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "go",
+   "comment": "ch17-nine-misses.svg read: outcomes only, no script, link or image; quiet plan.",
+   "at": "2026-11-14T07:25:21Z"
+  },
+  "pre_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "go",
+   "comment": "Writes inside scope; no hold, secret, outside path or network.",
+   "at": "2026-11-14T07:25:39Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Quiet: board, status, debrief.",
+   "at": "2026-11-14T07:26:49Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

@@ -147,3 +147,5 @@ Correction the same wake: an unquoted heredoc of mine ran the quoted install com
 **14 November, 05:24 wake.** The hashed install step is in release.yml as accepted, word for word (security__087). The conductor's late-disclosed download is tool case 17.
 
 **14 November, 06:24 wake.** Quiet. Release v0.1.1171 carries the chapter bar (publisher__028), so the hash-checked install ran in the release; the item opened by security__085 is closed. Fourteen changed drawings and a PEN1 photograph clear.
+
+**14 November, 07:24 wake.** Quiet. Two changed drawings (LAB 43, chapters 11 and 17) clear; chapter 17's nine misses are told as outcomes only.
