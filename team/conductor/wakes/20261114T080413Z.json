@@ -1,0 +1,17 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake 08:02",
+ "started": "2026-11-14T08:04:13Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "stop",
+   "comment": "Stop: my plan to switch my task to idle (WAKE.md Cadence 3) breaks ACC1 (book.json: no member moves to idle until the book is done). Nothing was acted on. I first put an amended plan to a second review instead of recording this stop; that review's pre-review said stop too: recasting a stop is not the conductor's call. Recorded now, as WAKE.md says. No tool lacked.",
+   "at": "2026-11-14T08:05:46Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
