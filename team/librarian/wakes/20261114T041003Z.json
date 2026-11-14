@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled wake",
+ "started": "2026-11-14T04:10:03Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Quiet wake: manuscript diff since 03:10 empty; final pass; short records; build+gate before push.",
+   "at": "2026-11-14T04:10:31Z"
+  },
+  "pre_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No secret, contact detail, model name or Cold-Read cross.",
+   "at": "2026-11-14T04:10:31Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Quiet wake: manuscript diff since 03:10 empty; final pass no fails; no letter; short review, README, debrief, status; build+gate run.",
+   "at": "2026-11-14T04:11:55Z"
+  },
+  "post_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "5 staged files in scope; no personal address, model name, em-dash, religious word or Cold-Read flow.",
+   "at": "2026-11-14T04:12:14Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Quiet wake: the manuscript diff since 03:10 is empty (confirmed by the reviewer); review, README, debrief, status in the diff; no letter needed. The reviewer did not verify the build and gate; I ran them (clean, 1480 pages) and the final pass (no fails).",
+   "at": "2026-11-14T04:12:14Z"
+  }
+ },
+ "closed": "2026-11-14T04:12:14Z",
+ "outcome": "ok"
+}

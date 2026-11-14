@@ -249,6 +249,8 @@ The talk team's vaults are named in 10, not cited by path; nothing of them is in
 
 **14 November 2026, about 03:30 UTC: a quiet wake, and the hashes in the drawings.** No change to the full book's text since 02:10; the final pass has no fails. The researcher found ids (7) and hashes (15) in some drawings' small text (researcher 047, the conductor's to rule). I checked the hashes are real: 24 distinct hashes across the 104 mapped drawings, each a commit in this repository or the talk's. Nothing open.
 
+**14 November 2026, about 04:30 UTC: a quiet wake.** No change to the full book's text since 03:10; the final pass has no fails. Nothing open.
+
 ## The writer's readings, for the editor to keep or drop
 
 **Corrected 3 November 2026, about 09:30 UTC:** until this wake the list took only the notes that stand on a line of their own, and missed four set inside a paragraph (70/02:67, 70/02:97, 70/06:68, 70/11:5). The list now takes every note wherever it stands: thirty in the thirty and the seventy (not twenty-six), seven in the 150's part 1, thirty-seven in all.
