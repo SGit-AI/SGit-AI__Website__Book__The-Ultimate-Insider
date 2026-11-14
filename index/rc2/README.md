@@ -245,6 +245,8 @@ The talk team's vaults are named in 10, not cited by path; nothing of them is in
 
 **14 November 2026, about 01:30 UTC: the experiments timeline in 00b.** One file changed (00b, PEN1 note 24). The drawing's dates and labels match C116 (the editor's article "The scripted talk", 15 October 2026): 9 December 2025, 2 September 2026, built 14 October and due, not given, on 15 October, 14 days to 29 October, and the day's 00:16, 15:07 and 19:00 (C001, C028, C100). It says it is his account and not the record of the day. The final pass has no fails. Nothing open.
 
+**14 November 2026, about 02:30 UTC: the timeline caption's wording.** One file (00b): the caption now says "a first timeline", the article's own word (C116), the researcher's wording point taken. The register's C116 change (a "superseded" tag on a note) touches nothing printed. The final pass has no fails. Nothing open.
+
 ## The writer's readings, for the editor to keep or drop
 
 **Corrected 3 November 2026, about 09:30 UTC:** until this wake the list took only the notes that stand on a line of their own, and missed four set inside a paragraph (70/02:67, 70/02:97, 70/06:68, 70/11:5). The list now takes every note wherever it stands: thirty in the thirty and the seventy (not twenty-six), seven in the 150's part 1, thirty-seven in all.
