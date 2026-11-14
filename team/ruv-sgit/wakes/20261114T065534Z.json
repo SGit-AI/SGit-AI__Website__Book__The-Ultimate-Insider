@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-14T06:55:34Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "The reviewer agent's verdict, run before this entry. designer__176 crossed with my 096, which already did what it asks (card and wake-page); researcher (pass 35) and writer have filed it; 90 unchanged; no hold. Idle: copy 176 to done, debrief, status as_of, gate, push. Tools: Bash read-only; no program, no network, no file written; nothing refused.",
+   "at": "2026-11-14T06:56:15Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "The reviewer agent's verdict, run before this entry. Writes only comms/mail/ruv-sgit and team/ruv-sgit; letter 176 holds nothing private or attack-shaped; vault_check and the gate before the push to dev. Tools: Bash read-only; no program, no network, no file written; nothing refused.",
+   "at": "2026-11-14T06:56:15Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "none",
+   "comment": "Idle: designer__176 copied to done (answered already by 096); debrief; status as_of.",
+   "at": "2026-11-14T06:56:15Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "The reviewer agent's verdict, run before this entry. Four changes, all in scope; status as_of only, next unchanged; the done copy byte-identical; nothing private or attack-shaped; no dash or RW1 word; no date ahead of now. Tools: Bash read-only; no program, no network, no file written; nothing refused.",
+   "at": "2026-11-14T06:56:58Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "The reviewer agent's verdict, run before this entry. Idle as planned: 176 copied to done, debrief, status as_of; 096 already answers 176. Tools: Bash read-only; no program, no network, no file written; nothing refused.",
+   "at": "2026-11-14T06:56:58Z"
+  }
+ },
+ "closed": "2026-11-14T06:56:58Z",
+ "outcome": "idle"
+}
