@@ -496,6 +496,11 @@
     "control": "C6",
     "what": "from about 4 November the release had no pdftotext, so every build step that reads the built PDF failed in CI; the step only warned, and the first-pass PDF shipped (no chapter-end fit, no facing-page blank, the drawn page numbers as drawn). Found by the publisher on 14 November and said plainly (publisher__024); the fix is one package on the release's install line. A gate that warns on failure lets the failure ship",
     "wake": "team/security/wakes/20261114T022453Z.json"
+   },
+   {
+    "control": "C6",
+    "what": "14 November: the release job, which holds repository write permission, installs two newly added Python libraries by exact version but without hashes; a step set only to warn still runs what it installs. Found by security's own plan step, which raised a should to a must; the conductor to take the install out of that job until it is hash-checked or moved to a job without write permission (security__085). Exact versions say which release, not what the files hold",
+    "wake": "team/security/wakes/20261114T032512Z.json"
    }
   ],
   "tool_cases": {
@@ -670,6 +675,18 @@
      "needed": "no: start.py pulls before every wake",
      "side_effect": "none; ruv-sgit's briefs now say no fetch and no network",
      "source": "comms/mail/mailroom/security/ruv-sgit__094-a-reviewer-fetch-for-c2.eml; team/ruv-sgit/wakes/20261114T015515Z.json"
+    },
+    {
+     "n": 15,
+     "when": "14 Nov, about 02:54 UTC",
+     "member": "ruv-sgit",
+     "step": "plan (reviewer type)",
+     "tool": "Bash: a stray python3 -c 1 (an interpreter call that reads, writes and reaches nothing)",
+     "refused": "no: Bash is in the list",
+     "why": "unintended",
+     "needed": "no",
+     "side_effect": "none",
+     "source": "comms/mail/mailroom/security/ruv-sgit__095-a-reviewer-no-op-for-c2.eml; team/ruv-sgit/wakes/20261114T025443Z.json"
     }
    ],
    "look_backs": [
