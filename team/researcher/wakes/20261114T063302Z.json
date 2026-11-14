@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-14T06:33:02Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Plan in scope; say the words were compared, not the rendered pages; name the five drawings and claim no more than 008 verified; the hash question closed from my side only; reviewer used Bash only, none refused",
+   "at": "2026-11-14T06:34:22Z"
+  },
+  "pre_review": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Scan reproduced (0 ids, 5 hash only); edits compared by words: only hash tokens, 'at'/'as' and the card's label 'the record:' removed, two rewordings as stated; all 13 hashes in the five drawings are in 008; reviewer used Bash only, none refused",
+   "at": "2026-11-14T06:35:14Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Hash notes checked by words (only hash text moved), scan 0 and 5, 009 sent, 173 176 096 filed; script FAILS 0 at 06:33:24 and after; records written; one unverified claim removed from my letter",
+   "at": "2026-11-14T06:35:52Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

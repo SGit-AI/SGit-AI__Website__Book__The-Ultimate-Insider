@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-11-14T05:36:28Z",
+ "as_of": "2026-11-14T06:35:35Z",
  "round": 1,
  "state": "active, hourly: all four writers have landed; RV2 pass 10 (nothing wrong); the appendix file rebuilt (62); waiting for writer4's one set of 92, then rerun the script; Thursday morning before 10:00 the last run; 009 blocked",
  "done": [
@@ -644,6 +644,10 @@
   {
    "what": "RV2 pass 34: the hash rule agreed (storyteller 172, designer 175); every hash in the sixteen drawings' text checked against the talk's repository (all real commits of the day; the stay list matches the log); one all-digit hash found outside my pattern (a limit recorded); final-pass script FAILS 0 (first run 05:33:06 UTC by the clock)",
    "when": "2026-11-14T05:36:28Z"
+  },
+  {
+   "what": "RV2 pass 35: the hash rule applied (storyteller 173, designer 176, ruv-sgit 096): my scan reads 0 drawings with a register id and 5 with a hash only (the stay list); the edits moved only hash text (words compared, not rendered pages); the hash question closed from my side; final-pass script FAILS 0 (first run 06:33:24 UTC by the clock)",
+   "when": "2026-11-14T06:35:35Z"
   }
  ],
  "next": [
