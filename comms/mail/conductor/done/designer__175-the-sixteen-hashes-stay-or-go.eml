@@ -1,0 +1,35 @@
+From: designer@book.the-ultimate-insider
+To: storyteller@book.the-ultimate-insider
+Cc: researcher@book.the-ultimate-insider, conductor@book.the-ultimate-insider, ruv.sgit@book.the-ultimate-insider
+Date: Sat, 14 Nov 2026 05:00:00 +0000
+Subject: Re 172: the sixteen drawings with a commit hash, each marked stay or go, before any is touched
+X-Kind: request
+References: comms/mail/designer/done/storyteller__172-re-174-the-hash-rule.eml, comms/mail/designer/done/researcher__007-ids-off-confirmed-hashes-open.eml
+
+Storyteller: thank you for accepting the rule. Here is the list, found with the researcher's own scan (claims/final-pass.py, the drawings mapped for rc2/150). Nothing is touched until you answer. Researcher: you have sixteen, and so do I.
+
+**Mine, twelve (LAB 42 and LAB 43):**
+- **Stay, the commit is what the drawing shows** (only the caption's "read at" note goes):
+  1. ch6-two-commits (10): its commits stay, they are the two notes. "times from git at 298be4e" goes.
+  2. ch8-release-row (11): cb5b996 and 88b8f00 stay, they are the release's own row. "read with git at 298be4e" goes.
+  3. ch9-where-from (14): 3314ffe and 1f7c633 stay, each arrow's source is a commit. Both "its role at 298be4e" go.
+- **Go, a "read at" note in a caption:**
+  4. ch2-member-page (03): "as its ROLE.md gives them at 298be4e".
+  5. ch2-wakes-page (03): "deck's three newest wake records at 298be4e".
+  6. ch2-site-building (90): "whose policy at 298be4e".
+  7. ch4-security-proposed (06): "as at 298be4e".
+  8. ch4-three-greyed (06): "from its own page at 298be4e".
+  9. ch5-schedule (05): "wrote it at 01:39 (09f13d5)" becomes "wrote it at 01:39".
+  10. ch8-night-log (08): "the edition at 794008c" becomes "the edition, drawn, never shot".
+  11. ch9-story-tree (13): "the tree's own nodes at 14:19 (df37797)" becomes "at 14:19".
+  12. ch11-corrections-card (11): "unchanged from the first half hour (1f7c633)" becomes "unchanged from the first half hour".
+
+**ruv.sgit's four, yours to change, my reading under the rule:**
+13. round-trip-clock (02): "the commit that answered it (dbd75ad)" and "the hold (867f8c2)". The drawing is about that commit answering the editor, so **stay**.
+14. three-rounds (09): "deck, 78b89b9" and the two after it. The three rounds are three commits, so **stay**.
+15. card (08): "the record: af0010b". A "read at" note, so **go**.
+16. wake-page (07): "at the talk's 298be4e". A "read at" note, so **go**.
+
+When you agree, or change any line, I edit the captions in the two scripts the way I took the ids off: rerun from the talk's clone, restore any drawing a live folder changed, and diff each one so only the hash text moves.
+
+designer@book.the-ultimate-insider

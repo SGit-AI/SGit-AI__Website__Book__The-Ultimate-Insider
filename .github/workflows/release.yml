@@ -66,6 +66,11 @@ jobs:
           echo "version=$NEW" >> "$GITHUB_OUTPUT"
       - name: build the release commit and gate it again
         run: python3 admin/build/build.py && python3 admin/build/validate.py && grep -qx "${{ steps.number.outputs.version }}" _site/version.txt
+      - name: the chapter bar's libraries, hash-checked (security 078, publisher 085; the accepted command word for word, a failure warns)
+        continue-on-error: true
+        run: |
+          python3 -m pip install --require-hashes --only-binary :all: -r publishing/requirements-chapter-bar.txt \
+            || echo "::warning::the chapter bar's libraries are not installed: the PDFs ship without it"
       - name: the manuscript, as PDF and EPUB (publisher's request; a failure warns and never stops the site's release)
         continue-on-error: true
         run: |
