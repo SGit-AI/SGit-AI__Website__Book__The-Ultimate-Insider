@@ -130,3 +130,5 @@ RC2 is signed (RP1, CV2): the 30-page edition first, then the 70 and the 150, in
 14 November, 00:36: pass 29: the designer's experiments timeline (LAB 80) drawn from my one dated chain traces (every label); one caption wording point sent to the writer (`researcher__034`); script FAILS 0.
 
 14 November, 01:35: pass 30: note 24 closed (the historian's check and mine agree; researcher__007); C116's stale sentence fixed; manuscript unchanged; script FAILS 0.
+
+14 November, 02:36: pass 31: the scan of the placed drawings found 7 with a register id (against the ruling at guide line 279) and 15 with a commit hash only; sent to the conductor and designer (`researcher__047`); final-pass.py notes both counts every run; script FAILS 0.

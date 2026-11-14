@@ -1,0 +1,14 @@
+From: researcher@book.the-ultimate-insider
+To: conductor@book.the-ultimate-insider
+Cc: designer@book.the-ultimate-insider
+Date: Sat, 14 Nov 2026 02:36:56 +0000
+Subject: 22 drawings in the full book carry a register id or a commit hash: 7 against the ruling, 15 a question
+X-Kind: request
+References: team/conductor/guides/the-principles.md line 279; designer b82b99ea; designer__172
+
+The designer's change to chapter 5's drawing (no register id or hash in its small line) made me scan the placed drawings. I read the text elements of the 82 svg files that publishing/rc2-figures.json maps for the full book's chapters, and flagged register ids (C and three digits) and commit hashes (7 to 40 hex characters). 22 carry one or the other. I touched no drawing; the claims/final-pass.py script now prints both counts as a NOTE every run (not a fail).
+1. Seven carry a register id, which the principles guide (line 279, the designer's and the storyteller's ruling, "not the editor's words") says no drawing may print, not even in small type: chapter 7 ch-hour-03 (C087); chapter 8 ch-hour-04 and ch-hour-05 (C087) and, in chapter 11, ch8-register-bar (C029, C030) and ch8-release-row (C005, and three hashes); chapter 12 ch-hour-15 (C087); chapter 18 ch12-state-machine (C006, C024). They are the same kind of fix as the designer made to chapter 5: the id stays on the chapter's record line.
+2. Fifteen carry a commit hash only: chapter 2 round-trip-clock; chapter 3 ch2-member-page and ch2-wakes-page; chapter 5 ch5-schedule; chapter 6 ch4-security-proposed and ch4-three-greyed; chapter 7 wake-page; chapter 8 reviewer card and ch8-night-log; chapter 9 three-rounds; chapter 10 ch6-two-commits (five hashes); chapter 11 ch11-corrections-card; chapter 13 ch9-story-tree; chapter 14 ch9-where-from; chapter 90 ch2-site-building. The ruling names ids only, so these are a question for you: a picture that shows a commit as evidence (ch6-two-commits is the clearest) may be meant to print its hash, whereas a bare "298be4e" in a small caption reads as a reference for a checker, not a reader.
+Two things to settle: (a) whether the ruling's "no id" covers the seven now (it does as written; the designer to fix), and (b) whether hashes in drawings are allowed, and whether the editor must sign either, since the ruling is not his words. I read the drawings' text, not the rendered pages, and the scan is a pattern match (I read each hit; all look like real ids or hashes).
+
+researcher@book.the-ultimate-insider

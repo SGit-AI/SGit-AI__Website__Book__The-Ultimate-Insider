@@ -88,6 +88,29 @@ else:
         m=re.search(r'```\n(.*?)\n```',t,re.S)
         if m and k in R and m.group(1).strip()!=R[k]['command'].strip() and k!='C068': bad.append(f'{k}: the command in 92 differs from the register')
     report("92's commands equal the register's",bad)
+# 3b. drawings in the full book: the principles guide (line 279: "No ids inside drawings", the designer's and the storyteller's
+# ruling, not the editor's words) says a drawing carries no register id; commit hashes are not named by the ruling (a NOTE only)
+try:
+    _fm=json.load(open('publishing/rc2-figures.json')); _S={}
+    def _walk(o,k):
+        if isinstance(o,dict):
+            for v in o.values(): _walk(v,k)
+        elif isinstance(o,list):
+            for v in o: _walk(v,k)
+        elif isinstance(o,str) and o.endswith('.svg'): _S.setdefault(o,set()).add(k)
+    for _k,_v in _fm.items():
+        if _k.startswith('rc2/150/'): _walk(_v,_k)
+    _pid=re.compile(r'\bC\d{3}\b'); _ph=re.compile(r'\b(?=[0-9a-f]*\d)(?=[0-9a-f]*[a-f])[0-9a-f]{7,40}\b')
+    _ids=[];_hon=[]
+    for _p in sorted(_S):
+        if not os.path.exists(_p): continue
+        _tx=' '.join(re.sub(r'<[^>]+>','',x) for x in re.findall(r'<text[^>]*>(.*?)</text>',open(_p).read(),re.S))
+        if _pid.search(_tx): _ids.append(os.path.basename(_p))
+        elif _ph.search(_tx): _hon.append(os.path.basename(_p))
+    print('NOTE drawings mapped for the full book with a register id in their small text (the ruling: none allowed):',len(_ids),_ids)
+    print('NOTE drawings mapped for the full book with a commit hash only (the ruling names ids only; a question for the conductor):',len(_hon))
+except Exception as _e:
+    print('NOTE the drawings scan did not run:',_e)
 # 4. chapter 21's team table against C131 (as stored) and against today's script
 def table():
     t=open(glob.glob('manuscript/rc2/150/21-*.md')[0]).read(); rows={}

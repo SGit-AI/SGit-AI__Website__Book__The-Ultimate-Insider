@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-11-14T01:35:04Z",
+ "as_of": "2026-11-14T02:36:58Z",
  "round": 1,
  "state": "active, hourly: all four writers have landed; RV2 pass 10 (nothing wrong); the appendix file rebuilt (62); waiting for writer4's one set of 92, then rerun the script; Thursday morning before 10:00 the last run; 009 blocked",
  "done": [
@@ -628,6 +628,10 @@
   {
    "what": "RV2 pass 30: note 24 closed (the historian's check agrees with mine; the article-based dates re-checked against the article as it stands); C116's stale 'leave it out' sentence pointed to the 13 November re-read; manuscript unchanged; final-pass script FAILS 0",
    "when": "2026-11-14T01:35:04Z"
+  },
+  {
+   "what": "RV2 pass 31: a scan of the 82 drawings mapped for the full book found 7 printing a register id in small type (against the ruling at guide line 279) and 15 a commit hash only; sent to the conductor and designer (researcher__047); final-pass.py now notes both counts every run; final-pass script FAILS 0",
+   "when": "2026-11-14T02:36:58Z"
   }
  ],
  "next": [

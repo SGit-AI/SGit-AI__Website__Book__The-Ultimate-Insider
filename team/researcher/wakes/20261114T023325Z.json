@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-14T02:33:25Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Corrected premise confirmed by me: the guide at line 279 already says no register id inside drawings (designer's and storyteller's ruling, not the editor's); the open question is hashes only; split the note and the letter; reviewer used Bash, none refused",
+   "at": "2026-11-14T02:35:38Z"
+  },
+  "pre_review": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "The scan re-run independently: 22 drawings, 7 with a register id and 15 hash only; the ruling names ids only so the hash question goes to the conductor; I touch no drawing; reviewer used Read and Bash, none refused",
+   "at": "2026-11-14T02:36:16Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Drawings scan: 7 with a register id, 15 hash only, sent to the conductor (047); final-pass.py notes both counts; script FAILS 0 before and after; records written; the plan's premise was corrected by the reviews",
+   "at": "2026-11-14T02:37:15Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
