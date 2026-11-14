@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "storyteller",
+ "kind": "scheduled, at :39 London",
+ "started": "2026-11-14T06:39:50Z",
+ "steps": {
+  "plan": {
+   "by": "storyteller (member-written plan, UL1)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Requests: designer 176 and ruv-sgit 096 (the hashes done as agreed; the scan reads the five that stay): nothing asked of me; file both. Writes only team/storyteller/ and comms/mail/storyteller/done/.",
+   "at": "2026-11-14T06:40:02Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No HOLD.md; files two letters inside scope.writes; no stop condition.",
+   "at": "2026-11-14T06:40:14Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "done",
+   "comment": "designer 176 and ruv-sgit 096 filed; the hash rule is applied.",
+   "at": "2026-11-14T06:40:14Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Only the wake record and two filed letters, inside scope.writes.",
+   "at": "2026-11-14T06:40:28Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Both letters filed as planned.",
+   "at": "2026-11-14T06:40:28Z"
+  }
+ },
+ "closed": "2026-11-14T06:40:28Z",
+ "outcome": "ok"
+}
