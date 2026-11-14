@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Quiet: the 085 item closed on the board; status, debrief.",
    "at": "2026-11-14T06:27:15Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "Four files in scope; nothing secret or attack-shaped; gate and scope clean.",
+   "at": "2026-11-14T06:28:01Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "as-planned",
+   "comment": "93fda3f5 changes the four planned files; the 085 item closed in board 024's text (085 was a letter, not a board file).",
+   "at": "2026-11-14T06:28:20Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-14T06:28:20Z",
+ "outcome": "ok"
 }
