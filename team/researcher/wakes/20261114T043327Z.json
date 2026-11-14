@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Rescan: 0 ids, 16 hash only; 007 sent; ch17 nine misses matched; script FAILS 0 before (04:33:49 UTC) and after; records written",
    "at": "2026-11-14T04:35:53Z"
+  },
+  "post_review": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Commit in scope; script FAILS 0 (the reviewer's own run at 04:37 UTC, and mine at 04:33:49 and 04:35:53); notes 0 and 16; 007 accurate with an identical outbox copy; reviewer used Bash only, none refused",
+   "at": "2026-11-14T04:37:57Z"
+  },
+  "post_check": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Rescan, 007 sent, 174 filed, pass 33 traced, records, script rerun; run times read from the clock",
+   "at": "2026-11-14T04:37:57Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-14T04:37:58Z",
+ "outcome": "ok"
 }
