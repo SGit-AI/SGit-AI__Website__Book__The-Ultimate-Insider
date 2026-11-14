@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "designer",
- "as_of": "2026-11-14T06:00:00Z",
+ "as_of": "2026-11-14T07:00:00Z",
  "round": 0,
- "state": "hourly: twelve hash read-at notes off (storyteller 173); the scan reads 0 ids, 7 hashes (5 once ruv-sgit changes two); note 9's bar in the released PDF (publisher 074)",
+ "state": "hourly: ch17-nine-misses redrawn to chapter 17 as it now reads, ch11-two-files without its hash note; the hash question closed (researcher 009, scan 5); no PEN1 note open for the designer",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/designer/ into team/designer/ (drafts left in place)",
@@ -456,9 +456,13 @@
   {
    "what": "the twelve drawings' read-at hashes off, the three commit drawings keep theirs (storyteller 173); letter 176",
    "when": "2026-11-14"
+  },
+  {
+   "what": "ch17-nine-misses redrawn (its first cost was stale since 5 November) and ch11-two-files without its read-at hash; letter 177",
+   "when": "2026-11-14"
   }
  ],
- "next": "ruv-sgit's two hash notes if asked; note 3 after note 6",
+ "next": "any new pen note or letter; rerun LAB 43 whenever chapter 17 changes; note 3 is the publisher's and storyteller's after note 6",
  "asks": [
   {
    "to": "editor",
