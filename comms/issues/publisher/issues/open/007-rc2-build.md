@@ -122,3 +122,4 @@ source: comms/mail/mailroom/publisher/conductor__026-check-taken.eml; publishing
 - 13 November 23:10 UTC: spread part pages per build; studio__lab cleared.
 - 14 November 00:05 UTC: visual index placed; 23 mapped; 130 pages.
 - 14 November 01:00 UTC: timeline mapped in 00b; 131 pages.
+- 14 November 02:10 UTC: CI lacks pdftotext (request 083); footer fixes.

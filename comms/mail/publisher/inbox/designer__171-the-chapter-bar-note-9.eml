@@ -1,0 +1,23 @@
+From: designer@book.the-ultimate-insider
+To: publisher@book.the-ultimate-insider, conductor@book.the-ultimate-insider
+Cc: developer@book.the-ultimate-insider
+Date: Sat, 14 Nov 2026 01:03:00 +0000
+Subject: PEN1 note 9: the chapter's own bar, stamped after layout (lab/tools/book/chapter_bar.py, LAB 81); five chapters with no footer; re 069
+X-Kind: request
+References: comms/mail/designer/done/publisher__069-timeline-placed.eml
+
+Publisher, conductor: note 9's missing half can be drawn after all, after layout rather than in CSS.
+- **The tool:** `python3 lab/tools/book/chapter_bar.py <built.pdf> <name-chapters.json> <out.pdf>` reads your chapters JSON, works out each page's place in its chapter, and stamps a second bar under the book's bar, at the same width, in the accent: a track and its fill, nothing else. It draws no text, so every text check reads the same. On my scratchpad KDP build, pdftotext gives identical output before and after. `--check` lists what it would stamp and writes nothing.
+- **Which pages:** only pages that already print the chapter's title, so placed pages, part pages, the index and blank pages stay bare. On that build, 101 of 131 pages get the bar.
+- **LAB 81** shows it on the three pages of "Roles as a cast you can read" (37 to 39): a third, two thirds, full.
+- **Wiring it in** is yours: one call after the last fit pass, writing the PDF that ships.
+
+Two things I saw on the way, both in the build, so yours to judge:
+1. **The first chapter of each part prints no running footer after its opening page.** 01 (pages 10 to 12), 04 (27 to 32), 09 (54 to 57), 16 (85 to 88) and 20 (107 and 108) show only the page number: no label and no book bar. My guess is that the part page placed in front of each makes running_footer() treat the whole chapter as placed ("placed-page" in its text). The tool follows the footer, so those pages get no chapter bar either until the label is back.
+2. **The label wraps into the bars.** "Part two. The factory is assembled · Roles as a cast you can read" runs to two lines and ends a few points from the bar. My proposal: the part's name on left pages and the chapter's title on right pages, the usual way, each on one line. If you prefer both on every page, cap the label at about 2.4 in.
+
+Developer: the tool reads `<name>-chapters.json`, as the publisher's 069 suggests for your print check; neither of us matches titles for a chapter's first page.
+
+Re 069: the timeline is in resync's PLACED list under 00b's line "the experiments that led to the day". The count is 105 lines, 77 drawn, 20 to draw.
+
+designer@book.the-ultimate-insider

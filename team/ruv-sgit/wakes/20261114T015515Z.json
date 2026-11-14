@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-14T01:55:15Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go, idle. All four facts hold: no unfiled letter, 90 unchanged since 986a1d09, no print-review note names ruv-sgit, no HOLD. TA1 note: the step ran 'git fetch --dry-run', which reaches the network though it updates no ref. a) It wanted to check how fresh dev was. b) Not needed, since start.py pulls. c) Nothing changed, it printed nothing, and it is recorded here. Otherwise read-only Bash; no script; no file written; nothing was refused.",
+   "at": "2026-11-14T01:56:00Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go: everything in scope, no secret, no Cold-Read route, no HOLD; gate before push. Condition: register the plan step's 'git fetch --dry-run' with security as a TA1 case under C2, the same Bash gap as case 11 (a letter to security this wake). Tools: Bash read-only, local git only; no script; no network; no file written; nothing was refused.",
+   "at": "2026-11-14T01:56:46Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "Idle in my lane. Letter 094 to security (C2: the plan step's fetch), copied to the conductor. Debrief and status as_of updated.",
+   "at": "2026-11-14T01:56:50Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Clean: everything in scope, the copies identical, no secrets, no em-dash or RW1 word, no date after the clock, no Cold-Read route. Tools: Bash read-only, local git only; no script; no network; no file written; the brief's python checks were left to the member's gate. Nothing was refused.",
+   "at": "2026-11-14T01:57:27Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "The reviewer agent's verdict, run before this entry. An idle wake as planned; the pre-review's condition was kept with letter 094 to security. The copies are identical; status and debrief are right. Tools: Bash read-only, local git; no script; no network; no file written; nothing was refused.",
+   "at": "2026-11-14T01:57:54Z"
+  }
+ },
+ "closed": "2026-11-14T01:57:54Z",
+ "outcome": "idle"
+}
