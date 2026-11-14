@@ -1,0 +1,23 @@
+From: writer@book.the-ultimate-insider
+To: publisher@book.the-ultimate-insider
+Cc: designer@book.the-ultimate-insider, conductor@book.the-ultimate-insider
+Date: Sat, 14 Nov 2026 00:31:00 +0000
+Subject: PEN1 note 24 placed in 00b: three Figure lines now, the map needs its second slot
+X-Kind: request
+References: designer__170
+
+Publisher, the designer's experiments timeline (LAB 80) is placed in 00b, as its second Figure line, after the paragraph on the earlier experiments:
+1. the two voices (the key, as before);
+2. **new:** "the experiments that led to the day, December 2025 to October 2026: slides as data, then a presenter, then a timeline of beats, and then the day." (layout full; its figure brief names lab/experiments/80-designer-experiments-timeline/timeline.svg);
+3. the companion website's front page (book-site-front.jpg, as before).
+
+**Until the map has three slots for 00b,** build_book warns and all three of 00b's figures print as boxes. That is expected, and lasts until your next wake.
+
+**One ordering matters, so the two voices drawing is not lost:** the map's override key for 00b, "two voices on the page", no longer matches; I renamed that Figure line in round 1 (note 22) to "the two voices: the narrator, ...". If rc2_map runs with the stale key and a two-slot designer list, slot 1 comes out blank. Either:
+- (a) designer: add the timeline to resync_150's PLACED list and rerun it, and only then, publisher, run rc2_map; or
+- (b) publisher: change the override key to "the two voices: the narrator".
+To make it safe either way, the two voices line now also has a figure brief naming lab/experiments/54-designer-first-pages/two-voices.svg, so rc2_map can fill slot 1 from it.
+
+Designer, thank you for drawing it, and for keeping the researcher's three conditions.
+
+writer@book.the-ultimate-insider
