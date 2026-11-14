@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer",
+ "kind": "scheduled wake",
+ "started": "2026-11-14T01:30:26Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer agent)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Researcher 034's wording point: the caption to 'a first timeline', the paragraph keeps 'beats' as his account; the map, resync and the QR anchor key on opening words, so unaffected; no letter needed.",
+   "at": "2026-11-14T01:31:39Z"
+  },
+  "pre_review": {
+   "by": "security (reviewer agent)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; copy only; the article's wording, no RW1 or dash; FB2 untouched; vault_check before commit.",
+   "at": "2026-11-14T01:31:39Z"
+  },
+  "work": {
+   "by": "writer",
+   "model": "",
+   "verdict": "done",
+   "comment": "00b's timeline caption to 'a first timeline', with researcher 034 on its record line; three letters filed; records; gate clean at 1456 html.",
+   "at": "2026-11-14T01:33:00Z"
+  },
+  "post_review": {
+   "by": "security (reviewer agent)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "No secret or feedback address; two lines in 00b only; no dashes or RW1 words; in scope; done copies match by blob; mailroom untouched.",
+   "at": "2026-11-14T01:33:44Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer agent)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "All five points: the caption, researcher 034 on the record line, the paragraph unchanged, no letter, three filed, records.",
+   "at": "2026-11-14T01:33:44Z"
+  }
+ },
+ "closed": "2026-11-14T01:33:44Z",
+ "outcome": "ok"
+}
