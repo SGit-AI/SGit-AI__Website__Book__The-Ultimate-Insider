@@ -297,3 +297,7 @@ One commit since 23:18 touched `manuscript/` (`b655c747`, the publisher, PEN1 no
 ## Addendum, 14 November 01:40 UTC
 
 The one commit since 00:18 (`fc483ef0`, the writer) places the experiments timeline (note 24) into 00b. Its drawing's record dates hold against the talk's repository: 00:16 (`2e4b1f4`, 00:16:23), 15:07 (`3314ffe`, 15:07:08), 19:00 due (C100), 14 days from 15 to 29 October; nothing is dated after 29 October. The keynote's words and date, the VoiceDebrief pitch (2 September 2026), the first talk.json (14 October) and "Agentic Engineering Live" rest on the editor's own article and are drawn as his account; the researcher confirms them against the article as it stands. Letter 090.
+
+## Addendum, 14 November 02:35 UTC
+
+Note 24 is closed. The researcher re-read the editor's article on 13 November and confirms the article-based dates of the timeline (the keynote 9 December 2025, now named "at the AI Security Summit at Black Hat Europe"; the pitch 2 September 2026; the demo built on 14 October for 15 October, "not given yet"), with C116 carrying both reads (researcher 007). The one commit since 01:19 (`3258966d`) only changes the caption to "a first timeline", the article's own word. Nothing for the record lane; no letter.

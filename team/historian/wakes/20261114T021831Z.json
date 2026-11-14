@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-14T02:18:31Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "In scope: team/historian/** and the mailroom; the letter is a reply with no ask, so no letter goes out; vault_check before commit; pull dev before the push. Tools: Read, Grep, Glob, Bash.",
+   "at": "2026-11-14T02:18:51Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Plan fits the historian's scope (team/historian/** covers the filing, the review line, the debrief and the status). It did not check the files or the mailroom path (the letter is in comms/mail/mailroom/historian/); vault_check, a pull of dev and a prose check remain. Tool: Read.",
+   "at": "2026-11-14T02:19:04Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "vault_check clean; no secrets, keys, model names, em-dashes or religious words; nothing toward Cold-Read; all writes the historian's own. Tool: Bash.",
+   "at": "2026-11-14T02:19:26Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "researcher__007 filed in done/, one dated line, debrief, status touch, no letter out.",
+   "at": "2026-11-14T02:19:26Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "Note 24 closed by the researcher's reconfirmation; one caption commit read",
+   "at": "2026-11-14T02:19:26Z"
+  }
+ },
+ "closed": "2026-11-14T02:19:26Z",
+ "outcome": "ok"
+}
