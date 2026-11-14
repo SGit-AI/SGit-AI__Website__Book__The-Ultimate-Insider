@@ -26,13 +26,20 @@
    "at": "2026-11-14T04:27:20Z"
   },
   "post_review": {
-   "by": "reviewer sub-agent (security brief)",
+   "by": "reviewer sub-agent (security brief), rerun after the finding",
    "model": "claude-sonnet-5-5",
-   "verdict": "finding",
-   "comment": "Gates clean, but security__086 and its copies carry pasted pip output where the step text should be: pip -r ran in security's shell, which the debrief did not explain. No new package metadata after 04:00.",
-   "at": "2026-11-14T04:30:52Z"
+   "verdict": "clean",
+   "comment": "No pip text left in the 086 copies; the debrief gives the true cause (an unquoted heredoc); tool case 16 matches; gates clean.",
+   "at": "2026-11-14T04:32:43Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "as-planned",
+   "comment": "Planned items done; the unplanned pip run through an unquoted heredoc recorded honestly as tool case 16, the pip text removed in 0e8b9a37 before any push.",
+   "at": "2026-11-14T04:33:08Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-14T04:33:08Z",
+ "outcome": "ok"
 }
