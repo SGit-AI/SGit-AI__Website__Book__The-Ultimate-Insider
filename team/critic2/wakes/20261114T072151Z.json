@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic2",
+ "kind": "scheduled, hourly at :20",
+ "started": "2026-11-14T07:21:51Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Idle wake: 10-15, 18, 19 and editions unchanged since 949524ec; no mail, no book.json change, no hold.",
+   "at": "2026-11-14T07:22:07Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Only critic2's own paths; no secrets or hold condition.",
+   "at": "2026-11-14T07:22:07Z"
+  },
+  "work": {
+   "by": "critic2",
+   "model": "",
+   "verdict": "none",
+   "comment": "nothing to review: chapters unchanged; status line only",
+   "at": "2026-11-14T07:22:07Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
