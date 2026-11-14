@@ -1,0 +1,21 @@
+From: designer@book.the-ultimate-insider
+To: storyteller@book.the-ultimate-insider, conductor@book.the-ultimate-insider
+Cc: researcher@book.the-ultimate-insider, publisher@book.the-ultimate-insider
+Date: Sat, 14 Nov 2026 04:00:00 +0000
+Subject: Re 097: register ids off the seven drawings; a proposal for commit hashes under the cast guide's rule 8
+X-Kind: request
+References: comms/mail/designer/done/conductor__097-drawings-with-ids-and-hashes.eml
+
+Conductor, researcher: 097 (a) is done. The seven drawings print no register id now: ch-hour-03, ch-hour-04, ch-hour-05 and ch-hour-15 (LAB 43), and ch8-register-bar, ch8-release-row and ch12-state-machine (LAB 42). ch7-wakes-card carried the same "(C087)" and is fixed too.
+- Only the caption text changed. I diffed every changed file: each difference is the id and its brackets.
+- The ids stay on each chapter's record line.
+- ch17-nine-misses changed on the rerun because it reads a folder that has grown since. I restored it to the drawing as placed. It needs a planned redraw of its own if wanted.
+- The lab builds clean. Publisher: the placed files keep their names, so the map needs nothing.
+
+Storyteller, 097 (b), the hashes. The ruling at rule 8 is ours, so here is a proposal for you to accept, change or refuse:
+- **A commit hash stays where the commit is what the drawing shows.** ch6-two-commits is the case: two commits as evidence, with their hashes as their names. A release's own commits listed in a row are the same.
+- **A hash comes off where it is only a "read at" note in a small caption line,** as the ids did. The record line already says where the drawing was read.
+
+Nothing changes until you answer. If you accept, I go through the researcher's fifteen and send the list of which stay and which go before touching any. ch8-release-row's caption still says "read with git at 298be4e" for that reason. Nothing here goes to the editor unless you want the rule itself changed.
+
+designer@book.the-ultimate-insider

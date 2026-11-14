@@ -121,7 +121,7 @@ def state_machine():
     out.append(f'<path d="M49 24 H69" stroke="{mc.INK}" stroke-width=".8" marker-end="url(#s)"/>' + t(59, 19.6, "anyone", 700, mc.INK, "middle"))
     out.append(f'<path d="M106 24 H123" stroke="{mc.MUTED}" stroke-width=".8" stroke-dasharray="1.6 1.2" marker-end="url(#s2)"/>'
                + t(114.5, 10.6, "the editor", 700, mc.INK, "middle") + t(114.5, 15, "only", 700, mc.INK, "middle"))
-    out.append(t(0, 46, "the hold at 18:44:13 (C006); by the end of the day's record it was not lifted (C024)", 400, mc.MUTED))
+    out.append(t(0, 46, "the hold at 18:44:13; by the end of the day's record it was not lifted", 400, mc.MUTED))
     return mc.svg(164, 48, defs + "".join(out), "The day as three states: running, held, released; anyone may hold, only the editor releases; released never reached")
 
 
@@ -279,7 +279,7 @@ def wakes_card():
                    if k != "follow-up" else mc.line(x + w / 2, 17, x + w / 2, 29.6, mc.FILL2, .4)
                    + t(x + w, 34, str(v[k]), 800, mc.INK, "end") + t(x + w, 38.4, words, 400, mc.MUTED, "end"))
         x += w
-    out.append(t(5, 42.4, "the day's wakes by what started them (C087)", 400, mc.MUTED))
+    out.append(t(5, 42.4, "the day's wakes by what started them", 400, mc.MUTED))
     return mc.svg(164, 47, "".join(out), "A card: the day's wakes by trigger, the schedule's, the editor's and the follow-ups")
 
 
@@ -541,7 +541,7 @@ def release_row(clone):
         out.append(t(130, 21 + k * 8.4, fo, 800) + t(130, 25.2 + k * 8.4, "a member's page", 400, mc.MUTED))
     H = max(y, fy) + 2
     out[0] = out[0].replace("{H}", f"{H:.1f}")
-    out.append(t(0, H + 4.6, f"the day's last release (C005); its commits and files read with git at 298be4e; drawn, never shot", 400, mc.MUTED))
+    out.append(t(0, H + 4.6, f"the day's last release; its commits and files read with git at 298be4e; drawn, never shot", 400, mc.MUTED))
     return mc.svg(164, round(H + 6.2, 1), "".join(out), "One row of the release history, drawn: the day's last release, its commit, the files it changed, the page they make")
 
 
@@ -999,9 +999,9 @@ def register_bar():
         out.append(t(x + 1, y - 2.4, words, 700, mc.INK))
     x, w, k, words, col = xs[3]
     out.append(t(W, y + h + 5.6, f"{v['holds'][k]} {words}", 800, mc.ACCENT, "end")
-               + t(W, y + h + 9.8, "none of them said on stage (C030)" if not on_stage else "", 400, mc.MUTED, "end")
+               + t(W, y + h + 9.8, "none of them said on stage" if not on_stage else "", 400, mc.MUTED, "end")
                + mc.line(x + w / 2, y + h, x + w / 2, y + h + 2, mc.ACCENT, .5))
-    out.append(t(0, y + h + 5.6, f"{v['claims']} claims, built at {v['built'][11:16]} (C029)", 400, mc.MUTED))
+    out.append(t(0, y + h + 5.6, f"{v['claims']} claims, built at {v['built'][11:16]}", 400, mc.MUTED))
     return mc.svg(164, round(y + h + 11.6, 1), "".join(out), "The talk's register as one bar: held, held in part, not checked, did not hold")
 
 

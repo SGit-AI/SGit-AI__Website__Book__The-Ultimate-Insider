@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, hourly at :57 London",
+ "started": "2026-11-14T03:58:30Z",
+ "steps": {
+  "plan": {
+   "by": "conductor-planner",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Go. 1) 097(a): strip the id from 7 caption strings plus LAB 42 line 282 (same C087) in the two make_pictures.py scripts; regenerate, restore every other drawing byte-identical, check the 7 differ in caption text only; lab build. 2) 097(b): letter 174 to storyteller, cc conductor and researcher, proposing the hash rule for cast guide rule 8; no ruling changes until agreed. 3) five letters, records, gate, push dev and designer. All inside policy. Note: line 544's hash edit is a hash change beyond the ids-only ruling.",
+   "at": "2026-11-14T03:59:48Z"
+  },
+  "pre_review": {
+   "by": "security-reviewer",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Go. All paths inside scope.writes (lab/experiments/*-designer-*, team/designer, comms/mail/designer, mailroom/*/designer__*); the talk clone is read only; no secrets, addresses or blind-repo traffic; letter 174 proposes and changes no rule. Conditions: line 544's hash edit (298be4e to 'the end of the day's record') should be flagged in 174 as made ahead of agreement, or left until the storyteller agrees; letters carry no contact details; no em-dashes; no religious words; run vault_check on comms before commit.",
+   "at": "2026-11-14T03:59:48Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "ids off the seven placed drawings and ch7-wakes-card, each diff only the id; ch17-nine-misses restored after a live-folder change; lab clean; letter 174 proposes the hash rule, hashes untouched; five letters filed.",
+   "at": "2026-11-14T04:01:04Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

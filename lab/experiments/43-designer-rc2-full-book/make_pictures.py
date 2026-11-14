@@ -68,7 +68,7 @@ def hour_card(hour):
             anchor, tx = "end", x0 + W
         out.append(t(tx, 21.4, str(n), 800, mc.ACCENT if col == mc.ACCENT else mc.INK, anchor) + t(tx, 25.8, words, 400, mc.MUTED, anchor))
         x += w
-    out.append(t(5, 31.6, f"the hour's wakes by what started them (C087); clock hours of 29 October, UTC", 400, mc.MUTED))
+    out.append(t(5, 31.6, f"the hour's wakes by what started them; clock hours of 29 October, UTC", 400, mc.MUTED))
     return mc.svg(164, 35, "".join(out), f"A card: hour {WORDS[hour]}'s wakes by trigger, the schedule's and the editor's")
 
 
