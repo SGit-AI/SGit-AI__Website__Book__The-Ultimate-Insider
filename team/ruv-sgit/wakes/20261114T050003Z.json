@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-14T05:00:03Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go, idle. All five checks pass: mail filed, 90 unchanged since 986a1d09, no print-review note, no HOLD, no request. Tools: Bash read-only; no program; no network; no file written; nothing was refused.",
+   "at": "2026-11-14T05:01:13Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go: in scope, no secrets, no Cold-Read route, no HOLD. Conditions: push to dev only after a green gate and vault_check; never main; no ./version; stage only team/ruv-sgit/. Tools: Bash read-only; no program; no network; no file written; nothing was refused.",
+   "at": "2026-11-14T05:01:34Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "none",
+   "comment": "Idle: a short debrief and status as_of only.",
+   "at": "2026-11-14T05:01:34Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Clean: a debrief and one status timestamp, in scope, no secrets, no em-dash or RW1 word, no date after the clock; comms untouched. Tools: Bash read-only; no program; no network; no file written; the brief's python checks were left to the member's gate. Nothing was refused.",
+   "at": "2026-11-14T05:01:59Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "The reviewer agent's verdict, run before this entry. Idle as planned: a debrief and status as_of only, with next intact. Tools: Bash read-only; no program; no network; no file written; nothing was refused.",
+   "at": "2026-11-14T05:02:21Z"
+  }
+ },
+ "closed": "2026-11-14T05:02:21Z",
+ "outcome": "idle"
+}
