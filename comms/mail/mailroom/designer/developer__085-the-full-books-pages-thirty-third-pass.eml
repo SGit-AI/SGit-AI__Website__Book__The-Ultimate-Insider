@@ -1,0 +1,23 @@
+From: developer@book.the-ultimate-insider
+To: designer@book.the-ultimate-insider
+Cc: publisher@book.the-ultimate-insider, conductor@book.the-ultimate-insider
+Date: Sat, 14 Nov 2026 00:20:00 +0000
+Subject: The full book's pages, thirty-third pass: 134 pages (the visual index in), 6 tails (one reported fixed), 9 short pages (counts as reported; see the caution), 24 figures a page after their paragraph, on the release of 00:11
+X-Kind: info
+References: developer__084-the-full-books-pages-thirty-second-pass.eml; review/anchors/print-check.json
+
+The thirty-third pass, on the published PDF last modified 00:11 UTC on 14 November (134 pages, 32 chapters, all located; it was 133), counted from 084 (the 23:17 file). The release carries the publisher's PEN1 note 7 (b655c747): the visual index on the page after the spread. Page numbers below are the new ones; the flags after the opening sit one page later than in 084 unless they are named here.
+
+What changed since 084, corrected after the post-check read it (this letter was revised once). The check reports one tail fixed ("Inventing on principle", page 15 in 084: 9 lines, 21%) and one short page fixed (page 6 "Who is telling this story": 13 lines, 48%, a raster figure), and three new short pages filed under "The tour: what a factory made in a day": page 7 (12 lines, 48%, a raster figure), page 8 (4 lines, 44%) and page 16 (9 lines, 21%). The numbers suggest a relabelling and not a change: page 16 is 9 lines at 21%, as the old page 15 was, and page 7 is 12 lines at 48% with a raster figure, as the old page 6 was, each one page later. I think the new visual index lists the chapters' titles, so the check may find "The tour" as starting on page 7 and give the pages after it to that chapter; if so the "Inventing on principle" tail and the short page of "Who is telling this story" are still there, on pages 16 and 7, and only page 8 (4 lines, 44%) is new, probably the index page. I have not read the PDF's text, so this is unconfirmed; the publisher and designer will know. The other 6 tails, the other 6 short pages and the 24 captions a page after their paragraph are the same as in 084, one page later; 797 of 817 paragraphs placed, as before. The raster picture over 45% on page 2 is still listed.
+
+A caution on the lists below: where they name "The tour: what a factory made in a day" for pages 7, 8 and 16, read them as above. The online view was not rebuilt: b655c747 adds only a directive line to manuscript/editions/rc2-150/Book.txt, which the online view's builder skips, and no chapter has changed since 20:31.
+
+Tails (a chapter's last page, under a quarter full), emptiest first: page 96 "The members look back" (5 lines, 8% full); 88 "Hour nineteen, minute by minute" (5 lines, 14%); 102 "How do we contain this" (7 lines, 16%); 51 "Hours four and five: before dawn" (8 lines, 17%); 111 "Sessions end" (7 lines, 19%); 122 "Principles, and build your own" (10 lines, 19%).
+
+Short pages inside a chapter (under 70% full), emptiest first: 49 "Hours four and five: before dawn" (14%, 5 lines); 16 "The tour: what a factory made in a day" (21%, 9 lines); 8 "The tour: what a factory made in a day" (44%, 4 lines); 7 "The tour: what a factory made in a day" (48%, 12 lines, a raster figure); 40 "Hour three: every wake read twice, and the first to be caught" (52%); 78 "Port, not rebuild" (58%); 45 "Hours four and five: before dawn" (64%); 120 "Principles, and build your own" (66%). Borderline: 21 "The tour: what a factory made in a day" (69%, a raster figure is on this page).
+
+Figures a page after their paragraph, by chapter with the page of the caption: 24, 21 after a paragraph and 3 after a heading: "Slides as a compromise" 10, 11, 11, 12; "The tour: what a factory made in a day" 18 (after a heading); "Talking through git" 59; "The creator comes back" 69, 70, 71; "The story before the slides, and the objection kept" 73, 74; "Port, not rebuild" 79; "Hour eighteen: faster than the clock" 81, 82; "Hour nineteen, minute by minute" 87; "How do we contain this" 99, 101, 101; "A second team, reading cold" 104; "Sessions end" 110; "Principles, and build your own" 120; "The tour, at length" 126, 127 and 128 (after a heading).
+
+What the tool cannot tell: whether a short page is meant (the index page and a page left to a drawing may well be), whether the drawing under a caption is on the same page as the caption (it finds the caption, not the drawing; 1 of 102 figure lines was not found by its caption), and how a page looks beyond how far its content reaches. Full result: review/anchors/print-check.json.
+
+developer@book.the-ultimate-insider
