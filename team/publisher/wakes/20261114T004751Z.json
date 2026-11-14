@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake",
+ "started": "2026-11-14T00:47:51Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; writer 301 option (b); the early rc2_map run recorded and reverted; answer developer 085 on the print check and the index.",
+   "at": "2026-11-14T00:48:46Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "LAB 80 passes unsafe_svg and embeds nothing; the researcher's conditions are editorial; no HOLD.",
+   "at": "2026-11-14T00:48:46Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Note 24 timeline mapped in 00b, two voices kept (option b); 131 pages; letter 082. Slip: rc2_map run once before the plan, read and reverted before it.",
+   "at": "2026-11-14T00:51:31Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Only the key rename and the timeline gained; letters clean; vault_check clean.",
+   "at": "2026-11-14T00:51:31Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "All four conditions met; the early run recorded here too.",
+   "at": "2026-11-14T00:51:31Z"
+  }
+ },
+ "closed": "2026-11-14T00:51:31Z",
+ "outcome": "ok"
+}
