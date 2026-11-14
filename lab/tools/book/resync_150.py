@@ -31,6 +31,8 @@ PLACED = {
         "two voices on the page": ("lab/experiments/54-designer-first-pages/two-voices.svg", "the designer's two voices (LAB 54)"),
         "the two voices: the narrator": ("lab/experiments/54-designer-first-pages/two-voices.svg",
                                          "the designer's two voices (LAB 54), under the line as reworded for PEN1 note 22"),
+        "the experiments that led to the day": ("lab/experiments/80-designer-experiments-timeline/timeline.svg",
+                                                "the designer's experiments timeline (LAB 80), PEN1 note 24, researcher 045's chain"),
     },
     "rc2/150/03b-the-day-at-a-glance.md": {
         "the talk's day as one picture": ("lab/experiments/57-designer-day-at-a-glance/day-at-a-glance.svg", "the designer's day (LAB 57), C095"),
