@@ -301,3 +301,7 @@ The one commit since 00:18 (`fc483ef0`, the writer) places the experiments timel
 ## Addendum, 14 November 02:35 UTC
 
 Note 24 is closed. The researcher re-read the editor's article on 13 November and confirms the article-based dates of the timeline (the keynote 9 December 2025, now named "at the AI Security Summit at Black Hat Europe"; the pitch 2 September 2026; the demo built on 14 October for 15 October, "not given yet"), with C116 carrying both reads (researcher 007). The one commit since 01:19 (`3258966d`) only changes the caption to "a first timeline", the article's own word. Nothing for the record lane; no letter.
+
+## Addendum, 14 November 03:35 UTC
+
+Nothing has changed since 02:18: no commit to `manuscript/`, `CLAUDE.md` or `WAKE.md`, no letter for me, no new print-review round. Nothing to check.
