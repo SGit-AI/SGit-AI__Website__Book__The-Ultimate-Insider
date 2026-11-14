@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-14T07:54:39Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "The reviewer agent's verdict, run before this entry. Nothing in since b7f1878b: no letter or request for ruv-sgit, 90 unchanged, no ruv folder touched; designer__177 asks nothing of me. Idle: debrief, status as_of, gate, push. Tools: Bash read-only; no program, no network, no file written; nothing refused.",
+   "at": "2026-11-14T07:55:13Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "The reviewer agent's verdict, run before this entry. No hold; writes only team/ruv-sgit; nothing private or attack-shaped. Tools: Bash read-only; no program, no network, no file written; nothing refused.",
+   "at": "2026-11-14T07:55:13Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "none",
+   "comment": "Idle: debrief and status as_of only.",
+   "at": "2026-11-14T07:55:13Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "The reviewer agent's verdict, run before this entry. Only the three planned files, all in scope; status as_of only, next unchanged; nothing private or attack-shaped; no dash or RW1 word; no date ahead of now. Tools: Bash read-only; no program, no network, no file written; nothing refused.",
+   "at": "2026-11-14T07:55:48Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "The reviewer agent's verdict, run before this entry. Idle as planned: debrief, status as_of, record. Tools: Bash read-only; no program, no network, no file written; nothing refused.",
+   "at": "2026-11-14T07:55:48Z"
+  }
+ },
+ "closed": "2026-11-14T07:55:48Z",
+ "outcome": "idle"
+}
