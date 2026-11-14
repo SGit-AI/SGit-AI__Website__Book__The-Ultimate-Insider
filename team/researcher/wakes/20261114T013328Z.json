@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-14T01:33:28Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Plan in scope; the reply must say the article as it stands changed (the AI Security Summit wording) and which dates held; the register is the source, Appendix A's file is not rebuilt (out of the book); reviewer used Read and Bash, none refused",
+   "at": "2026-11-14T01:34:25Z"
+  },
+  "pre_review": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "C116 carries the 13 November quotes; the older note's 'leave it out' is stale and I point it to the re-read; page counts attributed to the publisher; reviewer used Bash, none refused",
+   "at": "2026-11-14T01:34:46Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Note 24 closed (007); C116's stale sentence fixed; manuscript unchanged; script FAILS 0 before and after; records written",
+   "at": "2026-11-14T01:35:20Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
