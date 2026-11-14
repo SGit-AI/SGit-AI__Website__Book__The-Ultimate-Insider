@@ -120,7 +120,7 @@ def two_files(clone, part=None):
     for j, r in enumerate(textwrap.wrap(re.sub(r"\[(.+?)\]\(.+?\)", r"\1", purpose), 40)):
         out.append(t(x + 4, 18.4 + j * 4.1, r, 400, mc.MUTED))
     out.append(t(x + 4, 40, entry, 700, mc.ACCENT))
-    out.append(t(x + 4, 58, "unchanged from the first half hour (1f7c633)", 400, mc.MUTED))
+    out.append(t(x + 4, 58, "unchanged from the first half hour", 400, mc.MUTED))
     # one card per file when asked (security's note in the publisher's 040: each file held both cards, one cropped away)
     if part == "left":
         return mc.svg(81.2, 63.4, "".join(out[:sp]), "A card: the reality file, crowded with the day's changes")
@@ -162,7 +162,7 @@ def schedule(clone):
             out.append(t(hx, hy + (-5.6 if math.sin(a) < 0 else 7.4), f"{m} :{mm}", 700, mc.INK, "middle"))
     out.append(f'<circle cx="{cx}" cy="{cy}" r="1" fill="{mc.INK}"/>')
     out.append(t(98, 30, "\u201c" + q1 + "\u201d", 700) + t(98, 37, "\u201c" + q2 + "\u201d", 700)
-               + t(98, 45, "the schedule as the conductor", 400, mc.MUTED) + t(98, 49.1, "wrote it at 01:39 (09f13d5)", 400, mc.MUTED))
+               + t(98, 45, "the schedule as the conductor", 400, mc.MUTED) + t(98, 49.1, "wrote it at 01:39", 400, mc.MUTED))
     out.append(t(0, 80, "the first four members at their minutes; the others joined their slots later", 400, mc.MUTED))
     return mc.svg(164, 82, "".join(out), "The schedule at 01:39: four members on a dial at their own minutes, a quarter of an hour apart")
 
@@ -199,7 +199,7 @@ def night_log(clone):
         y += 2.6 * n + 3
     H = y
     out[0] = out[0].replace("{H}", f"{H:.1f}")
-    out.append(t(0, H + 4.6, "the edition at 794008c, drawn, never shot; its items left as lines", 400, mc.MUTED))
+    out.append(t(0, H + 4.6, "the edition, drawn, never shot; its items left as lines", 400, mc.MUTED))
     return mc.svg(164, round(H + 6.2, 1), "".join(out), "The night log's first edition drawn as a page: its hours, each member's wakes by outcome, what waits on the editor")
 
 

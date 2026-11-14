@@ -213,7 +213,7 @@ def wakes_page(clone):
         y += 20.5
     H = y
     out[0] = out[0].replace("{H}", f"{H:.1f}")
-    out.append(t(0, H + 4.6, "deck's three newest wake records at 298be4e; each step's comment drawn as lines; deck's records checked against the register", 400, mc.MUTED))
+    out.append(t(0, H + 4.6, "deck's three newest wake records; each step's comment drawn as lines; deck's records checked against the register", 400, mc.MUTED))
     return mc.svg(164, round(H + 6.2, 1), "".join(out), "The wakes page, drawn: deck's three newest wakes, each step's verdict, the newest stopped by the hold before its review")
 
 
@@ -259,7 +259,7 @@ def member_page(clone):
                + t(82, y + 5.2, "the key section: not shown", 400, mc.MUTED, "middle"))
     H = y + 11
     out[0] = out[0].replace("{H}", f"{H:.1f}")
-    out.append(t(0, H + 4.6, "deck's role and two of its rules as its ROLE.md gives them at 298be4e; a square per wake record", 400, mc.MUTED))
+    out.append(t(0, H + 4.6, "deck's role and two of its rules as its ROLE.md gives them; a square per wake record", 400, mc.MUTED))
     return mc.svg(164, round(H + 6.2, 1), "".join(out), "Deck's member page, drawn: its role, two rules with the mistake behind each, its wakes; its key section not shown")
 
 
@@ -541,7 +541,7 @@ def release_row(clone):
         out.append(t(130, 21 + k * 8.4, fo, 800) + t(130, 25.2 + k * 8.4, "a member's page", 400, mc.MUTED))
     H = max(y, fy) + 2
     out[0] = out[0].replace("{H}", f"{H:.1f}")
-    out.append(t(0, H + 4.6, f"the day's last release; its commits and files read with git at 298be4e; drawn, never shot", 400, mc.MUTED))
+    out.append(t(0, H + 4.6, f"the day's last release; its commits and files read with git; drawn, never shot", 400, mc.MUTED))
     return mc.svg(164, round(H + 6.2, 1), "".join(out), "One row of the release history, drawn: the day's last release, its commit, the files it changed, the page they make")
 
 
@@ -595,7 +595,7 @@ def three_greyed(clone):
         out.append(("H", y))
     H = max(v for kind, v in [o for o in out if isinstance(o, tuple)]) + 1
     out = [o.replace("{H}", f"{H:.1f}") for o in out if isinstance(o, str)]
-    out.append(t(0, H + 5, "greyed: on stage only from the afternoon; each with one rule from its own page at 298be4e", 400, mc.MUTED))
+    out.append(t(0, H + 5, "greyed: on stage only from the afternoon; each with one rule from its own page", 400, mc.MUTED))
     return mc.svg(164, round(H + 6.8, 1), "".join(out), "Three greyed cards: the storyteller, motion and studio, each with its job and one rule from its page")
 
 
@@ -609,7 +609,7 @@ def security_proposed(clone):
            f'<path d="M122 .5 v12 h12" fill="none" stroke="{mc.FILL2}" stroke-width=".5"/>',
            t(36, 12, title, 800, mc.MUTED), f'<rect x="36" y="16" width="26" height="5.4" rx="2.7" fill="{mc.FILL}"/>',
            t(49, 19.8, status, 700, mc.MUTED, "middle"),
-           t(82, 92, "nothing on it but its title and its status, as at 298be4e", 400, mc.MUTED, "middle")]
+           t(82, 92, "nothing on it but its title and its status", 400, mc.MUTED, "middle")]
     return mc.svg(164, 94, "".join(out), "Security's role page as a card: its title and its status, proposed, and nothing else")
 
 
@@ -650,7 +650,7 @@ def two_commits(clone):
         out.append(("H", y + 9))
     H = max(v for _, v in [o for o in out if isinstance(o, tuple)])
     out = [o.replace("{H}", f"{H:.1f}") for o in out if isinstance(o, str)]
-    out.append(t(0, H + 5, "each note checked against its commit, shortened where marked; times from git at 298be4e", 400, mc.MUTED))
+    out.append(t(0, H + 5, "each note checked against its commit, shortened where marked; times from git", 400, mc.MUTED))
     return mc.svg(164, round(H + 6.8, 1), "".join(out), "Two commits as cards, each with its To- line highlighted, both read at one wake; one note followed, one not")
 
 
@@ -734,7 +734,7 @@ def story_tree(clone):
                     out.append(t(x + 7.6, y + 3.7 + j * 4.1, r, 400, mc.MUTED))
                 y += gh + 1
         H = max(H, y)
-    out.append(t(0, H + 4, "the tree's own nodes at 14:19 (df37797), verbatim, its dotted links left out; no turn marked at 14:19 (from 16:04 the tree names one, 2afe0d7)", 400, mc.MUTED))
+    out.append(t(0, H + 4, "the tree's own nodes at 14:19, verbatim, its dotted links left out; no turn marked at 14:19 (from 16:04 the tree names one)", 400, mc.MUTED))
     return mc.svg(164, round(H + 5.8, 1), "".join(out), "The storyteller's story tree as it was at 14:19: the premise, three parts and their beats")
 
 
@@ -750,7 +750,7 @@ def where_from(clone):
     for i, (piece, source, ref, words) in enumerate(WHERE_FROM):
         if ref.startswith("team/"):
             txt = subprocess.run(["git", "-C", clone, "show", f"298be4e:{ref}"], capture_output=True, text=True, check=True).stdout
-            when = "its role at 298be4e"
+            when = "its role, as its page gives it"
         else:
             txt = subprocess.run(["git", "-C", clone, "log", "-1", "--format=%s", ref], capture_output=True, text=True, check=True).stdout
             when = ref
@@ -958,7 +958,7 @@ def site_building(clone):
                 out.append(g(mc.head(m), 62 + k * 24, y + .6, .4) + t(70 + k * 24, y + 15, m, 400, mc.INK, "middle"))
         y += fh
     out.append(mc.line(4, y, 160, y, mc.INK, .7))
-    out.append(t(0, y + 5, "each floor lit by the members whose policy at 298be4e lets them write its pages (scope.writes)", 400, mc.MUTED))
+    out.append(t(0, y + 5, "each floor lit by the members whose policy lets them write its pages (scope.writes)", 400, mc.MUTED))
     return mc.svg(164, round(y + 6.8, 1), "".join(out), "The site as a building, one floor per kind of page, each lit by the members who could write it")
 
 
