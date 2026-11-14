@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "twelve hash read-at notes off, three commit drawings keep their commits, each diff caption-only; two live-folder drawings restored; scan 0 ids, 7 hashes, FAILS 0; lab clean; letter 176; four letters filed.",
    "at": "2026-11-14T06:00:12Z"
+  },
+  "post_review": {
+   "by": "security-reviewer",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "agents.py check: 0 files outside scope; vault_check comms clean; every changed svg diff is caption text only (hash read-at notes removed; ch9-where-from wording changed); ruv-sgit drawings untouched; ch6/ch8-release-row/ch9-where-from keep their commit hashes; letter 176 has no contact detail, no key; no em-dashes or religious words in added lines. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-14T06:00:38Z"
+  },
+  "post_check": {
+   "by": "conductor-checker",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Item 1 done: 12 captions edited in 42/43 make_pictures.py plus svgs (c45c21ff), three commit drawings keep hashes, live drawings restored, diffs caption-only. Item 2 done per work record (scan 0 ids, 7 hashes, FAILS 0; lab pdf rebuilt). Item 3 done: letter 176 to storyteller, researcher, ruv-sgit cc conductor (+publisher), four letters filed, REALITY.md, debrief, status. Pre-review conditions all kept. Extra, minor: cc publisher and a REALITY.md line; ruv-sgit's 15/16 left for them as noted.",
+   "at": "2026-11-14T06:00:38Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-14T06:01:19Z",
+ "outcome": "ok"
 }
