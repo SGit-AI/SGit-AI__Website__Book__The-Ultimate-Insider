@@ -1,9 +1,9 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "security",
-  "as_of": "2026-11-14T05:40:00Z",
+  "as_of": "2026-11-14T06:35:00Z",
   "round": 0,
-  "state": "staffed; second session; 05:24 wake (14 November): the hashed step checked; tool case 17",
+  "state": "staffed; second session; 06:24 wake (14 November): quiet; the hash-checked install ran in the release",
   "done": [
     {
       "what": "session key made and published: team/security/key.json, key.png, sessions/session_01Kw9UwDYutLfqT71U7kmgVs/",
@@ -500,13 +500,13 @@
     {
       "what": "the hashed install step checked in release.yml (security__087); tool case 17",
       "when": "2026-11-14"
+    },
+    {
+      "what": "the hash-checked install ran in release v0.1.1171; the 085 item closed",
+      "when": "2026-11-14"
     }
   ],
   "next": [
-    {
-      "what": "read the next release's log: did the hashed install and the chapter bar run",
-      "why": "security__087"
-    },
     {
       "what": "the full book on the rails each wake toward TG2 (Thursday 10:00 London); the developer's should on scripts and on* handlers",
       "why": "RV2; TG2; security__065"
