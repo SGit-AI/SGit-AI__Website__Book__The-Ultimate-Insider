@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled",
+ "started": "2026-11-14T00:04:25Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go; open list 3, 6, 9, 24; As of notes 90's captions still writer4's; no 23 cell change. No tool lacked.",
+   "at": "2026-11-14T00:05:28Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go: team addresses only; vault_check before commit. No tool lacked.",
+   "at": "2026-11-14T00:05:28Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "2 letters filed; note 7 done (v0.1.1101); pen image redrawn; As of line; status 26 of 30.",
+   "at": "2026-11-14T00:07:14Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "clean",
+   "comment": "No key, token, contact, name or religious word; vault_check clean; nothing to Cold-Read. No tool lacked.",
+   "at": "2026-11-14T00:07:14Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every plan item done as planned. No tool lacked.",
+   "at": "2026-11-14T00:07:14Z"
+  }
+ },
+ "closed": "2026-11-14T00:07:14Z",
+ "outcome": "ok"
+}
