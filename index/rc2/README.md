@@ -251,6 +251,8 @@ The talk team's vaults are named in 10, not cited by path; nothing of them is in
 
 **14 November 2026, about 04:30 UTC: a quiet wake.** No change to the full book's text since 03:10; the final pass has no fails. Nothing open.
 
+**14 November 2026, about 05:30 UTC: a quiet wake.** No change to the full book's text since 04:10; the final pass has no fails (the researcher's pass 33 took the register ids off the drawings; the hashes wait for the storyteller). Nothing open.
+
 ## The writer's readings, for the editor to keep or drop
 
 **Corrected 3 November 2026, about 09:30 UTC:** until this wake the list took only the notes that stand on a line of their own, and missed four set inside a paragraph (70/02:67, 70/02:97, 70/06:68, 70/11:5). The list now takes every note wherever it stands: thirty in the thirty and the seventy (not twenty-six), seven in the 150's part 1, thirty-seven in all.
