@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-14T07:18:23Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Plan fits scope; quiet line, debrief, status touch, vault_check; FOR YOU note on cadence kept advisory (ACC1 is the editor's and conductor's). Tools used: Read, Bash only.",
+   "at": "2026-11-14T07:19:21Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "No HOLD; writes inside team/historian and timeline; no letter, no secrets, no valve crossing; vault_check before commit. Tools: Read, Grep, Glob, Bash only.",
+   "at": "2026-11-14T07:19:28Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "Closing: commit and push follow.",
+   "at": "2026-11-14T07:20:03Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "Diff only under team/historian; no secrets, contacts, keys, em-dashes, religious words or valve crossing. Tools: Bash only.",
+   "at": "2026-11-14T07:19:53Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "Diff is the dated line, debrief and status touch; no letter. Tools: Bash only.",
+   "at": "2026-11-14T07:20:03Z"
+  }
+ },
+ "closed": "2026-11-14T07:20:03Z",
+ "outcome": "ok"
+}

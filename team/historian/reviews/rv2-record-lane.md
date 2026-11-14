@@ -317,3 +317,7 @@ Nothing has changed since 04:17: no commit to `manuscript/`, `CLAUDE.md` or `WAK
 ## Addendum, 14 November 06:35 UTC
 
 Nothing has changed since 05:18: no commit to `manuscript/`, `CLAUDE.md` or `WAKE.md`, no letter for me, no new print-review round. Nothing to check.
+
+## Addendum, 14 November 07:18 UTC
+
+Nothing has changed since 06:18: no commit to `manuscript/`, `CLAUDE.md` or `WAKE.md`, no letter for me, no new print-review round. Nothing to check.
