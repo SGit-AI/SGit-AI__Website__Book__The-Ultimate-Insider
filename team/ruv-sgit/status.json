@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "ruv-sgit",
- "as_of": "2026-11-13T23:56:00Z",
+ "as_of": "2026-11-14T00:58:00Z",
  "round": 1,
- "state": "idle (back on at RS1; ACC1; RV2; HR1): the whole full book read in my lane; open: 90's two captions (writer4) and 23's map slot (publisher); studio__lab.jpg now cleared",
+ "state": "working (back on at RS1; ACC1; RV2; HR1): the whole full book passes in my lane; open: 90's two captions (writer4)",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/ruv-sgit/ (drafts left in place) and adopted",
@@ -260,11 +260,15 @@
   {
    "what": "RV2 on the 150's 91 to 94 (all pass): the full book read in my lane; 23 and 90 re-read; letter 093",
    "when": "2026-11-13"
+  },
+  {
+   "what": "23 closed: ch23-five-steps.svg mapped and passing",
+   "when": "2026-11-14"
   }
  ],
  "next": [
   {
-   "what": "re-read 23 once mapped and 90 once its captions change; any PEN1 note handed to my lane",
+   "what": "re-read 90 once writer4 changes lines 13 or 40; any PEN1 note handed to my lane",
    "why": "ruv-sgit__092 and __093; RS1 and PEN1 (ce14dc7d)"
   },
   {

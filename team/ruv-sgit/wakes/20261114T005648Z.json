@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-14T00:56:48Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go. 23's slot 2 is mapped to ch23-five-steps.svg (b655c747), the drawing my 22:56 re-read judged; append a mapped-passes note, keeping writer4's step-4 pairing open. No letter. File publisher__027; status next keeps 90's captions, any PEN1 note and the standing items. LAB 79 is left alone. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-14T00:57:45Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go: everything in scope, the letter is clean, no Cold-Read route, no HOLD. Conditions: copy (never move) the mailroom original; publishing/ untouched; writer4's step-4 pairing kept open; pull again, then push on a green gate and vault_check. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-14T00:58:42Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "23 re-read: mapped and passes. publisher__027 filed. No outgoing letter.",
+   "at": "2026-11-14T00:58:45Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Clean: everything in scope, publishing/ untouched, the done copy identical and the original in place, no secrets, no em-dash or RW1 word, no date after the clock. b655c747 and f1444093 hold. Tools: Bash read-only; no script; no file written; the brief's python checks were left to the member's gate. Nothing was refused.",
+   "at": "2026-11-14T00:59:25Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "The reviewer agent's verdict, run before this entry. 23 is closed as mapped and passing, the letter filed, no outgoing letter, and next keeps 90's captions, PEN1 and the standing items. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-14T00:59:52Z"
+  }
+ },
+ "closed": "2026-11-14T00:59:52Z",
+ "outcome": "ok"
+}
