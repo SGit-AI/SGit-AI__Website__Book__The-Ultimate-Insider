@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "chapter_bar.py stamps the chapter's bar after layout from the chapters JSON, text unchanged, tried on a scratchpad KDP build (101 of 131 pages); LAB 81 shows it; timeline in resync PLACED; letter 171 offers the tool and reports parts' first chapters with no footer; two letters filed; lab clean at 216 pages.",
    "at": "2026-11-14T01:03:38Z"
+  },
+  "post_review": {
+   "by": "security-reviewer",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Commit 1ac22171: chapter_bar.py reads only the PDF and chapters JSON (pdftotext subprocess, pypdf, reportlab already used), draws two rects, no text, no network, no new packages; footer-study.png shows only footers; letter 171 in both mailrooms plus outbox, role addresses only; vault_check clean; no em-dashes or religious words; agents.py check 0 files outside scope; nothing in publishing/ or manuscript/.",
+   "at": "2026-11-14T01:04:05Z"
+  },
+  "post_check": {
+   "by": "conductor-checker",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Commit 1ac22171 matches the plan: timeline entry in resync PLACED, chapter_bar.py, LAB 81, letter 171 to publisher and conductor, publisher 069 and developer 085 filed in done/, status, debrief and REALITY append; nothing in publishing/ or manuscript/.",
+   "at": "2026-11-14T01:04:23Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-14T01:05:04Z",
+ "outcome": "ok"
 }
