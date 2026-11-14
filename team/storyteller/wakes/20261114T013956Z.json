@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "storyteller",
+ "kind": "scheduled, at :39 London",
+ "started": "2026-11-14T01:39:56Z",
+ "steps": {
+  "plan": {
+   "by": "storyteller (member-written plan, UL1)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No mail; no answer yet on the word, the part pages or 22. Idle close, only the wake record committed. Writes only team/storyteller/.",
+   "at": "2026-11-14T01:40:07Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No HOLD.md; an idle close writing only team/storyteller/; no stop condition.",
+   "at": "2026-11-14T01:40:18Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "none",
+   "comment": "No mail, no answer from him; nothing to change.",
+   "at": "2026-11-14T01:40:18Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Only the wake record changed; no secrets.",
+   "at": "2026-11-14T01:40:30Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "An idle close as planned.",
+   "at": "2026-11-14T01:40:30Z"
+  }
+ },
+ "closed": "2026-11-14T01:40:30Z",
+ "outcome": "idle"
+}
