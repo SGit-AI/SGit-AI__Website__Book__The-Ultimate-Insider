@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, hourly at :57 London",
+ "started": "2026-11-13T23:58:57Z",
+ "steps": {
+  "plan": {
+   "by": "conductor-planner",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Note 24 drawn from researcher 045's one chain only (C116, C001, C028, C100), 15 Oct as due, labelled as the editor's own account, nothing after 29 Oct; lab/experiments/80-designer-* is inside scope.writes and free. Placement in 00b stays with the writer and publisher; keep the claim ids in the script, not on the figure.",
+   "at": "2026-11-13T23:59:36Z"
+  },
+  "pre_review": {
+   "by": "security-reviewer",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Go: all paths inside scope.writes (lab/experiments/80-designer-*, comms/mail/designer, mailroom designer__*, team/designer); chain is public-article dates only, byline already published, nothing after 29 Oct, no ids/hashes/@ (keep the exit check and run vault_check.py comms), 15 Oct as due. Conditions: no em-dashes or religious words in svg/pages text; letters go to the three named plus cc researcher only; nothing copied to the blind repo.",
+   "at": "2026-11-13T23:59:59Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "LAB 80 experiments timeline drawn from researcher 045's chain with its three conditions enforced in the script; lab builds clean at 215 pages; letter 170 to writer, publisher, conductor; two letters filed; records written.",
+   "at": "2026-11-14T00:02:59Z"
+  },
+  "post_review": {
+   "by": "security-reviewer",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Checked b72d6d0b: svg text has no ids, hashes, @, em-dashes or religious words, nothing after 29 Oct, 15 Oct drawn as due not given, labelled as the editor's account; vault_check comms clean; agents check 0 files outside scope; letter 170 to writer, publisher, conductor mailrooms plus outbox copy, cc in headers only; nothing to the blind repo.",
+   "at": "2026-11-14T00:03:25Z"
+  },
+  "post_check": {
+   "by": "conductor-checker",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "b72d6d0b matches the plan: LAB 80 timeline from researcher 045's chain only, letter 170 to writer, publisher and conductor, publisher 068 and developer 084 filed in done/, status, debrief and REALITY.md updated; nothing in publishing/ or manuscript/. Only extras are the rebuilt lab PDF, its SHA256SUMS and lab/tools/ids.json, which are lab build outputs.",
+   "at": "2026-11-14T00:03:41Z"
+  }
+ },
+ "closed": "2026-11-14T00:04:48Z",
+ "outcome": "ok"
+}
