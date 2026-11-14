@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, hourly at :57 London",
+ "started": "2026-11-14T04:59:04Z",
+ "steps": {
+  "plan": {
+   "by": "conductor-planner",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Read-only scan of the sixteen hash drawings (claims/final-pass.py, publishing/rc2-figures.json); no svg touched. 2. Write four letters (storyteller with cc researcher, conductor, ruv-sgit) in comms/mail/mailroom/*/designer__* and comms/mail/designer/outbox/. 3. Wake record, debrief, status.json under team/designer/; gate, vault_check comms, push dev and branch.",
+   "at": "2026-11-14T05:00:01Z"
+  },
+  "pre_review": {
+   "by": "security-reviewer",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside policy: only team/designer/** and comms/mail paths for designer; no drawing, no other member's paths (ruv-sgit's four are proposals only, theirs to change). Mail is in-repo git, not send.message.world. Conditions: run vault_check.py comms before commit, no key or contact detail in letters, no push to main, hashes quoted only as short ids already public. No stop condition, no HOLD files found.",
+   "at": "2026-11-14T05:00:02Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "letter 175 lists the sixteen hash drawings stay or go (12 mine, 4 ruv-sgit's as proposals); no drawing touched; four letters filed; records.",
+   "at": "2026-11-14T05:00:36Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
