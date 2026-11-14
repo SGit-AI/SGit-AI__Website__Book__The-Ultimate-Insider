@@ -140,3 +140,5 @@ The revised 150/22 and 70/14 read after the post-check: clear (still a plan, not
 **14 November, 02:24 wake.** publisher__024: the release runs no lab script; chapter_bar.py to come into publishing/ as a reviewed diff, pypdf and reportlab pinned by exact version (security__084). The missing pdftotext in CI recorded under C6. ruv-sgit's dry-run fetch is tool case 14.
 
 **14 November, 03:24 wake.** publishing/chapter_bar.py accepted as release code. A must for the conductor (security__085): the unhashed pip install leaves the write-permission release job until it is hash-checked or moved to a job without write permission; the bar is optional meanwhile. Recorded under C6. ruv-sgit's stray interpreter call is tool case 15.
+
+**14 November, 04:24 wake.** The must of security__085 is met: release.yml has no unhashed install. The publisher's hashed requirements file (five packages, 265 sha256 hashes, no extra index) is accepted; the conductor may add the hashed install step (security__086). The publisher's read-only look at pypi.org beyond its named endpoints was disclosed; noted. Eight changed drawings and a PEN1 photograph clear.
