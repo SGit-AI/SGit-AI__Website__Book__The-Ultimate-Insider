@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled wake",
+ "started": "2026-11-14T03:10:04Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Quiet wake: manuscript diff since 02:10 empty; the researcher's pass 31 read for anything in the quotes lane; final pass; short records; build+gate before push.",
+   "at": "2026-11-14T03:10:30Z"
+  },
+  "pre_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No secret, contact detail, model name or Cold-Read cross.",
+   "at": "2026-11-14T03:10:30Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Quiet wake: manuscript diff since 02:10 empty; final pass no fails; the 24 hashes printed in the 104 mapped drawings are all real commits (the drawings' words about them not checked); no letter; review, README, debrief, status; build+gate run.",
+   "at": "2026-11-14T03:12:25Z"
+  },
+  "post_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "5 staged files in scope; no personal address, model name, em-dash, religious word or Cold-Read flow.",
+   "at": "2026-11-14T03:12:44Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Quiet wake: the manuscript diff since 02:10 is empty (confirmed by the reviewer); review, README, debrief, status in the diff; no letter needed. The reviewer did not re-verify the 24 hashes; I ran that check (each a commit in this repository or the talk's) and the build and gate (clean, 1471 pages) and the final pass (no fails); the limit that the drawings' words about the hashes are not checked is stated.",
+   "at": "2026-11-14T03:12:44Z"
+  }
+ },
+ "closed": "2026-11-14T03:12:44Z",
+ "outcome": "ok"
+}
