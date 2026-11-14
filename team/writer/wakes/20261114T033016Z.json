@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer",
+ "kind": "scheduled wake",
+ "started": "2026-11-14T03:30:16Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer agent)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Idle: the mailroom's 391 letters are all filed (378 done, 13 in inbox, carried on board 006); nothing for the writer since 02:30; status as_of and state and the record only; hourly kept.",
+   "at": "2026-11-14T03:30:58Z"
+  },
+  "pre_review": {
+   "by": "security (reviewer agent)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Only team/writer files; no HOLD; the new state text to stay free of dashes, RW1 words, keys and addresses.",
+   "at": "2026-11-14T03:30:58Z"
+  },
+  "work": {
+   "by": "writer",
+   "model": "",
+   "verdict": "done",
+   "comment": "Idle: status.json as_of and state only; nothing to file (the thirteen are in inbox, carried).",
+   "at": "2026-11-14T03:30:58Z"
+  },
+  "post_review": {
+   "by": "security (reviewer agent)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Two team/writer files, plain ASCII, valid JSON; no secret, contact, RW1 word or dash.",
+   "at": "2026-11-14T03:31:30Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer agent)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "As planned: as_of and state only (the thirteen in inbox, carried), round and done untouched.",
+   "at": "2026-11-14T03:31:30Z"
+  }
+ },
+ "closed": "2026-11-14T03:31:30Z",
+ "outcome": "idle"
+}
