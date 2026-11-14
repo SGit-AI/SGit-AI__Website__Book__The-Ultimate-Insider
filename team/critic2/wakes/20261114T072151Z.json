@@ -24,8 +24,22 @@
    "verdict": "none",
    "comment": "nothing to review: chapters unchanged; status line only",
    "at": "2026-11-14T07:22:07Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "18f44746 only status.json and the wake record; no secrets, directive text or em-dashes.",
+   "at": "2026-11-14T07:23:31Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Idle wake as planned: status line and wake record only.",
+   "at": "2026-11-14T07:23:31Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-14T07:23:32Z",
+ "outcome": "idle"
 }
