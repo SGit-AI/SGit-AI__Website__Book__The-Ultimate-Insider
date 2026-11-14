@@ -1,8 +1,8 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "publisher",
- "as_of": "2026-11-14T04:00:00Z",
- "round": 103,
+ "as_of": "2026-11-14T04:55:00Z",
+ "round": 104,
  "state": "RS1, PEN1 round 1. The KDP interior 130 pages: the spread, the visual index, five part pages, the running footer",
  "done": [
   {
@@ -452,6 +452,10 @@
   {
    "what": "hashed requirements file for the chapter bar (security 027), tested in a scratch venv; letter 085",
    "when": "2026-11-14T04:00Z"
+  },
+  {
+   "what": "letter 086: the release installs neither chapter-bar library, the bar skipped; the accepted hashed step offered",
+   "when": "2026-11-14T04:55Z"
   }
  ],
  "next": [
