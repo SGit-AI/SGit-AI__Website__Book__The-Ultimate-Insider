@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "ch5-cards-into-files reworded without C011 or the hash, other LAB 40 drawings byte-identical; lab clean at 216 pages; letter 172; two letters filed; records.",
    "at": "2026-11-14T02:00:42Z"
+  },
+  "post_review": {
+   "by": "security-reviewer",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "In scope (agents.py check: 0 outside scope; vault_check comms clean). ch5-cards-into-files.svg drawn text has no register id or hash (0 matches for C011/298be4e). Letter 172 is in mailroom/ruv-sgit with an identical outbox copy; only role addresses on the book domain, no personal address. No em-dashes or religious words in added lines, nothing in publishing/ or manuscript/, no lab binaries beyond the regenerated PDF and SHA256SUMS.",
+   "at": "2026-11-14T02:01:27Z"
+  },
+  "post_check": {
+   "by": "conductor-checker",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Matches the plan: one line reworded in LAB 40 make_pictures.py and the one SVG regenerated, no other lab/experiments file changed (the other five drawings are byte-identical); historian 090 and developer 086 filed in designer/done; letter 172 sent (reply to 088, cc writer and historian); REALITY.md, debrief, status and wake record updated; follow-up commit 8f6ef75b only corrected 172's References line.",
+   "at": "2026-11-14T02:01:27Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-14T02:02:19Z",
+ "outcome": "ok"
 }
