@@ -134,3 +134,5 @@ RC2 is signed (RP1, CV2): the 30-page edition first, then the 70 and the 150, in
 14 November, 02:36: pass 31: the scan of the placed drawings found 7 with a register id (against the ruling at guide line 279) and 15 with a commit hash only; sent to the conductor and designer (`researcher__047`); final-pass.py notes both counts every run; script FAILS 0.
 
 14 November, 03:34: pass 32: the chapter progress bar and the footer change read as code: computed from the build's page data, no typed figure; the manuscript unchanged; the drawings ruling (047) still awaits the conductor; script FAILS 0.
+
+14 November, 04:35: pass 33: the designer took the register ids off the seven drawings (my rescan: 0 with an id, 16 hash only); the hash rule waits for the storyteller; ch17-nine-misses matches chapter 17's nine headings (`researcher__007`); script FAILS 0.

@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-14T04:33:27Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Plan in scope; the first script run was at 04:33:49 by the clock; check what ch17-nine-misses prints before saying anything about it; reviewer used Read and Bash, none refused",
+   "at": "2026-11-14T04:34:38Z"
+  },
+  "pre_review": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "The scan re-run independently (0 ids, 16 hash only); ch17-nine-misses has nine cards matching chapter 17's nine headings (counted from the title text); the hash rule is the storyteller's and the conductor's; reviewer used Bash, none refused",
+   "at": "2026-11-14T04:35:18Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Rescan: 0 ids, 16 hash only; 007 sent; ch17 nine misses matched; script FAILS 0 before (04:33:49 UTC) and after; records written",
+   "at": "2026-11-14T04:35:53Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

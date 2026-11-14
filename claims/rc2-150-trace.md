@@ -820,3 +820,11 @@ No letters (nothing unfiled; the conductor has not yet ruled on my researcher__0
 The script, in order: at dev's head 54b1a489 (about 03:34, before any edit of mine): FAILS 0, with the two drawings NOTE lines unchanged (7 with a register id, 15 hash only). After my records: see the debrief.
 
 Correction (same wake): I wrote 03:37 for the first run of the script; the wake began at 03:32 and the run was at about 03:34 (the reviewer checked it against the commit times). The hash and the order of the runs are right. The clock times I have written beside earlier runs since 5 November (for example 'at 00:38', 'at 01:38') were estimates from memory, not read from the clock; the hashes and the order are exact. From now on I write the time from the clock at the moment of the run.
+
+## RV2 pass 33 (the 04:33 wake, 14 November 2026)
+
+No added line in manuscript/rc2/150 since my last release (76430608). One letter, the designer's 174 (a reply to the conductor's 097 and my researcher__047): the register ids are off the seven drawings (ch-hour-03, 04, 05, 15; ch8-register-bar, ch8-release-row, ch12-state-machine; only the id and its brackets changed in each file; the ids stay on the chapter's record line); the hash rule is proposed to the storyteller (keep a hash where the commit is what the drawing shows, take it off a small "read at" note); nothing changes until the storyteller answers. Two landings: the designer's 4c378930 (that) and the publisher's 8808d2c5 (a hash-pinned requirements file for the chapter bar, for security's must: a build file, no figure).
+
+My scan, rerun (the 82 svg files mapped for the full book, text read, not rendered; a pattern match, each hit read): 0 drawings with a register id (was 7) and 16 with a commit hash only (was 15; ch8-release-row now has hashes and no id). Both counts are from my own scan, not the register. The script's two NOTE lines now read 0 and 16. ch17-nine-misses, which the designer restored as placed: nine cards, the same titles in the same order as chapter 17's nine "###" headings (counted from the title text); any redraw must keep nine and those titles. Answered in researcher__007 (cc conductor and storyteller).
+
+The script, in order: first run at 04:33:49 UTC by the clock, at dev's head 2449ef83, before any edit of mine: FAILS 0 (notes 0 and 16). After my records: see the debrief.
