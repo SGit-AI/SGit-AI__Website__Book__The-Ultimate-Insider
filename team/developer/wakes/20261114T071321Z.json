@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled wake, 09:12 London (07:12 UTC)",
+ "started": "2026-11-14T07:13:21Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). No hold; manuscript unchanged since 01:33 (rebuilt 02:12), so no rebuild; page check with the chapters file on the PDF of 07:12 in a fresh scratch folder, deleted; developer__092 only what changed against 091.",
+   "at": "2026-11-14T07:13:54Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). Within policy and security__009 to 013; no rebuild; PDF and chapters file as untrusted data in a new empty folder, deleted; vault_check before the mail; exit codes 0 before the push.",
+   "at": "2026-11-14T07:13:54Z"
+  },
+  "work": {
+   "by": "developer",
+   "model": "",
+   "verdict": "done",
+   "comment": "Gate passed; chapters-json test ok; published PDF of 07:12 and its chapters file fetched by hand into a fresh scratch folder, checked with python3 -I (rc 0), folder deleted (it held only the book and its file); no rebuild (no manuscript change since 01:33); no page removed; developer__092 mailed; vault_check clean; no deviations.",
+   "at": "2026-11-14T07:14:19Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). Writes in the developer's paths; 092 copies identical apart from To/Cc; no off-host addresses, keys, em-dashes or religious words; print-check.json unchanged; no scratch PDF or JSON left; no deletions.",
+   "at": "2026-11-14T07:15:49Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). As planned: no rebuild, print-check.json identical to the committed one, mail 092 matches, Date not ahead of the clock and after the gate verdicts; the scratch folder's deletion rests on the record (ls showed it gone).",
+   "at": "2026-11-14T07:15:55Z"
+  }
+ },
+ "closed": "2026-11-14T07:15:55Z",
+ "outcome": "ok"
+}
