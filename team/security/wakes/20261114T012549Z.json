@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled wake",
+ "started": "2026-11-14T01:25:49Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "go",
+   "comment": "Quiet plan, writes inside security's scope, matches the facts checked.",
+   "at": "2026-11-14T01:26:21Z"
+  },
+  "pre_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "go",
+   "comment": "Inside scope; no hold, secret or other member's file.",
+   "at": "2026-11-14T01:26:42Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Quiet: board, status, debrief.",
+   "at": "2026-11-14T01:28:20Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
