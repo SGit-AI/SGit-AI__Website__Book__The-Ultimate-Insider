@@ -28,13 +28,13 @@ So this book has two voices. The agents tell the day as it happened, in the pres
 
 `%% record: HV1 (signed, brief 38: "can you add them all?"), printed: the newsroom's "Each earlier experiment fixed one thing and showed me the next" (a Check item, Part B)`
 
-**Figure:** the experiments that led to the day, December 2025 to October 2026: slides as data, then a presenter, then a timeline of beats, and then the day.
+**Figure:** the experiments that led to the day, December 2025 to October 2026: slides as data, then a presenter, then a first timeline, and then the day.
 
 `%% layout: full`
 
 `%% figure brief: the designer's lab/experiments/80-designer-experiments-timeline/timeline.svg, labelled as the editor's account in "The scripted talk", not the record of the day; 15 October drawn as due, not given; nothing dated after 29 October (designer 170, researcher 043 and 045).`
 
-`%% record: PEN1 round 1 note 24 ("This deserves a timeline infographic"); C116 as read on 4 and 13 November 2026 (Black Hat Europe, 9 December 2025, slides as one JSON file; the VoiceDebrief pitch, 2 September 2026, a presenter; the first talk.json, 14 October, for 15 October) C028 (the player ported from ruv.sgit.ai at 15:07) C001 (00:16) C100 (19:00, due)`
+`%% record: PEN1 round 1 note 24 ("This deserves a timeline infographic"); the caption's "a first timeline" is the article's word, "beats" being the register's for the day's 58 (researcher 034); C116 as read on 4 and 13 November 2026 (Black Hat Europe, 9 December 2025, slides as one JSON file; the VoiceDebrief pitch, 2 September 2026, a presenter; the first talk.json, 14 October, for 15 October) C028 (the player ported from ruv.sgit.ai at 15:07) C001 (00:16) C100 (19:00, due)`
 
 ## A book made the same way
 
