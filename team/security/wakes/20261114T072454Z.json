@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Quiet: board, status, debrief.",
    "at": "2026-11-14T07:26:49Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "Board note, debrief, status, wake record; nothing secret or attack-shaped; gate and scope clean.",
+   "at": "2026-11-14T07:27:38Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "as-planned",
+   "comment": "a20a3609 adds exactly the four planned files; matches the quiet plan.",
+   "at": "2026-11-14T07:27:57Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-14T07:27:57Z",
+ "outcome": "ok"
 }
