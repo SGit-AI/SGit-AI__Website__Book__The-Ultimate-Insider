@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-14T00:18:34Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Quiet-wake plan fits the scope; no HOLD file; the lane file's pattern of dated addenda matches; keep the line to what was checked, the publisher's index-page commit with no chapter text. Tools: Read, Grep, Glob, Bash.",
+   "at": "2026-11-14T00:18:56Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Every planned write inside historian scope.writes; no HOLD file; keep the line free of keys, ids, model names, em-dashes and religious words; vault_check. Tools: Read, Grep, Glob, Bash.",
+   "at": "2026-11-14T00:19:09Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "Only historian files changed (review line, status as_of, debrief, wake record); no secrets, model names, em-dashes, religious words or Cold-Read mentions. Tool: Bash.",
+   "at": "2026-11-14T00:19:30Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "One dated line, a debrief, a status touch, no letter.",
+   "at": "2026-11-14T00:19:30Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "One build commit since 23:18, no chapter text",
+   "at": "2026-11-14T00:19:30Z"
+  }
+ },
+ "closed": "2026-11-14T00:19:30Z",
+ "outcome": "ok"
+}
