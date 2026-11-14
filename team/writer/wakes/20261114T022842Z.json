@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer",
+ "kind": "scheduled wake",
+ "started": "2026-11-14T02:28:42Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer agent)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Idle: no letter added to mailroom/writer since the last wake, no To-writer trailer, round-01.json changed only note 9 (designer, publisher); status as_of and state and the record only; hourly kept. Thirteen old letters of 4 and 5 November have replies but no done/ copy: housekeeping for a working wake.",
+   "at": "2026-11-14T02:29:43Z"
+  },
+  "pre_review": {
+   "by": "security (reviewer agent)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Only status.json as_of and state and the record, in team/writer; keep asks; no key, contact, RW1 word or dash.",
+   "at": "2026-11-14T02:29:43Z"
+  },
+  "work": {
+   "by": "writer",
+   "model": "",
+   "verdict": "done",
+   "comment": "Idle: status.json as_of and state only.",
+   "at": "2026-11-14T02:29:43Z"
+  },
+  "post_review": {
+   "by": "security (reviewer agent)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Two files in team/writer; only as_of and state changed, asks kept; plain ASCII, no secrets, contacts or RW1 words.",
+   "at": "2026-11-14T02:30:18Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer agent)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Idle as planned: as_of and state only, round and done untouched, schedule unchanged and hourly.",
+   "at": "2026-11-14T02:30:18Z"
+  }
+ },
+ "closed": "2026-11-14T02:30:18Z",
+ "outcome": "idle"
+}
