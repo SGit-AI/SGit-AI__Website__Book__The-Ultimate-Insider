@@ -1,7 +1,7 @@
 {
  "about": "The full book's printed pages checked for pages that may not look right (conductor__036). Written by review/tools/print_check.py: page numbers, chapter titles, counts and sizes only.",
  "edition": "rc2-150",
- "source": "a PDF given by hand (full.pdf, created Sat Nov 14 02:15:46 2026 UTC); its chapters are those of the online view, review/anchors/editions.json, as last built",
+ "source": "a PDF given by hand (full.pdf, created unknown); its chapters are those of the online view, review/anchors/editions.json, as last built",
  "pdf_pages": 132,
  "chapters_hash": "57d1464bfc1a0605",
  "thresholds": {
@@ -12,9 +12,14 @@
  },
  "chapters_found": 32,
  "chapters": 32,
+ "chapters_file": {
+  "in_file": 31,
+  "matched": 31,
+  "disagree_with_the_title_finder": 5
+ },
  "counts": {
   "chapter_end_spill": 3,
-  "gap_page": 12,
+  "gap_page": 10,
   "figure_apart": 23
  },
  "flags": [
@@ -27,43 +32,34 @@
   },
   {
    "kind": "chapter_end_spill",
-   "page": 52,
-   "chapter": "Hours four and five: before dawn",
-   "lines": 7,
-   "fill": 0.17
-  },
-  {
-   "kind": "chapter_end_spill",
    "page": 120,
    "chapter": "Principles, and build your own",
    "lines": 9,
    "fill": 0.19
   },
   {
-   "kind": "gap_page",
+   "kind": "chapter_end_spill",
    "page": 18,
-   "chapter": "The tour: what a factory made in a day",
-   "fill": 0.21,
+   "chapter": "Inventing on principle",
    "lines": 9,
+   "fill": 0.21
+  },
+  {
+   "kind": "gap_page",
+   "page": 52,
+   "chapter": "Hours four and five: before dawn",
+   "fill": 0.17,
+   "lines": 7,
    "raster_figure_here": false,
    "borderline": false
   },
   {
    "kind": "gap_page",
    "page": 9,
-   "chapter": "The tour: what a factory made in a day",
+   "chapter": "Who is telling this story",
    "fill": 0.28,
    "lines": 5,
    "raster_figure_here": true,
-   "borderline": false
-  },
-  {
-   "kind": "gap_page",
-   "page": 10,
-   "chapter": "The tour: what a factory made in a day",
-   "fill": 0.44,
-   "lines": 4,
-   "raster_figure_here": false,
    "borderline": false
   },
   {
@@ -126,15 +122,6 @@
    "chapter": "The creator comes back",
    "fill": 0.68,
    "lines": 28,
-   "raster_figure_here": false,
-   "borderline": true
-  },
-  {
-   "kind": "gap_page",
-   "page": 7,
-   "chapter": "The tour: what a factory made in a day",
-   "fill": 0.69,
-   "lines": 24,
    "raster_figure_here": false,
    "borderline": true
   },
@@ -334,18 +321,44 @@
    "gap_page": 12,
    "figure_apart": 23
   },
-  "fixed": [],
-  "new": [],
+  "fixed": [
+   {
+    "kind": "chapter_end_spill",
+    "chapter": "Hours four and five: before dawn",
+    "before": 1,
+    "now": 0
+   },
+   {
+    "kind": "gap_page",
+    "chapter": "The tour: what a factory made in a day",
+    "before": 5,
+    "now": 1
+   }
+  ],
+  "new": [
+   {
+    "kind": "chapter_end_spill",
+    "chapter": "Inventing on principle",
+    "before": 0,
+    "now": 1
+   },
+   {
+    "kind": "gap_page",
+    "chapter": "Hours four and five: before dawn",
+    "before": 1,
+    "now": 2
+   },
+   {
+    "kind": "gap_page",
+    "chapter": "Who is telling this story",
+    "before": 0,
+    "now": 1
+   }
+  ],
   "remaining": [
    {
     "kind": "chapter_end_spill",
     "chapter": "Hour nineteen, minute by minute",
-    "before": 1,
-    "now": 1
-   },
-   {
-    "kind": "chapter_end_spill",
-    "chapter": "Hours four and five: before dawn",
     "before": 1,
     "now": 1
    },
@@ -357,19 +370,13 @@
    },
    {
     "kind": "gap_page",
-    "chapter": "The tour: what a factory made in a day",
-    "before": 5,
-    "now": 5
+    "chapter": "Hours four and five: before dawn",
+    "before": 1,
+    "now": 2
    },
    {
     "kind": "gap_page",
     "chapter": "Hour three: every wake read twice, and the first to be caught",
-    "before": 1,
-    "now": 1
-   },
-   {
-    "kind": "gap_page",
-    "chapter": "Hours four and five: before dawn",
     "before": 1,
     "now": 1
    },
