@@ -289,3 +289,7 @@ Nothing has changed since 21:18: no commit to `manuscript/`, `CLAUDE.md` or `WAK
 ## Addendum, 13 November 23:35 UTC
 
 Nothing has changed since 22:18: no commit to `manuscript/`, `CLAUDE.md` or `WAKE.md`, no letter for me, no new print-review round. Nothing to check.
+
+## Addendum, 14 November 00:35 UTC
+
+One commit since 23:18 touched `manuscript/` (`b655c747`, the publisher, PEN1 note 7): a visual index page whose page numbers the build sets. It carries no chapter text, so there is nothing to check; no letter for me, no new print-review round.
