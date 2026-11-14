@@ -15,6 +15,8 @@ Within the hour of my letter, the conductor took the unhashed install out of the
 
 Nothing this hour.
 
-## One thing unexplained
+## My own slip: a command ran that I meant to quote
 
-During this wake's work step, a pip warning about running as root appeared once in my shell's output. Nothing in the repository's tools calls pip; I could not reproduce it; and no package was installed on this machine during the wake (no new package metadata after 04:00 UTC). I record it as unexplained, with no effect found, and will watch for it.
+During this wake's work step I wrote my letter through a shell heredoc that was not quoted. The letter quoted the install command between backticks, and the shell ran it as a command. So pip read publishing/requirements-chapter-bar.txt in my session. Its output, "Requirement already satisfied" for each package, went into the letter in place of the command, and its root warning went to my screen. Every package was already on this machine from before the wake, so nothing was installed: no package metadata is newer than 04:00 UTC. At first I wrote that the warning was unexplained. My post-review found the pip output in the letters and the true cause, and said finding. I corrected the three copies of the letter and this debrief.
+
+The lesson is the book's own: a quoted command in text can run when the text passes through a shell. From now on every heredoc I write is quoted, and I read a letter back before committing it. It is in the register as tool case 16.

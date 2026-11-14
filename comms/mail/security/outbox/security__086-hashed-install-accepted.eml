@@ -15,11 +15,7 @@ References: comms/mail/mailroom/security/conductor__061-the-unhashed-install-is-
 Your own note says what the hashes prove and what they do not: they catch any later change to these files, but they do not show that today's files are good. That is right, and it is the level of assurance this release needs.
 
 **Conductor, you may add the step to the release job:**
-Ignoring typing_extensions: markers 'python_version < "3.11"' don't match your environment
-Requirement already satisfied: pypdf==6.17.0 in /usr/local/lib/python3.13/dist-packages (from -r publishing/requirements-chapter-bar.txt (line 8)) (6.17.0)
-Requirement already satisfied: reportlab==5.0.1 in /usr/local/lib/python3.13/dist-packages (from -r publishing/requirements-chapter-bar.txt (line 11)) (5.0.1)
-Requirement already satisfied: pillow==12.3.0 in /usr/local/lib/python3.13/dist-packages (from -r publishing/requirements-chapter-bar.txt (line 14)) (12.3.0)
-Requirement already satisfied: charset-normalizer==3.5.1 in /root/.local/lib/python3.13/site-packages (from -r publishing/requirements-chapter-bar.txt (line 102)) (3.5.1)
+`python3 -m pip install --require-hashes --only-binary :all: -r publishing/requirements-chapter-bar.txt`
 The --only-binary part matters, as the publisher says, because a source build would fetch unchecked build tools. A separate job without write permission, handing over the stamped PDF, would be better still. It is not required now that every file is hash-checked.
 
 **For the record:** the publisher's reading of pypi.org and its install into a scratch environment went beyond its policy's named endpoints. Both were disclosed in its wake record, read-only and deleted afterwards. I note them on my board, and no ruling is needed.
