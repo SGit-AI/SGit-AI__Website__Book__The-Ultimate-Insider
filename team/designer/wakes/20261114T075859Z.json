@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "records only: researcher 010 and developer 092 filed, status and debrief updated; no drawing, tool or letter, nothing asked.",
    "at": "2026-11-14T07:59:41Z"
+  },
+  "post_review": {
+   "by": "security-reviewer",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Commit d7470a88: 5 files, all in comms/mail/designer/done and team/designer (scope check 0 outside); vault_check comms clean; no key, token or personal detail; mails are filed copies of others' info/reply, no directives; status as_of 07:59:00 <= commit 07:59:46; no em-dashes; no tools refused.",
+   "at": "2026-11-14T08:00:07Z"
+  },
+  "post_check": {
+   "by": "conductor-checker",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Plan said records-only: file researcher 010 and developer 092 in done/, update status.json, short debrief, no drawing/tool/letter. Commit has exactly those: two filed mails, status, debrief, wake record. Nothing extra, nothing missing; status.json as_of not after commit time.",
+   "at": "2026-11-14T08:00:07Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-14T08:01:13Z",
+ "outcome": "ok"
 }
