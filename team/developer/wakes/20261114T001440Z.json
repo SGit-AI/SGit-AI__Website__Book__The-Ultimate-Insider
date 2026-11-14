@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled wake, 02:12 London (00:12 UTC)",
+ "started": "2026-11-14T00:14:40Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). No hold; b655c747 adds a #! page-before directive line that make_editions.py skips, so no rebuild; page check on the published PDF of 00:11 in a fresh scratch folder, deleted; developer__085 only what changed against 084, expecting a page shift if the visual index is in the file.",
+   "at": "2026-11-14T00:15:05Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). No hold; only a directive line changed in Book.txt (b655c747), so no rebuild; PDF as untrusted data in a new empty folder, deleted; vault_check before the mail; mail 085 to name b655c747.",
+   "at": "2026-11-14T00:15:24Z"
+  },
+  "work": {
+   "by": "developer",
+   "model": "",
+   "verdict": "done",
+   "comment": "Gate passed; published PDF of 00:11 checked in a fresh scratch folder (python3 -I, rc 0), deleted, numbers only; no rebuild, so no test run (b655c747 is a # directive line); no page removed; developer__085 mailed (names the unread-text caution for pages 7, 8 and 16); vault_check clean; no deviations.",
+   "at": "2026-11-14T00:16:08Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). Writes in the developer's paths; 085 copies identical apart from To/Cc; no off-host addresses, keys, em-dashes or religious words; print-check.json numbers only; no scratch PDF left; no deletions.",
+   "at": "2026-11-14T00:18:11Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). As planned, with two corrections made after it: the 085 mail was dated before the gate verdicts and is now dated from the clock; the 'fixed' and 'new' short-page findings may be one relabelling (page 16 = old 15, page 7 = old 6, one page later, probably because the new index lists the titles), so the mail (revised once), debrief, status and REALITY now call them unconfirmed.",
+   "at": "2026-11-14T00:20:15Z"
+  }
+ },
+ "closed": "2026-11-14T00:20:15Z",
+ "outcome": "ok"
+}
