@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake 04:02",
+ "started": "2026-11-14T04:03:32Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go: remove lines 69-74 as one block; build_book catches a missing chapter_bar (929-935); requirements file unused until security reads it; 174 (b) is the storyteller's. No tool lacked.",
+   "at": "2026-11-14T04:04:11Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go: the release job has contents: write, so removing the unhashed install is right; vault_check before commit. No tool lacked.",
+   "at": "2026-11-14T04:04:11Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "3 letters filed; the unhashed install removed from release.yml (security 077's must); security 061; note 9 partial; pen image; As of; status.",
+   "at": "2026-11-14T04:06:12Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Workflow diff is removal only; no key, contact, name or religious word; vault_check clean; nothing to Cold-Read. No tool lacked.",
+   "at": "2026-11-14T04:06:12Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every plan item done as planned. No tool lacked.",
+   "at": "2026-11-14T04:06:12Z"
+  }
+ },
+ "closed": "2026-11-14T04:06:12Z",
+ "outcome": "ok"
+}

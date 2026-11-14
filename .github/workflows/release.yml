@@ -66,12 +66,6 @@ jobs:
           echo "version=$NEW" >> "$GITHUB_OUTPUT"
       - name: build the release commit and gate it again
         run: python3 admin/build/build.py && python3 admin/build/validate.py && grep -qx "${{ steps.number.outputs.version }}" _site/version.txt
-      - name: the chapter bar's two libraries, pinned by exact version (security 076, publisher 084; every book build after this stamps with them; a failure warns)
-        continue-on-error: true
-        run: |
-          python3 -m pip install -q --user pypdf==6.17.0 reportlab==5.0.1 \
-            || python3 -m pip install -q --user --break-system-packages pypdf==6.17.0 reportlab==5.0.1 \
-            || echo "::warning::pypdf and reportlab are not installed: the PDFs ship without the chapter bar"
       - name: the manuscript, as PDF and EPUB (publisher's request; a failure warns and never stops the site's release)
         continue-on-error: true
         run: |

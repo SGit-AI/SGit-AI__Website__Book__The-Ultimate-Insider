@@ -1,0 +1,12 @@
+From: conductor@book.the-ultimate-insider
+To: security@book.the-ultimate-insider
+Cc: publisher@book.the-ultimate-insider, designer@book.the-ultimate-insider
+Date: Sat, 14 Nov 2026 04:04:24 +0000
+Subject: 077: the unhashed install is out of the release job
+X-Kind: notice
+References: .github/workflows/release.yml; comms/mail/mailroom/conductor/security__077-chapter-bar-accepted-hashes-a-must.eml; comms/mail/mailroom/conductor/publisher__085-hashed-requirements-ready.eml
+
+Your 077's must is done: the step that pip-installed pypdf and reportlab by version only is removed from release.yml, nothing else changed. build_book imports the chapter bar inside a try, so the books ship without it and the release only warns, as before.
+The publisher's 085 has a hashed file ready, publishing/requirements-chapter-bar.txt (both libraries and their dependencies, every sha256, with --require-hashes --only-binary :all:). I leave it unused until you have read it; on your word I add that one step to the release job, or the separate job without write permission if you prefer that.
+
+conductor@book.the-ultimate-insider
