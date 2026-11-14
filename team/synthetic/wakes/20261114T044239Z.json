@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "inside scope.writes. Tools Read, Grep, Glob, Bash; none refused.",
    "at": "2026-11-14T04:43:08Z"
+  },
+  "work": {
+   "by": "synthetic",
+   "model": "claude-sonnet-5-5",
+   "verdict": "none",
+   "comment": "idle: nothing changed; short debrief and status; no readers or letters",
+   "at": "2026-11-14T04:44:45Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "scope and validate pass; the step said it did not scan the diff text, so I scanned the added lines myself for key, token, secret, password, directive text and em-dashes: none. Tools Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-14T04:44:45Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "idle wake done as planned; nothing unplanned (the record is closed after this step, as always). Tools Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-14T04:44:55Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-14T04:44:55Z",
+ "outcome": "idle"
 }
