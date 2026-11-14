@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled wake",
+ "started": "2026-11-14T00:24:34Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "go",
+   "comment": "Quiet plan fits. Its note on Book.txt and build_book.py misread them as security's: they are other members' changes already on dev, read here, not committed by security.",
+   "at": "2026-11-14T00:25:06Z"
+  },
+  "pre_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "go",
+   "comment": "Writes in scope; no hold; vault_check before commit; no other member's path.",
+   "at": "2026-11-14T00:25:27Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Quiet: board, status, debrief; vault_check clean.",
+   "at": "2026-11-14T00:26:28Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

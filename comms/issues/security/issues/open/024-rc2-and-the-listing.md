@@ -132,3 +132,5 @@ The revised 150/22 and 70/14 read after the post-check: clear (still a plan, not
 **13 November, 22:24 wake.** studio__lab.jpg cleared by name, at ruv-sgit's ask (security__083). LAB 40's new drawing, the re-saved PEN1 photographs (no metadata) and the build's narrator rule clear.
 
 **13 November, 23:24 wake.** Quiet. studio__lab.jpg is on SHOT_CLEARED (publisher__023). The build's new copy of page two, with only its part-page numbers changed, passes the drawings' and pictures' check before it is placed. LAB 79's visual index and the re-saved PEN1 photograph clear.
+
+**14 November, 00:24 wake.** Quiet. The visual index (LAB 79) is placed before 00b; the build's numbered copy of it passes placed_svg_check. LAB 80's timeline and the re-saved PEN1 photograph clear.
