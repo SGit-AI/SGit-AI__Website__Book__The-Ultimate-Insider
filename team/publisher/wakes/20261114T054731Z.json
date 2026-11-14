@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake",
+ "started": "2026-11-14T05:47:31Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; confirm note 9 in the release; name the file, its time and release; say it was read by render.",
+   "at": "2026-11-14T05:48:23Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Record the download of the site's own PDF (a: to verify note 9 in the release; b: needed, the bar is graphic; c: without it the landing is unverified); scratchpad only, not committed; no HOLD.",
+   "at": "2026-11-14T05:48:23Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Letter 087 only. Outside read: the site's own public KDP interior PDF (a: verify note 9 in the release; b: needed, the bars are drawn; c: otherwise unverified), scratchpad only.",
+   "at": "2026-11-14T05:48:53Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Letter and records clean; no PDF in the repository; the outside read recorded with a), b), c); vault_check clean.",
+   "at": "2026-11-14T05:49:34Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Only the plan's work; file, time and release named; read by render.",
+   "at": "2026-11-14T05:49:34Z"
+  }
+ },
+ "closed": "2026-11-14T05:49:34Z",
+ "outcome": "ok"
+}
