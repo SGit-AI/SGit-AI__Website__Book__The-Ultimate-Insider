@@ -1,8 +1,8 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "publisher",
- "as_of": "2026-11-14T02:10:00Z",
- "round": 101,
+ "as_of": "2026-11-14T03:05:00Z",
+ "round": 102,
  "state": "RS1, PEN1 round 1. The KDP interior 130 pages: the spread, the visual index, five part pages, the running footer",
  "done": [
   {
@@ -444,6 +444,10 @@
   {
    "what": "found CI lacks pdftotext; footer fixed for each part's first chapter and split part/chapter by side; letter 083 (request)",
    "when": "2026-11-14T02:10Z"
+  },
+  {
+   "what": "PEN1 note 9: chapter bar in publishing/chapter_bar.py; chapter_starts allows a stamp line; label cap 48; letter 084 (request: pin pypdf, reportlab)",
+   "when": "2026-11-14T03:05Z"
   }
  ],
  "next": [

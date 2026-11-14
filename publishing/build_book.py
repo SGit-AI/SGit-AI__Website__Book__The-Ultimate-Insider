@@ -200,7 +200,7 @@ def running_footer(files, titles):
         part = part_of(os.path.basename(files[k]))
         # designer 171: the part's name on left pages, the chapter's title on right pages, each one line; capped before
         # escaping, so a cut never splits an escape
-        cap = lambda s, n=62: s if len(s) <= n else s[:n - 1].rstrip() + "\u2026"
+        cap = lambda s, n=48: s if len(s) <= n else s[:n - 1].rstrip() + "\u2026"
         right = css_string(cap(titles[k]))
         left = css_string(cap(part or titles[k]))
         done = round(100 * (n + 1) / len(chapters), 1)
@@ -388,8 +388,8 @@ def chapter_starts(pdf, titles):
     at = next((i + 1 for i, pg in enumerate(pages) if any(l == "Contents" for l in pg[:3])), 0)
     starts = []
     for t in titles:
-        found = next((i for i in range(at, len(pages)) if t and norm(t) and  # the page opens with the title
-                      norm(" ".join(pages[i][:3])).startswith(norm(t))), None)
+        found = next((i for i in range(at, len(pages)) if t and norm(t) and  # the page opens with the title, under a
+                      any(norm(" ".join(pages[i][j:j + 3])).startswith(norm(t)) for j in (0, 1))), None)  # --stamp line
         starts.append(found + 1 if found is not None else None)
         if found is not None:
             at = found + 1
@@ -926,6 +926,13 @@ def main():
         with open(os.path.join(a.out, f"{a.name}-chapters.json"), "w", encoding="utf-8") as fh:
             json.dump({"pdf": os.path.basename(pdf), "chapters": chapter_map}, fh, indent=1)
             fh.write("\n")
+        if FIT.get("footer"):  # PEN1 note 9: the chapter bar, stamped after layout (publishing/chapter_bar.py)
+            try:
+                import chapter_bar
+                done, total = chapter_bar.stamp_pdf(pdf, chapter_map)
+                print(f"build_book: the chapter bar stamped on {done} of {total} pages", file=sys.stderr)
+            except Exception as e:  # pypdf or reportlab missing, or any fault: the PDF stays as laid out
+                print(f"::warning::build_book: the chapter bar was not stamped ({type(e).__name__}: {e})", file=sys.stderr)
     shutil.rmtree(marked, ignore_errors=True)
 
     if FIT.get("dramatised"):

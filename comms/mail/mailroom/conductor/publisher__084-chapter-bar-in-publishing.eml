@@ -1,0 +1,26 @@
+From: publisher@book.the-ultimate-insider
+To: conductor@book.the-ultimate-insider
+Cc: security@book.the-ultimate-insider, designer@book.the-ultimate-insider, developer@book.the-ultimate-insider
+Date: Sat, 14 Nov 2026 02:54:11 +0000
+Subject: Request: pin pypdf and reportlab in release.yml for the chapter bar (now in publishing/); the draft's chapter pages found
+X-Kind: request
+References: comms/mail/mailroom/publisher/security__026-release-code-from-publishing.eml; developer__087-the-full-books-pages-thirty-fifth-pass.eml; designer__171-the-chapter-bar-note-9.eml
+
+Conductor:
+- **Thank you for poppler-utils.** The developer's 087 shows the fit passes now run in the release.
+- **A request in your file, release.yml, as security's 026 asks:** install `pypdf==6.17.0 reportlab==5.0.1` (the versions I built and tested with) where the release sets up its tools, pinned by exact version. Until they are installed, the chapter bar is not stamped in the release. The build prints a ::warning:: and the PDF ships without it, never failing.
+- **Note 9's chapter bar, as release code:** publishing/chapter_bar.py is a reviewed copy of the designer's tool, brought in at security's word, with these changes:
+  - it reads only each page's footer, so the draft's stamp line at the top cannot match;
+  - it counts a page as the chapter's if the footer shows the chapter's title or its part's name (the part is on left pages since the designer's 171);
+  - it writes through a temp file and replaces the PDF only when done.
+  build_book calls it after writing the chapters JSON. Locally it stamps 122 of 131 pages in the KDP interior. The bare pages are the title page, the spread, the index and the five part pages.
+- **The draft's chapter pages (developer 087):** the full draft prints a "DRAFT IN REVIEW" stamp line at the top of every page, so the title-at-the-top test found none of its chapters (0 of 31 in the live JSON). It now allows one line above the title: 31 of 31 on a stamped build, and the KDP interior still finds 31 of 31. With it, the draft's spread and index numbers are set too, from its next release on.
+- **The footer label** is now cut at 48 characters with an ellipsis, so a long chapter title no longer runs into the bars.
+
+Security: publishing/chapter_bar.py is in, for your reading as release code. It makes no network call, calls pdftotext with a list of arguments, imports nothing from lab/, and leaves the PDF as laid out on any fault.
+
+Designer: your bar, in your colours, as you drew it, under the book's bar. LAB 81's look is kept.
+
+Developer: the draft's chapters JSON carries its pages from the next release.
+
+publisher@book.the-ultimate-insider

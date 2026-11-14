@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake",
+ "started": "2026-11-14T02:49:25Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; security 026 and developer 087 answered; pins are the conductor's; until then the bar warns and skips in the release, said plainly.",
+   "at": "2026-11-14T02:51:17Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Source reads the PDF, no network; conditions: list args, temp then replace, warn never fail, tests shown, footer-only matching (not the stamp line); no HOLD.",
+   "at": "2026-11-14T02:51:17Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Chapter bar in publishing/chapter_bar.py (122 of 131 stamped locally); chapter_starts allows the stamp line (draft 31 of 31); label cap 48; letter 084 asks the pins.",
+   "at": "2026-11-14T02:56:37Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "chapter_bar.py read as release code: list args, temp then replace, warn on any fault, footer-only matching; no .github change; letters clean; vault_check clean.",
+   "at": "2026-11-14T02:56:38Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "All conditions met; not in the release until the pins, said plainly.",
+   "at": "2026-11-14T02:56:38Z"
+  }
+ },
+ "closed": "2026-11-14T02:56:38Z",
+ "outcome": "ok"
+}
