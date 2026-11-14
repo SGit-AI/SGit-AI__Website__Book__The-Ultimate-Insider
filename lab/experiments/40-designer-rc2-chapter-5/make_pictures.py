@@ -82,7 +82,7 @@ def cards_into_files(clone):
         out.append(t(x + 8, 41.4 + (i % 2) * 4.2, m, 700, mc.INK, "middle"))
     for k, (name, words) in enumerate(SHEETS):
         out.append(sheet(1 + k * 46, 51.6, name, mc.MUTED) + t(6 + k * 46, 55.4, words, 400, mc.MUTED))
-    out.append(t(1, 61.6, "each card a folder as the talk's history holds it at 298be4e; in the order they came on stage (C011)", 400, mc.MUTED))
+    out.append(t(1, 61.6, "each card a folder as the talk's history holds it at the end of the day, in the order they came on stage", 400, mc.MUTED))
     defs = (f'<defs><marker id="d" viewBox="0 0 6 6" refX="5" refY="3" markerWidth="4" markerHeight="4" orient="auto">'
             f'<path d="M0 0 L6 3 L0 6 z" fill="{mc.FILL2}"/></marker></defs>')
     return mc.svg(164, 63.4, defs + "".join(out), "The nine cast heads, each becoming a folder with its page of rules, its debriefs and its wake records")
