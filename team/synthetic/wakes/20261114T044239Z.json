@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, 05:42 London",
+ "started": "2026-11-14T04:42:39Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "idle wake: no readers or letters; short debrief and status; close idle; the cadence stays as set (ACC1). Tools Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-14T04:42:57Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "inside scope.writes. Tools Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-14T04:43:08Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
