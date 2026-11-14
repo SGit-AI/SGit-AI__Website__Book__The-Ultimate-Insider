@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "storyteller",
+ "kind": "scheduled, at :39 London",
+ "started": "2026-11-14T07:40:03Z",
+ "steps": {
+  "plan": {
+   "by": "storyteller (member-written plan, UL1)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Requests: designer 177 (chapter 17's misses card and ch11-two-files redrawn; the recheck is the researcher's): nothing asked of me; file it. Writes only team/storyteller/ and comms/mail/storyteller/done/.",
+   "at": "2026-11-14T07:40:13Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No HOLD.md; files one letter inside scope.writes; no stop condition.",
+   "at": "2026-11-14T07:40:24Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "done",
+   "comment": "designer 177 filed; nothing asked of me.",
+   "at": "2026-11-14T07:40:24Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Only the wake record and one filed letter, inside scope.writes.",
+   "at": "2026-11-14T07:40:37Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "designer 177 filed as planned.",
+   "at": "2026-11-14T07:40:37Z"
+  }
+ },
+ "closed": "2026-11-14T07:40:37Z",
+ "outcome": "ok"
+}
