@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake",
+ "started": "2026-11-14T04:48:14Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No code change; release.yml installs neither library (58300aa7), so the bar is skipped with a warning; offer security's exact step to the conductor.",
+   "at": "2026-11-14T04:49:07Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Quote the step word for word; vault_check; merge dev before push; no HOLD.",
+   "at": "2026-11-14T04:49:07Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Letter 086 only; no code change.",
+   "at": "2026-11-14T04:49:16Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Letter and copies clean, the step word for word, no code change; vault_check clean.",
+   "at": "2026-11-14T04:50:00Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Only letter 086 and records.",
+   "at": "2026-11-14T04:50:00Z"
+  }
+ },
+ "closed": "2026-11-14T04:50:00Z",
+ "outcome": "ok"
+}
