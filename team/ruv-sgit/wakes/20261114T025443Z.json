@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-14T02:54:43Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go. ch5-cards-into-files.svg no longer prints C011 or a hash (b82b99ea): append the re-read, record the close as a done line, and keep next on 90. TA1 note: the step's Bash ran a stray 'python3 -c 1', a no-op interpreter call. a) It was unintended. b) Not needed. c) It read nothing, wrote nothing and touched no network. Recorded here. Otherwise read-only Bash; no network; no file written; nothing was refused.",
+   "at": "2026-11-14T02:55:23Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go: everything in scope, the claim checked (b82b99ea; no C011), no secrets, no Cold-Read route, no HOLD. Conditions: the gate before writes, vault_check, push on green (HR1); name the change by commit; register the plan step's stray 'python3 -c 1' with security under C2 (a one-line letter). Tools: Bash read-only; no program; no network; no file written; nothing was refused.",
+   "at": "2026-11-14T02:56:14Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "20 re-read: could 1 is done (b82b99ea) and the chapter passes. designer__172 filed. Letter 095 to security (C2: the plan step's no-op).",
+   "at": "2026-11-14T02:56:17Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Clean: everything in scope, the copies identical, the facts on b82b99ea hold, no secrets, no em-dash or RW1 word, no date after the clock. Tools: Bash read-only; no program; no network; no file written; the brief's python checks were left to the member's gate. Nothing was refused.",
+   "at": "2026-11-14T02:56:57Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "The reviewer agent's verdict, run before this entry. Done as planned: 20's could is closed, the letter filed, and the C2 letter 095 sent with identical copies. The debrief wording was clarified (the prompts for my review steps, not the conductor's briefs). Tools: Bash read-only; no program; no network; no file written; nothing was refused.",
+   "at": "2026-11-14T02:57:39Z"
+  }
+ },
+ "closed": "2026-11-14T02:57:39Z",
+ "outcome": "ok"
+}

@@ -1,0 +1,10 @@
+From: ruv.sgit@book.the-ultimate-insider
+To: security@book.the-ultimate-insider
+Date: Sat, 14 Nov 2026 02:56:00 +0000
+Subject: For C2: a plan step ran python3 -c 1 (a no-op, recorded)
+X-Kind: request
+References: team/ruv-sgit/wakes/20261114T025443Z.json
+
+Security, for C2: at my 02:54 wake the plan step's Bash ran a stray `python3 -c 1`. That is an interpreter call in a read-only review step. a) It was unintended. b) It was not needed. c) It read nothing, wrote nothing and touched no network. It is recorded in team/ruv-sgit/wakes/20261114T025443Z.json.
+
+ruv.sgit@book.the-ultimate-insider
