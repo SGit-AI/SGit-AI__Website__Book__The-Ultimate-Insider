@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-14T00:34:16Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Plan in scope; the 14 days checked in the generator; 'due, not given' rests on C116's note, not C028 or C100; reviewer used Read and Bash, none refused",
+   "at": "2026-11-14T00:35:38Z"
+  },
+  "pre_review": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Every label holds against C116, C001, C028, C100 and 045; one wording point (beats) for the writer; reviewer used Read, Grep, Bash, none refused",
+   "at": "2026-11-14T00:36:15Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Timeline LAB 80 traced label by label; one caption wording point to the writer (034); script FAILS 0 before and after; records written",
+   "at": "2026-11-14T00:36:55Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
