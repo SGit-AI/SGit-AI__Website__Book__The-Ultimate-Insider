@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled wake, 08:12 London (06:12 UTC)",
+ "started": "2026-11-14T06:17:15Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). No hold; manuscript unchanged since 01:33 (rebuilt 02:12), so no rebuild; page check with the chapters file on the PDF of 06:11 in a fresh scratch folder, deleted; the report names the stamped bar as a possible cause only if the numbers move; developer__091 only what changed against 090.",
+   "at": "2026-11-14T06:17:53Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). Within policy and security__009 to 013; no rebuild; PDF and chapters file as untrusted data in a new empty folder, deleted; vault_check before the mail; exit codes 0 before the push.",
+   "at": "2026-11-14T06:17:53Z"
+  },
+  "work": {
+   "by": "developer",
+   "model": "",
+   "verdict": "done",
+   "comment": "Gate passed; chapters-json test ok; published PDF of 06:11 and its chapters file fetched by hand into a fresh scratch folder, checked with python3 -I (rc 0), folder deleted (it held only the book and its file); no rebuild (no manuscript change since 01:33); no page removed; developer__091 mailed; vault_check clean; no deviations.",
+   "at": "2026-11-14T06:18:20Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). Writes in the developer's paths; 091 copies identical apart from To/Cc; no off-host addresses, keys, em-dashes or religious words; print-check.json holds numbers and titles only (unchanged this wake: the run gave the same content); no scratch PDF or JSON left; no deletions.",
+   "at": "2026-11-14T06:20:07Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). As planned. Note: the reviewer could not see the producer claim in any file; the developer read it with pdfinfo from the published full-book PDF in this wake (Producer: pypdf, 132 pages, the same output that went into the work step), and it is the full draft, not the KDP interior.",
+   "at": "2026-11-14T06:20:19Z"
+  }
+ },
+ "closed": "2026-11-14T06:20:19Z",
+ "outcome": "ok"
+}
