@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "ids off the seven placed drawings and ch7-wakes-card, each diff only the id; ch17-nine-misses restored after a live-folder change; lab clean; letter 174 proposes the hash rule, hashes untouched; five letters filed.",
    "at": "2026-11-14T04:01:04Z"
+  },
+  "post_review": {
+   "by": "security-reviewer",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Scope check 0 outside; vault_check comms clean. All 8 SVG diffs equal the old file minus the (Cnnn) id, nothing else. 298be4e left in ch8-release-row (pre-review condition met; 174 says so). Letter 174 has no contact details (only role addresses), no em-dashes; proposes only. Nothing in publishing/ or manuscript/. Tools used: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-14T04:01:35Z"
+  },
+  "post_check": {
+   "by": "conductor-checker",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Matches plan: ids stripped from 7 captions plus ch7-wakes-card (C087) in both make_pictures.py, drawings differ in id only, lab rebuilt; letter 174 to storyteller cc conductor and researcher proposes the hash rule, no ruling changed; five letters filed, records and status updated. One departure, in the safe direction: the plan flagged line 544's hash edit, the work left every hash untouched, so no edit beyond the ids-only ruling. ch17-nine-misses restored to as-placed after a folder change; noted in 174.",
+   "at": "2026-11-14T04:01:35Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-14T04:02:11Z",
+ "outcome": "ok"
 }
