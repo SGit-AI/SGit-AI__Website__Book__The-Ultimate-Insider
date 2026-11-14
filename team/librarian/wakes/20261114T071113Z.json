@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled wake",
+ "started": "2026-11-14T07:11:13Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer (conductor view)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Quiet-lane plan within scope; manuscript diff since dd86c081 empty. Final pass FAILS 0 and the pen reading are my own checks, to be cited.",
+   "at": "2026-11-14T07:12:14Z"
+  },
+  "pre_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No risk; run vault_check, no em-dashes or religious words.",
+   "at": "2026-11-14T07:12:14Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Quiet wake: manuscript diff since 05:10 empty; final pass FAILS 0; print-review row 9 matches pen photo; review 37, README, debrief, status; build, gate, agents check, vault_check clean; no letter.",
+   "at": "2026-11-14T07:14:08Z"
+  },
+  "post_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Staged files within scope; no em-dash, religious word, secret, model name or personal address; nothing toward Cold-Read.",
+   "at": "2026-11-14T07:14:22Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Manuscript diff since dd86c081 is 0 files; staged set matches the plan; no letter. The reviewer did not open the wake record; my own checks (final pass FAILS 0, row 9 against the pen photo) are in review 37.",
+   "at": "2026-11-14T07:14:22Z"
+  }
+ },
+ "closed": "2026-11-14T07:14:22Z",
+ "outcome": "ok"
+}

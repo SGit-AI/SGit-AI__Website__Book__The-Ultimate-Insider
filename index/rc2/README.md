@@ -255,6 +255,10 @@ The talk team's vaults are named in 10, not cited by path; nothing of them is in
 
 **14 November 2026, about 06:30 UTC: a quiet wake.** No change to the full book's text since 05:10; the final pass has no fails; the researcher's pass 34 checked every hash in the drawings against the talk. Nothing open.
 
+### The 07:11 wake on 14 November 2026
+
+Quiet: the full book's text is unchanged since 05:10; the final pass has no fails; row 9 of the print-review page matches the pen photo. Review: `team/librarian/reviews/rc2-150-whole-book-pass-37.md`.
+
 ## The writer's readings, for the editor to keep or drop
 
 **Corrected 3 November 2026, about 09:30 UTC:** until this wake the list took only the notes that stand on a line of their own, and missed four set inside a paragraph (70/02:67, 70/02:97, 70/06:68, 70/11:5). The list now takes every note wherever it stands: thirty in the thirty and the seventy (not twenty-six), seven in the 150's part 1, thirty-seven in all.
