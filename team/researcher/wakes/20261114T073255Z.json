@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-14T07:32:55Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Plan in scope; the reviewer did not re-run my drawing and diff checks, so the pre-review is asked to; the script check is a NOTE first; reviewer used Read and Bash, none refused",
+   "at": "2026-11-14T07:34:03Z"
+  },
+  "pre_review": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Independent check agrees: nine headings and nine cost sentences are in ch17-nine-misses as contiguous runs (the first card 34 of 34); ch11-two-files lost only (1f7c633); ch17 changed only in card 1 (the chapter's current wording); reviewer used Bash only, none refused",
+   "at": "2026-11-14T07:34:42Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "ch17-nine-misses rechecked (all nine headings and cost sentences); the new script check fails on the old drawing and passes on the new; 010 sent; 177 filed; script FAILS 0 at 07:33:18 and after; records written; my 04:33 miss owned",
+   "at": "2026-11-14T07:35:52Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

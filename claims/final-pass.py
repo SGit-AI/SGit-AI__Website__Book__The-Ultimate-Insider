@@ -111,6 +111,23 @@ try:
     print('NOTE drawings mapped for the full book with a commit hash only (the ruling names ids only; a question for the conductor):',len(_hon))
 except Exception as _e:
     print('NOTE the drawings scan did not run:',_e)
+# 3c. chapter 17's nine-misses drawing against the chapter (the designer redrew it on 14 November because chapter 17 had changed
+# after it was drawn): every "###" heading and every "*What it cost:*" sentence must be in the drawing's text as a contiguous run of words
+try:
+    _c17=open(glob.glob('manuscript/rc2/150/17-*.md')[0]).read()
+    _sv=open('lab/experiments/43-designer-rc2-full-book/ch17-nine-misses.svg').read()
+    _tw=' '.join(re.findall(r"[A-Za-z0-9']+",' '.join(re.sub(r'<[^>]+>',' ',x) for x in re.findall(r'<text[^>]*>(.*?)</text>',_sv,re.S))))
+    _bad=[]; _n=0
+    for _p in re.split(r'\n### ',_c17)[1:]:
+        _n+=1; _title=_p.split('\n',1)[0].strip()
+        _m=re.search(r'\*What it cost:\*\s*(.*?)\s*(?:\*Whose record:\*|\n\n)',_p,re.S)
+        _tw1=' '.join(re.findall(r"[A-Za-z0-9']+",_title))
+        if _tw1 not in _tw: _bad.append(f'heading not in the drawing: {_title[:40]}')
+        if _m and ' '.join(re.findall(r"[A-Za-z0-9']+",_m.group(1))) not in _tw: _bad.append(f'cost not in the drawing: {_title[:40]}')
+        if not _m: _bad.append(f'no "What it cost" line found for: {_title[:40]}')
+    report(f"chapter 17's nine-misses drawing carries all {_n} headings and every cost sentence of the chapter as it reads now",_bad)
+except Exception as _e:
+    print('NOTE the chapter 17 drawing check did not run:',_e)
 # 4. chapter 21's team table against C131 (as stored) and against today's script
 def table():
     t=open(glob.glob('manuscript/rc2/150/21-*.md')[0]).read(); rows={}

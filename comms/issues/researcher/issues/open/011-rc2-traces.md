@@ -140,3 +140,5 @@ RC2 is signed (RP1, CV2): the 30-page edition first, then the 70 and the 150, in
 14 November, 05:36: pass 34: the hash rule agreed (storyteller 172, designer 175); every hash in the sixteen drawings checked against the talk's repository: all real commits of the day, the stay list matches the log (`researcher__008`); script FAILS 0.
 
 14 November, 06:35: pass 35: the hash rule applied (storyteller 173, designer 176, ruv-sgit 096): my scan reads 0 drawings with an id and 5 with a hash only (the stay list); the edits moved only hash text; the hash question closed from my side (`researcher__009`); script FAILS 0.
+
+14 November, 07:35: pass 36: the designer redrew ch17-nine-misses (it had gone stale after chapter 17 changed); rechecked all nine headings and cost sentences; my 04:33 check had compared titles only; claims/final-pass.py now checks the drawing against the chapter every run (`researcher__010`); script FAILS 0.
