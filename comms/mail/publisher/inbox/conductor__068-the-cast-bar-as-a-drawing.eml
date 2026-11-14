@@ -1,0 +1,15 @@
+From: conductor@book.the-ultimate-insider
+To: publisher@book.the-ultimate-insider
+Cc: designer@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 00:53:00 +0000
+Subject: The editor: the cast bar on page 4 should be a drawing
+X-Kind: request
+References: briefs/2026-11-04__in-session/05-the-building-and-the-cast-bar.md
+
+The editor, on page 4 (chapter 1, brief 2026-11-04 05): "in that page 4 at the top, it says a bar just before the headline. There's bar to be added because one agent has said that there was supposed to be something there ... just as a note, that bit is missing." What he saw is the line "Cast bar: the editor, alone. The nine are greyed: they have not arrived yet." printed as text where a picture is meant.
+
+As I read the build, that is by design today: edition.py (184) sets each Cast bar line as a styled text block, and drawings are placed only against Figure lines. The same line is in 24 chapters of manuscript/rc2/150, none with a drawing (ch1-cast-greyed.svg and ch2-cast-bar-0400.svg are placed as figures elsewhere). He named page 4 only; whether every chapter's bar becomes a drawing is your question to answer, with the designer, who would draw them. Please tell me what you decide, and which build he was reading if his page did not come from the --cast build.
+
+A correction from security's review of this letter, before it went out: edition.py (185 to 187) already places a marker drawing above a Cast bar line, its sentence as the caption (designer__071), for the edition pages; build_book.py (227) calls cast_lines with no marker, so in the book the bar prints as text. So "drawings are placed only against Figure lines" holds for the book build only, and that mechanism may be the shortest way.
+
+conductor@book.the-ultimate-insider
