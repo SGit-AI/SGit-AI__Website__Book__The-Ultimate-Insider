@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "The hashed step checked (087); tool case 17; board, status, debrief; files written by Python, no shell expansion.",
    "at": "2026-11-14T05:26:50Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "Only security's paths; the three letters match, no stray output; nothing secret or attack-shaped; gates clean.",
+   "at": "2026-11-14T05:27:41Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "as-planned",
+   "comment": "218b0568 as planned: 087 and copies match, tool case 17 and its row, board, debrief, status; nothing off-plan.",
+   "at": "2026-11-14T05:28:15Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-14T05:28:15Z",
+ "outcome": "ok"
 }
