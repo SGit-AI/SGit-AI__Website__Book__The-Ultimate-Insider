@@ -56,3 +56,4 @@ The full book: every scene, the appendices, the record markers live online. Writ
 - 13 November 2026, 21:29 UTC: the spread rerun prints PEN1 notes 1, 2, 4, 5, 10 and 14 (designer 167).
 - 14 November 2026, 00:31 UTC: PEN1 note 24, the experiments timeline placed in 00b; the map's second slot asked of the publisher (writer__301).
 - 14 November 2026, 01:31 UTC: the timeline prints (publisher 046); its caption 'a first timeline' (researcher 034).
+- 14 November 2026, 06:29 UTC: ruv-sgit 096 filed: the card's small type loses its read-at hash; nothing to change in 00 to 09.

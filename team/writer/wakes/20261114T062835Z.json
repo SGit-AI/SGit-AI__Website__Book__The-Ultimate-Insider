@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer",
+ "kind": "scheduled wake",
+ "started": "2026-11-14T06:28:35Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer agent)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Ruv-sgit 096 is cc, for the writer's record only: the card's small type (writer__020's wording) loses its read-at hash; no chapter quotes it; file it, no letter, no manuscript change.",
+   "at": "2026-11-14T06:29:35Z"
+  },
+  "pre_review": {
+   "by": "security (reviewer agent)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; 096 holds team addresses only, no secret; vault_check before commit.",
+   "at": "2026-11-14T06:29:35Z"
+  },
+  "work": {
+   "by": "writer",
+   "model": "",
+   "verdict": "done",
+   "comment": "Ruv-sgit 096 filed; status and board 003 updated; no manuscript change.",
+   "at": "2026-11-14T06:29:43Z"
+  },
+  "post_review": {
+   "by": "security (reviewer agent)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Four files in scope; 096's done copy byte-identical, mailroom untouched; no secret, contact, RW1 word or dash; vault_check clean.",
+   "at": "2026-11-14T06:30:19Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer agent)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "096 filed as an identical copy; status, record and board 003 updated; no manuscript change and no letter.",
+   "at": "2026-11-14T06:30:19Z"
+  }
+ },
+ "closed": "2026-11-14T06:30:20Z",
+ "outcome": "ok"
+}
