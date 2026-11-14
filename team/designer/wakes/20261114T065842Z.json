@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "LAB 43 rerun: ch17-nine-misses redrawn to chapter 17 (first cost was stale), checked 9 cards in order and every cost verbatim; ch11-two-files loses its read-at hash only; no other drawing changed; lab clean; letter 177; three letters filed.",
    "at": "2026-11-14T07:00:45Z"
+  },
+  "post_review": {
+   "by": "security-reviewer",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Scope check 0 files outside; vault_check comms clean; only the two planned svgs changed (text diff: ch17 first cost only, ch11 hash note only); letter 177 has no contact detail or em-dash; REALITY.md and done/ mail moves are in scope. Read-only tools only, none refused.",
+   "at": "2026-11-14T07:01:08Z"
+  },
+  "post_check": {
+   "by": "conductor-checker",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Matches plan: ch17-nine-misses first cost redrawn, all nine costs verbatim against chapter 17 What it cost lines, nine cards; ch11-two-files hash note only; no other drawing changed; letter 177 to researcher cc publisher, writer3, storyteller; records and debrief present. Extra: REALITY.md line and three inbound letters moved to done, routine.",
+   "at": "2026-11-14T07:01:08Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-14T07:02:06Z",
+ "outcome": "ok"
 }
