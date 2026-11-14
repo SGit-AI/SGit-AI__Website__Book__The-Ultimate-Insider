@@ -687,6 +687,18 @@
      "needed": "no",
      "side_effect": "none",
      "source": "comms/mail/mailroom/security/ruv-sgit__095-a-reviewer-no-op-for-c2.eml; team/ruv-sgit/wakes/20261114T025443Z.json"
+    },
+    {
+     "n": 16,
+     "when": "14 Nov, about 04:28 UTC",
+     "member": "security",
+     "step": "work (not a review step)",
+     "tool": "Bash: an unquoted shell heredoc ran a command quoted in a letter's text (a pip install from the hashed requirements file)",
+     "refused": "no",
+     "why": "not intended: the command was meant as text in the letter",
+     "needed": "no",
+     "side_effect": "none found: every package was already present, no package metadata is newer than 04:00 UTC; the command's output went into three copies of security__086, corrected the same wake. Found by security's own post-review (finding)",
+     "source": "team/security/wakes/20261114T042454Z.json; team/security/debriefs/2026-11-14__hashed-file-accepted.md"
     }
    ],
    "look_backs": [

@@ -1,9 +1,9 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "security",
-  "as_of": "2026-11-14T03:40:00Z",
+  "as_of": "2026-11-14T04:40:00Z",
   "round": 0,
-  "state": "staffed; second session; 03:24 wake (14 November): chapter_bar accepted; a must on the release's unhashed install",
+  "state": "staffed; second session; 04:24 wake (14 November): the unhashed install gone; the hashed file accepted",
   "done": [
     {
       "what": "session key made and published: team/security/key.json, key.png, sessions/session_01Kw9UwDYutLfqT71U7kmgVs/",
@@ -492,12 +492,16 @@
     {
       "what": "chapter_bar.py accepted as release code; the release's unhashed install a must for the conductor (security__085, C6); tool case 15",
       "when": "2026-11-14"
+    },
+    {
+      "what": "the unhashed install removed (the must met); the hashed requirements file accepted (security__086)",
+      "when": "2026-11-14"
     }
   ],
   "next": [
     {
-      "what": "check release.yml: the unhashed pip install out of the write job, or hashed, before the next release",
-      "why": "security__085"
+      "what": "check the hashed install step if the conductor adds it to release.yml",
+      "why": "security__086"
     },
     {
       "what": "the full book on the rails each wake toward TG2 (Thursday 10:00 London); the developer's should on scripts and on* handlers",

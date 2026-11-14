@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled wake",
+ "started": "2026-11-14T04:24:54Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "go",
+   "comment": "Checked read-only: no pip install in release.yml; five packages, 265 sha256 hashes, no index options; the hashed step on the conductor's word.",
+   "at": "2026-11-14T04:25:38Z"
+  },
+  "pre_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "go",
+   "comment": "Writes in scope; the hashed step is the conductor's to add; the publisher's pypi.org look disclosed and read-only; no stop condition.",
+   "at": "2026-11-14T04:26:04Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "The must met; the hashed requirements file accepted, the step the conductor's to add (086); board, status, debrief.",
+   "at": "2026-11-14T04:27:20Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (security brief), rerun after the finding",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "No pip text left in the 086 copies; the debrief gives the true cause (an unquoted heredoc); tool case 16 matches; gates clean.",
+   "at": "2026-11-14T04:32:43Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "as-planned",
+   "comment": "Planned items done; the unplanned pip run through an unquoted heredoc recorded honestly as tool case 16, the pip text removed in 0e8b9a37 before any push.",
+   "at": "2026-11-14T04:33:08Z"
+  }
+ },
+ "closed": "2026-11-14T04:33:08Z",
+ "outcome": "ok"
+}
