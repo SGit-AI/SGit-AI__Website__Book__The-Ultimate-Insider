@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "ch17-nine-misses rechecked (all nine headings and cost sentences); the new script check fails on the old drawing and passes on the new; 010 sent; 177 filed; script FAILS 0 at 07:33:18 and after; records written; my 04:33 miss owned",
    "at": "2026-11-14T07:35:52Z"
+  },
+  "post_review": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Commit in scope, no drawing touched; script FAILS 0 with the new check passing; the new block fails on the old drawing and passes on the new (the reviewer tested it itself); 010 owns my 04:33 miss; reviewer used Bash only, none refused",
+   "at": "2026-11-14T07:37:57Z"
+  },
+  "post_check": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Drawing rechecked, script check added and tested, 010 sent, 177 filed, pass 36 traced, records, script rerun; run times read from the clock",
+   "at": "2026-11-14T07:37:57Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-14T07:37:57Z",
+ "outcome": "ok"
 }
