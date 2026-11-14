@@ -54,3 +54,4 @@ The full book: every scene, the appendices, the record markers live online. Writ
 - 13 November 2026, 19:36 UTC: PEN1 round 1, eighteen notes landed in 00 and 00b with NAR1 (writer__299); NAR1 in 01 to 09 next.
 - 13 November 2026, 20:30 UTC: PEN1 note 10, the fourth card '9: hours with no session started by me' (C087; writer__300).
 - 13 November 2026, 21:29 UTC: the spread rerun prints PEN1 notes 1, 2, 4, 5, 10 and 14 (designer 167).
+- 14 November 2026, 00:31 UTC: PEN1 note 24, the experiments timeline placed in 00b; the map's second slot asked of the publisher (writer__301).

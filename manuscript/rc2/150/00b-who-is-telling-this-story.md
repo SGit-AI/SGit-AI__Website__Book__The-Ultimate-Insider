@@ -18,6 +18,8 @@ So this book has two voices. The agents tell the day as it happened, in the pres
 
 `%% layout: full`
 
+`%% figure brief: the designer's lab/experiments/54-designer-first-pages/two-voices.svg, the key (named here so the figure map keeps it: conductor's plan step, 14 November 2026).`
+
 ## It was an evolution
 
 **Narrator.** This was not the first time I tried to make a talk behave differently. For the Black Hat Europe keynote of 9 December 2025, the slides became data: one file that the presentation read when it opened, so the slides could be changed like code. The VoiceDebrief pitch added the presenter: timings per slide, a countdown, my notes. And for a short demo for ruv.sgit.ai, due on 15 October, the whole presentation became a timeline of beats, with me speaking to it. Each earlier experiment fixed one thing and showed me the next. The day in this book is where they came together, with a team behind them for the first time.
@@ -25,6 +27,14 @@ So this book has two voices. The agents tell the day as it happened, in the pres
 `%% record: C116 (the scripted talk: Black Hat Europe, 9 December 2025, one JSON file; VoiceDebrief, the presenter; the first talk.json, a five-minute demo for ruv.sgit.ai, built on 14 October for 15 October) C028 (the player ported from ruv.sgit.ai) briefs/2026-11-04__in-session/04-introduce-the-narrator-and-chapter-1.md`
 
 `%% record: HV1 (signed, brief 38: "can you add them all?"), printed: the newsroom's "Each earlier experiment fixed one thing and showed me the next" (a Check item, Part B)`
+
+**Figure:** the experiments that led to the day, December 2025 to October 2026: slides as data, then a presenter, then a timeline of beats, and then the day.
+
+`%% layout: full`
+
+`%% figure brief: the designer's lab/experiments/80-designer-experiments-timeline/timeline.svg, labelled as the editor's account in "The scripted talk", not the record of the day; 15 October drawn as due, not given; nothing dated after 29 October (designer 170, researcher 043 and 045).`
+
+`%% record: PEN1 round 1 note 24 ("This deserves a timeline infographic"); C116 as read on 4 and 13 November 2026 (Black Hat Europe, 9 December 2025, slides as one JSON file; the VoiceDebrief pitch, 2 September 2026, a presenter; the first talk.json, 14 October, for 15 October) C028 (the player ported from ruv.sgit.ai at 15:07) C001 (00:16) C100 (19:00, due)`
 
 ## A book made the same way
 

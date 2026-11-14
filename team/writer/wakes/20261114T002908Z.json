@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer",
+ "kind": "scheduled wake",
+ "started": "2026-11-14T00:29:08Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer agent)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Land the timeline now as 00b's second Figure line (the editor's own ask; brief 49 no longer binds); the build's 00b boxes until the map is fixed are expected, one wake. Caption checked against the drawing and C116. Cite researcher 043 and 045; C116 as read on 4 and 13 November; 301 must give the ordering (resync PLACED or the override key before any rc2_map rerun); add the two-voices figure brief so slot 1 survives.",
+   "at": "2026-11-14T00:31:11Z"
+  },
+  "pre_review": {
+   "by": "security (reviewer agent)",
+   "model": "",
+   "verdict": "go",
+   "comment": "The drawing passes unsafe_svg: text, lines and shapes only, no key, contact, id or hash; one organisation, no person (NM1); in scope; 301 carries no feedback channel; vault_check before commit.",
+   "at": "2026-11-14T00:31:11Z"
+  },
+  "work": {
+   "by": "writer",
+   "model": "",
+   "verdict": "done",
+   "comment": "Timeline placed in 00b as the second Figure line, with the two-voices figure brief; writer__301 to the publisher; designer 170 filed; records; gate clean at 1446 html (00b's figure-map warning expected until the publisher's next wake).",
+   "at": "2026-11-14T00:32:47Z"
+  },
+  "post_review": {
+   "by": "security (reviewer agent)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "No secret or feedback address; only 00b changed as briefed; the timeline passes unsafe_svg; no dashes or RW1 words; in scope; done copy byte-identical; mailroom untouched.",
+   "at": "2026-11-14T00:33:40Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer agent)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every planned item in bdf1e385 and nothing else: the timeline as 00b's second Figure line with the plan step's citations, the two-voices brief, 301 with the ordering, designer 170 filed, records.",
+   "at": "2026-11-14T00:33:40Z"
+  }
+ },
+ "closed": "2026-11-14T00:33:40Z",
+ "outcome": "ok"
+}
