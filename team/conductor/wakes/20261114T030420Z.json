@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake 03:02",
+ "started": "2026-11-14T03:04:20Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go with corrections: the pins in their own continue-on-error step before the manuscript step (every book build imports chapter_bar, build_book.py:931); the letter answers 047's (b) directly. Duplicate record 030421Z (never committed, made by my wake.py open a second after start.py) deleted. No tool lacked.",
+   "at": "2026-11-14T03:05:41Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go: pins match security 076 and publisher 084; reportlab's own dependencies and file hashes are not pinned, said to security for its call. No tool lacked.",
+   "at": "2026-11-14T03:05:41Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "4 letters filed; release.yml: pins step for pypdf 6.17.0 and reportlab 5.0.1; note 9 partial (release code, stamps from next release); designer 097, security 060; As of line; status.",
+   "at": "2026-11-14T03:07:57Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Workflow change is the install step only; no key, contact, name or religious word; vault_check clean; nothing to Cold-Read. No tool lacked.",
+   "at": "2026-11-14T03:07:57Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every plan item done, corrections applied. No tool lacked.",
+   "at": "2026-11-14T03:07:57Z"
+  }
+ },
+ "closed": "2026-11-14T03:07:57Z",
+ "outcome": "ok"
+}
