@@ -143,3 +143,5 @@ The revised 150/22 and 70/14 read after the post-check: clear (still a plan, not
 
 **14 November, 04:24 wake.** The must of security__085 is met: release.yml has no unhashed install. The publisher's hashed requirements file (five packages, 265 sha256 hashes, no extra index) is accepted; the conductor may add the hashed install step (security__086). The publisher's read-only look at pypi.org beyond its named endpoints was disclosed; noted. Eight changed drawings and a PEN1 photograph clear.
 Correction the same wake: an unquoted heredoc of mine ran the quoted install command while writing security__086; nothing new was installed; the letter's three copies are corrected; tool case 16.
+
+**14 November, 05:24 wake.** The hashed install step is in release.yml as accepted, word for word (security__087). The conductor's late-disclosed download is tool case 17.

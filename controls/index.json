@@ -699,6 +699,18 @@
      "needed": "no",
      "side_effect": "none found: every package was already present, no package metadata is newer than 04:00 UTC; the command's output went into three copies of security__086, corrected the same wake. Found by security's own post-review (finding)",
      "source": "team/security/wakes/20261114T042454Z.json; team/security/debriefs/2026-11-14__hashed-file-accepted.md"
+    },
+    {
+     "n": 17,
+     "when": "14 Nov, about 03:02 UTC",
+     "member": "conductor",
+     "step": "work (not a review step)",
+     "tool": "Bash: a download of two packages into the scratchpad, without installing them, beyond the conductor's policy endpoints",
+     "refused": "no",
+     "why": "to confirm the pinned versions were real releases",
+     "needed": "no: the publisher had built with them",
+     "side_effect": "none: never imported or installed; disclosed a wake late (conductor__062)",
+     "source": "comms/mail/mailroom/security/conductor__062-hashed-install-in-and-a-disclosure.eml"
     }
    ],
    "look_backs": [
