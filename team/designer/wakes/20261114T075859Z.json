@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, hourly at :57 London",
+ "started": "2026-11-14T07:58:59Z",
+ "steps": {
+  "plan": {
+   "by": "conductor-planner",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Records-only wake: file researcher 010 and developer 092 in comms/mail/designer/done/, update team/designer/status.json, short debrief; no drawing or tool change, no letter. All inside scope.writes. Gate, push dev and designer branch.",
+   "at": "2026-11-14T07:59:20Z"
+  },
+  "pre_review": {
+   "by": "security-reviewer",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "All paths in scope.writes (comms/mail/designer/**, team/designer/**); no other member's paths, no secrets, no stop condition. Condition: run vault_check.py comms before committing; pull before push; never main.",
+   "at": "2026-11-14T07:59:20Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "records only: researcher 010 and developer 092 filed, status and debrief updated; no drawing, tool or letter, nothing asked.",
+   "at": "2026-11-14T07:59:41Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
