@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Within policy; no HOLD.md; hashes are public. Convention 8 cites brief 13 and the designer's 137, no signed hash decision, so the rule is the storyteller's to set.",
    "at": "2026-11-14T04:40:50Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "done",
+   "comment": "Done as planned at 557b0da3: convention 8 takes the designer's hash rule; letter 172; designer 174 filed.",
+   "at": "2026-11-14T04:42:02Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "All 9 files in 557b0da3 inside scope.writes; no secrets, em-dashes, religious words; nothing aimed at Cold-Read.",
+   "at": "2026-11-14T04:42:23Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Convention 8 carries the designer's 174 rule as proposed; letter 172 to all three; 174 filed.",
+   "at": "2026-11-14T04:42:23Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-14T04:42:23Z",
+ "outcome": "ok"
 }
