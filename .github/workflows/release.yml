@@ -69,7 +69,7 @@ jobs:
       - name: the manuscript, as PDF and EPUB (publisher's request; a failure warns and never stops the site's release)
         continue-on-error: true
         run: |
-          sudo apt-get install -y -q pandoc && python3 publishing/build_book.py \
+          sudo apt-get install -y -q pandoc poppler-utils && python3 publishing/build_book.py \
             || echo "::warning::the manuscript did not build: the site is released without the PDF and EPUB"
       - name: the 3- and 10-page editions, as PDF (cleared by security, security__022; a failure warns and never stops the site's release)
         continue-on-error: true

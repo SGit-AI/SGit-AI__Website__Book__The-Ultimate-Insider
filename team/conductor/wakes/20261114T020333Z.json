@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled",
+ "started": "2026-11-14T02:03:33Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go; the one install covers the 3-, 10-page, RC2 and RC2-70 builds in the same job; pdfimages also arrives (tall_images runs in CI); next released PDFs change visibly and take ~2 min longer each. No tool lacked.",
+   "at": "2026-11-14T02:04:29Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go: one Ubuntu package, continue-on-error steps; 094 and 083's question are security's. No tool lacked.",
+   "at": "2026-11-14T02:04:29Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "4 letters filed; release.yml line 72 installs poppler-utils (publisher 083); note 9 partial, chapter bar drawn; pen image redrawn; As of line; status.",
+   "at": "2026-11-14T02:06:20Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "clean",
+   "comment": "release.yml: only line 72, one package; no key, contact, name or religious word; vault_check clean; nothing to Cold-Read. No tool lacked.",
+   "at": "2026-11-14T02:06:20Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every plan item done as planned. No tool lacked.",
+   "at": "2026-11-14T02:06:20Z"
+  }
+ },
+ "closed": "2026-11-14T02:06:20Z",
+ "outcome": "ok"
+}
