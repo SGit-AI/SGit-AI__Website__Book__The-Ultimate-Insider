@@ -215,6 +215,37 @@ def running_footer(files, titles):
     return "".join(css)
 
 
+PART_WORDS = ["one", "two", "three", "four", "five"]
+
+
+def part_parity(pdf, files):
+    """RPP1 (the editor, 14 November 2026): every part page on a right (odd) page. The first part page found on a left
+    page gets one of the agents' hi pages (LAB 82, hi-<n>.svg) set before it, and the book is built again; the hi page
+    faces the part page. Returns "fixed" or "ok"."""
+    pages = subprocess.run(["pdftotext", "-layout", pdf, "-"], capture_output=True, text=True).stdout.split("\f")
+    for n, page in enumerate(pages, 1):
+        lines = [l.strip() for l in page.splitlines() if l.strip()]
+        m = re.fullmatch(r"Part (one|two|three|four|five)", lines[0]) if lines and len(lines) <= 6 else None
+        if not m or n % 2 == 1:
+            continue
+        k = PART_WORDS.index(m.group(1)) + 1
+        hi, _ = placed_drawing(os.path.join(FIT["hi_dir"], f"hi-{k}.svg"))
+        block = re.compile(r':::: \{\.placed-page \.part-page\}\n<img src="[^"]*part-%d\.svg"' % k)
+        for f in files:
+            with open(f, encoding="utf-8") as fh:
+                text = fh.read()
+            found = block.search(text)
+            if found:
+                with open(f, "w", encoding="utf-8") as fh:
+                    fh.write(text[:found.start()] + f':::: {{.placed-page .hi-page}}\n<img src="{hi}" alt="The team '
+                             f'team saying hi">\n\n::::\n\n' + text[found.start():])
+                print(f"build_book: part {m.group(1)} fell on page {n}, a left page: a hi page set before it", file=sys.stderr)
+                return "fixed"
+        print(f"build_book: WARNING part {m.group(1)} is on a left page and its part page was not found", file=sys.stderr)
+        return "ok"
+    return "ok"
+
+
 def placed_first_page(pdf, svgs):
     """The PDF page that prints the first placed page: the first page whose text holds the drawing's first text line."""
     first_line = None
@@ -294,8 +325,13 @@ def directives(book=None):
             if re.match(r"\s*#!\s*blocks\s*$", line):
                 FIT["blocks"] = True
                 continue
-            if re.match(r"\s*#!\s*dramatised:\s*tag\s*$", line):
-                FIT["dramatised"] = True
+            m = re.match(r"\s*#!\s*dramatised:\s*(tag|none)\s*$", line)
+            if m:  # DM1's tag, or none at all (TG1, the editor, 21 November 2026)
+                FIT["dramatised"] = m.group(1)
+                continue
+            m = re.match(r"\s*#!\s*hi-pages:\s*(.+?)\s*$", line)
+            if m:  # RPP1: a page of agents saying hi where a part page would fall on a left page
+                FIT["hi_dir"] = m.group(1)
                 continue
             if re.match(r"\s*#!\s*running-footer\s*$", line):  # PEN1 notes 8, 9, 20 (13 November 2026)
                 FIT["footer"] = True
@@ -462,7 +498,7 @@ def speaker_tags(text):
     return SPEAKER_TAG.sub(r"\1 [this book's]{.speaker-tag}", text)
 
 
-def dramatised_tags(text):
+def dramatised_tags(text, tag=True):
     """"#! dramatised: tag" (DM1, the editor, 4 November 2026, option (c)): a "*Dramatised.*" line closes its scene,
     the lines since the last mark or heading. If an agent speaks in the scene (a speaker line whose name is not the
     narrator), a small fixed tag goes after the first agent speaker's name and mood, and the mark's own line goes; if
@@ -476,7 +512,7 @@ def dramatised_tags(text):
             continue
         if s == "*Dramatised.*":
             DRAM["marks"] += 1
-            if first is not None:
+            if first is not None and tag:
                 m = re.match(r"(\s*\*\*[A-Za-z][A-Za-z-]*\.?\*\*(?:\s*\*\([^)]*\)\*)?\s*:?)", lines[first])
                 if m:
                     lines[first] = m.group(1) + " [Dramatised]{.dram-tag} " + lines[first][m.end():].lstrip()
@@ -753,7 +789,7 @@ def main():
             if drop:
                 raw = drop_sections(raw, drop)
             if FIT.get("dramatised"):
-                raw = dramatised_tags(raw)
+                raw = dramatised_tags(raw, tag=FIT["dramatised"] == "tag")
             if FIT.get("speaker_tags"):
                 raw = speaker_tags(raw)
             if FIT.get("card"):
@@ -814,7 +850,7 @@ def main():
             titles.append(m.group(1).strip() if m else None)
         footer_css = running_footer(files, titles) if FIT.get("footer") else ""
         fit = {}  # chapter index: level (1, then 2), set on its heading as a class for full-book.css
-        rounds = a.fit_max + 7 if FIT["on"] or FIT.get("placed") else 1  # a rebuild per level, one for the spread's pad, and up to five for its part pages
+        rounds = a.fit_max + 13 if FIT["on"] or FIT.get("placed") else 1  # a rebuild per level, one for the spread's pad, and up to five for its part pages
         for rnd in range(rounds):  # a tail left after the last is reported
             for k, f in enumerate(files):
                 with open(f, encoding="utf-8") as fh:
@@ -903,6 +939,9 @@ def main():
                     print(f"build_book: the opening spread fell on page {first}, a right page: one blank page set before it",
                           file=sys.stderr)
                     continue
+            if FIT.get("hi_dir") and FIT.get("hi_fixes", 0) < 6 and part_parity(pdf, files) == "fixed":
+                FIT["hi_fixes"] = FIT.get("hi_fixes", 0) + 1
+                continue
             if FIT.get("placed") and FIT.get("parts_fixes", 0) < 5:  # every pass: a fit pass can move the pages again
                 if "fixed" in (part_numbers(pdf, files, titles, marked), index_numbers(pdf, files, titles, marked)):
                     FIT["parts_fixes"] = FIT.get("parts_fixes", 0) + 1

@@ -10,7 +10,7 @@
 
 `%% record: C011 (nine staffed); manuscript/rc2/150/02-inventing-on-principle.md ("What a factory is"); synthetic__009 (03:5, the factory in plain words before the tour)`
 
-*How to read the scenes:* they are dramatised. The words the agents say are written for this book; the pages are the record's, and you can open every one of them online.
+*How to read the scenes:* the words the agents say are written for this book; the pages are the record's, and you can open every one of them online.
 
 `%% record: HV1 (signed, brief 38: "can you add them all?"), printed: the newsroom's "because I think the result is a good argument for the method"`
 

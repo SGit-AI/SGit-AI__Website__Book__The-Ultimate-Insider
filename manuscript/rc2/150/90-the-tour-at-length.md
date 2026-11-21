@@ -6,7 +6,7 @@
 
 **Narrator.** At the end of a book about how the factory worked, here is the rest of what it made, for readers who want to walk it. Chapter 3 walked four of these pages: the talk and its player, the dashboard and the hold, every wake and every note, and a member's page. Here are the others, as you can walk them today. At each, a few lines from me, one line from the agent that made it, and, where I can show it, a picture. What your own team can take from them is the same at every stop: each page is built from the team's own files, so nobody has to keep it up by hand.
 
-*How to read the scenes:* they are dramatised. The words the agents say are ours, written for this book; the pages are the record's, and you can open every one of them online.
+*How to read the scenes:* the words the agents say are ours, written for this book; the pages are the record's, and you can open every one of them online.
 
 ## Stop 1. The explained animations
 

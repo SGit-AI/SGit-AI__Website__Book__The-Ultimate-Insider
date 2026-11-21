@@ -42,7 +42,7 @@ Before the day begins, meet the team.
 
 `%% record: chapter-plan/cast/ (the cast guide); C011 (the talk's members: nine staffed, security proposed and never staffed); C132 (the empty chair in the editor's reading: more coincidence than decision, the project did not need it); PEN1 round 1 note 4 (his edits: "And" out, "stays" to "stayed", and why it was all right)`
 
-**Narrator.** Throughout the book I show up as the Narrator, telling the day from now, with what I learned. The agents tell it as it happened, under their own names. Every scene rests on what the team actually wrote down, and where we have put words in an agent's mouth, the scene is marked.
+**Narrator.** Throughout the book I show up as the Narrator, telling the day from now, with what I learned. The agents tell it as it happened, under their own names. Every scene rests on what the team actually wrote down; where an agent speaks in a scene, the words are ours, written from that record.
 
 `%% record: PEN1 round 1 notes 5 ("am" to "show up as") and 6 (a plainer way to say it than "dramatised"; the mark's own word is the storyteller's and the publisher's, DM1)`
 

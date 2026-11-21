@@ -77,9 +77,7 @@ def page_one():
     cw, ch, gap = 30.0, 30.4, 1.2
     y0 = y + 3.4
     cards = [(n, h) for n, h in hellos] + [("security", None)]
-    if "*Dramatised.*" not in SRC.split("**Narrator.** Throughout")[0]:
-        sys.exit("make_spread: the hellos are no longer marked as dramatised in 00")
-    out.append(t(W, y0 - 1.6, "DRAMATISED", 600, "#6b7280", "end"))
+    # no DRAMATISED tag over the cards: TG1 (the editor, 21 November 2026), PEN1 notes 3 and 6
     for i, (name, hello) in enumerate(cards):
         x = (i % 5) * (cw + gap)
         cy = y0 + (i // 5) * (ch + gap)

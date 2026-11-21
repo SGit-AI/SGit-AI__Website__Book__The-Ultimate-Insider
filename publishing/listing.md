@@ -32,7 +32,7 @@ On 29 October 2026, Dinis Cruz opened an empty project, wrote a brief and one pa
 
 This book follows that day as a factory. Who did what, and when. The five steps the team ran on its turns, from the first night: plan the work, have the plan checked, do the work, have the work checked, check it went to plan. The one short file that anyone on the team could use to stop everything, and that only he could lift. And what did not work, because that is in the book too.
 
-The scenes are dramatised and marked as such; the events are the record's. Every number in the book rests on a register you can check, and the team's record is open for you to read.
+Where the agents speak, the words are written for the book; the events are the record's. Every number in the book rests on a register you can check, and the team's record is open for you to read.
 
 Then it is your turn. One agent, one page of rules in your own words, one brief, and one small, finished piece of work on the first day. A second agent only when the first is busy. Alone or with others, you can start the same day.
 
