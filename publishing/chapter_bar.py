@@ -15,8 +15,8 @@ import os
 import subprocess
 import tempfile
 
-from pypdf import PdfReader, PdfWriter
-from reportlab.pdfgen import canvas
+from pypdf import PageObject, PdfReader, PdfWriter
+from pypdf.generic import DecodedStreamObject, NameObject
 
 IN = 72.0
 BAR_W = 1.1 * IN          # the book bar's width (build_book.running_footer: width 1.1in)
@@ -53,18 +53,20 @@ def plan(pdf, chapters, total):
 
 
 def bar(w, h, page_no, frac):
+    """The overlay page: two filled rectangles, written as a bare content stream, so the page carries no font
+    resource at all (reportlab's canvas declared an unembedded Helvetica on every page, which KDP refuses: NT1/KDP,
+    21 November 2026)."""
     side = "right" if page_no % 2 else "left"
     ml, mr = MARGINS[side]
     cx = ml + (w - ml - mr) / 2
     x, y = cx - BAR_W / 2, BOOK_Y - H / 2 - GAP - H
-    buf = io.BytesIO()
-    c = canvas.Canvas(buf, pagesize=(w, h))
-    c.setFillColorRGB(*TRACK)
-    c.rect(x, y, BAR_W, H, stroke=0, fill=1)
-    c.setFillColorRGB(*FILL)
-    c.rect(x, y, BAR_W * frac, H, stroke=0, fill=1)
-    c.save()
-    return PdfReader(io.BytesIO(buf.getvalue())).pages[0]
+    ops = (f"q {TRACK[0]:.4f} {TRACK[1]:.4f} {TRACK[2]:.4f} rg {x:.3f} {y:.3f} {BAR_W:.3f} {H:.3f} re f "
+           f"{FILL[0]:.4f} {FILL[1]:.4f} {FILL[2]:.4f} rg {x:.3f} {y:.3f} {BAR_W * frac:.3f} {H:.3f} re f Q")
+    page = PageObject.create_blank_page(width=w, height=h)
+    stream = DecodedStreamObject()
+    stream.set_data(ops.encode("ascii"))
+    page[NameObject("/Contents")] = stream
+    return page
 
 
 def stamp_pdf(pdf, chapters):

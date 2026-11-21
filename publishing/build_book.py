@@ -235,10 +235,17 @@ def part_parity(pdf, files):
             with open(f, encoding="utf-8") as fh:
                 text = fh.read()
             found = block.search(text)
+            hi_before = re.search(r':::: \{\.placed-page \.hi-page\}\n<img src="[^"]*"[^\n]*\n\n::::\n\n$', text[:found.start()]) \
+                if found else None
+            if hi_before:  # a fit pass moved the pages after a hi page went in: take it out again rather than add a second
+                with open(f, "w", encoding="utf-8") as fh:
+                    fh.write(text[:hi_before.start()] + text[found.start():])
+                print(f"build_book: part {m.group(1)} fell on page {n}, a left page: its hi page taken out", file=sys.stderr)
+                return "fixed"
             if found:
                 with open(f, "w", encoding="utf-8") as fh:
                     fh.write(text[:found.start()] + f':::: {{.placed-page .hi-page}}\n<img src="{hi}" alt="The team '
-                             f'team saying hi">\n\n::::\n\n' + text[found.start():])
+                             f'saying hi">\n\n::::\n\n' + text[found.start():])
                 print(f"build_book: part {m.group(1)} fell on page {n}, a left page: a hi page set before it", file=sys.stderr)
                 return "fixed"
         print(f"build_book: WARNING part {m.group(1)} is on a left page and its part page was not found", file=sys.stderr)
@@ -850,7 +857,7 @@ def main():
             titles.append(m.group(1).strip() if m else None)
         footer_css = running_footer(files, titles) if FIT.get("footer") else ""
         fit = {}  # chapter index: level (1, then 2), set on its heading as a class for full-book.css
-        rounds = a.fit_max + 13 if FIT["on"] or FIT.get("placed") else 1  # a rebuild per level, one for the spread's pad, and up to five for its part pages
+        rounds = a.fit_max + 17 if FIT["on"] or FIT.get("placed") else 1  # a rebuild per level, one for the spread's pad, and up to five for its part pages
         for rnd in range(rounds):  # a tail left after the last is reported
             for k, f in enumerate(files):
                 with open(f, encoding="utf-8") as fh:
@@ -939,7 +946,7 @@ def main():
                     print(f"build_book: the opening spread fell on page {first}, a right page: one blank page set before it",
                           file=sys.stderr)
                     continue
-            if FIT.get("hi_dir") and FIT.get("hi_fixes", 0) < 6 and part_parity(pdf, files) == "fixed":
+            if FIT.get("hi_dir") and FIT.get("hi_fixes", 0) < 10 and part_parity(pdf, files) == "fixed":
                 FIT["hi_fixes"] = FIT.get("hi_fixes", 0) + 1
                 continue
             if FIT.get("placed") and FIT.get("parts_fixes", 0) < 5:  # every pass: a fit pass can move the pages again
