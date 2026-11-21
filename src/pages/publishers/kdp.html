@@ -1,0 +1,112 @@
+<!--meta {"title": "For KDP", "description": "Everything the editor needs to publish the paperback of One Human, Nine Agents, Nineteen Hours on Amazon KDP by hand and order a printed proof: the two print-ready files, every field of KDP's three screens, the AI-content answer, the price and the proof."} -->
+<section class="wrap narrow print-req">
+<style>
+.print-req .hero { display: grid; grid-template-columns: 180px 1fr; gap: 24px; align-items: start; }
+.print-req .hero img { width: 180px; height: auto; display: block; border-radius: 3px; box-shadow: 0 2px 10px rgba(0,0,0,.25); }
+@media (max-width: 600px) { .print-req .hero { grid-template-columns: 1fr; } .print-req .hero img { width: 140px; } }
+.print-req .ask { background: var(--panel); border-left: 4px solid var(--accent); padding: 14px 18px; border-radius: 3px; }
+.print-req .ask p { margin: 6px 0; }
+.print-req .viewer { width: 100%; height: 80vh; min-height: 480px; border: 1px solid var(--line); border-radius: 4px; background: var(--panel); }
+.print-req .cover-view { height: 55vh; min-height: 300px; }
+.print-req .paste { background: var(--panel); border: 1px solid var(--line); border-radius: 4px; padding: 12px 16px; margin: 6px 0 18px; }
+.print-req .paste p { margin: 8px 0; }
+.print-req .label { font-size: .8em; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin: 18px 0 2px; }
+.print-req td code { white-space: nowrap; }
+.print-req .warn { border-left-color: #b8680a; }
+</style>
+<div class="hero">
+  <img src="{{root}}assets/cover-a.svg" alt="The front cover: One Human, Nine Agents, Nineteen Hours, by Dinis Cruz">
+  <div>
+    <p class="sans note">For Amazon KDP</p>
+    <h1>The paperback of <em>One Human, Nine Agents, Nineteen Hours</em> on KDP</h1>
+    <p class="lede">Everything for the author to do it by hand: the two print-ready files, what to put in each of KDP's three screens, the price, and how to order a printed proof before anything goes on sale.</p>
+  </div>
+</div>
+
+<div class="ask">
+  <p class="sans"><strong>The steps, in order</strong> (about 30 minutes; where this page and KDP's screen disagree, the screen wins)</p>
+  <ol>
+    <li>KDP Bookshelf: <b>Create, Paperback</b>.</li>
+    <li><b>Paperback details</b>: the texts in section 2.</li>
+    <li><b>Paperback content</b>: the ISBN, the print options and the two files in section 1; then KDP's <b>Launch Previewer</b>, and read it through.</li>
+    <li><b>Order a printed proof</b> (section 4): it comes marked "Not for resale", and nothing is on sale yet.</li>
+    <li><b>Paperback rights and pricing</b>: section 3. Publish only once the proof is in your hands and looks right.</li>
+  </ol>
+</div>
+
+<h2>1. The two files</h2>
+<p>A matched pair, frozen together (LAB 83): the interior as release v0.1.1210 built it, <b>133 pages</b> (KDP prints <b>134</b>, an even count), and the full cover sized for exactly that: back, spine and front with 0.125 in bleed all round, <b>15.432 by 9.940 in</b>, spine 0.302 in on white paper. A later release does not change them, so the cover always fits the interior.</p>
+<p>
+  <a class="btn p" href="{{root}}rc2/upload/kdp/one-human-nine-agents-kdp-interior.pdf" download>Download the interior PDF</a>
+  <a class="btn" href="{{root}}rc2/upload/kdp/one-human-nine-agents-kdp-cover.pdf" download>Download the cover PDF</a>
+</p>
+<iframe class="viewer" src="{{root}}rc2/upload/kdp/one-human-nine-agents-kdp-interior.pdf" title="The KDP interior PDF"></iframe>
+<iframe class="viewer cover-view" src="{{root}}rc2/upload/kdp/one-human-nine-agents-kdp-cover.pdf" title="The KDP full cover PDF: back, spine and front"></iframe>
+
+<p class="label">On the Paperback content screen</p>
+<table>
+  <tr><th>ISBN</th><td><b>Get a free KDP ISBN</b> (KDP3). KDP is named as the publisher of record; you stay the author.</td></tr>
+  <tr><th>Publication date</th><td>Leave blank (it becomes the day you publish).</td></tr>
+  <tr><th>Ink and paper</th><td><b>Standard colour, white paper.</b> The book has colour drawings on most pages; black ink would print them grey.</td></tr>
+  <tr><th>Trim size</th><td><b>7.44 x 9.69 in</b> (Crown Quarto; in KDP's list of sizes).</td></tr>
+  <tr><th>Bleed</th><td><b>No bleed.</b> Nothing in the interior reaches the page edge.</td></tr>
+  <tr><th>Cover finish</th><td><b>Matte</b> suits the dark cover (fewer fingerprints and reflections); glossy is the alternative. Your choice.</td></tr>
+  <tr><th>Manuscript</th><td>Upload <code>one-human-nine-agents-kdp-interior.pdf</code>.</td></tr>
+  <tr><th>Book cover</th><td><b>Upload a cover you already have (print-ready PDF only)</b>: <code>one-human-nine-agents-kdp-cover.pdf</code>. The back leaves KDP's barcode area empty; KDP prints its barcode there.</td></tr>
+  <tr><th>AI-generated content</th><td><b>Answer yes</b>, honestly: the text and the images were made with AI agents, under your direction and review. KDP asks for text, images and translations separately; it is yes for text and images, no translations. The book says so on its first page.</td></tr>
+</table>
+
+<h2>2. Paperback details, ready to paste</h2>
+<p>The listing as on Leanpub (<code>publishing/listing.md</code>), with the line about the scene tag reworded now there is no tag (NT1).</p>
+<table>
+  <tr><th>Language</th><td>English</td></tr>
+  <tr><th>Series</th><td>Gen ZX Founders (optional now: a series can be added after publishing)</td></tr>
+  <tr><th>Edition number</th><td>1</td></tr>
+  <tr><th>Author</th><td>Dinis Cruz</td></tr>
+  <tr><th>Primary audience</th><td>Not sexually explicit; reading age left blank (adults)</td></tr>
+</table>
+
+<p class="label">Title</p>
+<div class="paste"><p>One Human, Nine Agents, Nineteen Hours</p></div>
+<p class="label">Subtitle</p>
+<div class="paste"><p>How a factory of AI agents built a presentation in a day, and how to build yours</p></div>
+<p class="label">Description</p>
+<div class="paste">
+<p>For anyone with an idea and no team yet.</p>
+<p>On 29 October 2026, Dinis Cruz opened an empty project, wrote a brief and one page of rules, and asked a team of AI agents to build his next talk with him. Nine agents joined, each with one job written down. That evening, nineteen hours after the first commit, he gave the talk.</p>
+<p>This book follows that day as a factory. Who did what, and when. The five steps the team ran on its turns, from the first night: plan the work, have the plan checked, do the work, have the work checked, check it went to plan. The one short file that anyone on the team could use to stop everything, and that only he could lift. And what did not work, because that is in the book too.</p>
+<p>Where the agents speak, the words are written for the book; the events are the record's. Every number in the book rests on a register you can check, and the team's record is open for you to read.</p>
+<p>Then it is your turn. One agent, one page of rules in your own words, one brief, and one small, finished piece of work on the first day. A second agent only when the first is busy. Alone or with others, you can start the same day.</p>
+<p>Part of the Gen ZX Founders series: books about you starting, and building.</p>
+</div>
+
+<p class="label">Keywords (seven boxes; a suggestion, change freely)</p>
+<div class="paste"><p>AI agents · agentic workflows · multi-agent AI teams · building with AI agents · AI for startup founders · generative AI productivity · AI agent safety and governance</p></div>
+
+<p class="label">Categories (KDP lets you pick three; a suggestion)</p>
+<div class="paste"><p>Computers &amp; Technology › Artificial Intelligence · Business &amp; Money › Entrepreneurship (startups) · Computers &amp; Technology › Software Development</p></div>
+
+<h2>3. Rights and pricing</h2>
+<table>
+  <tr><th>Territories</th><td>All territories (worldwide rights: it is your own book).</td></tr>
+  <tr><th>Primary marketplace</th><td>Amazon.com (or Amazon.co.uk if you prefer the pound as the base).</td></tr>
+  <tr><th>List price</th><td><b>$15</b> on Amazon.com (KDP2). KDP fills in the other marketplaces from it; round them by hand if you like round prices there too.</td></tr>
+  <tr><th>What it earns</th><td>At 134 pages, large trim, standard colour, KDP's printing cost read on 1 November ($1.00 + $0.0402 a page) is about <b>$6.39</b> a copy, so <b>$15 earns about $2.61</b> at the 60% royalty; KDP's lowest allowed price would be about $10.65. KDP's own screen shows the exact figures for today.</td></tr>
+  <tr><th>Expanded distribution</th><td>Leave off for now; it raises the lowest allowed price.</td></tr>
+</table>
+
+<h2>4. The printed proof, and author copies</h2>
+<ul>
+  <li><b>A proof before publishing.</b> Once the files are approved in the previewer, KDP offers <b>Request printed proofs</b> (on the Paperback content screen, and from the Bookshelf's "..." menu). You pay printing and delivery; proofs carry a "Not for resale" band. Order from <b>Amazon.co.uk</b> to have it delivered in London.</li>
+  <li><b>Author copies</b> (no band, at printing cost) come only after the paperback is published: Bookshelf, "...", <b>Order author copies</b>.</li>
+  <li>The proof is the one to read with a pen, as you did with the A4 copy: <a href="{{root}}print-review-01.html">the print review</a> takes the next round of notes the same way.</li>
+</ul>
+
+<div class="ask warn">
+  <p class="sans"><strong>Check before you upload</strong></p>
+  <p>The front cover's small line still reads <b>"RC2 · Nov 2026 · CC BY 4.0"</b>, as on the review copies. For the copy on sale you may want "First edition · November 2026" instead; say so and the cover is redrawn the same day, at the same size.</p>
+  <p>Leanpub still has the earlier PDF (with the scene tag, and part pages on either side). The new interior can go up there too as a new version.</p>
+</div>
+
+<p class="note">From <code>publishing/KDP.md</code> (the publisher, from KDP's help pages, 30 October and 1 November 2026) and the editor's decisions KDP2, KDP3, NT1 and RPP1. Nothing here is done by an agent: each step needs the author's own KDP account.</p>
+</section>
