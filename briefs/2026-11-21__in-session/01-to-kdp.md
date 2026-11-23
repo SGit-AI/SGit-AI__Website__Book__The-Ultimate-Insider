@@ -16,3 +16,7 @@ Files outside the conductor's own scope (the writer's chapters, the publisher's 
 ## Submitted, 23 November 2026
 
 The editor submitted the paperback to KDP after the previewer passed (the interior frozen from v0.1.1213, page 3 stamped "Version v0.1.1213"; the cover for 134 printed pages): ISBN 9798145083200, primary marketplace Amazon.co.uk at £15 (royalty £4.56), Amazon.com $15 ($2.65), the euro markets €15; Expanded Distribution off; marked previously published on 14 November 2026 (Leanpub); one proof copy requested from Amazon.co.uk. KDP's review takes up to 72 hours. The Kindle ebook deferred, at his word ("we prob should do kindle later right? specially since we already have the leanpub").
+
+## On sale on Amazon, 24 November 2026
+
+The editor, in the conductor's session: "book is for sale on Amazon!!!!", with a screenshot of the Amazon.co.uk page: the paperback at £15.00 with Prime, in stock, "Book 1 of 1: Gen ZX Founders", under Books › Computing & Internet › Computer Science › AI & Machine Learning › Generative AI.
