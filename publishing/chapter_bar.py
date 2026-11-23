@@ -59,7 +59,9 @@ def bar(w, h, page_no, frac):
     side = "right" if page_no % 2 else "left"
     ml, mr = MARGINS[side]
     cx = ml + (w - ml - mr) / 2
-    x, y = cx - BAR_W / 2, BOOK_Y - H / 2 - GAP - H
+    # above the book bar, not under it: under it, its foot was 0.236 in from the page edge, inside KDP's 0.25 in
+    # (KDP's previewer, 23 November 2026: "This object is outside the margins")
+    x, y = cx - BAR_W / 2, BOOK_Y + H / 2 + GAP
     ops = (f"q {TRACK[0]:.4f} {TRACK[1]:.4f} {TRACK[2]:.4f} rg {x:.3f} {y:.3f} {BAR_W:.3f} {H:.3f} re f "
            f"{FILL[0]:.4f} {FILL[1]:.4f} {FILL[2]:.4f} rg {x:.3f} {y:.3f} {BAR_W * frac:.3f} {H:.3f} re f Q")
     page = PageObject.create_blank_page(width=w, height=h)

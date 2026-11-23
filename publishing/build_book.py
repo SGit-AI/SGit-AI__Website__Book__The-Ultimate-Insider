@@ -253,6 +253,15 @@ def part_parity(pdf, files):
     return "ok"
 
 
+def png_inches(path, dpi=300):
+    """A PNG's width and height in inches at 300 dots per inch, from its header (no imaging library needed)."""
+    with open(path, "rb") as f:
+        head = f.read(24)
+    if head[:8] != b"\x89PNG\r\n\x1a\n":
+        sys.exit(f"build_book: not a PNG: {path}")
+    return int.from_bytes(head[16:20], "big") / dpi, int.from_bytes(head[20:24], "big") / dpi
+
+
 def placed_first_page(pdf, svgs):
     """The PDF page that prints the first placed page: the first page whose text holds the drawing's first text line."""
     first_line = None
@@ -346,8 +355,12 @@ def directives(book=None):
             if re.match(r"\s*#!\s*speaker-tags\s*$", line):
                 FIT["speaker_tags"] = True
                 continue
-            m = re.match(r"\s*#!\s*title-page:\s*(.+?)\s*$", line)
+            m = re.match(r"\s*#!\s*title-page:\s*(.+?)\s*(?:\|\s*([\d.]+)\s+([\d.]+)\s*)?$", line)
             if m:  # the editor, 5 November 2026 (brief 51): the title page as a designed full page, in place of pandoc's
+                # "| x y" (inches): a picture cropped to its drawing, set at that place on a white page, so it stays
+                # inside KDP's margins (KDP's previewer, 23 November 2026: a full-page image is "outside the margins")
+                if m.group(2):
+                    FIT["title_at"] = (float(m.group(2)), float(m.group(3)))
                 tp = os.path.realpath(os.path.join(ROOT, m.group(1).strip()))
                 if not tp.startswith(os.path.join(ROOT, "lab", "experiments") + os.sep) or not os.path.isfile(tp):
                     sys.exit(f"build_book: title-page must be a file in lab/experiments/: {m.group(1)}")
@@ -893,8 +906,11 @@ def main():
                     css += ("@page titlepage { margin: 0; @top-center { content: none; } @bottom-left { content: none; }"
                             " @bottom-right { content: none; } @bottom-center { content: none; } }\n"
                             ".titlepage { page: titlepage; break-after: page; margin: 0; }\n"
-                            ".titlepage img { display: block; width: 7.44in; height: 9.69in; max-width: none; max-height: none; }\n"
-                            "header#title-block-header { display: none; }\n")
+                            + (".titlepage img { display: block; width: %.3fin; height: %.3fin; margin: %.3fin 0 0 %.3fin; "
+                               "max-width: none; max-height: none; }\n" % (png_inches(FIT["title_page"]) + FIT["title_at"][::-1])
+                               if FIT.get("title_at") else
+                               ".titlepage img { display: block; width: 7.44in; height: 9.69in; max-width: none; max-height: none; }\n")
+                            + "header#title-block-header { display: none; }\n")
                 head.write(f"<style>\n{css}{footer_css}</style>\n")
             cover = []
             if a.cover:
